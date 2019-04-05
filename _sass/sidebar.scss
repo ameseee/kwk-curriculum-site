@@ -46,7 +46,7 @@ $sidebar-color: rgb(245, 245, 245);
     padding-bottom: 0.75em;
 
     background-color: lighten($sidebar-color, 5);
-    border-bottom: 1px solid $teal;
+    border-bottom: 1px solid $green;
     font-size: 1.1em;
     margin: 0;
 
@@ -86,7 +86,7 @@ $sidebar-color: rgb(245, 245, 245);
     }
 
     &:active {
-      background-color: $teal;
+      background-color: $green;
       box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
     }
   }
