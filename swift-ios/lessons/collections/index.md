@@ -194,9 +194,127 @@ There are several ways to add, remove, and modify values in an array. There is a
 - modify an element
 - iterate
 
-## Dictionaries 
+## Dictionaries
+
+Dictionaries are another way to hold multiple pieces of data (collection). There is one big difference between them and arrays: Dictionaries are not ordered by index (0, 1, 2, etc.), instead, each piece of data has a 'label' instead of a number. We call the labels `keys` and the data `values`. `key/value pairs` is a term you will hear a lot.
+
+### When to use Dictionaries
+
+We just got the hang of arrays and are feeling pretty great about them - why do we also need dictionaries?
+* When we don't care about the order of items (array)
+* When we need an _associative_ relationship (title for some info)
+
+If I wanted to make a list of all the dogs in my apartment building, I should use an array. They are all strings, they are all the same thing. I don't care about how old they are, or their owners, names, or anything else.
+
+If I wanted to make a list of all the dogs in my apartment building and their birthday so that we can throw a party for each of them, I should use an array. There is an _associative_ relationship between each dog and it's birthday.
+
+### Practice -  Array or Dictionary?
+
+Turn and Talk: For each set of data, would an array or dictionary be better to store it? Why?
+
+- List of all of the students in class
+- List of states and their capitals
+- List of things to pack for vacation
+- Names of all the Instagram accounts I follow
+- List of students and their birthdays
 
 
+## Dictionary Syntax
+
+### Creating Dictionaries
+
+A cell phone vendor wants to keep a list of all the phones they sell so they can market it on their website. Let's make them a dictionary. The key will be the brand and the value will be the name of the phone. We can create a variable called `phones`, which is currently an empty dictionary which will hold a String in the key and a String in the value.
+
+```swift
+var phones : [String : String] = [:]
+
+print(phones)
+=> [:]
+```
+
+We can also initialize a dictionary _with_ data. See the syntax below:
+
+```swift
+var phones = [
+  "apple": "iPhone",
+  "google": "Pixel 2"
+  ]
+```
+
+### Practice
+
+Create a dictionary with a list of 3 people (yourself, family, friends, or other students here!) and their birthdays.
+
+Use `print()` statements to verify your syntax is correct. Then use a `print()` statement to practice accessing specific pieces of data. Try to print your birthday by using the `[]` notation.
+
+### Adding Data to Dictionaries
+
+To add key/value pairs to my empty dictionary, we use also use `[]` notation. Instead of using a number like we will use a string - the label, or **key** for this set of data. Then, we will use the `=` to assign the value.
+
+```swift
+phones["apple"] = "iPhone"
+phones["google"] = "Pixel 2"
+
+print(phones)
+=> ["apple": "iPhone", "google": "Pixel 2"]
+```
+
+Since we access values with the key, _keys must be unique_, meaning you can't have two things with the same key:
+
+```swift
+print(phones["apple"])
+
+=> Optional("iPhone")
+```
+
+Notice that `Optional("iPhone")` was printed - not just the string "iPhone", like you probably expected. Swift is very specific and wants to make sure that there **is data** stored in the dictionary (in this case, phones["apple"]) before doing anything with the data; if it were `nil` it could cause problems in bigger programs.To tell Swift we are sure there is data, we do something called 'unwrapping' - by typing an exclamation point after the closing bracket.
+
+```swift
+print(phones["apple"]!)
+
+=> "iPhone"
+```
+
+### Removing Data to Dictionaries
+
+Let's say the company discontinues a phone and the vendor will no longer have them for sale. We need to help them remove this key/value pair for their dictionary so they don't have any angry customers. Unlike arrays, we don't have a special method that does this, we just set the value to `nil`.
+
+```swift
+print(phones["apple"]!)
+
+phones["apple"] = nil
+
+print(phones["apple"]!)
+```
+
+If we run this code, we will see quite an error! That's because the key "apple" no longer exists.
+
+# **JUST** get the keys
+
+Let's say we want a list of all the companies that make the phones, but we _don't_ want to have to look at the phone names. Check out the code below, then we'll explain what's happening.
+
+```
+phones.keys
+Array(phones.keys)
+```
+
+`phones.keys` gives us a `keys` object with "apple", and "google" but is difficult to use because `keys` is not a commonly used data type. Typically, you'll see iOS developers wrap `Array()` around, in this case, the `phones.keys` so that `keys` objects can be converted into an array, which is much more friendly!
+
+## Practice
+
+### Part 1: Friend/Family Tree
+Create a dictionary with keys that are family or friend titles (i.e. "sister", "bestFriend") and values that are the name of that family member or friend. Pets are family, too!
+- Aim to have at least 10 family members of friends in your 'tree'
+- Print to the console the entire dictionary
+- Print to the console 3 individual names
+- Remove someone from your tree  😔 (You can add them back if you want!)
+
+### Part 2: Nested Collections
+
+Create a dictionary in which the keys are strings and the values are arrays of strings. This is called a _nested_ collection, because it has collections inside of a collection.
+* Need ideas for topics?
+  - Re-write your family tree with arrays (it's ok to only have 1 item in some arrays). This will make keeping track of cousins easier in some cases!
+  - Keys: dogs, cats, dinosaurs. Values: ["German Shepard", "Shih-Tzu", "Great Dane"], etc.
 
 ## Vocabulary Reflection
 
