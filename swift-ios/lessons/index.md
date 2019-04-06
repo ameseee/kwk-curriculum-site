@@ -3,7 +3,7 @@
 ## Swift
 - [Data Types](/swift-ios/lessons/data-types)
 - [Conditionals](/swift-ios/lessons/conditionals)
-- Arrays and Dictionaries
+- [Arrays and Dictionaries](/swift-ios/lessons/collections)
 - Loops
 - Functions
 - Classes and Objects
