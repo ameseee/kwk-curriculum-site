@@ -52,6 +52,7 @@ In a Swift Playground, see what returns when you run each of the following compa
 6 != 8
 7 == "7"
 "puppy" == "puppy"
+"puppy" == " puppy"
 "Puppy" == "puppy"
 
 var luckyNum = 7
