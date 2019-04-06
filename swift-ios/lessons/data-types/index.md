@@ -116,7 +116,7 @@ Integers are what we would think of as whole numbers. They can be positive or ne
 
 Swift gives you two data types with which to store numbers that have a decimals. They can be positive or negative. Examples would be 1.1, 42.45, 3.14, -123786234.64
 
-The TL;DR is that Doubles have more accuracy than Floats. If you ever need a decimal, **use a Double** because you'll get more accuracy that way
+The TL;DR is that Doubles have more accuracy than Floats. If you ever need a decimal, **use a Double** because you'll get more accuracy that way.
 
 ### Good to Know
 
@@ -127,11 +127,14 @@ The TL;DR is that Doubles have more accuracy than Floats. If you ever need a dec
 * We CANNOT use math operations on a double and an integer. Why? They are technically different data types! Even though they all look like numbers to us - they are stored differently. To use math operations on an integer with a double, we would convert the integer into a double.
 
 Example:
-`var integer = 4`
-`var double = 5.0`
 
-`integer * double` --> ERROR
-`Double(integer) * double` --> `20.0`
+```swift
+var integer = 4
+var double = 5.0
+
+integer * double --> ERROR
+Double(integer) * double --> 20.0
+```
 
 ## Practice
 
@@ -159,7 +162,7 @@ Using your notes and what you learned in this class, write your definition for t
 * Constant
 * Keyword
 
-# Data Types - Practice
+## Data Types - Practice
 
 ### Part 1: Variable or Constant?
 
