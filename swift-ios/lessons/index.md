@@ -4,7 +4,7 @@
 - [Data Types](/swift-ios/lessons/data-types)
 - [Conditionals](/swift-ios/lessons/conditionals)
 - [Arrays and Dictionaries](/swift-ios/lessons/collections)
-- Loops
+- [Loops](/swift-ios/lessons/loops)
 - Functions
 - Classes and Objects
 
@@ -12,10 +12,10 @@
 - Actions & Outlets
 - Displaying Photos
 - Segues
+- Delete Functionality
 
 ## iOS Features
 - Accessing the Camera
-- Delete Functionality
 - Core Data
 - AR
 
