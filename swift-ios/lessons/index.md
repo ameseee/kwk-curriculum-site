@@ -5,7 +5,7 @@
 - [Conditionals](/swift-ios/lessons/conditionals)
 - [Arrays and Dictionaries](/swift-ios/lessons/collections)
 - [Loops](/swift-ios/lessons/loops)
-- Functions
+- [Functions](/swift-ios/lessons/functions)
 - Classes and Objects
 
 ## StoryBoard
