@@ -64,9 +64,9 @@ for animal in animals {
   print("I love " + animal)
 }
 
-=> I love red pandas
-=> I love giraffes
-=> I love sea turtles
+// => I love red pandas
+// => I love giraffes
+// => I love sea turtles
 ```
 
 The word `animal` right after the keyword `for` refers to each element of our array, and the `animals` after the `in` keyword is the name of the array we are telling the computer to iterate over. We've told our loop to run the same number of times as there are elements in the array. So, since we currently have 3 elements in the array, it will run three times. If we added another animal to our array, the loop would run four times.
@@ -103,7 +103,7 @@ Now, instead of printing `pair` inside the loop, try printing `pair.key` and `pa
   - Create a dictionary of 3+ key/value pairs, where the keys are names of cities, and the values hold the distance between that city and your location (you'll need to do some research! You choose the cities!)
   - Write a for-in loop that uses each city and distance and prints `You are currently ___ miles away from _____`.
 
-## For-In Loops WITHOUT Collections
+## For-In Loops _without_ Collections
 
 We can also use `for-in` loops without a collection, like an array or dictionary. In this case, we would do this because we want to perform a certain action, a certain number of times. There are a couple differences in the syntax you might see when we aren't iterating over an array. See the code below:
 
