@@ -6,7 +6,7 @@
 - [Arrays and Dictionaries](/swift-ios/lessons/collections)
 - [Loops](/swift-ios/lessons/loops)
 - [Functions](/swift-ios/lessons/functions)
-- Classes and Objects
+- [Classes and Objects](/swift/lessons/classes-objects)
 
 ## StoryBoard
 - Actions & Outlets
