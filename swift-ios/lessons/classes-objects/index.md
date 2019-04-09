@@ -24,12 +24,17 @@ Together, we are going to make a student class. It will be a blueprint for a stu
 
 With your partner, make a list of things that all students have - they don't have all to be the same. The first thing on the list might be "name".
 
+<br>
+<br>
+<br>
+<br>
+
 We are about to write a Student class, but first, here are a few things you may want to know about classes:
 * start with keyword `class`, lowercased
 * class name is next, 1st letter capitalized
 * open code block with curly brackets
 
-```
+```swift
 class Student {
   // code will go here
 }
@@ -42,7 +47,7 @@ The code above isn't much, but it is a class! When this file runs, we will see s
 
 Let's add some **properties** to our class:
 
-```
+```swift
 class Student {
   var grade = 10
   var studying = "Swift"
@@ -57,7 +62,7 @@ A **property** is a piece of information that we want to attach to each object m
 
 To illustrate this, we can add some print statements using the dot notation:
 
-```
+```swift
 print(newStudent)
 print(newStudent.grade)
 print(newStudent.studying)
@@ -70,13 +75,13 @@ Luckily, Swift gives us a way to personalize each object when it's created. It w
 
 ## Initializer
 
-the initializer is a special function inside of a class. `init` is a keyword, if you write a function called `init` inside of a class, it will be called when you create an object from that class. One difference is that we _don't_ use the `func` keyword.
+The initializer is a special function inside of a class. `init` is a keyword; if you write a function called `init` inside of a class, it will be called when you create an object from that class. One difference is that we _don't_ use the `func` keyword before `init`.
 
 `init` runs once and only once: when we create a new object from the class. It is written inside the class, below any property variables we declare for that class. It can take arguments, which can help make our class dynamic, in this case, give each student their own name.
 
 Let's add this init function into our class, giving it an argument of studentName, which is a string.
 
-```
+```swift
 class Student {
 
   var grade = 10
@@ -100,7 +105,7 @@ You should now see the print statement reflecting the new name that was passed i
 
 ### Practice
 
-If you didn't code along, get update on what we have for the student class. Then, add another argument and re-assignment in `init` for the gradeLevel so that we can have students in different grades.
+If you didn't code along, get up-to-date on what we have for the student class. Then, add another argument and re-assignment in `init` for the `gradeLevel` so that we can have students in different grades!
 
 ## Actions
 
@@ -134,7 +139,7 @@ var newStudent = Student(studentName: "Amy", studentGrade : 11)
 newStudent.writeCode()
 ```
 
-`writeCode()` is a function, but more specifically an **action** for this class, and this class only. You can even try calling it in the file without the newStudent, preceding it, and see an error!
+`writeCode()` is a function, but more specifically an **action** for this class, and this class only. You can even try calling it in the file without the newStudent preceding it, and see an error!
 
 ### Practice
 
@@ -163,7 +168,7 @@ Open up Xcode and follow these directions to start it:
 * Inside the main.swift file, copy and paste everything else.
 * To run the code, click the play button in the top left corner of the screen.
 
-The exact same thing is happening, but we now have our code organized out into files with a single responsibility. 
+The exact same thing is happening, but we now have our code organized out into files with a single responsibility.
 
 ## Vocabulary Reflection
 
