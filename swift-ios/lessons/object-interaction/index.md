@@ -23,7 +23,7 @@ With your partner:
 - Explain what is happening on each line of the following code snippet
 - Predict what will print to the console for the three print statements at the bottom
 
-```Swift
+```swift
 // Fridge.swift
 
 class Fridge {
@@ -40,7 +40,7 @@ class Fridge {
 }
 ```
 
-```Swift
+```swift
 // main.swift
 
 var fridge = Fridge(fridgeBrand: "Maytag", fridgeColor: "White", fridgeTemp: 34)
@@ -76,7 +76,7 @@ class Fridge {
 
 Since we are starting with an empty array, we know that at some point we are going to add things to it. Think back to our Arrays lesson, we learned about the `append` method. For our fridge action, it might look like this:
 
-```Swift
+```swift
 func addFood(food : String) {
     foods.append(food)
 }
@@ -110,7 +110,7 @@ class Food {
 
 Now that we have Food objects with a little more information than a string, we can start making our Fridge and Food objects interact. In `addFood`, we will actually create a food object with that string that is passed in. This means we also need to pass in an Int to `addFood` for the calories. Let's update that method:
 
-```Swift
+```swift
 func addFood(food : String, calories : Int) {
     var newFood = Food(foodName: food, numberCalories: calories)
     foods.append(newFood)
@@ -123,7 +123,7 @@ Notice that the food object is stored in a variable called `newFood`. On the nex
 
 **First**, update your Fridge and Food classes to reflect what we've talked about, then add the following to your `main.swift` file:
 
-```Swift
+```swift
 // main.swift
 
 var fridge = Fridge(fridgeBrand: "Maytag", fridgeColor: "White", fridgeTemp: 34)
