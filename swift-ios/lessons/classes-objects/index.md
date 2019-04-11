@@ -147,7 +147,7 @@ Update your code so that you have the `writeCode` action. Then, add another meth
 
 ## Classes vs. Objects
 
-Classes are the blueprints or cookie cutters. Objects are created from the class - in many cases we will pass an argument in to create a class that changes it's properties. There can be MANY objects that are created from just one class!
+Classes are the blueprints or cookie cutters. Objects are created from the class - in many cases we will pass an argument in to create a class that changes its properties. There can be MANY objects that are created from just one class!
 
 ### Practice
 
