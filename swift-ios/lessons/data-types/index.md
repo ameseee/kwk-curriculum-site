@@ -77,7 +77,7 @@ var age = 15
 
 The computer reads anything inside of the `\()` as swift code - it will look for a variable titled `age`.
 
-### Practice
+### Practice 1
 
 String values can be added together (or concatenated) with the addition operator (+) to create a new String value, can use interpolation with the `\()` syntax:
 
@@ -136,9 +136,9 @@ integer * double --> ERROR
 Double(integer) * double --> 20.0
 ```
 
-## Practice
+### Practice 2
 
-Start with these numbers:
+Start with these variables:
 
 ```swift
 var a = 12
