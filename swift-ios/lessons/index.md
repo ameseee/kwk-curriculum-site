@@ -7,6 +7,7 @@
 - [Loops](/swift-ios/lessons/loops)
 - [Functions](/swift-ios/lessons/functions)
 - [Classes and Objects](/swift-ios/lessons/classes-objects)
+- [Object Interaction](/swift-ios/lessons/object-interaction)
 
 ## StoryBoard
 - Actions & Outlets
