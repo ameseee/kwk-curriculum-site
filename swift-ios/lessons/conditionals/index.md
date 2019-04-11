@@ -42,7 +42,7 @@ You have seen < and > in math class, right? We use those in code, too!
 * Compare variables
 * Every comparison evaluates to either `true` or `false`
 
-### Practice
+### Practice 1
 
 In a Swift Playground, see what returns when you run each of the following comparisons:
 
@@ -128,7 +128,7 @@ else {
 etc...
 ```
 
-## Practice
+### Practice 2
 
 * Create a variable named `favoriteFood` and assign it to a string of your favorite food
 * Write an `if statement` comparing your favorite to 'Chipotle', which if evaluates to true, prints out a sentence (you choose!)
