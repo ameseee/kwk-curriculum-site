@@ -33,6 +33,7 @@ func walkDog() {
 ```
 
 ### Turn & Talk
+
 With your partner, talk about, then write down a list of the steps in walking a dog.
 
 Then we will create a class list of steps to walk our dog, that will eventually go into our `walkDog` function!
@@ -52,6 +53,8 @@ func walkDog() {
 ### Practice
 
 In an Xcode Playground, write this same `walkDog` function. Instead of `//steps //go //here` write print statements for each of the steps we wrote out on the board. Run the code. It should do ... nothing, for now.
+
+## Calling Functions
 
 Why don't we see our print statements? One really convenient thing about function is that they don't do their job until they are told to. We can give them a set of commands, and tell them to hang on to that information until we tell them to run. This command, telling them to run, is called **calling a function**.  The great thing about this is we can run a function multiple times! Check out the syntax to call a function:
 

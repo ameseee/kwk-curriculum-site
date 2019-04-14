@@ -94,6 +94,16 @@ With your partner, verify your predictions from the Turn and Talk by running thi
 
 Now, instead of printing `pair` inside the loop, try printing `pair.key` and `pair.value` and see what happens.
 
+Another cool thing you can do if you are going to utilize both keys and values, is something like this:
+
+```swift
+var capitals = ["France": "Paris", "Cuba": "Havana", "Japan": "Tokyo"]
+
+for (country, capital) in capitals {
+  print("The capital of \(country) is \(capital).")
+}
+```
+
 ### Practice - Arrays & Dictionaries
 
 * Iterate over an array using a for-in loop:
@@ -120,6 +130,8 @@ Why didn't we use a variable here? We didn't _need_ one. We weren't iterating ov
 What's going on in this code?
 
 ```swift
+var animals = ["red panda", "penguin", "polar bear"]
+
 for index in 0..<animals.count {
   print("I love " + animals[index])
 }
