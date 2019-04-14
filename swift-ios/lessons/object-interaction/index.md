@@ -78,7 +78,7 @@ Since we are starting with an empty array, we know that at some point we are goi
 
 ```swift
 func addFood(food : String) {
-    foods.append(food)
+  contents.append(food)
 }
 ```
 
