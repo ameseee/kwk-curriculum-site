@@ -57,12 +57,15 @@ var shoppingList = ["Bread", "Cheese", "Milk", "Bacon"]
 ```
 This array is stored in the variable `shoppingList`, so anytime we call this variable, we will get back this whole list!
 
-### Turn and Talk
-
-* With your partner, explain the following:
-  - What is an array?
-  - Why are they useful?
-  - How do you initialize an array?
+<div class="try-it">
+  <h2>Turn and Talk</h2>
+  <p>With your partner, explain the following:</p>
+  <ul>
+    <li>What is an array?</li>
+    <li>Why are they useful?</li>
+    <li>How do you initialize an array?</li>
+  </ul>
+</div>
 
 ### Accessing Information
 
@@ -127,13 +130,17 @@ shoppingList.remove(at: 0)
 
 ```
 
-### Practice
+<div class="try-it">
+  <h2>Try It: Creating Arrays and Accessing Data</h2>
 
-Create an array of 3 adorable animals, and store it in a variable. Then, take these steps:
-- Access the second animal using `[]` notation
-- Add another adorable animal
-- Change one of the adorable animals
-- Remove the third animal from the array
+  <p>Create an array of 3 adorable animals, and store it in a variable. Then, take these steps:</p>
+  <ul>
+  <li>Access the second animal using <code>[]</code> notation</li>
+  <li>Add another adorable animal</li>
+  <li>Change one of the adorable animals</li>
+  <li>Remove the third animal from the array</li>
+  </ul>
+</div>
 
 ## Iterating Over Elements in an Array
 
@@ -163,36 +170,40 @@ print("We need some " + item[3])
 
 Right now, this doesn't seem so bad. What if we had 100 items on our grocery list? 1000? That's a lot of lines of code to write and a lot of places we would need to update it every time we added or removed and item.
 
+
+<div class="try-it">
+  <h2>Ink - Pair - Share: Arrays IRL</h2>
+  <p>Think about Instagram or Facebook - where might those applications use arrays?</p>
+  <p>Write a list, then compare notes with your partner.</p>
+</div>
+
 ## Arrays IRL
-
-Think about Instagram or Facebook - where might those applications use arrays? Write a list, then compare notes with your partner.
-
-
-<br>
-<br>
-<br>
-<br>
 
 Applications like Instagram probably utilize arrays **a lot**. Each user has a list of followers and people they follow, they have a list of photos stored to their account, there is a list of people who liked each photo, probably more! What Instagram is doing, is iterating over those lists, then telling the program to render those to your laptop or phone so you can see the data.
 
-## Array Practice
+<div class="practice">
+  <h2>Practice: Arrays</h2>
 
-### Part 1: Hobbies
-- Create an array of your top five favorite hobbies
-- Change at least one of the values in the array
-- Add a new hobby to the array
-- Remove the second hobby from the array
-- Print the value of the third element of the array
-- You should have five hobbies in your array. Using a `for in` loop and string interpolation, iterate over the values in your array in order to print five strings that say "I love ______!"
+  <h3>Part 1: Hobbies</h3>
+  <ul>
+    <li>Create an array of your top five favorite hobbies</li>
+    <li>Change at least one of the values in the array</li>
+    <li>Add a new hobby to the array</li>
+    <li>Remove the second hobby from the array</li>
+    <li>Print the value of the third element of the array</li>
+    <li>You should have five hobbies in your array. Using a for-in loop and string interpolation, iterate over the values in your array in order to print five strings that say "I love ______!"</li>
+  </ul>
 
-#### Part 2: Do some research!
+  <h3>Part 2: Do some research!</h3>
 
-There are several ways to add, remove, and modify values in an array. There is also a variety of other ways to iterate over arrays. Using Google and the Swift documentation, find a _different_ way to do each of the following:
-
-- add an element
-- remove an element
-- modify an element
-- iterate
+  <p>There are several ways to add, remove, and modify values in an array. There is also a variety of other ways to iterate over arrays. Using Google and the Swift documentation, find a <i>different</i> way to do each of the following:</p>
+  <ul>
+    <li>add an element</li>
+    <li>remove an element</li>
+    <li>modify an element</li>
+    <li>iterate</li>
+  </ul>
+</div>
 
 ## Dictionaries
 
@@ -208,16 +219,17 @@ If I wanted to make a list of all the dogs in my apartment building, I should us
 
 If I wanted to make a list of all the dogs in my apartment building and their birthday so that we can throw a party for each of them, I should use an array. There is an _associative_ relationship between each dog and it's birthday.
 
-### Practice -  Array or Dictionary?
-
-Turn and Talk: For each set of data, would an array or dictionary be better to store it? Why?
-
-- List of all of the students in class
-- List of states and their capitals
-- List of things to pack for vacation
-- Names of all the Instagram accounts I follow
-- List of students and their birthdays
-
+<div class="try-it">
+  <h2>Try It: Array or Dictionary?</h2>
+  <p>For each set of data, would an array or dictionary be better to store it? Why?</p>
+  <ul>
+    <li>List of all of the students in class</li>
+    <li>List of states and their capitals</li>
+    <li>List of things to pack for vacation</li>
+    <li>Names of all the Instagram accounts I follow</li>
+    <li>List of students and their birthdays</li>
+  </ul>
+</div>
 
 ## Dictionary Syntax
 
@@ -241,11 +253,11 @@ var phones = [
   ]
 ```
 
-### Practice
-
-Create a dictionary with a list of 3 people (yourself, family, friends, or other students here!) and their birthdays.
-
-Use `print()` statements to verify your syntax is correct. Then use a `print()` statement to practice accessing specific pieces of data. Try to print your birthday by using the `[]` notation.
+<div class="try-it">
+  <h2>Try It: Creating and Accessing Dictionaries</h2>
+  <p>Create a dictionary with a list of 3 people (yourself, family, friends, or other students here!) and their birthdays.</p>
+  <p>Use <code>print()</code> statements to verify your syntax is correct. Then use a <code>print()</code> statement to practice accessing specific pieces of data. Try to print your birthday by using the <code>[]</code> notation.</p>
+</div>
 
 ### Adding Data to Dictionaries
 
@@ -300,21 +312,27 @@ Array(phones.keys)
 
 `phones.keys` gives us a `keys` object with "apple", and "google" but is difficult to use because `keys` is not a commonly used data type. Typically, you'll see iOS developers wrap `Array()` around, in this case, the `phones.keys` so that `keys` objects can be converted into an array, which is much more friendly!
 
-## Practice
+<div class="practice">
+  <h2>Practice: Dictionaries</h2>
 
-### Part 1: Friend/Family Tree
-Create a dictionary with keys that are family or friend titles (i.e. "sister", "bestFriend") and values that are the name of that family member or friend. Pets are family, too!
-- Aim to have at least 10 family members of friends in your 'tree'
-- Print to the console the entire dictionary
-- Print to the console 3 individual names
-- Remove someone from your tree  😔 (You can add them back if you want!)
+  <h3>Part 1: Friend/Family Tree</h3>
+  <p>Create a dictionary with keys that are family or friend titles (i.e. "sister", "bestFriend") and values that are the name of that family member or friend. Pets are family, too!</p>
+  <ul>
+    <li>Aim to have at least 10 family members of friends in your 'tree'</li>
+    <li>Print to the console the entire dictionary</li>
+    <li>Print to the console 3 individual names</li>
+    <li>Remove someone from your tree  😔 (You can add them back if you want!)</li>
+  </ul>
 
-### Part 2: Nested Collections
+  <h3>Part 2: Nested Collections</h3>
+  <p>Create a dictionary in which the keys are strings and the values are arrays of strings. This is called a _nested_ collection, because it has collections inside of a collection.</p>
+  <p>Need ideas for topics?</p>
+  <ul>
+    <li>Re-write your family tree with arrays (it's ok to only have 1 item in some arrays). This will make keeping track of cousins easier in some cases!</li>
+    <li>Keys: dogs, cats, dinosaurs. Values: ["German Shepard", "Shih-Tzu", "Great Dane"], etc.</li>
+  </ul>
+</div>
 
-Create a dictionary in which the keys are strings and the values are arrays of strings. This is called a _nested_ collection, because it has collections inside of a collection.
-* Need ideas for topics?
-  - Re-write your family tree with arrays (it's ok to only have 1 item in some arrays). This will make keeping track of cousins easier in some cases!
-  - Keys: dogs, cats, dinosaurs. Values: ["German Shepard", "Shih-Tzu", "Great Dane"], etc.
 
 ## Vocabulary Reflection
 
