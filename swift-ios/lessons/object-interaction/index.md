@@ -51,9 +51,12 @@ print(fridge.temperature)
 
 As of now, our fridge can't **do** much, it just sits there once it's created with its properties. Let's a property where the Fridge can store foods (let's call it contents), then an action that lets the Fridge add new foods to it.
 
-### Turn & Talk
+<div class="try-it">
+  <h2>Turn & Talk</h2>
+  <p>What data type should our <code>contents</code> property be? (String, Integer, Array, Dictionary) Explain your reasoning.</p>
+</div>
 
-What data type should our `contents` property be? (String, Integer, Array, Dictionary) Explain your reasoning.
+### Update Fridge
 
 Let's update our fridge with that contents property:
 
@@ -82,11 +85,11 @@ func addFood(food : String) {
 }
 ```
 
-### Practice
-
-Write a Fridge class in Xcode, and write several print statements to see what data is stored in your properties. Then, call `fridge.addFood("your favorite food")`, and then another print statement for `fridge.contents`. Do you have "your favorite food" in your fridge now?
-
-Check in with your partner and make sure you both have this working.
+<div class="try-it">
+  <h2>Try It: Add contents to Fridge</h2>
+  <p>Write a Fridge class in Xcode, and write several print statements to see what data is stored in your properties. Then, call <code>fridge.addFood("your favorite food")</code>, and then another print statement for <code>fridge.contents</code>. Do you have "your favorite food" in your fridge now?</p>
+  <p>Check in with your partner and make sure you both have this working.</p>
+</div>
 
 ## Build a Second Class
 
@@ -119,25 +122,18 @@ func addFood(food : String, calories : Int) {
 
 Notice that the food object is stored in a variable called `newFood`. On the next line, we are still using the `append` method, this time appending a food object instead of the food string.
 
-### Practice
-
-**First**, update your Fridge and Food classes to reflect what we've talked about, then add the following to your `main.swift` file:
-
-```swift
-// main.swift
-
-var fridge = Fridge(fridgeBrand: "Maytag", fridgeColor: "White", fridgeTemp: 34)
-
-print(fridge.foods)
-fridge.addFood(food: "cheese", calories: 100)
-fridge.addFood(food: "RX Bar", calories: 230)
-fridge.addFood(food: "Fruit Snacks", calories: 90)
-print(fridge.foods)
-```
-
-What you see printed out probably looks something like: `[]` `[object_interaction.Food, object_interaction.Food, object_interaction.Food]`. Notice there are three elements in this array, which seems to match the three times `addFood` was called, but I want more info about each element.
-
-**Second**, write a `for-in` loop to print out the name and calories of each food in the fridge.
+<div class="try-it">
+  <h2>Try It: Loop over Fridge contents</h2>
+  <p><strong>First</strong>, update your Fridge and Food classes to reflect what we've talked about, then add the following to your `main.swift` file:</p>
+  <code>var fridge = Fridge(fridgeBrand: "Maytag", fridgeColor: "White", fridgeTemp: 34)</code><br><br>
+  <code>print(fridge.foods)</code><br>
+  <code>fridge.addFood(food: "cheese", calories: 100)</code><br>
+  <code>fridge.addFood(food: "RX Bar", calories: 230)</code><br>
+  <code>fridge.addFood(food: "Fruit Snacks", calories: 90)</code><br>
+  <code>print(fridge.foods)</code><br><br>
+  <p>What you see printed out probably looks something like: `[]` `[object_interaction.Food, object_interaction.Food, object_interaction.Food]`. Notice there are three elements in this array, which seems to match the three times `addFood` was called, but I want more info about each element.</p>
+  <p><strong>Second</strong>, write a `for-in` loop to print out the name and calories of each food in the fridge.</p>
+</div>
 
 ## Object Interaction
 
@@ -156,12 +152,10 @@ To recap:
 * Property
 * Action
 
-## Practice
-
-### Part 1: Campers and Camps
-
-Your job is to build a Student/Scholar/Camper class and a Camp class. You can choose what properties each class has on it. The Camp class should have an `addCamper` action on it, which creates a Student/Scholar/Camper object and stores that in a list of all the campers.
-
-### Part 2: Camps and KWK
-
-Build a KWK class that creates and stores camps. The KWK class should have a year property. Make sure your camp has a location and title (Web Application or Swift/iOS).
+<div class="practice">
+  <h2>Practice: Object Interaction</h2>
+  <h3>Part 1: Campers and Camps</h3>
+  <p>Your job is to build a Student/Scholar/Camper class and a Camp class. You can choose what properties each class has on it. The Camp class should have an <code>addCamper</code> action on it, which creates a Student/Scholar/Camper object and stores that in a list of all the campers.</p>
+  <h3>Part 2: Camps and KWK</h3>
+  <p>Build a KWK class that creates and stores camps. The KWK class should have a year property. Make sure your camp has a location and title (Web Application or Swift/iOS).</p>
+</div>
