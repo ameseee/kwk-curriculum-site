@@ -46,16 +46,16 @@ for animal in animals {
 }
 ```
 
-### Turn & Talk
+<div class="try-it">
+  <h2>Turn & Talk</h2>
+  <ul>
+    <li>What do you think will happen?</li>
+    <li>What if we add another animal to our array?</li>
+    <li>Why do you think we used the words "animal" and "animals" in our `for-in` loop?</li>
+  </ul>
+</div>
 
-* What do you think will happen?
-* What if we add another animal to our array?
-* Why do you think we used the words "animal" and "animals" in our `for-in` loop?
-
-<br>
-<br>
-<br>
-<br>
+## Breaking it Down
 
 Let's try to understand what's going on here.
 
@@ -84,15 +84,17 @@ for pair in capitals {
   print(pair)
 }
 ```
+<div class="try-it">
+  <h2>Turn & Talk</h2>
+  <ul>
+    <li>What do you think will print?</li>
+    <li>Why does the variable "pair" represent on each iteration?</li>
+  </ul>
+  <p>With your partner, verify your predictions from the Turn and Talk by running this code in an Xcode playground.</p>
+  <p>Now, instead of printing `pair` inside the loop, try printing `pair.key` and `pair.value` and see what happens.</p>
+</div>
 
-### Turn & Talk
-
-* What do you think will print?
-* Why does the variable "pair" represent on each iteration?
-
-With your partner, verify your predictions from the Turn and Talk by running this code in an Xcode playground.
-
-Now, instead of printing `pair` inside the loop, try printing `pair.key` and `pair.value` and see what happens.
+### Another way to access Dictionaries
 
 Another cool thing you can do if you are going to utilize both keys and values, is something like this:
 
@@ -104,14 +106,19 @@ for (country, capital) in capitals {
 }
 ```
 
-### Practice - Arrays & Dictionaries
-
-* Iterate over an array using a for-in loop:
-  - Create an array of the names of five of your friends
-  - Write a for-in loop that uses each name and prints `Hello, [friend's name]` to the console
-* Iterate over a dictionary using these directions:
-  - Create a dictionary of 3+ key/value pairs, where the keys are names of cities, and the values hold the distance between that city and your location (you'll need to do some research! You choose the cities!)
-  - Write a for-in loop that uses each city and distance and prints `You are currently ___ miles away from _____`.
+<div class="try-it">
+  <h2>Practice - Arrays & Dictionaries</h2>
+  <p>Array:</p>
+  <ul>
+    <li>Create an array of the names of five of your friends</li>
+    <li>Write a for-in loop that uses each name and prints `Hello, [friend's name]` to the console</li>
+  </ul>
+  <p>Dictionary:</p>
+  <ul>
+    <li>Create a dictionary of 3+ key/value pairs, where the keys are names of cities, and the values hold the distance between that city and your location (you'll need to do some research! You choose the cities!)</li>
+    <li>Write a for-in loop that uses each city and distance and prints `You are currently ___ miles away from _____`.</li>
+  </ul>
+</div>
 
 ## For-In Loops _without_ Collections
 
@@ -125,7 +132,7 @@ for _ in 1...4 {
 
 Why didn't we use a variable here? We didn't _need_ one. We weren't iterating over an array and trying to do something with each element, so we use the underscore. If we did create a variable, for example `number`, instead of the `_` - it would behave as if we were iterating over [1, 2, 3, 4]. This doesn't mean 1...4 really is an array, though. If you're interesting in learning more about this, read up on [this documentation](https://developer.apple.com/documentation/swift/closedrange).
 
-### Partner Challenge
+### Code for Partner Challenge
 
 What's going on in this code?
 
@@ -137,34 +144,40 @@ for index in 0..<animals.count {
 }
 ```
 
-Think about the lesson on arrays - how did we access information?
-- What do you think `index` stands for in our code?
-- Can you figure out what is happening after the `in` keyword?
-- Take a few minutes to jot down your thoughts and guesses! Then try it out in an Xcode Playground.
+<div class="try-it">
+  <h2>Partner Challenge</h2>
+  <p>With your partner, take the following steps using the code snipper from above. Hint: Think about the lesson on arrays - how did we access information?</p>
+  <ul>
+    <li>What do you think `index` stands for in our code?</li>
+    <li>Can you figure out what is happening after the `in` keyword?</li>
+    <li>Take a few minutes to jot down your thoughts and guesses! Then try it out in an Xcode Playground.</li>
+  </ul>
+</div>
 
 ## Vocabulary Reflection
 
 * For-In Loop
 * Iterate
 
-## Practice
+<div class="practice">
+  <h2>Practice: Loops</h2>
 
-### Part 1: Check Your Understanding
+  <h3>Part 1: Check Your Understanding</h3>
+  <p>Let's take some time to answer the following questions in our journals, and then discuss our answers together.</p>
+  <ul>
+    <li>What is a for-in loop (in Swift)? What does it do?</li>
+    <li>What are the different ways you can use a for-in loop?</li>
+    <li>How can for-in loops be useful? What do you think is the point of them?</li>
+    <li>Can you brainstorm some ways that one of your favorite apps might make use of a for-in loop?</li>
+  </ul>
 
-Let's take some time to answer the following questions in our journals, and then discuss our answers together.
+  <h3>Part 2: Modify your friends names</h3>
+  <p>Can you use the for-in loop to edit the strings in your friends array from just their names to their names plus an exclamation point? Consider:</p>
+  <ul>
+    <li>how to access an element in an array based on its index</li>
+    <li>how to tell your for-in loop to run for the same number of times as the length of your array</li>
+    <li>how to assign a new value to an element in an array</li>
+    <li>how to add strings together</li>
+  </ul>
 
-- What is a `for-in` loop (in Swift)? What does it do?
-- What are the different ways you can use a `for-in` loop?
-- How can `for-in` loops be useful? What do you think is the point of them?
-- Can you brainstorm some ways that one of your favorite apps might make use of a `for-in` loop?
-
-### Part 2: Modify your friends names
-
-Can you use the `for-in` loop to edit the strings in your friends array from just their names to their names plus an exclamation point? Consider:
-
-- how to access an element in an array based on its index
-- how to tell your `for-in` loop to run for the same number of times as the length of your array
-- how to assign a new value to an element in an array
-- how to add strings together
-
-Don't forget to write down your notes so you can remember and share them later!
+</div>
