@@ -1,6 +1,9 @@
 # Swift/iOS Lessons
 
 ## Swift
+<ul>
+  <li><a href="{{ site.url }}/swift-ios/lessons/data-types">Data Types</a></li>
+</ul>
 - [Data Types](/swift-ios/lessons/data-types)
 - [Conditionals](/swift-ios/lessons/conditionals)
 - [Arrays and Dictionaries](/swift-ios/lessons/collections)
