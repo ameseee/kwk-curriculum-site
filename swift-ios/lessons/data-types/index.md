@@ -77,32 +77,28 @@ var age = 15
 
 The computer reads anything inside of the `\()` as swift code - it will look for a variable titled `age`.
 
-### Practice 1
+<div class="try-it">
+  <h2>Try It: Strings</h2>
+  <p>String values can be added together (or concatenated) with the addition operator (+) to create a new String value, can use interpolation with the <code>\()</code> syntax:</p>
+  <code>let string1 = "hello"</code><br>
+  <code>let string2 = "there"</code><br>
+  <code>var welcome = "\(string1) \(string2)"</code><br>
+  <code>var anotherWelcome = string1 + " " string2</code><br>
+  <code>// welcome and anotherWelcome are both storing the string "hello there"</code>
 
-String values can be added together (or concatenated) with the addition operator (+) to create a new String value, can use interpolation with the `\()` syntax:
+  <p>If you have the strings "Beyonce" and "Knowles" in the following variables:</p>
+  <code>var first = "Beyonce"</code><br>
+  <code>var last = "Knowles"</code><br>
 
-```swift
-let string1 = "hello"
-let string2 = "there"
-var welcome = "\(string1) \(string2)"
-var anotherWelcome = string1 + " " string2
-// welcome and anotherWelcome are both storing the string "hello there"
-```
-
-If you have the strings `"Beyonce"` and `"Knowles"` in the following variables:
-
-```swift
-var first = "Beyonce"
-var last = "Knowles"
-```
-
-Use *only* the "string interpolation" technique to complete the following:
-
-1. What code can you write to output the string `"BeyonceKnowles"`?
-2. What code can you write to output the string `"KnowlesBeyonce"`?
-3. What code can you write to output the string `"Beyonce Knowles"`?
-4. What code can you write to output the string `"Knowles Beyonce Knowles Beyonce"`?
-5. What code can you write to output the string `"I love Beyonce"`?
+  <p>Use <strong>only</strong> the "string interpolation" technique to complete the following:</p>
+  <ol>
+    <li>What code can you write to output the string `"BeyonceKnowles"`?</li>
+    <li>What code can you write to output the string `"KnowlesBeyonce"`?</li>
+    <li>What code can you write to output the string `"Beyonce Knowles"`?</li>
+    <li>What code can you write to output the string `"Knowles Beyonce Knowles Beyonce"`?</li>
+    <li>What code can you write to output the string `"I love Beyonce"`?</li>
+  </ol>
+</div>
 
 ## Numbers
 
@@ -136,20 +132,20 @@ integer * double --> ERROR
 Double(integer) * double --> 20.0
 ```
 
-### Practice 2
+<div class="try-it">
+  <h2>Try It: Numbers</h2>
+  <p>Start with these variables:</p>
+  <code>var a = 12</code><br>
+  <code>var b = 65</code><br>
+  <code>var c = 31</code><br>
+  <code>var d = 98</code>
 
-Start with these variables:
-
-```swift
-var a = 12
-var b = 65
-var c = 31
-var d = 98
-```
-
-1. Write code to find the average of these four numbers.
-2. Find the average yourself using paper or a calculator. Is your answer different than you found in A? Why?
-3. Say you have the operation `a + b * c / d`. What result do you get out from Swift? What other outputs can you get out by adding one or more pairs of parentheses to the equation?
+  <ol>
+    <li>Write code to find the average of these four numbers.</li>
+    <li>Find the average yourself using paper or a calculator. Is your answer different than you found in A? Why?</li>
+    <li>Say you have the operation `a + b * c / d`. What result do you get out from Swift? What other outputs can you get out by adding one or more pairs of parentheses to the equation?</li>
+  </ol>
+</div>
 
 ## Vocabulary Reflection
 
@@ -162,31 +158,30 @@ Using your notes and what you learned in this class, write your definition for t
 * Constant
 * Keyword
 
-## Data Types - Practice
+<div class="practice">
+  <h2>Practice: Data Types</h2>
 
-### Part 1: Variable or Constant?
+  <h3>Part 1: Variable or Constant?</h3>
+  <p>For each item on the list, determine if it should be stored as a variable or constant. Be ready to explain your thinking.</p>
 
-For each item on the list, determine if it should be stored as a variable or constant. Be ready to explain your thinking.
+  <ul>
+    <li>name</li>
+    <li>address</li>
+    <li>birthday</li>
+    <li>gradeLevel</li>
+    <li>age</li>
+    <li>eyeColor</li>
+    <li>favoriteColor</li>
+  </ul>
 
-- name
-- address
-- birthday
-- gradeLevel
-- age
-- eyeColor
-- favoriteColor
+  <h3>Part 2: How Much Do I Get Paid?</h3>
+  <p>Find the answer to this problem <strong>using Swift</strong>:</p>
+  <p>Karina earns $10.25 per hour at her job at Express. If she worked 20 hours last week, how much should she get paid?</p>
 
-### Part 2: How Much Do I Get Paid?
+  <h3>Part 3: Happy Birthday</h3>
+  <p>Let's sing Happy Birthday to our favorite celebrity. Their name should be stored in a variable, just in case you want to sing to someone else.</p>
 
-Find the answer to this problem **using Swift**:
-- Karina earns $10.25 per hour at her job at Express. If she worked 20 hours last week, how much should she get paid?
-
-### Part 3: Happy Birthday
-
-Let's sing Happy Birthday to our favorite celebrity. Their name should be stored in a variable, just in case you want to sing to someone else.
-
-### Part 4: String Compression
-
-There's a silly compression algorithm that outputs the first letter, the number of letters in the middle, and the last letter. So for the string `"Kalamazoo"` it'd output `"K7o"` or `"Denver"` would be `"D4r"`.
-
-Can you write code to implement that?
+  <h3>Part 4: String Compression</h3>
+  <p>There's a silly compression algorithm that outputs the first letter, the number of letters in the middle, and the last letter. So for the string <code>Kalamazoo</code> it'd output <code>K7o</code> or <code>Denver</code> would be <code>D4r</code>.</p>
+  <p>Can you write code to implement that?</p>
+</div>
