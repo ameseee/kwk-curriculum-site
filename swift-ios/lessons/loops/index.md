@@ -107,7 +107,7 @@ for (country, capital) in capitals {
 ```
 
 <div class="try-it">
-  <h2>Practice - Arrays & Dictionaries</h2>
+  <h2>Try It: Arrays & Dictionaries</h2>
   <p>Array:</p>
   <ul>
     <li>Create an array of the names of five of your friends</li>
