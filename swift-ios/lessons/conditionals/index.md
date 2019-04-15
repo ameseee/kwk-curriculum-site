@@ -11,20 +11,19 @@
 * Comparison Operator
 * Evaluate
 
-## Flow Control - IRL
+## Flow Control IRL
 
 In life, we make decisions based on our current situation:
 * If I'm hungry, I'll eat
 * If I'm tired, I'll take a nap
 
-### Turn and Talk
+<div class="try-it">
+  <h2>Turn and Talk</h2>
+  <p>What are some other examples where we make decisions in real life?</p>
+  <p>How about in apps or programs?</p>
+</div>
 
-What are some other examples where we make decisions in real life? How about in apps or programs?
-
-<br>
-<br>
-<br>
-<br>
+## Flow Control In Programming
 
 We do the same thing in programming:
 * If a user is signed in, they see their account
@@ -42,23 +41,22 @@ You have seen < and > in math class, right? We use those in code, too!
 * Compare variables
 * Every comparison evaluates to either `true` or `false`
 
-### Practice 1
+<div class="try-it">
+  <h2>Try It: Comparison Operators</h2>
+  <p>In a Swift Playground, see what returns when you run each of the following comparisons:</p>
 
-In a Swift Playground, see what returns when you run each of the following comparisons:
+  <code>5 < 3</code><br>
+  <code>12 > 7</code><br>
+  <code>6 != 8</code><br>
+  <code>7 == "7"</code><br><br>
+  <code>"puppy" == "puppy"</code><br>
+  <code>"puppy" == " puppy"</code><br>
+  <code>"Puppy" == "puppy"</code><br><br>
 
-```swift
-5 < 3
-12 > 7
-6 != 8
-7 == "7"
-"puppy" == "puppy"
-"puppy" == " puppy"
-"Puppy" == "puppy"
-
-var luckyNum = 7
-luckyNum < 10
-luckyNum == 7
-```
+  <code>var luckyNum = 7</code><br>
+  <code>luckyNum < 10</code><br>
+  <code>luckyNum == 7</code><br><br>
+</div>
 
 ## `if` Syntax
 
@@ -128,14 +126,17 @@ else {
 etc...
 ```
 
-### Practice 2
-
-* Create a variable named `favoriteFood` and assign it to a string of your favorite food
-* Write an `if statement` comparing your favorite to 'Chipotle', which if evaluates to true, prints out a sentence (you choose!)
-* Write an `else if statement` comparing your favorite to 'Starbucks', which if evaluated to true, prints out a sentence (you choose!)
-* Write another `else if` - you choose what you compare it to.
-* Write an `else statement` that prints out a sentence of your choice
-* Try changing your `favoriteFood` to Chipotle, then Starbucks (if it wasn't already). Do you get what you expected?
+<div class="try-it">
+  <h2>Try It: Control Flow</h2>
+  <ul>
+    <li>Create a variable named <code>favoriteFood</code> and assign it to a string of your favorite food</li>
+    <li>Write an <code>if statement</code> comparing your favorite to 'Chipotle', which if evaluates to true, prints out a sentence (you choose!)</li>
+    <li>Write an <code>else if statement</code> comparing your favorite to 'Starbucks', which if evaluated to true, prints out a sentence (you choose!)</li>
+    <li>Write another <code>else if</code> - you choose what you compare it to.</li>
+    <li>Write an <code>else statement</code> that prints out a sentence of your choice</li>
+    <li>Try changing your <code>favoriteFood</code> to Chipotle, then Starbucks (if it wasn't already). Do you get what you expected?</li>
+  </ul>
+</div>
 
 ## Vocabulary Reflection
 
@@ -143,17 +144,17 @@ etc...
 * Comparison Operator
 * Evaluate
 
-## Practice
+<div class="practice">
+  <h2>Practice: Control Flow</h2>
 
-### Part 1 - Do you already have an account?
+  <h3>Part 1 - Do you already have an account?</h3>
+  <p>You're working on building the next facebook. The app needs to have that screen that asks someone to either login or create an account.</p>
+  <p>Starting with the variable <code>var hasAccount = false</code>, write a conditional that prints either "Please log in!" or "Let's get some information to create an account for you.". Make sure it's working as expected. Change the value of your variable to <code>true</code> and you should see the other sentence print.</p>
 
-You're working on building the next facebook. The app needs to have that screen that asks someone to either login or create an account.
+  <h3>Part 2 - Which School?</h3>
+  <p>Write a conditional that tells a student if they are in elementary, middle, or high school based on their grade level.</p>
+</div>
 
-Starting with the variable `var hasAccount = false`, write a conditional that prints either "Please log in!" or "Let's get some information to create an account for you.". Make sure it's working as expected. Change the value of your variable to `true` and you should see the other sentence print.
-
-### Part 2 - Which School?
-
-Write a conditional that tells a student if they are in elementary, middle, or high school based on their grade level.
 
 ## Closing
 
