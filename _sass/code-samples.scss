@@ -7,6 +7,7 @@ pre {
 .try-it {
   background-color: lighten($green, 35);
   border: 1px solid $green;
+  margin-bottom: 40px;
   padding: 0.25em 1.5em;
   pre {
     border: 1px solid black;
@@ -25,6 +26,7 @@ pre {
     color: white;
   }
 }
+
 .highlighter-rouge {
   max-width: 100%;
   pre {

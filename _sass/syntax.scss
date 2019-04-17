@@ -1,3 +1,5 @@
+$green: rgba(96, 188, 87, 1);
+
 code {
   font-family: monospace;
   font-size: 1.2em;
@@ -5,15 +7,16 @@ code {
   background-color: #f4f4f4;
 }
 
+.try-it-code {
+  background-color: lighten($green, 35);
+}
+
 pre {
   border: 1px solid #d6d6d6;
-
   padding: 0.5rem 0.8rem;
   margin-bottom: 1.5rem;
-
   font-family: monospace;
   font-size: 1rem;
-
   line-height: 1.5rem;
   overflow: auto;
 }
