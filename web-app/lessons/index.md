@@ -6,7 +6,7 @@
 - HTML Forms
 
 ## CSS
-- Intro to CSS
+- [Intro to CSS]({{ site.url }}/web-app/lessons/intro-css)
 - Responsive Design
 - Flex Box
 - Animations
