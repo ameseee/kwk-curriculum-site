@@ -1,16 +1,13 @@
 # Swift/iOS Lessons
 
 ## Swift
-<ul>
-  <li><a href="{{ site.url }}/swift-ios/lessons/data-types">Data Types</a></li>
-</ul>
-- [Data Types](/swift-ios/lessons/data-types)
-- [Conditionals](/swift-ios/lessons/conditionals)
-- [Arrays and Dictionaries](/swift-ios/lessons/collections)
-- [Loops](/swift-ios/lessons/loops)
-- [Functions](/swift-ios/lessons/functions)
-- [Classes and Objects](/swift-ios/lessons/classes-objects)
-- [Object Interaction](/swift-ios/lessons/object-interaction)
+- [Data Types]({{ site.url }}/swift-ios/lessons/data-types)
+- [Conditionals]({{ site.url }}/swift-ios/lessons/conditionals)
+- [Arrays and Dictionaries]({{ site.url }}/swift-ios/lessons/collections)
+- [Loops]({{ site.url }}/swift-ios/lessons/loops)
+- [Functions]({{ site.url }}/swift-ios/lessons/functions)
+- [Classes and Objects]({{ site.url }}/swift-ios/lessons/classes-objects)
+- [Object Interaction]({{ site.url }}/swift-ios/lessons/object-interaction)
 
 ## StoryBoard
 - Actions & Outlets
