@@ -105,7 +105,7 @@ One of the most helpful CSS properties to use while you are in the process of bu
 
 <div class="try-it">
   <h2>Try It: Borders</h2>
-  <p>Building off your CodePen from when we added colors, add the property/value <code class="try-it-code">border: 1px solid you-choose-the-color;</code> to each rule in your CSS file.</p>
+  <p>Building off your CodePen from when we added colors, add the property/value <code class="try-it-code">border: 1px solid you-choose-the-color;</code> to each rule in your CSS file. This value looks a little different from most of those we've seen; there are 3 pieces of information. 1px refers to the thickness of the line on the border solid refers to a solid line, and the last thing is the color that you would like the border to be in.</p>
   <p>How much space is the <code class="try-it-code">h1</code> taking up? Does this surprise you? What if you wanted to put an h1 or image to the right of it? (We will discuss this as a group; if you're not sure, it's ok!)</p>
   <p>Now, add the property/value <code class="try-it-code">border-radius: 10px;</code> to your <code class="try-it-code">div</code>. What happens?</p>
   <p>This may not be the most <i>visually appealing</i> site as of now... but don't worry, we are learning the foundations to make something really beautiful!</p>
