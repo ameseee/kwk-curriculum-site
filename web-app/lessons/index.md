@@ -1,7 +1,9 @@
 # Web Applications Lessons
 
 ## HTML
-- Intro to HTML
+- [Intro to HTML]({{ site.url }}/web-app/lessons/intro-html)
+- [Chrome DevTools]()
+- HTML Forms
 
 ## CSS
 - Intro to CSS
