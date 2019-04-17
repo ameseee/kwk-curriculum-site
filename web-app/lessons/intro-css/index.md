@@ -111,6 +111,19 @@ One of the most helpful CSS properties to use while you are in the process of bu
   <p>This may not be the most <i>visually appealing</i> site as of now... but don't worry, we are learning the foundations to make something really beautiful!</p>
 </div>
 
+## Sizing Images
+
+Many times, the photos we bring in will not be the exact size we want it to be for our site. We can use the `width` and `height` properties to handle this.
+
+We will almost always want to preserve the ratio of the image, so we can give either a width or height, but usually don't give both. If you want to give both for some reason, you may need to apply the `object-fit` property. This might come in handy if you want to display a row of photos of the same height and width, but which all started off in various sizes.
+
+<div class="try-it">
+  <h2>Try It: Sizing Images</h2>
+  <p>Open up a new CodePen. Find 3 photos from <a href="">Pexels</a> and create image tags for each of them in the new CodePen. Get a mix of images that are vertical and horizontal.</p>
+  <p>Style the photos so they appear to be the same size, and make sure they aren't squished!</p>
+  <p>What happens when you apply (or remove) the <code class="try-it-code">object-fit</code> property?</p>
+</div>
+
 ## Other Commonly Used Properties
 
 Like we talked about earlier, there is a plethora of CSS properties available to us! You don't have to know them all, but it's fun to explore what's out there. Here is a list of commonly used properties:
