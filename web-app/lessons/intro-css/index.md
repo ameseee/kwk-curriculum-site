@@ -21,7 +21,7 @@ title: Intro to CSS
 
 CSS stands for Cascading Style Sheets. It is a language that allows us to add styles to HTML documents on the web. It’s incredibly powerful!
 
-Take a few minutes to check out the [CSS Zen Garden](http://www.csszengarden.com/). You'll notice that all of the sites here are created with the exact same HTML document, they were just styled differently with CSS.
+Take a few minutes to check out the [CSS Zen Garden](http://www.csszengarden.com/). You'll notice that all of the sites here are created with the exact same HTML document; they were just styled differently with CSS.
 
 ## Styling Elements
 
@@ -33,7 +33,7 @@ In the example above, the browser will set the color of any text element inside 
 
 <div class="try-it">
   <h2>Try It: Add Some Color</h2>
-  <p>In your CodePen, write an <code class="try-it-code">h1</code> and two <code class="try-it-code">p</code> elements, nested inside of a <code class="try-it-code">div</code>. Change the colors of your <code class="try-it-code">h1</code> and <code class="try-it-code">p</code>. Find a list of colors to use <a target="blank" href="http://colours.neilorangepeel.com/">here</a>. Now, add a <code class="try-it-code">background-color</code> to your <code class="try-it-code">div</code>.</p>
+  <p>In your CodePen, write an <code class="try-it-code">h1</code> and two <code class="try-it-code">p</code> elements, nested inside of a <code class="try-it-code">div</code> in the HTML file. In the CSS file, change the colors of your <code class="try-it-code">h1</code> and <code class="try-it-code">p</code>. Find a list of colors to use <a target="blank" href="http://colours.neilorangepeel.com/">here</a>. Now, add a <code class="try-it-code">background-color</code> to your <code class="try-it-code">div</code>.</p>
   <p>Finished Early? Do some google research on how to change the size of your text.</p>
 </div>
 
@@ -61,33 +61,33 @@ Notice the syntax - when we were just targeting an `h2` element, we would just t
 
 <div class="try-it">
   <h2>Try It: Add Classes</h2>
-  <p>In your CodePen, apply a class to your div, and change your CSS to target the class instead of the <code class="try-it-code">div</code> element. Then, apply a class to <strong>one</strong> of your paragraph elements. Write a rule for that classes that changes the paragraph to a color you have not yet used.</p>
+  <p>In your CodePen, apply a class to your div, and change your CSS to target the class instead of the <code class="try-it-code">div</code> element. Then, apply that same class to <strong>one</strong> of your paragraph elements.</p>
   <p>What happened to the paragraphs? Is that what you expected? Talk with your partner about why this may have behaved this way.</p>
 </div>
 
 ## IDs
 
-IDs add one more layer of complexity. On the surface, they look and behave a lot like our classes. IDs are really meant to only be used once. Classes can, and usually are, used mutliple time. Here's an example of an ID in action:
+IDs add one more layer of complexity. On the surface, they look and behave a lot like our classes. IDs are really meant to only be used once. Classes can, and usually are, used multiple times. Here's an example of an ID in action:
 
 ```html
 <div>
-  <p>Carrot cake cotton candy chocolate bar liquorice.</p>
-  <p class="cupcake">Cupcake I love candy canes lemon drops gummi bears.</p>
-  <p class="cupcake" id="best-cupcake">Cake icing cake dragée gummi bears.</p>
+  <p>Space is completely silent.</p>
+  <p class="space-fact">Nobody knows how many stars are in space.</p>
+  <p class="space-fact" id="nasa-suit-cost">A full NASA space suit costs $12,000,000.</p>
 </div>
 ```
 
 ```css
 p {
-  color: magenta;
+  color: darkred;
 }
 
-.cupcake {
-  color: cyan;
+.space-fact {
+  color: slategrey;
 }
 
-#best-cupcake {
-  color: darkslateblue;
+#nasa-suit-cost {
+  color: midnightblue;
 }
 ```
 
@@ -97,7 +97,7 @@ p {
   <p>Based on what you know about the syntax for rules for classes, what do you think the syntax for ids is?</p>
 </div>
 
-## The Most Helpful CSS Property
+## Borders
 
 You'll learn that there are many CSS properties out there that we can add to rules. You don't need to memorize the entire list; there are resources like [this](https://htmldog.com/references/css/properties/) which you can reference anytime you are coding. There are some common properties though, that you will find yourself using so often, that you know by heart.
 
@@ -105,8 +105,8 @@ One of the most helpful CSS properties to use while you are in the process of bu
 
 <div class="try-it">
   <h2>Try It: Borders</h2>
-  <p>Building off your CodePen from when we added colors, add the property/value <code class="try-it-code">border: 1px solid you-choose-the-color;</code> to each rule in your CSS file. This value looks a little different from most of those we've seen; there are 3 pieces of information. 1px refers to the thickness of the line on the border solid refers to a solid line, and the last thing is the color that you would like the border to be in.</p>
-  <p>How much space is the <code class="try-it-code">h1</code> taking up? Does this surprise you? What if you wanted to put an h1 or image to the right of it? (We will discuss this as a group; if you're not sure, it's ok!)</p>
+  <p>Building off your CodePen from when we added colors, add the property/value <code class="try-it-code">border: 1px solid you-choose-the-color;</code> to each rule in your CSS file. This value looks a little different from most of those we've seen; there are 3 pieces of information. 1px refers to the thickness of the line on the border, solid refers to a solid line, and the last thing is the color that you would like the border to be in.</p>
+  <p>How much space is the <code class="try-it-code">h1</code> taking up? Does this surprise you? What if you wanted to put an h2 or image to the right of it? (We will discuss this as a group; if you're not sure, it's ok!)</p>
   <p>Now, add the property/value <code class="try-it-code">border-radius: 10px;</code> to your <code class="try-it-code">div</code>. What happens?</p>
   <p>This may not be the most <i>visually appealing</i> site as of now... but don't worry, we are learning the foundations to make something really beautiful!</p>
 </div>
@@ -115,13 +115,36 @@ One of the most helpful CSS properties to use while you are in the process of bu
 
 Many times, the photos we bring in will not be the exact size we want it to be for our site. We can use the `width` and `height` properties to handle this.
 
-We will almost always want to preserve the ratio of the image, so we can give either a width or height, but usually don't give both. If you want to give both for some reason, you may need to apply the `object-fit` property. This might come in handy if you want to display a row of photos of the same height and width, but which all started off in various sizes.
+We will almost always want to preserve the ratio of the image, so we can give either a width or height. Once we set the width or height, the other dimension will be determined by the ratio of the original image.
+
+If you want to give both width and height for some reason, you may need to apply the `object-fit` property. This might come in handy if you want to display a row of photos of the same height and width, but which all started off in various sizes.
+
+Look at the two images of [Dr. Katie Bouman](https://www.youtube.com/watch?v=dhWPBY4IgRU) below, then look at the code that was used to style them:
+
+<img class="image-ratio" src="./assets/dr-katie-bouman.png" alt="Two photos, the one on the left has the correct ratio, the one on the right is squished">
+
+```html
+<img class="correct-ratio" src="./assets/dr-katie-bouman" alt="Dr. Katie Bouman">
+<img class="squished" src="./assets/dr-katie-bouman" alt="Dr. Katie Bouman">
+```
+
+```css
+img {
+  height: 300px;
+  width: 250px;
+}
+
+.correct-ratio {
+  object-fit: cover;
+}
+```
+
+The `object-fit` property on the `.correct-ratio` class fixed the distorted ratio for us. We did lose some of the photo (sides), but with most things, we want to maintain the original ratio.
 
 <div class="try-it">
   <h2>Try It: Sizing Images</h2>
   <p>Open up a new CodePen. Find 3 photos from <a href="">Pexels</a> and create image tags for each of them in the new CodePen. Get a mix of images that are vertical and horizontal.</p>
   <p>Style the photos so they appear to be the same size, and make sure they aren't squished!</p>
-  <p>What happens when you apply (or remove) the <code class="try-it-code">object-fit</code> property?</p>
 </div>
 
 ## Other Commonly Used Properties
@@ -140,7 +163,7 @@ Like we talked about earlier, there is a plethora of CSS properties available to
 <div class="practice">
   <h2>Practice: CSS Rules</h2>
   <p>Create a new CodePen for this set of practice.</p>
-  <p>Your job is to re-create the site in the screen shot below. You can choose your own cupcake image and lorem ipsum!</p>
+  <p>Your job is to re-create the site in the screen shot below. You can choose your own image and lorem ipsum! We should make a better-looking site to celebrate <a href="https://www.space.com/17169-mae-jemison-biography.html">Mae Jemison</a>, but she'd understand that we are just starting our CSS journey 😉</p>
   <p>This isn't obvious from looking at the screen shot, but push yourself to use classes and IDs when it feels appropriate. Use <a target="blank" href="https://htmldog.com/references/css/properties/">this</a> as a reference for syntax examples for each property!</p>
-  <img src="./assets/css-cupcake.png">
+  <img src="./assets/mae-jemison.png">
 </div>
