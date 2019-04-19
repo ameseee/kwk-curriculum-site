@@ -2,6 +2,7 @@
 
 ## HTML
 - [Intro to HTML]({{ site.url }}/web-app/lessons/intro-html)
+- [HTML with Atom]({{ site.url }}/web-app/lessons/html-atom)
 - [Chrome DevTools]()
 - HTML Forms
 
