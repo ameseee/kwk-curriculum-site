@@ -3,11 +3,11 @@
 ## HTML
 - [Intro to HTML]({{ site.url }}/web-app/lessons/intro-html)
 - [HTML with Atom]({{ site.url }}/web-app/lessons/html-atom)
-- [Chrome DevTools]()
 - HTML Forms
 
 ## CSS
 - [Intro to CSS]({{ site.url }}/web-app/lessons/intro-css)
+- [Box Model & Display]({{ site.url }}/web-app/lessons/box-model-display)
 - Responsive Design
 - Flex Box
 - Animations
