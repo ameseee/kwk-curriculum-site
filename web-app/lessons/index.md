@@ -1,4 +1,6 @@
-# Web Applications Lessons
+---
+title: Web Applications Lessons
+---
 
 ## HTML
 - [Intro to HTML]({{ site.url }}/web-app/lessons/intro-html)
