@@ -9,7 +9,7 @@
 - [Intro to CSS]({{ site.url }}/web-app/lessons/intro-css)
 - [Box Model & Display]({{ site.url }}/web-app/lessons/box-model-display)
 - [Flex Box]({{ site.url }}/web-app/lessons/flexbox)
-- Responsive Design
+- [Responsive Design]({{ site.url }}/web-app/lessons/responsive-design)
 - Animations
 
 ## JavaScript
