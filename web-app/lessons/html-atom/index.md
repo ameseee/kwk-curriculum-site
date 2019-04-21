@@ -87,19 +87,20 @@ There are a few steps we will need to take every time we get started on a projec
 
 <div class="try-it">
   <h2>Try It: Running HTML in the Broswer</h2>
-  <p>Write an HTML document in your <code class="try-it-code">index.js</code> file. Include a title in the head tag, and an <code class="try-it-code">h1</code> and a <code class="try-it-code">list</code> in the body.</p>
+  <p>Write an HTML document in your <code class="try-it-code">index.html</code> file. Include a title in the head tag, and an <code class="try-it-code">h1</code> and a <code class="try-it-code">list</code> in the body.</p>
   <p>Open your <code class="try-it-code">index.js</code> file in Chrome.</p>
 </div>
 
-## Linking Stylesheets
+## Linking Stylesheets & Google Fonts
 
 As you continue developing, you'll learn that computers don't make any assumptions; they sit around and wait for very specific directions. If we want styles from CSS to be applied to our HTML elements, we have to tell the computer which CSS styles go with which document. We do this using a `link` element inside of the `head` in the HTML document.
 
-<p class="to-do">Teacher model/Video: make a CSS file, see that it doesn't automatically work; link in HTML, the show that it now works</p>
+<p class="to-do">Teacher model/Video: make a CSS file, see that it doesn't automatically work; link in HTML, the show that it now works. Now add Google Font, apply to styles</p>
 
 <div class="try-it">
   <h2>Try It: Linking Stylesheets</h2>
   <p>Create a new file called <code class="try-it-code">styles.css</code> in your "html-in-atom" folder.</p>
   <p>Add a link tag in your HTML so your document knows about the stylesheet.</p>
   <p>Write a CSS rules on one of your elements, then check that the changes are reflected in the browser. You may need to refresh (<code class="try-it-code">cmd + r</code>) to see the changes.</p>
+  <p>Now, find a font on <a href="https://fonts.google.com/">Google Fonts</a>, add the link to your HTML, and apply that font with a CSS rule. Check that the changes are reflected in the browser!</p>
 </div>
