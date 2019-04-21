@@ -11,7 +11,6 @@
 - [Flex Box]({{ site.url }}/web-app/lessons/flexbox)
 - Responsive Design
 - Animations
-- Google Fonts
 
 ## JavaScript
 - Intro to JavaScript
