@@ -5,7 +5,7 @@ title: Web Applications Lessons
 ## HTML
 - [Intro to HTML]({{ site.url }}/web-app/lessons/intro-html)
 - [HTML with Atom]({{ site.url }}/web-app/lessons/html-atom)
-- [HTML Forms]({{ site.url }}/web-app/lesons/)
+- [HTML Forms]({{ site.url }}/web-app/lessons/html-forms)
 
 ## CSS
 - [Intro to CSS]({{ site.url }}/web-app/lessons/intro-css)
