@@ -8,6 +8,8 @@ title: Intro to JavaScript
 * User comparison operators to compare variables, strings, and numbers
 * Write and understand conditional logic
 
+**Note**: For this class, we will only be working in CodePen.
+
 ## Technical Vocabulary
 
 - variable
