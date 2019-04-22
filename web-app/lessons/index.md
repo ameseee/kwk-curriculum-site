@@ -15,7 +15,7 @@ title: Web Applications Lessons
 - Animations
 
 ## JavaScript
-- Intro to JavaScript
+- [Intro to JavaScript]({{ site.url }}/web-app/lessons/intro-to-js)
 - Logic with JavaScript
 - DOM Manipulation
 - localStorage
