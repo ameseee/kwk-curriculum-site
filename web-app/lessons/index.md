@@ -12,12 +12,12 @@ title: Web Applications Lessons
 - [Box Model & Display]({{ site.url }}/web-app/lessons/box-model-display)
 - [Flex Box]({{ site.url }}/web-app/lessons/flexbox)
 - [Responsive Design]({{ site.url }}/web-app/lessons/responsive-design)
-- [Animations]({{ site.url }}/web-app/lesons/)
+- [Animations]({{ site.url }}/web-app/lessons/animations)
 
 ## JavaScript
 - [Intro to JavaScript]({{ site.url }}/web-app/lessons/intro-to-js)
-- [Functions]({{ site.url }}/web-app/lesons/)
-- [DOM Manipulation]({{ site.url }}/web-app/lesons/)
+- [Functions]({{ site.url }}/web-app/lessons/functions)
+- [DOM Manipulation]({{ site.url }}/web-app/lessons/dom-manipulation)
 - localStorage
 
 ## Other
