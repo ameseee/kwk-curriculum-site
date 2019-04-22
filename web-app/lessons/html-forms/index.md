@@ -2,6 +2,20 @@
 title: HTML Forms
 ---
 
+## Learning Goals
+
+* Understand the structure of an HTML form
+* Create and style an HTML form
+
+## Technical Vocabulary
+
+- form
+- input
+- label
+- type
+
+## Forms
+
 So far, we’ve done an excellent job of displaying information to the user, but we haven’t really asked them for their input. HTML also includes a set of elements for building forms. Forms are an important part of a website. They allow users to send data to the web site. Most of the time that data is sent to the web server, but the web page can also intercept it to use it on its own.
 
 ## Form Basics: Inputs and Buttons
