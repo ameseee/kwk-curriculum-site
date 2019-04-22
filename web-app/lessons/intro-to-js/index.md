@@ -38,7 +38,8 @@ In order to experiment with strings, we’ll click on the console button in Code
 
 <div class="try-it">
   <h2>Try It: Strings</h2>
-  <p>In your CodePen console, type <code class="try-it-code">"your name".length</code>. (Instead of the words "your name", type your actual name).</p>
+  <p>In your CodePen console, type <code class="try-it-code">"your name"</code>.</p>
+  <p>Now, type <code class="try-it-code">"your name".length</code>. (Instead of the words "your name", type your actual name).</p>
   <p>What printed as the output? Check with your neighbor - did you get the same thing? What does <code class="try-it-code">.length</code> do?</p>
 </div>
 
@@ -129,7 +130,7 @@ As you can see from the last example above, we can also use parenthesis and the 
 
 ## Operators
 
-We can also compare values. The return value is not a **boolean**, true or false.
+We can also compare values. The return value is a **boolean**, true or false.
 
 ```js
 3 < 5
@@ -207,7 +208,7 @@ Do you have an account?
 Yes -> Please log in
 No -> Please create an account
 
-JavaScript, like most all languages, gives us a mechanism to ask those questions, and provide different outcomes based on the answer:
+JavaScript, like most all languages, gives us a mechanism to ask those questions and provide different outcomes based on the answer:
 
 ```js
 var queen = "Beyonce";
@@ -250,12 +251,12 @@ if (queen == "Beyonce") {
 
 <div class="try-it">
   <h2>Try It: Conditionals</h2>
-  <p>Create a variable named favoriteFood and assign it to a string of your favorite food.</p>
-  <p>Write an if statement comparing your favorite to 'Chipotle', which if evaluates to true, prints out a sentence (you choose!)</p>
+  <p>Create a variable named <code class="try-it-code">favoriteFood</code> and assign it to a string of your favorite food.</p>
+  <p>Write an if statement comparing your favorite to 'Chipotle', which if evaluated to true, prints out a sentence (you choose!)</p>
   <p>Write an else if statement comparing your favorite to 'Starbucks', which if evaluated to true, prints out a sentence (you choose!)</p>
   <p>Write another else if - you choose what you compare it to.</p>
   <p>Write an else statement that prints out a sentence of your choice.</p><br>
-  <p>Try changing your favoriteFood to Chipotle, then Starbucks (if it wasn't already). Do you get what you expected?</p>
+  <p>Try changing your <code class="try-it-code">favoriteFood</code> to Chipotle, then Starbucks (if it wasn't already). Do you get what you expected?</p>
 </div>
 
 ## JavaScript
@@ -264,5 +265,5 @@ JavaScript is pretty different from HTML and CSS. There is a lot more going on, 
 
 <div class="practice">
   <h2>Practice: JS Foundations</h2>
-  <p>Write a program that checks a string. It should say "even" if the number of characters in the text is even, and "odd" if the number of characters in the text is odd.</p>
+  <p>Write a program that checks a string. It should print to the console "even" if the number of characters in the text is even, and "odd" if the number of characters in the text is odd.</p>
 </div>
