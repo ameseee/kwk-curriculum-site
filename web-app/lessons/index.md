@@ -21,5 +21,5 @@ title: Web Applications Lessons
 - localStorage
 
 ## Other
-- Git and GitHub
+- [Git and GitHub]({{ site.url }}/web-app/lessons/git-github)
 - Terminal
