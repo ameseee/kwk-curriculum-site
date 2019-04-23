@@ -9,11 +9,13 @@ pre {
   border: 1px solid $green;
   margin-bottom: 40px;
   padding: 0.25em 1.5em;
+
   pre {
     border: 1px solid black;
     background-color: rgb(50, 50, 50);
     color: white;
   }
+
 }
 
 .practice {
@@ -32,4 +34,8 @@ pre {
   pre {
     white-space: pre-wrap;
   }
+}
+
+.codepen-embed-body {
+  margin-bottom: 40px;
 }

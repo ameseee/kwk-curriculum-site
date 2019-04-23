@@ -77,7 +77,8 @@ footer {
 
 .container {
   display: flex;
-
+  flex-direction: column;
+  
   min-height: 100vh;
   @media (max-width: $tablet-width) {
     flex-direction: column;
