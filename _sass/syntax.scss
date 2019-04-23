@@ -8,11 +8,13 @@ code {
 }
 
 .try-it-code {
-  background-color: lighten($green, 35);
+  background-color: #fff;
+  color: $green;
 }
 
 pre {
-  border: 1px solid #d6d6d6;
+  // border: 1px solid #d6d6d6;
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.15);
   padding: 0.5rem 0.8rem;
   margin-bottom: 1.5rem;
   font-family: monospace;

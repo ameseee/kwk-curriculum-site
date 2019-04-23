@@ -2,6 +2,7 @@
 $sidebar-color: rgb(245, 245, 245);
 
 .sidebar {
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.15);
 
   h2 {
     padding-left: 1em;
@@ -23,7 +24,6 @@ $sidebar-color: rgb(245, 245, 245);
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 2px solid $light-gray;
   background-color: #fff;
   padding: 0 3%;
 

@@ -5,8 +5,8 @@ pre {
 }
 
 .try-it {
-  background-color: lighten($green, 35);
-  border: 1px solid $green;
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.15);
+  border-top: 8px solid $green;
   margin-bottom: 40px;
   padding: 0.25em 1.5em;
 
@@ -19,9 +19,10 @@ pre {
 }
 
 .practice {
-  background-color: lighten($medium-gray, 35);
-  border: 1px solid $medium-gray;
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.15);
+  border-top: 8px solid $dark-gray;
   padding: 0.25em 1.5em;
+
   pre {
     border: 1px solid black;
     background-color: rgb(50, 50, 50);
