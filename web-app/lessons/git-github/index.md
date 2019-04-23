@@ -68,13 +68,13 @@ The git commands work similar in the terminal. When we work with a project on ou
 - `git commit -m "Message about your work"` - this commits your work to the project's history
 - `git status` - this gives you information about your project, tells you if you have any changes to add or commit
 
-Try It
-- cd into your responsive-design directory and run git init
-- run git status
-- git add and
-- run git status
-- commit
-- git status
+<div class="try-it">
+  <h2>Try It: Local Repository</h2>
+  <p>In your terminal, <code class="try-it-code">cd</code> into your "responsive-design" directory and run <code class="try-it-code">git init</code>.</p>
+  <p>Now, run <code class="try-it-code">git status</code> and read the output.</p>
+  <p>Run <code class="try-it-code">git add .</code>, then re-run <code class="try-it-code">git status</code> and read the output.</p>
+  <p>Run <code class="try-it-code">git commit -m "Initial commit"</code>, then re-run <code class="try-it-code">git status</code> and read the output.</p>
+</div>
 
 ## GitHub/Remote Repository
 
