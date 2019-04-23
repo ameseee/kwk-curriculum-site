@@ -67,7 +67,7 @@ The last line of the code snippet is what **calls** the function. If we have thi
 
 <div class="try-it">
   <h2>Try It: Declaring & Calling a Function</h2>
-  <p>Write a function called <code class="try-it-code">sayHello</code>. Write 2-4 <code class="try-it-code">console.log</code> statements in it, saying whatever you'd like.</p>
+  <p>Declare and call a function named <code class="try-it-code">sayHello</code>. Write 2-4 <code class="try-it-code">console.log</code> statements in it, saying whatever you'd like.</p>
   <p>Verify that it is running successfully by checking the console for the sentence.</p>
 </div>
 
@@ -124,7 +124,7 @@ We can also do some calculations. Let's say we want to set an expectation that t
 
 ```js
 function timeToWalk(numberOfDogs) {
-  totalMinutes = numberOfDogs * 15;
+  var totalMinutes = numberOfDogs * 15;
   console.log(`You should walk a total of ${totalMinutes} minutes.`);
 }
 ```
@@ -141,7 +141,7 @@ Up until now, inside our functions we've only called `console.log` on values - i
 
 ```js
 function timeToWalk(numberOfDogs) {
-  totalMinutes = numberOfDogs * 15;
+  var totalMinutes = numberOfDogs * 15;
   return totalMinutes;
 }
 ```
@@ -150,11 +150,11 @@ In this function, we are not calling `console.log`, so when we call it, we won't
 
 ```js
 function timeToWalk(numberOfDogs) {
-  totalMinutes = numberOfDogs * 15;
+  var totalMinutes = numberOfDogs * 15;
   return totalMinutes;
 }
 
-minutes = timeToWalk(3)
+var minutes = timeToWalk(3)
 console.log(`You should walk a total of ${minutes} minutes.`)
 //=>You should walk a total of 3 minutes.
 ```
