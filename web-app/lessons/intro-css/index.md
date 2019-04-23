@@ -33,8 +33,8 @@ In the example above, the browser will set the color of any text element inside 
 
 <div class="try-it">
   <h2>Try It: Add Some Color</h2>
-  <p>In your CodePen, write an <code class="try-it-code">h1</code> and two <code class="try-it-code">p</code> elements, nested inside of a <code class="try-it-code">div</code> in the HTML file. In the CSS file, change the colors of your <code class="try-it-code">h1</code> and <code class="try-it-code">p</code>. Find a list of colors to use <a target="blank" href="http://colours.neilorangepeel.com/">here</a>. Now, add a <code class="try-it-code">background-color</code> to your <code class="try-it-code">div</code>.</p>
-  <p>Finished Early? Do some google research on how to change the size of your text.</p>
+  <p>In your CodePen, write an <code class="try-it-code">h1</code> and <strong>two</strong> <code class="try-it-code">p</code> elements, nested inside of a <code class="try-it-code">div</code> in the HTML file. In the CSS file, change the colors of your <code class="try-it-code">h1</code> and <code class="try-it-code">p</code>. Find a list of colors to use <a target="blank" href="http://colours.neilorangepeel.com/">here</a>. Now, add a <code class="try-it-code">background-color</code> to your <code class="try-it-code">div</code>.</p>
+  <p>Finished Early? Do some google research on how to use hexadecimal codes instead of color names. For example, the hexadecimal code for white is #ffffff. See if you can implement these in your code!</p>
 </div>
 
 ## Classes
@@ -61,7 +61,7 @@ Notice the syntax - when we were just targeting an `h2` element, we would just t
 
 <div class="try-it">
   <h2>Try It: Add Classes</h2>
-  <p>In your CodePen, apply a class to your div, and change your CSS to target the class instead of the <code class="try-it-code">div</code> element. Then, apply that same class to <strong>one</strong> of your paragraph elements.</p>
+  <p>In your CodePen, apply a class to your <code class="try-it-code">h1</code> and change your CSS to target the class instead of the <code class="try-it-code">h1</code> element. Then, apply that same class to <strong>one</strong> of your paragraph elements.</p>
   <p>What happened to the paragraphs? Is that what you expected? Talk with your partner about why this may have behaved this way.</p>
 </div>
 
@@ -94,7 +94,7 @@ p {
 <div class="try-it">
   <h2>Turn & Talk</h2>
   <p>Looking at the HTML and CSS above, what color do you predict each paragraph will appear?</p>
-  <p>Based on what you know about the syntax for rules for classes, what do you think the syntax for ids is?</p>
+  <p>Based on what you know about the syntax for rules for classes, what do you think the syntax for IDs is?</p>
 </div>
 
 ## Borders
@@ -143,7 +143,7 @@ The `object-fit` property on the `.correct-ratio` class fixed the distorted rati
 
 <div class="try-it">
   <h2>Try It: Sizing Images</h2>
-  <p>Open up a new CodePen. Find 3 photos from <a href="">Pexels</a> and create image tags for each of them in the new CodePen. Get a mix of images that are vertical and horizontal.</p>
+  <p>Open up a new CodePen. Find 3 photos from <a href="https://www.pexels.com/">Pexels</a> and create image tags for each of them in the new CodePen. Get a mix of images that are vertical and horizontal.</p>
   <p>Style the photos so they appear to be the same size, and make sure they aren't squished!</p>
 </div>
 
