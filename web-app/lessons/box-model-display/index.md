@@ -211,6 +211,6 @@ It's important to note that all of these elements will behave just live a `div`,
   <h2>Practice: Box Model & Display</h2>
   <p>Create a new folder called "box-model-practice" and an HTML and CSS file inside of it.</p>
   <p>We are going to create a social-media-profile-like card. Your goal is to recreate the image below, but you should feel free to choose the content for the picture/name/quote you use.</p>
-  <p>Pro-Top: Don't forget to use border as a tool to identify what element is where, and what space it's taking up. The focus of this practice is using <code>margin/padding</code> to create white space, and your knowledge about inline/block elements to control the display of elements. You'll need to use <code>width</code> and <code>border-radius</code> as well😉.</p>
+  <p>Pro-Tip: Don't forget to use border as a tool to identify what element is where, and what space it's taking up. The focus of this practice is using <code>margin/padding</code> to create white space, and your knowledge about inline/block elements to control the display of elements. You'll need to use <code>width</code> and <code>border-radius</code> as well😉.</p>
   <img src="./assets/practice.png" alt="Practice assignment">
 </div>
