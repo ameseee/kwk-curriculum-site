@@ -40,7 +40,7 @@ Open up your browser to this lesson. Then, click `cmd + option + i` _or_ right-c
   <p>You can have your dev tools on the bottom or either side of the window. Most people keep it at the bottom. If you'd like to change where the dev tools are, click the three-dot icon in the top right of the tools, then select one of the other "Dock side" options.</p>
   <p>You can also control how much of the page the dev tools take up. Developers usually change this while working - sometimes you'll need to see more of the page, sometimes you'll want more space for the tools. Make sure you know how to expand and compact the dev tools!</p>
   <p>Lastly, you can view your dev tools in dark mode or light mode. They usually default to light mode. If you'd like to change, click the three-dot icon in the top right of the tools, then select settings. Under Preferences, then Appearances, you'll see a drop-down for Theme. It's not recommended that you make any other changes on this page.</p>
-  <p>Pro-Tip: You can leave the dev tools by clicking the <code class="try-it-code">x</code> in the top right corner _or_ by using the same shortcut to open them, <code class="try-it-code">cmd + option + i.</code></p>
+  <p>Pro-Tip: You can leave the dev tools by clicking the <code class="try-it-code">x</code> in the top right corner <em>or</em> by using the same shortcut to open them, <code class="try-it-code">cmd + option + i.</code></p>
 </div>
 
 Let's practice our dev tool skills by exploring a live site! Either watch this video, or watch your instructor model some of the awesome features of the dev tools!
@@ -77,7 +77,7 @@ There are a few steps we will need to take every time we get started on a projec
 <iframe width="100%" height="560" frameborder="0" scrolling="no" src="https://screencast-o-matic.com/embed?sc=cqf0oiZwHp&v=5&ff=1" allowfullscreen="true"></iframe>
 
 <div class="try-it">
-  <h2>Try It: Running HTML in the Broswer</h2>
+  <h2>Try It: Running HTML in the Browser</h2>
   <p>Write an HTML document in your <code class="try-it-code">index.html</code> file. Include a title in the head tag, and an <code class="try-it-code">h1</code> and a <code class="try-it-code">list</code> in the body.</p>
   <p>Open your <code class="try-it-code">index.js</code> file in Chrome.</p>
 </div>
