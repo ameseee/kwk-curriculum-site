@@ -21,7 +21,7 @@ title: Intro to CSS
 
 CSS stands for Cascading Style Sheets. It is a language that allows us to add styles to HTML documents on the web. It’s incredibly powerful!
 
-Take a few minutes to check out the [CSS Zen Garden](http://www.csszengarden.com/). You'll notice that all of the sites here are created with the exact same HTML document; they were just styled differently with CSS.
+Take a few minutes to check out the <a target="blank" href="http://www.csszengarden.com">CSS Zen Garden</a>. You'll notice that all of the sites here are created with the exact same HTML document; they were just styled differently with CSS.
 
 ## Styling Elements
 
@@ -99,7 +99,7 @@ p {
 
 ## Borders
 
-You'll learn that there are many CSS properties out there that we can add to rules. You don't need to memorize the entire list; there are resources like [this](https://htmldog.com/references/css/properties/) which you can reference anytime you are coding. There are some common properties though, that you will find yourself using so often, that you know by heart.
+You'll learn that there are many CSS properties out there that we can add to rules. You don't need to memorize the entire list; there are resources like <a target="blank" href="https://htmldog.com/references/css/properties/">this</a> which you can reference anytime you are coding. There are some common properties though, that you will find yourself using so often, that you know by heart.
 
 One of the most helpful CSS properties to use while you are in the process of building a page is `border`. We will get into formatting in the next lesson, but the `border` property really helps you see what space a given element is taking up on the page. It also is sometimes something you want to add!
 
@@ -119,7 +119,7 @@ We will almost always want to preserve the ratio of the image, so we can give ei
 
 If you want to give both width and height for some reason, you may need to apply the `object-fit` property. This might come in handy if you want to display a row of photos of the same height and width, but which all started off in various sizes.
 
-Look at the two images of [Dr. Katie Bouman](https://www.youtube.com/watch?v=dhWPBY4IgRU) below, then look at the code that was used to style them:
+Look at the two images of <a target="blank" href="https://www.youtube.com/watch?v=dhWPBY4IgRU">Dr. Katie Bouman</a> below, then look at the code that was used to style them:
 
 <img class="image-ratio" src="./assets/dr-katie-bouman.png" alt="Two photos, the one on the left has the correct ratio, the one on the right is squished">
 
@@ -143,7 +143,7 @@ The `object-fit` property on the `.correct-ratio` class fixed the distorted rati
 
 <div class="try-it">
   <h2>Try It: Sizing Images</h2>
-  <p>Open up a new CodePen. Find 3 photos from <a href="https://www.pexels.com/">Pexels</a> and create image tags for each of them in the new CodePen. Get a mix of images that are vertical and horizontal.</p>
+  <p>Open up a new CodePen. Find 3 photos from <a target="blank" href="https://www.pexels.com/">Pexels</a> and create image tags for each of them in the new CodePen. Get a mix of images that are vertical and horizontal.</p>
   <p>Style the photos so they appear to be the same size, and make sure they aren't squished!</p>
 </div>
 
@@ -163,7 +163,7 @@ Like we talked about earlier, there is a plethora of CSS properties available to
 <div class="practice">
   <h2>Practice: CSS Rules</h2>
   <p>Create a new CodePen for this set of practice.</p>
-  <p>Your job is to re-create the site in the screen shot below. You can choose your own image and lorem ipsum! We should make a better-looking site to celebrate <a href="https://www.space.com/17169-mae-jemison-biography.html">Mae Jemison</a>, but she'd understand that we are just starting our CSS journey 😉</p>
+  <p>Your job is to re-create the site in the screen shot below. You can choose your own image and lorem ipsum! We should make a better-looking site to celebrate <a target="blank" href="https://www.space.com/17169-mae-jemison-biography.html">Mae Jemison</a>, but she'd understand that we are just starting our CSS journey 😉</p>
   <p>This isn't obvious from looking at the screen shot, but push yourself to use classes and IDs when it feels appropriate. Use <a target="blank" href="https://htmldog.com/references/css/properties/">this</a> as a reference for syntax examples for each property!</p>
   <img src="./assets/mae-jemison.png">
 </div>

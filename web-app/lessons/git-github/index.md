@@ -80,7 +80,7 @@ Try It
 
 GitHub is the cloud version of Git. Even though you committed your work, only your computer knows about it. When code is shared on GitHub, you can share it with other developers, or access it from your computer at home. If you've ever used Microsoft Word - Word is like Git, and GoogleDogs is like GitHub. When our work is on GitHub, it's called a **remote** repository.
 
-Go to [GitHub]() and create an account.
+Go to <a target="blank" href="https://github.com/">GitHub</a> and create an account.
 
 When you are logged in to your account, click the plus sign at the top right corner of the page, and select "New repository". In the repository name field, type in "responsive-design". Click "Create repository".
 

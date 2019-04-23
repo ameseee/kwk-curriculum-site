@@ -22,7 +22,7 @@ When you hover over elements in the browser when you are in inspect mode, you ma
 
 Each element is a rectangular box. CSS leverages the **box model** to control layout and design. An HTML element is made up of its content and the padding, border, and margins surrounding it.
 
-Up until now, we haven't used CSS to create space or "breathing room" between elements. Let's look at Michelle Obama's [twitter account](https://twitter.com/MichelleObama) for some examples:
+Up until now, we haven't used CSS to create space or "breathing room" between elements. Let's look at Michelle Obama's <a target="blank" href="https://twitter.com/MichelleObama">twitter account</a> for some examples:
 
 <img class="small" src="./assets/michelle-twitter.png" alt="Michelle Obama's Twitter Profile card">
 
@@ -125,7 +125,7 @@ Either as a class or own your own, add some CSS rules so that the content of thi
 
 ### Default Browser Behavior
 
-One thing to note - you may have noticed that the browser provides some "built-in" margin and padding, just like it makes out `h1` elements larger and bolder than content in a `p` element. The browser does this to be helpful to developers who aren't going to use any CSS (think <a href="https://denver.craigslist.org/">Craigslist</a>), but it can become bothersome for developers like us, who really want to customize the look and feel of our pages. So, at the top of every CSS file we write from here on out, we should include the following rule at the top of the page:
+One thing to note - you may have noticed that the browser provides some "built-in" margin and padding, just like it makes out `h1` elements larger and bolder than content in a `p` element. The browser does this to be helpful to developers who aren't going to use any CSS (think <a target="blank" href="https://denver.craigslist.org/">Craigslist</a>), but it can become bothersome for developers like us, who really want to customize the look and feel of our pages. So, at the top of every CSS file we write from here on out, we should include the following rule at the top of the page:
 
 ```css
 * {

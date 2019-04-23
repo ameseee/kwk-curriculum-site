@@ -51,7 +51,7 @@ In the code above, we now have these `h2` elements nested inside of the `article
 
 <img class="small" src="./assets/parent-container.svg" alt="">
 <img class="small" src="./assets/child-item.svg" alt="">
-(Graphics from [CSS Tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/))
+(Graphics from <a target="blank" href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/" >CSS Tricks</a>)
 
 ## Creating a Flex Container
 

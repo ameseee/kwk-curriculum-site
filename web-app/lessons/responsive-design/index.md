@@ -52,7 +52,7 @@ With the code above, when the screen it full sized, it will have a lime backgrou
 - If you don't give a property a new value, the old one stays. In the code above, the background changes, but the color of the `h1` remains lime
 - You get to choose the breakpoints (max-width). There are two things to keep in ming when you decide where to create breakpoints: 1) When you squish your app, when does it start looking bad? 2) What are the widths of commonly used devices?
 
-**NOTE:** Before we write any queries, you’ll want to add a viewport meta tag in the head of your main html file (which is often named index.html). This tag will make sure that our site works on devices. The viewport meta tag gives the browser instructions on how to control the pages dimensions and sets the width of the page based on the screen width of the device it is being viewed on. Magic! If you want to learn more, Mozilla has an [article](https://developer.mozilla.org/en-US/docs/Mozilla/Mobile/Viewport_meta_tag) that’s full of good information.
+**NOTE:** Before we write any queries, you’ll want to add a viewport meta tag in the head of your main html file (which is often named index.html). This tag will make sure that our site works on devices. The viewport meta tag gives the browser instructions on how to control the pages dimensions and sets the width of the page based on the screen width of the device it is being viewed on. Magic! If you want to learn more, Mozilla has an <a href="https://developer.mozilla.org/en-US/docs/Mozilla/Mobile/Viewport_meta_tag">article</a> that’s full of good information.
 
 Here is what the tag would look like:
 
@@ -71,7 +71,7 @@ Here is what the tag would look like:
 
 Now that we know the syntax to create media queries, we are going to dig into making some bigger changes than just color.
 
-Visit [Liquidapsive](http://www.liquidapsive.com/) and select the `static` option from the dropdown, then drag the window in - what happens? Now, select the `responsive` option and do the same thing.
+Visit <a target="blank" href="http://www.liquidapsive.com/ ">Liquidapsive</a> and select the `static` option from the dropdown, then drag the window in - what happens? Now, select the `responsive` option and do the same thing.
 
 At about 1050px, the blue section on the right pops under the green section, and each card in the blue section is organized differently and now has an image. At about 790px, the yellow sections pops on top of the green section.
 
@@ -79,7 +79,7 @@ The tricky thing about layout and responsive design is, we can't just think abou
 
 <div class="try-it">
   <h2>Try It: Layout</h2>
-  <p>Create a new folder called "responsive-design", and inside of it, an HTML and CSS file. Copy and paste the code from this <a href="https://codepen.io/turing-kwk/pen/bJKzvB?editors=1100">CodePen</a> into Atom.</p>
+  <p>Create a new folder called "responsive-design", and inside of it, an HTML and CSS file. Copy and paste the code from this <a target="blank" href="https://codepen.io/turing-kwk/pen/bJKzvB?editors=1100">CodePen</a> into Atom.</p>
   <p>Now, write media queries for 1 breakpoint at 900px. At 900px, the site should change so all four containers are stacked on top of each other. Each should have a little breathing room around it as well.</p>
 </div>
 
@@ -89,7 +89,7 @@ Just like we've been building every piece we know about HTML and CSS, this will 
 
 <div class="practice">
   <h2>Practice: Layout</h2>
-  <p>In your "responsive-design" folder, create a new HTML and new CSS file. Copy and paste the code from this <a href="https://codepen.io/turing-kwk/pen/bJKzvB?editors=1100">CodePen</a> into Atom.</p>
+  <p>In your "responsive-design" folder, create a new HTML and new CSS file. Copy and paste the code from this <a target="blank" href="https://codepen.io/turing-kwk/pen/bJKzvB?editors=1100">CodePen</a> into Atom.</p>
   <p>Now, write media queries for 2 breakpoint at 900px. The three layouts you're working towards are pictured below:</p>
   <img src="./assets/full-screen.png" alt="Full screen view">
   <img src="./assets/ipad-screen.png" alt="iPad screen view">

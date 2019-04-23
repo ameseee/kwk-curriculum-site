@@ -22,7 +22,7 @@ So far, we’ve done an excellent job of displaying information to the user, but
 
 There is a lot to forms that we’ll go more into depth with in a moment, but to start we’ll focus on two elements:
 
-- `<input>` creates an input field. `<input>` is like `<img>` in that it does not require or support a closing tag. It can take an optional type attribute that helps validate user input in some browsers (click [here](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input) to find out more).
+- `<input>` creates an input field. `<input>` is like `<img>` in that it does not require or support a closing tag. It can take an optional type attribute that helps validate user input in some browsers (click <a target="blank" href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input">here</a>) to find out more).
 - `<button>` creates a button. `<button>` on the other hand does support a closing tag.
 
 <p class="codepen" data-height="300" data-theme-id="36709" data-default-tab="html,result" data-user="turing-kwk" data-slug-hash="qwyyqe" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid black; margin: 1em 0; padding: 1em;" data-pen-title="Check It Out: Inputs and Buttons">
@@ -64,7 +64,7 @@ Most often, we ask users for text. If they are registering for an event like cam
 <div class="try-it">
   <h2>Try It: HTML Forms</h2>
   <p>In a new CodePen, create an HTML with at least 4 inputs. (Your submit button can count as an input.)</p>
-  <p>Finished early? Check out other types of input you have available with HTML <a href="https://www.w3schools.com/html/html_form_input_types.asp">here</a>. Also, check out the <code class="try-it-code">textarea</code> element.</p>
+  <p>Finished early? Check out other types of input you have available with HTML <a target="blank" href="https://www.w3schools.com/html/html_form_input_types.asp">here</a>. Also, check out the <code class="try-it-code">textarea</code> element.</p>
 </div>
 
 ## Styling Forms
@@ -83,6 +83,6 @@ On the other hand, this doesn't quiet yet look like a professional form. Wrappin
 
 <div class="try-it">
   <h2>Try It: Styling Forms</h2>
-  <p>Find some inspiration. Go to one of your favorite websites and find a form that you want to recreate. Need some help with ideas? Look at <a href="https://app.pairin.com/">Pairin</a>, <a href="https://github.com/">GitHub</a> (you'll have to logout), or <a href="https://www.codecademy.com/login">Codecademy</a>.</p>
+  <p>Find some inspiration. Go to one of your favorite websites and find a form that you want to recreate. Need some help with ideas? Look at <a target="blank" href="https://app.pairin.com/">Pairin</a>, <a target="blank" href="https://github.com/">GitHub</a> (you'll have to logout), or <a target="blank" href="https://www.codecademy.com/login">Codecademy</a>.</p>
   <p>While your form won't <em>do</em> anything yet, we can style it up to look just as good as a professional site. In the next lesson, we'll dig into that functionality!</p>
 </div>

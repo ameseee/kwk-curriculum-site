@@ -20,7 +20,7 @@ title: Intro to JavaScript
 
 ## What is JavaScript?
 
-JavaScript is the language of the internet. It is commonly confused with [Java](https://www.seguetech.com/java-vs-javascript-difference/), but they are two very different languages. As of now, we can build very good looking sites, but they don't _do_ much. JavaScript is what allows our pages to be dynamic - show your name in the top corner to indicate you are signed in, change information on the screen based on what you type in a form, etc.
+JavaScript is the language of the internet. It is commonly confused with <a target="blank" href="https://www.seguetech.com/java-vs-javascript-difference/">Java</a>, but they are two very different languages. As of now, we can build very good looking sites, but they don't _do_ much. JavaScript is what allows our pages to be dynamic - show your name in the top corner to indicate you are signed in, change information on the screen based on what you type in a form, etc.
 
 If we compare a web app to a human body, we can think of HTML as a skeleton, CSS as clothes and accessories, and JavaScript as the muscle.
 
