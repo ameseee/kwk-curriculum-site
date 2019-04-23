@@ -43,18 +43,9 @@ Open up your browser to this lesson. Then, click `cmd + option + i` _or_ right-c
   <p>Pro-Tip: You can leave the dev tools by clicking the <code class="try-it-code">x</code> in the top right corner _or_ by using the same shortcut to open them, <code class="try-it-code">cmd + option + i.</code></p>
 </div>
 
-Let's practice our dev tool skills by exploring a live site!
+Let's practice our dev tool skills by exploring a live site! Either watch this video, or watch your instructor model some of the awesome features of the dev tools!
 
-Go to `www.kodewithklossy.com` and open your dev tools. Make sure that the "Elements" tab is selected. "Elements" is referring to the HTML elements that make up this page!
-<p class="to-do">Change ^^ KWK to EL site.</p>
-
-You can toggle the arrow button in the top left corner of the dev tools. When it is highlighted blue, it is in select/inspect mode. Click it, then move your mouse over the site. You'll notice different sections of the page get highlighted in various colors. Click the button again, move your mouse over the page, and it's back to normal. This will be a tool we use a lot.
-
-<img src="./assets/dev-tools-select.png" alt="arrow to toggle selection for dev tools">
-
-Either watch this video, or watch your instructor model some of the awesome features of the dev tools!
-
-<p class="to-do">Make a video for teachers and tell them to model here. They should use dev tools to select an item and read the HTML. They should discuss classes/IDs on elements. They should show how the classes and IDs are denoted and color-coded when you hover over an element. They should show how you can use cmd++ to zoom in or cmd+- to zoom out. They should show changing content inside the tags and seeing it reflect in browser. They should warn that if you refresh, all your changes disappear. Maybe even make the video student-facing so it's here as a resource???</p>
+<iframe width="100%" height="560" frameborder="0" scrolling="no" src="https://screencast-o-matic.com/embed?sc=cqf0IAZwgs&v=5&ff=1" allowfullscreen="true"></iframe>
 
 <div class="try-it">
   <h2>Try It: Dev Tools</h2>
@@ -83,7 +74,7 @@ Let's go ahead and create an HTML file and open in Atom.
 
 There are a few steps we will need to take every time we get started on a project. Watch the video, or your instructor, walk through them.
 
-<p class="to-do">teacher model/walk through together/video on basic HTML set up with an H1, then using finder to click open index.html, seeing in browser.//Adding a title in the head element//adding some more content</p>
+<iframe width="100%" height="560" frameborder="0" scrolling="no" src="https://screencast-o-matic.com/embed?sc=cqf0oiZwHp&v=5&ff=1" allowfullscreen="true"></iframe>
 
 <div class="try-it">
   <h2>Try It: Running HTML in the Broswer</h2>
@@ -95,7 +86,7 @@ There are a few steps we will need to take every time we get started on a projec
 
 As you continue developing, you'll learn that computers don't make any assumptions; they sit around and wait for very specific directions. If we want styles from CSS to be applied to our HTML elements, we have to tell the computer which CSS styles go with which document. We do this using a `link` element inside of the `head` in the HTML document.
 
-<p class="to-do">Teacher model/Video: make a CSS file, see that it doesn't automatically work; link in HTML, the show that it now works. Now add Google Font, apply to styles</p>
+<iframe width="100%" height="560" frameborder="0" scrolling="no" src="https://screencast-o-matic.com/embed?sc=cqf02iZwCv&v=5&ff=1" allowfullscreen="true"></iframe>
 
 <div class="try-it">
   <h2>Try It: Linking Stylesheets</h2>
