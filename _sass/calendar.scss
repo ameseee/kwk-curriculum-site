@@ -1,0 +1,42 @@
+.week-card {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  padding: 10px 5px;
+  background: $green;
+  margin-bottom: 35px;
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.15);
+
+  h2, h3 {
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+  h2 {
+    margin-left: 5px;
+    color: #fff;
+  }
+
+  ul {
+    padding-left: 0;
+  }
+
+  li {
+    list-style-type: none;
+    font-size: 93%;
+  }
+}
+
+.day-cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.day-card {
+  padding: 10px;
+  width: 175px;
+  background: white;
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.15);
+  border-radius: 2px;
+}
