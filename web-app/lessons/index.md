@@ -22,4 +22,4 @@ title: Web Applications Lessons
 
 ## Other
 - [Git and GitHub]({{ site.url }}/web-app/lessons/git-github)
-- Terminal
+- [Videos]({{ site.url }}/web-app/lessons/videos)

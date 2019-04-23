@@ -23,3 +23,6 @@
 ## Xcode
 - Intro to Xcode
 - Sideloading
+
+## Tutorials
+- [Videos]({{ site.url }}/swift-ios/lessons/videos)
