@@ -73,6 +73,13 @@ In order for our site to respond to events, we need to write some code that so t
 
 This CodePen has an example of the syntax. Click "Edit on CodePen" to open it in the browser. Make sure to open the console in CodePen, then click the button. Click it again.
 
+<p class="codepen" data-height="300" data-theme-id="36709" data-default-tab="js,result" data-user="turing-kwk" data-slug-hash="VNGRRv" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid black; margin: 1em 0; padding: 1em;" data-pen-title="Check It Out: Event Listeners">
+  <span>See the Pen <a href="https://codepen.io/turing-kwk/pen/VNGRRv/">
+  Check It Out: Event Listeners</a> by Turing KWK (<a href="https://codepen.io/turing-kwk">@turing-kwk</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+
 <div class="try-it">
   <h2>Turn & Talk</h2>
   <p>With your partner, read through each line of the JavaScript file in the CodePen. Lines 1 and 5 should be somewhat familiar; but line 3 is brand-new. What is your prediction about what each part of the code is doing?</p>
@@ -107,6 +114,30 @@ You've seen some examples of DOM Manipulation and it's probably starting to make
   <p>Now, update your JavaScript so that when the button is clicked, the text in the <code class="try-it-code">h1</code> changes to something that it wasn't originally.</p>
   <p>Lastly, add something to your event handler that changes the styles of something on your site.</p>
 </div>
+
+
+## Inputs
+
+Now we know how to write HTML forms, let's make them functional! Usually, the flow of interactions is as follows:
+- User types in information
+- User clicks a button
+- User gets some sort of response
+
+To make this happen, we will have to write code that:
+- Listens for the button click
+- Gets the information that user typed in
+- Use that information in a message/response
+
+Check out the CodePen below to see what that looks like in JavaScript:
+
+<p class="codepen" data-height="300" data-theme-id="36709" data-default-tab="css,result" data-user="turing-kwk" data-slug-hash="YMOMgE" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid black; margin: 1em 0; padding: 1em;" data-pen-title="Check It Out: Forms with JS">
+  <span>See the Pen <a href="https://codepen.io/turing-kwk/pen/YMOMgE/">
+  Check It Out: Forms with JS</a> by Turing KWK (<a href="https://codepen.io/turing-kwk">@turing-kwk</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+
+What was the line of code that allowed us to access the information the user typed in? What's new to us about this line of code? Note: the location of this is very important; it must be _inside_ the event handler.
 
 Take some time to put together everything we've learned today and complete the practice below.
 
