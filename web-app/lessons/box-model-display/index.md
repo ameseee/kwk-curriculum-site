@@ -121,6 +121,7 @@ Either as a class or own your own, add some CSS rules so that the content of thi
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+<br>
 
 ### Default Browser Behavior
 

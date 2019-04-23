@@ -79,6 +79,7 @@ This CodePen has an example of the syntax. Click "Edit on CodePen" to open it in
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+<br>
 
 <div class="try-it">
   <h2>Turn & Talk</h2>
@@ -102,6 +103,7 @@ Check this out:
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+<br>
 
 Why does the button go back and forth between pink and purple? Try changing `toggle` to `add` - what happens? What happens when you change it to `remove`? Why?
 
@@ -136,6 +138,7 @@ Check out the CodePen below to see what that looks like in JavaScript:
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+<br>
 
 What was the line of code that allowed us to access the information the user typed in? What's new to us about this line of code? Note: the location of this is very important; it must be _inside_ the event handler.
 

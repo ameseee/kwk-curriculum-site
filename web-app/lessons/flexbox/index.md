@@ -63,6 +63,7 @@ Without Flexbox, 10 colorful `article`s might look like this:
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+<br>
 
 But with Flexbox, we can start, having some control over them:
 
@@ -72,6 +73,7 @@ But with Flexbox, we can start, having some control over them:
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+<br>
 
 <div class="try-it">
   <h2>Turn & Talk</h2>
@@ -91,6 +93,7 @@ We can apply a width to each item. If all items can fit in the container at that
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+<br>
 
 ## Justify Content
 
@@ -102,6 +105,7 @@ In professional apps, we typically see white space (margin or padding) used, and
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+<br>
 
 But the items are still all crunched together, they might need some breathing room too.
 
@@ -124,6 +128,7 @@ Just like we can control how our content sits _horizontally_ with `justify-conte
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+<br>
 
 ## Direction
 
@@ -156,6 +161,7 @@ Now, sometimes we don't want _all_ our items on the same row or column. We can u
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+<br>
 
 ## Flexbox
 

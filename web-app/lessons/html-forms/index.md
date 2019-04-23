@@ -31,6 +31,7 @@ There is a lot to forms that we’ll go more into depth with in a moment, but to
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+<br>
 
 ## Forms: Next Level
 
@@ -49,6 +50,7 @@ As you look at the code for forms, you will notice quite a bit of nesting; this 
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+<br>
 
 ## What can you do within a form?
 
@@ -75,6 +77,7 @@ These forms have all the right components, but don't look very professional. Bec
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+<br>
 
 On the other hand, this doesn't quiet yet look like a professional form. Wrapping the `<input>` inside the label is something you may or may not want to do - it makes it harder to line up the start of the input fields.  
 
