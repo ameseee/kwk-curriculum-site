@@ -167,6 +167,8 @@ We have some other helpful operators that may be newer to you. Look at each snip
 //=> 1
 ```
 
+The modulo operator is a helpful tool to determine if numbers are even or odd. Learn more <a target="blank" href="https://css-tricks.com/snippets/javascript/check-if-number-is-evenodd/">here</a>!
+
 We can also use math on variables, if those variables hold numbers.
 
 ```js
