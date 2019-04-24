@@ -233,8 +233,8 @@ If I wanted to make a list of all the dogs in my apartment building, I should us
 If I wanted to make a list of all the dogs in my apartment building and their birthday so that we can throw a party for each of them, I should use an object. There is an associative relationship between each dog and it’s birthday.
 
 <div class="try-it">
-  <h2>Try It: Array or Dictionary?</h2>
-  <p>For each set of data, would an array or dictionary be better to store it? Why?</p>
+  <h2>Try It: Array or Object?</h2>
+  <p>For each set of data, would an array or object be better to store it? Why?</p>
   <ul>
     <li>List of all of the students in class</li>
     <li>List of states and their capitals</li>
@@ -295,16 +295,16 @@ Arrays and objects are both types of collections with different purposes and use
     <li>Create an array of your top five favorite hobbies</li>
     <li>Change at least one of the values in the array</li>
     <li>Add a new hobby to the array</li>
-    <li>Remove the second hobby from the array</li>
+    <li>Remove the last hobby from the array</li>
     <li>Print the value of the third element of the array</li>
-    <li>You should have five hobbies in your array. Using a for-in loop and string interpolation, iterate over the values in your array in order to print five strings that say "I love ______!"</li>
+    <li>You should have five hobbies in your array. Using a for loop and string interpolation, iterate over the values in your array in order to print five strings that say "I love ______!"</li>
   </ul>
 
   <h2>Practice: Objects</h2>
   <p>Create an object with keys that are family or friend titles (i.e. "sister", "bestFriend") and values that are the name of that family member or friend. Pets are family, too!</p>
   <ul>
     <li>Aim to have at least 6 family members of friends in your 'tree'</li>
-    <li>Print to the console the entire dictionary</li>
+    <li>Print to the console the entire object</li>
     <li>Print to the console 3 individual names</li>
   </ul>
 </div>
