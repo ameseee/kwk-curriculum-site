@@ -1,9 +1,11 @@
-# Conditionals
+---
+title: Conditionals
+---
 
 ## Learning Goals
 
-* Students will use if/else if statements to control flow of an application
 * Students will use comparison operators
+* Students will use if/else if statements to control flow of an application
 
 ## Technical Vocabulary
 
@@ -27,9 +29,9 @@ In life, we make decisions based on our current situation:
 
 We do the same thing in programming:
 * If a user is signed in, they see their account
-* If no one is signed in, the user is prompted to do so
+* If a user is not signed in, they are prompted to do so
 
-The idea of an application doing different things, going in different directions based on what the user wants is called *flow control*. It's a very important concept because it is constantly being used - no matter what language you work in!
+The idea of an application doing different things, going in different directions based on what the user wants is called *flow control*. It's a very important concept because it is constantly being used, no matter what language you work in!
 
 ### Comparison Operators
 
@@ -45,22 +47,22 @@ You have seen < and > in math class, right? We use those in code, too!
   <h2>Try It: Comparison Operators</h2>
   <p>In a Swift Playground, see what returns when you run each of the following comparisons:</p>
 
-  <code>5 < 3</code><br>
-  <code>12 > 7</code><br>
-  <code>6 != 8</code><br>
-  <code>7 == "7"</code><br><br>
-  <code>"puppy" == "puppy"</code><br>
-  <code>"puppy" == " puppy"</code><br>
-  <code>"Puppy" == "puppy"</code><br><br>
+  <code class="try-it-code>5 < 3</code><br>
+  <code class="try-it-code>12 > 7</code><br>
+  <code class="try-it-code>6 != 8</code><br>
+  <code class="try-it-code>7 == "7"</code><br><br>
+  <code class="try-it-code>"puppy" == "puppy"</code><br>
+  <code class="try-it-code>"puppy" == " puppy"</code><br>
+  <code class="try-it-code>"Puppy" == "puppy"</code><br><br>
 
-  <code>var luckyNum = 7</code><br>
-  <code>luckyNum < 10</code><br>
-  <code>luckyNum == 7</code><br><br>
+  <code class="try-it-code>var luckyNum = 7</code><br>
+  <code class="try-it-code>luckyNum < 10</code><br>
+  <code class="try-it-code>luckyNum == 7</code><br><br>
 </div>
 
 ## `if` Syntax
 
-Now that we know how to compare things, we can tell our program to take a different path based on what a certain variable may or may not be! We use this by writing an `if statement`. Essentially, it says, "If <my situation is equal to true>, then do this thing!"
+Now that we know how to compare things, we can tell our program to take a different path based on what a certain variable may or may not be! We use this by writing an `if statement`. Essentially, it says, "If <code>my situation is equal to true</code>, then do this thing!"
 Let's look at this example.
 
 ```swift
@@ -71,11 +73,11 @@ if dogAge < 2 {
 }
 ```
 
-We have a variable `dogAge` assigned to the integer of 1. Next we see the `if` keyword - this tells the computer, please wait and listen for what I'm about to give you - I'll need you to check if it is true or false. Then we provide what is called a **condition**. If the condition is `true`, the computer looks inside the curly braces and executes any code it finds there.
+We have a variable `dogAge` assigned to the integer of 1. Next we see the `if` keyword - this tells the computer, please wait and listen for what I'm about to give you - I'll need you to check if it is true or false. Then we provide what is called a **condition**. If the condition is evaluated to `true`, the computer looks inside the curly braces and executes any code it finds there.
 
 In this situation, `dogAge` == 1, which _is_ less than 2, so this condition evaluates to `true`. The computer then reads the code inside the curly braces, and prints out, "You are a puppy 🐶"
 
-What will happen if we changed dogAge to 4? Because `4 < 2` evaluates to false, our program will not go inside the code block. In this case, _nothing_ will happen.
+What will happen if we changed dogAge to 4? Because `4 < 2` evaluates to `false`, our program will not go inside the code block. In this case, _nothing_ will happen.
 
 ## What if we want several options?
 
@@ -106,7 +108,7 @@ if dogAge > 12 {
 
 ```
 
-### else if and else
+### `else if` and `else`
 
 The Swift language also gives us this keyword/phrase - `else if`. It works JUST like `if` - takes a condition to evaluate, then runs a code block if the condition is met.
 
@@ -138,11 +140,9 @@ etc...
   </ul>
 </div>
 
-## Vocabulary Reflection
+## Swift Conditionals
 
-* Condition
-* Comparison Operator
-* Evaluate
+Practice putting all of these skills together by completing the prompts below. Keep in mind - there is more than one correct solution - you and your partner may have the same outcome, but quite different code!
 
 <div class="practice">
   <h2>Practice: Control Flow</h2>
@@ -153,14 +153,12 @@ etc...
 
   <h3>Part 2 - Which School?</h3>
   <p>Write a conditional that tells a student if they are in elementary, middle, or high school based on their grade level.</p>
+
+  <h3>Part 3 - Journal</h3>
+  <ul>
+    <li>What does the computer do when it sees the keyword <code class="try-it-code">if</code>?</li>
+    <li>What can be used to compare strings and numbers?</li>
+    <li>Does <code class="try-it-code">==</code> care about capitalized letters? Spaces?</li>
+    <li>What about writing/reading conditionals can be confusing?</li>
+  </ul>
 </div>
-
-
-## Closing
-
-As we close our tutorial time, we'll either write in our journals or discuss as a group:
-
-- What does the computer do when it sees the keyword `if`?
-- What can be used to compare strings and numbers?
-- Does `==` care about capitalized letters? Spaces?
-- What about writing/reading conditionals can be confusing?
