@@ -4,8 +4,8 @@ title: Functions
 
 ## Learning Goals
 
-* Students will be able to use function syntax to package a set of commands, including arguments and return values
-* Students will be able to follow the flow of arguments throughout a function
+* Use function syntax to package a set of commands, including arguments and return values
+* Follow the flow of arguments throughout a function
 
 ## Technical Vocabulary
 
@@ -18,15 +18,15 @@ title: Functions
 
 ## What is a function?
 
-You can think of a function as action in our code. A function has a specific job, and it sits around waiting to be asked to do it's job. It can have a very small job (add two numbers together) or a very big job (find the standard deviation of 1 million numbers). We get to write them so we have control over what their jobs are.
+You can think of a function as an action in our code. A function has a specific job, and it sits around waiting to be asked to do it's job. It can have a very small job (add two numbers together) or a very big job (find the standard deviation of 1 million numbers). We get to write them so we have control over what their jobs are.
 
-You may have seen these before - in JavaScript they are also called functions; in Ruby they are called methods. This is the meat of a program - without functions we can't do much.
+You may have seen these before - in JavaScript they are also called functions; in Ruby they are called methods. This is the meat of a program; without functions we can't do much.
 
 Today, we will go through the syntax of functions in Swift, and make sure you have everything you need to start writing them! Let's pretend we have a robot who is going to help us run a dog walking service.
 
 ## Declaring Functions
 
-Some people describe functions as 'packages of commands' - we usually group a few commands into one function. The function name should describe what it's job is. Today, we are going to write a walkDog function, which will give a set of commands to the robot to walk a dog.
+Some people describe functions as 'packages of commands' - we usually group a few commands into one function. The function name should describe what it's job is. Today, we are going to write a `walkDog` function, which will give a set of commands to the robot to walk a dog.
 
 ```swift
 func walkDog() {  
@@ -37,7 +37,7 @@ func walkDog() {
 <div class="try-it">
   <h2>Turn & Talk</h2>
   <p>With your partner, talk about, then write down a list of the steps in walking a dog.</p>
-  <p>Then we will create a class list of steps to walk our dog, that will eventually go into our `walkDog` function!</p>
+  <p>Then we will create a class list of steps to walk our dog, that will eventually go into our <code class="try-it-code">walkDog</code> function!</p>
 </div>
 
 ## Syntax
@@ -54,12 +54,12 @@ func walkDog() {
 
 <div class="try-it">
   <h2>Try It: Declaring a Function</h2>
-  <p>In an Xcode Playground, write this same `walkDog` function. Instead of `//steps //go //here` write print statements for each of the steps we wrote out on the board. Run the code. It should do ... nothing, for now.</p>
+  <p>In an Xcode Playground, write this same <code class="try-it-code">walkDog</code>  function. Instead of <code class="try-it-code">//steps //go //here</code>, write print statements for each of the steps we wrote out on the board. Run the code. It should do ... nothing, for now.</p>
 </div>
 
 ## Calling Functions
 
-Why don't we see our print statements? One really convenient thing about function is that they don't do their job until they are told to. We can give them a set of commands, and tell them to hang on to that information until we tell them to run. This command, telling them to run, is called **calling a function**.  The great thing about this is we can run a function multiple times! Check out the syntax to call a function:
+Why don't we see our print statements? One really convenient thing about functions is that they don't do their job until they are told to. We can give them a set of commands, and tell them to hang on to that information until we tell them to run. This command, telling them to run, is called **calling a function**.  The great thing about this is we can run a function multiple times! Check out the syntax to call a function:
 
 ```swift
 func walkDog() {
@@ -75,7 +75,7 @@ Again, if a function is only declared, it will not do it's job. We have to call 
 
 <div class="try-it">
   <h2>Try It: Writing you own Functions</h2>
-  <p>Write two more functions - one for making a bowl of cereal and the other, you pick. Each function should print out at least one statement. Verify your functions are working by calling them.</p>
+  <p>Write two more functions - one for making a bowl of cereal and the other, you pick. Each function should print out at least two statements. Verify your functions are working by calling them.</p>
   <p><strong>Explore:</strong> What happens if you call your function on line 2, then declare it on line 4?
 </p>
 </div>
@@ -100,7 +100,7 @@ For the `walkDog` problem we've been working on, we'd like to tell the robot we 
 
 <div class="try-it">
   <h2>Try It: Arguments</h2>
-  <p>Write a function called <code>hello</code> that takes one argument, a string. In the code block, print out "Hello, Amy" assuming that "Amy" is the string passed in as an argument.</p>
+  <p>Write a function called <code class="try-it-code">hello</code> that takes one argument, a string. In the code block, print out "Hello, Amy" assuming that "Amy" is the string passed in as an argument.</p>
 </div>
 
 ## Return Values
@@ -122,11 +122,11 @@ You probably observed two new things in this function:
 
 <div class="try-it">
   <h2>Try It: Return Values</h2>
-  <p>Inside your <code>walkDog</code> function, create a <code>lengthOfWalk</code> variable that multiplies the number of dogs by 15. Then on the next line, return <code>lengthOfWalk</code>. Now run the function.</p>
+  <p>Inside your <code class="try-it-code">walkDog</code> function, create a <code class="try-it-code">lengthOfWalk</code> variable that multiplies the number of dogs by 15. Then on the next line, return <code class="try-it-code">lengthOfWalk</code>. Now run the function.</p>
   <p>Explore:</p>
   <ul>
-    <li>What happens if you forget to include to <code>-> Int</code> in your function declaration?</li>
-    <li>What happens if you forget to use the <code>return</code> keyword, when you have <code>-> Int</code>  in the declaration?</li>
+    <li>What happens if you forget to include to <code class="try-it-code">-> Int</code> in your function declaration?</li>
+    <li>What happens if you forget to use the <code class="try-it-code">return</code> keyword, when you have <code>-> Int</code>  in the declaration?</li>
   </ul>
 </div>
 
@@ -144,16 +144,11 @@ let minutesToWalk = walkDog(numberOfDogs : 3)
 print("Please walk the dogs. I will expect to see you complete that task in \(minutesToWalk) minutes!")
 ```
 
-The "let" was used because minutes to walk is not changed. If you are curious, try starting with var then noticing the warning Xcode throws.
+The `let` was used because minutes to walk is not changed. If you are curious, try starting with `var` then noticing the warning Xcode throws.
 
-## Technical Vocabulary
+## Swift Functions
 
-* Function
-* Argument
-* Return Value
-* Declare
-* Call (a function)
-* Code Block
+Make sure that your use of functions is down pat by completing this partner activity below!
 
 <div class="practice">
   <h2>Practice: Function</h2>
