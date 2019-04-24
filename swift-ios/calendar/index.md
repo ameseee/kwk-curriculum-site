@@ -26,6 +26,7 @@ title: Mobile Applications Calendar
         <h3>Wednesday</h3>
         <ul>
           <li>Classes & Objects</li>
+          <li>Object Interaction</li>
           <li><strong>Project:</strong> Aviatrix</li>
         </ul>
       </article>
