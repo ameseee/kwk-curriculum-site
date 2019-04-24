@@ -217,7 +217,7 @@ We just got the hang of arrays and are feeling pretty great about them - why do 
 
 If I wanted to make a list of all the dogs in my apartment building, I should use an array. They are all strings, they are all the same thing. I don't care about how old they are, or their owners, names, or anything else.
 
-If I wanted to make a list of all the dogs in my apartment building and their birthday so that we can throw a party for each of them, I should use an array. There is an _associative_ relationship between each dog and it's birthday.
+If I wanted to make a list of all the dogs in my apartment building and their birthday so that we can throw a party for each of them, I should use a dictionary. There is an _associative_ relationship between each dog and it's birthday.
 
 <div class="try-it">
   <h2>Try It: Array or Dictionary?</h2>
