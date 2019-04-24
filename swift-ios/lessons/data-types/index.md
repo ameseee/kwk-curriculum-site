@@ -177,7 +177,7 @@ Let's take a few minutes to practice these fundamentals - we will use this knowl
   <h3>Part 3: Happy Birthday</h3>
   <p>Let's sing Happy Birthday to our favorite celebrity. Their name should be stored in a variable, just in case you want to sing to someone else.</p>
 
-  <h3>Part 4: String Compression</h3>
+  <h3>Extension: String Compression</h3>
   <p>There's a silly compression algorithm that outputs the first letter, the number of letters in the middle, and the last letter. So for the string <code>Kalamazoo</code> it'd output <code>K7o</code> or <code>Denver</code> would be <code>D4r</code>.</p>
   <p>Can you write code to implement that?</p>
 </div>

@@ -74,7 +74,7 @@ walkDog()
 Again, if a function is only declared, it will not do it's job. We have to call it to tell it it's time to do it's job. We can call a function as many times as you want. Add a call to your function and make sure it runs!
 
 <div class="try-it">
-  <h2>Try It: Writing you own Functions</h2>
+  <h2>Try It: Writing Your Own Functions</h2>
   <p>Write two more functions - one for making a bowl of cereal and the other, you pick. Each function should print out at least two statements. Verify your functions are working by calling them.</p>
   <p><strong>Explore:</strong> What happens if you call your function on line 2, then declare it on line 4?
 </p>
@@ -176,7 +176,7 @@ Make sure that your use of functions is down pat by completing this partner acti
     <li>Call your function - a few times, passing in different arguments each time. STOP!</li>
     <li>Before you run your code, talk with your partner - what is the expected output/return value?</li>
   </ul>
-  <h3>Part 4: Multiple Arguments</h3>
+  <h3>Extension: Multiple Arguments</h3>
   <ul>
     <li>What is another argument that could be passed in your function? Try it out! Not sure what the syntax looks like? You got this. Remember, strong developers are strong googlers, so feel free to look for examples online.</li>
     <li>Can you have more than 1 return value? How do you know?</li>

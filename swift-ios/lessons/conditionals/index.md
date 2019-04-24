@@ -47,17 +47,17 @@ You have seen < and > in math class, right? We use those in code, too!
   <h2>Try It: Comparison Operators</h2>
   <p>In a Swift Playground, see what returns when you run each of the following comparisons:</p>
 
-  <code class="try-it-code>5 < 3</code><br>
-  <code class="try-it-code>12 > 7</code><br>
-  <code class="try-it-code>6 != 8</code><br>
-  <code class="try-it-code>7 == "7"</code><br><br>
-  <code class="try-it-code>"puppy" == "puppy"</code><br>
-  <code class="try-it-code>"puppy" == " puppy"</code><br>
-  <code class="try-it-code>"Puppy" == "puppy"</code><br><br>
+  <code class="try-it-code">5 < 3</code><br>
+  <code class="try-it-code">12 > 7</code><br>
+  <code class="try-it-code">6 != 8</code><br>
+  <code class="try-it-code">7 == "7"</code><br><br>
+  <code class="try-it-code">"puppy" == "puppy"</code><br>
+  <code class="try-it-code">"puppy" == " puppy"</code><br>
+  <code class="try-it-code">"Puppy" == "puppy"</code><br><br>
 
-  <code class="try-it-code>var luckyNum = 7</code><br>
-  <code class="try-it-code>luckyNum < 10</code><br>
-  <code class="try-it-code>luckyNum == 7</code><br><br>
+  <code class="try-it-code">var luckyNum = 7</code><br>
+  <code class="try-it-code">luckyNum < 10</code><br>
+  <code class="try-it-code">luckyNum == 7</code><br><br>
 </div>
 
 ## `if` Syntax

@@ -154,12 +154,11 @@ for index in 0..<animals.count {
   </ul>
 </div>
 
-We are really getting int some complicated work. Work through the practice below to make you have this down. 
+We are really getting int some complicated work. Work through the practice below to make you have this down.
 
 <div class="practice">
   <h2>Practice: Loops</h2>
-
-  <h3>Part 1: Check Your Understanding</h3>
+  <h3>Check Your Understanding</h3>
   <p>Let's take some time to answer the following questions in our journals, and then discuss our answers together.</p>
   <ul>
     <li>What is a for-in loop (in Swift)? What does it do?</li>
@@ -167,8 +166,7 @@ We are really getting int some complicated work. Work through the practice below
     <li>How can for-in loops be useful? What do you think is the point of them?</li>
     <li>Can you brainstorm some ways that one of your favorite apps might make use of a for-in loop?</li>
   </ul>
-
-  <h3>Part 2: Modify your friends names</h3>
+  <h3>Modify your friends names</h3>
   <p>Can you use the for-in loop to edit the strings in your friends array from just their names to their names plus an exclamation point? Consider:</p>
   <ul>
     <li>how to access an element in an array based on its index</li>
@@ -176,5 +174,4 @@ We are really getting int some complicated work. Work through the practice below
     <li>how to assign a new value to an element in an array</li>
     <li>how to add strings together</li>
   </ul>
-
 </div>

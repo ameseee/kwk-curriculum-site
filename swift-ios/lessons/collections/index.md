@@ -323,7 +323,7 @@ Array(phones.keys)
 <div class="practice">
   <h2>Practice: Dictionaries</h2>
 
-  <h3>Part 1: Friend/Family Tree</h3>
+  <h3>Friend/Family Tree</h3>
   <p>Create a dictionary with keys that are family or friend titles (i.e. "sister", "bestFriend") and values that are the name of that family member or friend. Pets are family, too!</p>
   <ul>
     <li>Aim to have at least 10 family members of friends in your 'tree'</li>
@@ -332,7 +332,7 @@ Array(phones.keys)
     <li>Remove someone from your tree  😔 (You can add them back if you want!)</li>
   </ul>
 
-  <h3>Part 2: Nested Collections</h3>
+  <h3>Extension: Nested Collections</h3>
   <p>Create a dictionary in which the keys are strings and the values are arrays of strings. This is called a _nested_ collection, because it has collections inside of a collection.</p>
   <p>Need ideas for topics?</p>
   <ul>
