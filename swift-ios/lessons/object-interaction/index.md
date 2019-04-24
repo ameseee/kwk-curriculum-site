@@ -4,16 +4,16 @@ title: Object Interaction
 
 ## Learning Goals
 
-* Students will be able to explain the difference between a class and an object
-* Students will be able to write a program where 2 or more classes interact
+* Explain the difference between a class and an object
+* Write a program where 2 or more classes interact
 
 ## Technical Vocabulary
 
-* Class
-* Object
-* Initializer
-* Property
-* Action
+* class
+* object
+* initializer
+* property
+* action
 
 ## Creating Objects with Classes
 
@@ -39,6 +39,7 @@ class Fridge {
     color = fridgeColor
     temperature = fridgeTemp
   }
+
 }
 ```
 
@@ -46,6 +47,7 @@ class Fridge {
 // main.swift
 
 var fridge = Fridge(fridgeBrand: "Maytag", fridgeColor: "White", fridgeTemp: 34)
+
 print(fridge.brand)
 print(fridge.color)
 print(fridge.temperature)
@@ -55,7 +57,7 @@ As of now, our fridge can't **do** much, it just sits there once it's created wi
 
 <div class="try-it">
   <h2>Turn & Talk</h2>
-  <p>What data type should our <code>contents</code> property be? (String, Integer, Array, Dictionary) Explain your reasoning.</p>
+  <p>What data type should our <code class="try-it-code">contents</code> property be? (String, Integer, Array, Dictionary, etc.) Explain your reasoning.</p>
 </div>
 
 ### Update Fridge
@@ -89,7 +91,7 @@ func addFood(food : String) {
 
 <div class="try-it">
   <h2>Try It: Add contents to Fridge</h2>
-  <p>Write a Fridge class in Xcode, and write several print statements to see what data is stored in your properties. Then, call <code>fridge.addFood("your favorite food")</code>, and then another print statement for <code>fridge.contents</code>. Do you have "your favorite food" in your fridge now?</p>
+  <p>Write a Fridge class in Xcode, create an object from it, and write several print statements to see what data is stored in your properties. Then, call <code class="try-it-code">fridge.addFood("your favorite food")</code>, and then another print statement for <code class="try-it-code">fridge.contents</code>. Do you have <code class="try-it-code">your favorite food</code> in your fridge now?</p>
   <p>Check in with your partner and make sure you both have this working.</p>
 </div>
 
@@ -126,15 +128,21 @@ Notice that the food object is stored in a variable called `newFood`. On the nex
 
 <div class="try-it">
   <h2>Try It: Loop over Fridge contents</h2>
-  <p><strong>First</strong>, update your Fridge and Food classes to reflect what we've talked about, then add the following to your `main.swift` file:</p>
-  <code>var fridge = Fridge(fridgeBrand: "Maytag", fridgeColor: "White", fridgeTemp: 34)</code><br><br>
-  <code>print(fridge.foods)</code><br>
-  <code>fridge.addFood(food: "cheese", calories: 100)</code><br>
-  <code>fridge.addFood(food: "RX Bar", calories: 230)</code><br>
-  <code>fridge.addFood(food: "Fruit Snacks", calories: 90)</code><br>
-  <code>print(fridge.foods)</code><br><br>
-  <p>What you see printed out probably looks something like: `[]` `[object_interaction.Food, object_interaction.Food, object_interaction.Food]`. Notice there are three elements in this array, which seems to match the three times `addFood` was called, but I want more info about each element.</p>
-  <p><strong>Second</strong>, write a `for-in` loop to print out the name and calories of each food in the fridge.</p>
+  <p><strong>First</strong>, update your Fridge and Food classes to reflect what we've talked about, then add the following to your <code class="try-it-code">main.swift</code> file:</p>
+  <code class="try-it-code">var fridge = Fridge(fridgeBrand: "Maytag", fridgeColor: "White", fridgeTemp: 34)</code>
+  <br><br>
+  <code class="try-it-code">print(fridge.foods)</code>
+  <br><br>
+  <code class="try-it-code">fridge.addFood(food: "cheese", calories: 100)</code>
+  <br>
+  <code class="try-it-code">fridge.addFood(food: "RX Bar", calories: 230)</code>
+  <br>
+  <code class="try-it-code">fridge.addFood(food: "Fruit Snacks", calories: 90)</code>
+  <br><br>
+  <code class="try-it-code">print(fridge.foods)</code>
+  <br><br>
+  <p>What you see printed out probably looks something like: <code class="try-it-code">[]</code> <code class="try-it-code">[object_interaction.Food, object_interaction.Food, object_interaction.Food]</code>. Notice there are three elements in this array, which seems to match the three times <code class="try-it-code">addFood</code> was called, but I want more info about each element.</p>
+  <p><strong>Second</strong>, write a <code class="try-it-code">for-in</code> loop to print out the name and calories of each food in the fridge.</p>
 </div>
 
 ## Object Interaction
@@ -146,18 +154,10 @@ To recap:
 - We wrote an action on the fridge that adds foods
 - The method takes in any arguments that are required to create a food, then creates a food, then appends that food to the fridge's property.
 
-## Vocabulary Reflection
-
-* Class
-* Object
-* Initializer
-* Property
-* Action
-
 <div class="practice">
   <h2>Practice: Object Interaction</h2>
-  <h3>Part 1: Campers and Camps</h3>
-  <p>Your job is to build a Student/Scholar/Camper class and a Camp class. You can choose what properties each class has on it. The Camp class should have an <code>addCamper</code> action on it, which creates a Student/Scholar/Camper object and stores that in a list of all the campers.</p>
-  <h3>Part 2: Camps and KWK</h3>
-  <p>Build a KWK class that creates and stores camps. The KWK class should have a year property. Make sure your camp has a location and title (Web Application or Swift/iOS).</p>
+  <h3>Campers and Camps</h3>
+  <p>Your job is to build a Student/Scholar/Camper class and a Camp class. You can choose what properties each class has on it. The Camp class should have an <code class="try-it-code">addCamper</code> action on it, which creates a Student/Scholar/Camper object and stores that in a list of all the campers.</p>
+  <h3>Extension: Camps and KWK</h3>
+  <p>Build a KWK class that creates and stores camps. The KWK class should have a year property. Make sure your camp has a location and title (Web Applications or Mobile Applications).</p>
 </div>
