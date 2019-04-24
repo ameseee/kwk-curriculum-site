@@ -1,4 +1,6 @@
-# Classes and Objects
+---
+title: Classes and Objects
+---
 
 ## Learning Goals
 

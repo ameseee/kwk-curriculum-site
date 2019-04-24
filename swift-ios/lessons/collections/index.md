@@ -1,4 +1,6 @@
-# Collections
+---
+title: Classes and Objects
+---
 
 ## Learning Goals
 

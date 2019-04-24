@@ -1,4 +1,6 @@
-# Swift/iOS Lessons
+---
+title: Swift/iOS Lessons
+---
 
 ## Swift
 - [Data Types]({{ site.url }}/swift-ios/lessons/data-types)

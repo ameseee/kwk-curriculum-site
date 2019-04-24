@@ -1,4 +1,6 @@
-# Object Interaction
+---
+title: Object Interaction
+---
 
 ## Learning Goals
 

@@ -1,4 +1,6 @@
-# Data Types and Variables
+---
+title: Data Types & Variables
+---
 
 ## Learning Goals
 
