@@ -140,6 +140,63 @@ A little different from `.push()`, `.pop()` and `.shift()` do not take arguments
   <p>Lastly, remove at least two elements from your array. Again, make sure they have been removed by printing to the console.</p>
 </div>
 
+### Random Elements
+
+Sometimes, we want to pull an element out of an array at random - have any of your teachers ever used popsicle sticks to decide who to call on? That's a real life example. We can do the same thing with programming!
+
+JavaScript gives us a tool called `Math` to do advanced math, like square roots, logarithms, etc. Included in that are some options on how to use it. We've got:
+
+- `Math.random()` - returns a random decimal between 0 and 1
+- `Math.round(x)` - returns the value of a number rounded to the nearest integer
+- `Math.floor()` - returns the value of a number rounded down to the nearest integer
+
+
+Let's work on generating a random number between 1 and 20.
+
+First, generate a random decimal:
+
+```js
+var randomDecimal = Math.random();
+//-> 0.5617898712887952 (this number will vary)
+```
+
+Now, let's multiply it by 20:
+
+```js
+var randomDecimal = Math.random();
+//-> 0.5617898712887952 (this number will vary)
+
+var random = randomDecimal * 20;
+//-> 11.235797425775903
+```
+
+We still don't have a nice integer as expected, so let's round it down:
+
+```js
+var random = randomDecimal * 20;
+//-> 11.235797425775903
+
+var final = Math.floor(random);
+//-> 11
+```
+
+Going back to `why would this be useful`? A teacher could have a program with an array of names, like this:
+
+```js
+var students = ["Leta", "Ellen Mary", "Pam", "Megan", "Amy", "Sarah", "Robyn", "Courtney", "Rachel", "Allison", "Ruby", "Maile", "Julie", "Meg", "Christie", "Emmie", "Aurora", "Tori", "Kerry", "Juliana"];
+```
+
+Now, the teacher can write a `pickStudent` function:
+
+```js
+function pickStudent() {
+  var random = Math.random() * 20;
+  var rounded = Math.floor(random);
+  var student = students[rounded];
+  return student;
+}
+```
+
 ### Loops
 
 There are times when we want to repeat the same operation multiple times over a set of data. Loops allow us to do just that by running through our data one by one and executing code to accomplish a goal.
@@ -297,6 +354,7 @@ Arrays and objects are both types of collections with different purposes and use
     <li>Add a new hobby to the array</li>
     <li>Remove the last hobby from the array</li>
     <li>Print the value of the third element of the array</li>
+    <li>Print one hobby to the console, at random.</li>
     <li>You should have five hobbies in your array. Using a for loop and string interpolation, iterate over the values in your array in order to print five strings that say "I love ______!"</li>
   </ul>
 
