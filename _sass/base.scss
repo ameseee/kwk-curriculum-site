@@ -1,5 +1,4 @@
 /* Base */
-
 html, body {
   box-sizing: border-box;
   width: 100%;
@@ -29,13 +28,12 @@ img {
 }
 
 a {
-  border-bottom: 3px solid lighten($medium-gray, 20);
-  color: darken($green, 30);
+  color: darken($green, 25);
   text-decoration: none;
   transition: all 0.5s;
 
   &:hover {
-    border-color: $dark-gray;
+    color: $green;
   }
 }
 
@@ -74,11 +72,10 @@ footer {
 }
 
 /* Layout */
-
 .container {
   display: flex;
   flex-direction: column;
-  
+
   min-height: 100vh;
   @media (max-width: $tablet-width) {
     flex-direction: column;
@@ -86,8 +83,6 @@ footer {
 }
 
 /* Header */
-
-
 header {
   margin-bottom: 2em;
 
@@ -101,10 +96,6 @@ header {
     }
   }
 }
-
-// .content {
-//   width: 80%;
-// }
 
 @media (max-width: $tablet-width) {
   .content: 100%;

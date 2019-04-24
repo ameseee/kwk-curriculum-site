@@ -12,7 +12,7 @@ title: Mobile Application Curriculum
     <h2>Projects</h2>
   </a>
   <a href="{{ site.url }}/swift-ios/calendar" class="class-page-card">
-    <img src="../assets/images/girls-coding-4.png" alt="">
+    <img src="../assets/images/girls-coding-4.jpg" alt="">
     <h2>Calendar</h2>
   </a>
 </section>

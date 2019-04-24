@@ -12,7 +12,7 @@ title: Web Application Curriculum
     <h2>Projects</h2>
   </a>
   <a href="{{ site.url }}/web-app/calendar" class="class-page-card">
-    <img src="../assets/images/girls-coding-2.jpg" alt="">
+    <img src="../assets/images/girls-coding-2.png" alt="">
     <h2>Calendar</h2>
   </a>
 </section>
