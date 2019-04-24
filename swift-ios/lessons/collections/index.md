@@ -1,23 +1,24 @@
 ---
-title: Classes and Objects
+title: Collections
 ---
 
 ## Learning Goals
 
-* Students will understand what an array is and why they are useful
-* Students will learn how to iterate over arrays
-* Students will learn how to create an array & dictionaries and access data from them
-* Students will know why we sometimes choose to use dictionaries over arrays
+* Understand what an array is and why they are useful
+* Iterate over arrays
+* Create arrays & dictionaries, and access data from them
+* Explain why we sometimes choose to use dictionaries over arrays
 
 ## Technical Vocabulary
 
-* Array
-* Index
-* Element
-* Dictionary
-* Key / Value pair
-* Initialize
-* Iterate
+* array
+* index
+* element
+* dictionary
+* key / Value pair
+* initialize
+* iterate
+* unwrap
 
 ## Collections
 
@@ -38,7 +39,7 @@ Now that we know a bit about arrays, we want to talk about how to create them. W
 
 ### Creating an Empty Array
 
-The code below shows the syntax to initialize, or create, an empty array. In the data types lesson, we talked about creating a variable before you know the value, and if you want to do that, you need to tell Swift what data type that variable will hold. We are using the same concept here:
+The code below shows the syntax to **initialize**, or create, an empty array. In the data types lesson, we talked about creating a variable before you know the value, and if you want to do that, you need to tell Swift what data type that variable will hold. We are using the same concept here:
 
 ```swift
 var arrayOfStrings = [String]()
@@ -58,6 +59,13 @@ Instead of declaring an empty array, we can also declare an array that starts wi
 var shoppingList = ["Bread", "Cheese", "Milk", "Bacon"]
 ```
 This array is stored in the variable `shoppingList`, so anytime we call this variable, we will get back this whole list!
+
+```swift
+shoppingList
+//-> ["Bread", "Cheese", "Milk", "Bacon"]
+```
+
+Side note: The lines `=> "Milk"` and `=> "Bread"` are indicating the return value of the previous code; it's just a way to notate what happens after writing some code.
 
 <div class="try-it">
   <h2>Turn and Talk</h2>
@@ -94,11 +102,9 @@ shoppingList[0]
 => "Bread"
 ```
 
-Side note: The lines `=> "Milk"` and `=> "Bread"` are indicating the return value of the previous code; it's just a way to notate what happens after writing some code.
-
 ### Updating Information
 
-We can also update elements with the square bracket syntax we looked at earlier. We access the index value that we would like to change, and then reassign a new value for that index with a  `=`
+We can also update elements with the square bracket syntax we looked at earlier. We access the index value that we would like to change, and then reassign a new value for that index with a `=`.
 
 ```swift
 var shoppingList = ["Bread", "Cheese", "Milk", "Bacon"]
@@ -110,7 +116,7 @@ shoppingList[2] = "Candy"
 
 ### Adding Information
 
-A common way to add something to an already existing array is to use the append() method - which will add an element to the end of the array
+A common way to add something to an already existing array is to use the append() method - which will add an element to the end of the array.
 
 ```swift
 var shoppingList = ["Bread", "Cheese", "Candy", "Bacon"]
@@ -122,7 +128,7 @@ shoppingList.append("Pasta")
 
 ### Removing Information
 
-A common way of removing elements is to use the remove(at:) method - which will remove an element at whatever index you type in after the `at:`
+A common way of removing elements is to use the remove(at:) method - which will remove an element at whatever index you type in after the `at:`.
 
 ```swift
 var shoppingList = ["Bread", "Cheese", "Candy", "Bacon", "Pasta"]
@@ -209,7 +215,7 @@ Applications like Instagram probably utilize arrays **a lot**. Each user has a l
 
 ## Dictionaries
 
-Dictionaries are another way to hold multiple pieces of data (collection). There is one big difference between them and arrays: Dictionaries are not ordered by index (0, 1, 2, etc.), instead, each piece of data has a 'label' instead of a number. We call the labels `keys` and the data `values`. `key/value pairs` is a term you will hear a lot.
+Dictionaries are another way to hold multiple pieces of data (collection). There is one big difference between them and arrays: Dictionaries are not ordered by index (0, 1, 2, etc.), instead, each piece of data has a 'label' instead of a number. We call the labels **keys** and the data **values**. **key/value pairs** is a term you will hear a lot.
 
 ### When to use Dictionaries
 
@@ -263,7 +269,7 @@ var phones = [
 
 ### Adding Data to Dictionaries
 
-To add key/value pairs to my empty dictionary, we use also use `[]` notation. Instead of using a number like we will use a string - the label, or **key** for this set of data. Then, we will use the `=` to assign the value.
+To add key/value pairs to my empty dictionary, we use also use `[]` notation. Instead of using a number like with arrays, we will use a string - the label, or **key** for this set of data. Then, we will use the `=` to assign the value.
 
 ```swift
 phones["apple"] = "iPhone"
@@ -281,7 +287,7 @@ print(phones["apple"])
 => Optional("iPhone")
 ```
 
-Notice that `Optional("iPhone")` was printed - not just the string "iPhone", like you probably expected. Swift is very specific and wants to make sure that there **is data** stored in the dictionary (in this case, phones["apple"]) before doing anything with the data; if it were `nil` it could cause problems in bigger programs.To tell Swift we are sure there is data, we do something called 'unwrapping' - by typing an exclamation point after the closing bracket.
+Notice that `Optional("iPhone")` was printed - not just the string "iPhone", like you probably expected. Swift is very specific and wants to make sure that there **is data** stored in the dictionary (in this case, `phones["apple"]`) before doing anything with the data; if it were `nil` it could cause problems in bigger programs. To tell Swift we are sure there is data, we do something called **unwrapping** - by typing an exclamation point after the closing bracket.
 
 ```swift
 print(phones["apple"]!)
@@ -289,7 +295,7 @@ print(phones["apple"]!)
 => "iPhone"
 ```
 
-### Removing Data to Dictionaries
+### Removing Data from Dictionaries
 
 Let's say the company discontinues a phone and the vendor will no longer have them for sale. We need to help them remove this key/value pair for their dictionary so they don't have any angry customers. Unlike arrays, we don't have a special method that does this, we just set the value to `nil`.
 
@@ -307,7 +313,7 @@ If we run this code, we will see quite an error! That's because the key "apple" 
 
 Let's say we want a list of all the companies that make the phones, but we _don't_ want to have to look at the phone names. Check out the code below, then we'll explain what's happening.
 
-```
+```swift
 phones.keys
 Array(phones.keys)
 ```
@@ -334,14 +340,3 @@ Array(phones.keys)
     <li>Keys: dogs, cats, dinosaurs. Values: ["German Shepard", "Shih-Tzu", "Great Dane"], etc.</li>
   </ul>
 </div>
-
-
-## Vocabulary Reflection
-
-* Array
-* Index
-* Element
-* Dictionary
-* Key / Value pair
-* Initialize
-* Iterate
