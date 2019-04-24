@@ -10,6 +10,7 @@
 
 * String
 * Integer
+* Double
 * Interpolation
 * Variable
 * Constant
@@ -54,7 +55,7 @@ We can still access the string "Karlie" anytime, we just **cannot change it**.
 
 ### A Note on Variables
 
-In other languages you may have seen variables declared with_out_ being assigned a value. To do that in Swift, we have to tell the program what data type it should be.
+In other languages you may have seen variables declared _without_ being assigned a value. To do that in Swift, we have to tell the program what data type it should be.
 
 ```swift
 var name : String
@@ -75,20 +76,20 @@ var age = 15
 "I am \(age) years old"
 ```
 
-The computer reads anything inside of the `\()` as swift code - it will look for a variable titled `age`.
+The computer reads anything inside of the `\()` as Swift code - it will look for a variable titled `age`.
 
 <div class="try-it">
   <h2>Try It: Strings</h2>
   <p>String values can be added together (or concatenated) with the addition operator (+) to create a new String value, can use interpolation with the <code>\()</code> syntax:</p>
-  <code>let string1 = "hello"</code><br>
-  <code>let string2 = "there"</code><br>
-  <code>var welcome = "\(string1) \(string2)"</code><br>
-  <code>var anotherWelcome = string1 + " " string2</code><br>
-  <code>// welcome and anotherWelcome are both storing the string "hello there"</code>
+  <code class="try-it-code">let string1 = "hello"</code><br>
+  <code class="try-it-code">let string2 = "there"</code><br>
+  <code class="try-it-code">var welcome = "\(string1) \(string2)"</code><br>
+  <code class="try-it-code">var anotherWelcome = string1 + " " string2</code><br>
+  <code class="try-it-code">// welcome and anotherWelcome are both storing the string "hello there"</code>
 
   <p>If you have the strings "Beyonce" and "Knowles" in the following variables:</p>
-  <code>var first = "Beyonce"</code><br>
-  <code>var last = "Knowles"</code><br>
+  <code class="try-it-code">var first = "Beyonce"</code><br>
+  <code class="try-it-code">var last = "Knowles"</code><br>
 
   <p>Use <strong>only</strong> the "string interpolation" technique to complete the following:</p>
   <ol>
@@ -110,11 +111,11 @@ Integers are what we would think of as whole numbers. They can be positive or ne
 
 ### Floats and Doubles
 
-Swift gives you two data types with which to store numbers that have a decimals. They can be positive or negative. Examples would be 1.1, 42.45, 3.14, -123786234.64
+Swift gives you two data types with which to store numbers that have a decimals - Floats and Doubles. They can be positive or negative. Examples would be 1.1, 42.45, 3.14, -123786234.64
 
 The TL;DR is that Doubles have more accuracy than Floats. If you ever need a decimal, **use a Double** because you'll get more accuracy that way.
 
-### Good to Know
+### Good To Know
 
 * Variables and constants can also stores numbers
 * We can use math operations on:
@@ -135,28 +136,21 @@ Double(integer) * double --> 20.0
 <div class="try-it">
   <h2>Try It: Numbers</h2>
   <p>Start with these variables:</p>
-  <code>var a = 12</code><br>
-  <code>var b = 65</code><br>
-  <code>var c = 31</code><br>
-  <code>var d = 98</code>
+  <code class="try-it-code">var a = 12</code><br>
+  <code class="try-it-code">var b = 65</code><br>
+  <code class="try-it-code">var c = 31</code><br>
+  <code class="try-it-code">var d = 98</code>
 
   <ol>
     <li>Write code to find the average of these four numbers.</li>
-    <li>Find the average yourself using paper or a calculator. Is your answer different than you found in A? Why?</li>
-    <li>Say you have the operation `a + b * c / d`. What result do you get out from Swift? What other outputs can you get out by adding one or more pairs of parentheses to the equation?</li>
+    <li>Find the average yourself using paper or a calculator. Is your answer different than you found with Swift? Why?</li>
+    <li>Say you have the operation <code class="try-it-code">a + b * c / d</code>. What result do you get out from Swift? What other outputs can you get out by adding one or more pairs of parentheses to the equation?</li>
   </ol>
 </div>
 
-## Vocabulary Reflection
+## Swift Data Types
 
-Using your notes and what you learned in this class, write your definition for today's vocabulary words:
-
-* String
-* Integer
-* Interpolation
-* Variable
-* Constant
-* Keyword
+Let's take a few minutes to practice these fundamentals - we will use this knowledge every time we work on a project from here on out.
 
 <div class="practice">
   <h2>Practice: Data Types</h2>
