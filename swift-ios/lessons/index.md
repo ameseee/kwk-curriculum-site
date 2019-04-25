@@ -12,6 +12,7 @@ title: Swift/iOS Lessons
 - [Object Interaction]({{ site.url }}/swift-ios/lessons/object-interaction)
 
 ## StoryBoard
+- [StoryBoard]({{ site.url }}/swift-ios/lessons/storyboard)
 - Actions & Outlets
 - Displaying Photos
 - Segues
