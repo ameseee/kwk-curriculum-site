@@ -13,8 +13,8 @@ title: Swift/iOS Lessons
 
 ## StoryBoard
 - [StoryBoard]({{ site.url }}/swift-ios/lessons/storyboard)
-- Actions & Outlets
-- Displaying Photos
+- [Actions & Outlets]({{ site.url }}/swift-ios/lessons/actions-outlets)
+- [Accessing Camera & Displaying Photos]({{ site.url }}/swift-ios/lessons/access-camera-display-photos)
 - Segues
 - Delete Functionality
 
