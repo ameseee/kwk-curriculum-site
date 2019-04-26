@@ -28,6 +28,7 @@ title: Swift/iOS Lessons
 - Core Data
 - AR
 
-## Tutorials
+## Other
 
+- [Git & GitHub]({{ site.url }}/swift-ios/lessons/git-github)
 - [Videos]({{ site.url }}/swift-ios/lessons/videos)
