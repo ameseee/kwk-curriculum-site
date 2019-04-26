@@ -17,8 +17,10 @@ title: Web Applications Lessons
 ## JavaScript
 - [Intro to JavaScript]({{ site.url }}/web-app/lessons/intro-to-js)
 - [Functions]({{ site.url }}/web-app/lessons/functions)
-- [DOM Manipulation]({{ site.url }}/web-app/lessons/dom-manipulation)
-- localStorage
+- [DOM Manipulation I]({{ site.url }}/web-app/lessons/dom-manipulation)
+- [Collections]({{ site.url }}//web-app/lessons/collections)
+- DOM Manipulation II
+- Local Storage
 
 ## Other
 - [Design]({{ site.url }}/web-app/lessons/design)
