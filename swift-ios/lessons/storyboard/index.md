@@ -17,7 +17,7 @@ title: StoryBoard
 
 ## Xcode Projects
 
-Up until now, we've mainly worked in Xcode Playgrounds, which are a great place to run code, but we can't build real iOS apps in it. Xcode _Projects_ is a place where we can! A lot more than writing code goes into building an iOS app, but we do it all in Xcode. It is a big program with a lot of tools; we will take it one step at a time.
+Up until now, we've mainly worked in Xcode Playgrounds, which are a great place to run code, but we can't build real iOS apps in it. Xcode _Projects_ is a place where we can! A lot more than writing code goes into building an iOS app, but we do it all in Xcode. It is a big program with a lot of tools; we will take it one step at a time. [Here's](./assets/xcode-map.png) a map of the main features in Xcode.
 
 Either watch the video below, or watch you instructor walk through how to navigate an Xcode Project.
 
@@ -46,7 +46,7 @@ Everything looks great on my iPhone 8 screen, but in the simulator... not so muc
 
 <div class="try-it">
   <h2>Try It: StoryBoard & Object Library</h2>
-  <p>Building on your project, add constraints to each UI Object. Make sure to get _one_ object looking as expected before moving on to the next.</p>
+  <p>Building on your project, add constraints to each UI Object. Make sure to get <em>one</em> object looking as expected before moving on to the next.</p>
 </div>
 
 ## Nice-To-Know: Nav Bar and Tool Bar
