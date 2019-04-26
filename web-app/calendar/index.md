@@ -30,6 +30,7 @@ title: Web Applications Calendar
           <li>Git & GitHub</li>
           <li><strong>Project:</strong> Photo Gallery</li>
           <li>Intro to JavaScript</li>
+          <li>Gear Up 1</li>
         </ul>
       </article>
         <article class="day-card">
@@ -37,15 +38,16 @@ title: Web Applications Calendar
         <ul>
           <li>Functions</li>
           <li>HTML Forms</li>
-          <li>DOM Manipulation</li>
+          <li>DOM Manipulation 1</li>
+          <li>Local Storage</li>
         </ul>
       </article>
         <article class="day-card">
         <h3>Friday</h3>
         <ul>
-          <li>JavaScript - Data</li>
-          <li>Local Storage</li>
+          <li>DOM Manipulation 2</li>
           <li><strong>Project:</strong> To-Do Box</li>
+          <li>Gear Up 2</li>
         </ul>
       </article>
     </section>
@@ -67,7 +69,7 @@ title: Web Applications Calendar
         <ul>
           <li>lesson title</li>
           <li>lesson title</li>
-          <li>lesson title</li>
+          <li>Gear Up 3</li>
         </ul>
       </article>
         <article class="day-card">

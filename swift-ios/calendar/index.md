@@ -28,7 +28,7 @@ title: Mobile Applications Calendar
         <h3>Wednesday</h3>
         <ul>
           <li><strong>Project:</strong> Aviatrix</li>
-          <li>little gear up???</li>
+          <li>Gear Up 1</li>
         </ul>
       </article>
         <article class="day-card">
@@ -46,7 +46,7 @@ title: Mobile Applications Calendar
         <ul>
           <li>Table Views</li>
           <li>Segues</li>
-          <li>Debug Gender Gap??</li>
+          <li>Gear Up 2</li>
         </ul>
       </article>
     </section>
@@ -68,7 +68,7 @@ title: Mobile Applications Calendar
         <ul>
           <li>lesson title</li>
           <li>lesson title</li>
-          <li>lesson title</li>
+          <li>Gear Up 3</li>
         </ul>
       </article>
         <article class="day-card">
