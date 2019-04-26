@@ -17,7 +17,7 @@ title: Swift/iOS Lessons
 - [StoryBoard]({{ site.url }}/swift-ios/lessons/storyboard)
 - [Actions & Outlets]({{ site.url }}/swift-ios/lessons/actions-outlets)
 - [Accessing Camera & Displaying Photos]({{ site.url }}/swift-ios/lessons/access-camera-display-photos)
-- Segues
+- [Segues]({{ site.url }}/swift-ios/lessons/segues)
 - [Design & UX]({{ site.url }}/swift-ios/lessons/design)
 
 ## iOS Features
