@@ -21,5 +21,6 @@ title: Web Applications Lessons
 - localStorage
 
 ## Other
+- [Design]({{ site.url }}/web-app/lessons/design)
 - [Git and GitHub]({{ site.url }}/web-app/lessons/git-github)
 - [Videos]({{ site.url }}/web-app/lessons/videos)
