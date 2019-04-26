@@ -24,6 +24,7 @@ title: Swift/iOS Lessons
 
 - Intro to Xcode
 - Sideloading
+- [Tables]({{ site.url }}/swift-ios/lessons/tables)
 - Delete Functionality
 - Core Data
 - AR

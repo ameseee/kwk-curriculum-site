@@ -20,6 +20,7 @@ title: Web Applications Calendar
           <li>Box Model & Display</li>
           <li>Flexbox</li>
           <li>Responsive Design</li>
+          <li>Design</li>
           <li><strong>Project:</strong> Photo Gallery</li>
         </ul>
       </article>
