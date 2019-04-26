@@ -8,6 +8,11 @@ title: Accessing the Camera & Displaying Photos
 
 ## Technical Vocabulary
 
+- inherit
+- source type
+- actions
+- outlets
+- dictionary
 
 ## Setup
 
@@ -65,15 +70,16 @@ Now we get a little more info: we get these code snippets that tell us what code
 
 ## Access the Camera - Setup
 
-We need to do a little set up. Our class needs to `inherit`, or take in the information that two apple classes have - UIImagePickerControllerDelegate and UINavigationControllerDelegate.
-We already know about UIImagePickerController. The Delegate added on tells the program, whenever I get information from the camera, this delegate class is the place I will send that information back to (information being the photo selected/taken). The UINavigationControllerDelegate is what allows us to navigate from our screen to the camera screen. Behind the scenes, it's a `seque`, just written with code rather than the segue's we've seen with the arrows on the storyboard.
-> Step 1. Inherit from UIImagePickerControllerDelegate and UINavigationControllerDelegate (line 11/12)
+We need to do a little set up. Our class needs to **inherit**, or take in the information that two apple classes have - `UIImagePickerControllerDelegate` and `UINavigationControllerDelegate`.
+
+We already know about `UIImagePickerController`. The Delegate added on tells the program, whenever I get information from the camera, this delegate class is the place I will send that information back to (information being the photo selected/taken). The `UINavigationControllerDelegate` is what allows us to navigate from our screen to the camera screen. Behind the scenes, it's a `seque`, just written with code rather than the segue's we've seen with the arrows on the storyboard.
+> Step 1. Inherit from `UIImagePickerControllerDelegate` and `UINavigationControllerDelegate` (line 11/12)
 
 Then, we need to create a property (variable) in this class. The value of it will store an object created from `UIImagePickerController`
-> Step 2. Create an object from UIImagePickerController class, stored in variable (line 13)
+> Step 2. Create an object from `UIImagePickerController` class, stored in variable (line 13)
 
 Last, in the `viewDidLoad` function, which runs each time the view loads, we need to tell the `imagePicker`, or object from `UIImagePickerController` that it needs to send, or delegate, information back to this class (self).
-> Step 3. Tell that instance to give it's information to this class (line 17)
+> Step 3. Tell that object to give it's information to this class (line 17)
 
 <br>
 <img class="medium" src="./assets/camera-setup.png">

@@ -9,8 +9,12 @@ title: Actions & Outlets
 
 ## Technical Vocabulary
 
-- S
+- actions
+- outlets
+- Assistant Editor
+- unwrap
 
+## Actions & Outlets
 
 Actions and Outlets are the way that our program lets the design files communicate with the code files. The connection allows us to refer to the objects in the design file, but inside of our code file.
 * **Outlet** - when you want to change the appearance of something or keep track of information
@@ -101,7 +105,7 @@ Now that we have a function which will run once the user clicks the button, we n
 }
 ```
 
-Let's break down what is happening here. First, we have to unwrap the `textField.text` to make sure it is not nil. We assign the `textField.text` value to a new constant called `newTitle`.
+Let's break down what is happening here. First, we have to **unwrap** the `textField.text` to make sure it is not nil. We assign the `textField.text` value to a new constant called `newTitle`.
 If we make it into that code block (if textField.text is not nil), then the `appTitle.text` is assigned to the `newTitle`.
 
 Get your code up-to-date with this, and run in simulator. It should be working! If it's now, ask a neighbor or instructor.
@@ -117,7 +121,7 @@ Whether you followed along in class or watched your instructor model, this is a 
 
 <div class="practice">
   <h2>Practice: Actions & Outlets</h2>
-  <p>Build an app that: Takes at least 2 user inputs, has some sort of 'Submit' button, provides a custom alert to the user when the button is tapped.</p>
+  <p>Build an app that takes at least 2 user inputs, has some sort of 'Submit' button, provides a custom alert to the user when the button is tapped.</p>
   <h3>Extension: Date Object</h3>
   <p>Use the Date Object from the Object Library so your user can select a time. Figure out how to format the string that is provided to write the time in a more readable format such as "8:30 am".</p>
 </div>

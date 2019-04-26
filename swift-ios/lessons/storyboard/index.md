@@ -8,14 +8,12 @@ title: StoryBoard
 * Make UI look clean on all device sizes using constraints
 * Add a home screen icon into the project
 
-
 ## Technical Vocabulary
 
 * StoryBoard
 * UI
 * Constraints
 * Object Library
-
 
 ## Xcode Projects
 
