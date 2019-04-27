@@ -8,7 +8,7 @@ title: Mobile Applications Calendar
       <article class="day-card">
         <h3>Monday</h3>
         <ul>
-          <li>Collaboration</li>
+          <li>Welcome & Intro</li>
           <li>Data Types</li>
           <li>Conditionals</li>
           <li>Functions</li>
@@ -59,40 +59,39 @@ title: Mobile Applications Calendar
         <h3>Monday</h3>
         <ul>
           <li>Access Camera & Display Photos</li>
-          <li>lesson title</li>
-          <li>lesson title</li>
+          <li>ViewFinder UI</li>
+          <li>Core Data</li>
         </ul>
       </article>
         <article class="day-card">
         <h3>Tuesday</h3>
         <ul>
-          <li>lesson title</li>
-          <li>lesson title</li>
+          <li>Delete Functionality</li>
+          <li><strong>Project:</strong> ViewFinder</li>
+          <li>How to Demo</li>
           <li>Gear Up 3</li>
         </ul>
       </article>
         <article class="day-card">
         <h3>Wednesday</h3>
         <ul>
-          <li>lesson title</li>
-          <li>lesson title</li>
-          <li>lesson title</li>
+          <li>Project Pitches</li>
+          <li>DTR & Wireframing</li>
+          <li><strong>Personal Project</strong></li>
         </ul>
       </article>
         <article class="day-card">
         <h3>Thursday</h3>
         <ul>
-          <li>lesson title</li>
-          <li>lesson title</li>
-          <li>lesson title</li>
+          <li><strong>Personal Project</strong></li>
+          <li>Demo Prep/Practice</li>
         </ul>
       </article>
         <article class="day-card">
         <h3>Friday</h3>
         <ul>
-          <li>lesson title</li>
-          <li>lesson title</li>
-          <li>lesson title</li>
+          <li><strong>Personal Project</strong></li>
+          <li>Final Demos</li>
         </ul>
       </article>
     </section>
