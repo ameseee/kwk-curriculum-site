@@ -24,7 +24,8 @@ Here's a super plain version of what you're shooting for:
 
 Today we'll build the project in several parts:
 
-* [I0: Build UI & Setup]({{ site.url }}/swift-ios/projects/emojional/i0)
-* [I1: Alert]({{ site.url }}/swift-ios/projects/emojional/i1)
-* [I2: Custom Messages]({{ site.url }}/swift-ios/projects/emojional/i2)
-* [I3: Ramdonize Messages]({{ site.url }}/swift-ios/projects/emojional/i3)
+* [I0: Build UI]({{ site.url }}/swift-ios/projects/emojional/i0)
+* [I1: Configuration & Alerts]({{ site.url }}/swift-ios/projects/emojional/i1)
+alert
+* [I2: Custom Alerts]({{ site.url }}/swift-ios/projects/emojional/i2)
+* [I3: Randomize Messages]({{ site.url }}/swift-ios/projects/emojional/i3)
