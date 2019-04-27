@@ -23,6 +23,6 @@ We'll build the project in several iterations. The goal is that each iteration s
 
 Today we'll build the project in several parts:
 
-* [I0: Up and Running]()
-* [I1: Destinations]()
-* [I2: Distance and Fuel]()
+* [I0: Up and Running]({{ site.url }}/swift-ios/projects/aviatrix/i0)
+* [I1: Destinations]({{ site.url }}/swift-ios/projects/aviatrix/i1)
+* [I2: Distance and Fuel]({{ site.url }}/swift-ios/projects/aviatrix/i2)
