@@ -19,7 +19,7 @@ title: StoryBoard
 
 Up until now, we've mainly worked in Xcode Playgrounds, which are a great place to run code, but we can't build real iOS apps in it. Xcode _Projects_ is a place where we can! A lot more than writing code goes into building an iOS app, but we do it all in Xcode. It is a big program with a lot of tools; we will take it one step at a time. [Here's](./assets/xcode-map.png) a map of the main features in Xcode.
 
-Either watch the video below, or watch you instructor walk through how to navigate an Xcode Project.
+Either watch the video below, or watch your instructor walk through how to navigate an Xcode Project.
 
 <p class="to-do">insert video</p>
 
@@ -27,7 +27,7 @@ Either watch the video below, or watch you instructor walk through how to naviga
 
 Before we write all the Swift code we've been learning to make our app DO something, we want to completely set up the **UI (user interface)**. We will drag and drop components of the UI from the Object Library onto the **StoryBoard**.
 
-Either watch the video below, or watch you instructor walk through how to navigate an Xcode Project.
+Either watch the video below, or watch you instructor walk through how to add objects from the Object Library to the StoryBoard.
 
 <p class="to-do">insert video</p>
 
