@@ -8,7 +8,7 @@ title: Web Applications Calendar
       <article class="day-card">
         <h3>Monday</h3>
         <ul>
-          <li>Collaboration</li>
+          <li>Welcome & Intro</li>
           <li>Intro to HTML</li>
           <li>Intro to CSS</li>
           <li>HTML & Atom</li>
@@ -75,25 +75,23 @@ title: Web Applications Calendar
         <article class="day-card">
         <h3>Wednesday</h3>
         <ul>
-          <li>lesson title</li>
-          <li>lesson title</li>
-          <li>lesson title</li>
+          <li>Project Pitches</li>
+          <li>DTR & Wireframing</li>
+          <li><strong>Personal Project</strong></li>
         </ul>
       </article>
         <article class="day-card">
         <h3>Thursday</h3>
         <ul>
-          <li>lesson title</li>
-          <li>lesson title</li>
-          <li>lesson title</li>
+          <li><strong>Personal Project</strong></li>
+          <li>Demo Prep/Practice</li>
         </ul>
       </article>
         <article class="day-card">
         <h3>Friday</h3>
         <ul>
-          <li>lesson title</li>
-          <li>lesson title</li>
-          <li>lesson title</li>
+          <li><strong>Personal Project</strong></li>
+          <li>Final Demos</li>
         </ul>
       </article>
     </section>
