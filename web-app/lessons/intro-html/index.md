@@ -18,6 +18,12 @@ title: Intro to HTML
 - Attribute
 - Nesting
 
+## Warm Up
+
+In your notebook, jot down your answers. Then, we'll discuss as a class.
+- What are you favorite websites?
+- What is it about these websites that you like? The look of it? The functionality/purpose?
+
 ## Overview
 
 Of all of the major technologies used on the web, on either the front- or the back- end, HTML is the oldest. In the beginning, the web was just a bunch of HTML documents that you wrote by hand. They had these cool things called hyperlinks that would allow a user to click on a word on one page and be taken to another page.
@@ -115,7 +121,7 @@ One common example is when you see one word within a paragraph that is a link. T
 <div class="try-it">
   <h2>Turn & Talk</h2>
   <p>Read through the two code snippets below, then talk with your partner about both, including answers these questions:</p>
-  <p>In the first code snippet, which element is nested inside of the <code class="try-it-code">div</code>? Why do you think the author of this code decided to use nesting?</p>
+  <p>In the first code snippet, which element is nested inside of the <code class="try-it-code">nav</code>? Why do you think the author of this code decided to use nesting?</p>
   <p>In the second code snippet, which element is wrapped around other elements? What do you think the author decided to indent all of the nested elements they way they did? What do you imagine <code class="try-it-code">nav</code> stands for/does?</p>
 </div>
 
@@ -139,22 +145,20 @@ In the second example, the `nav` element is wrapping the `h1`, `p`, `input`, and
 <div class="try-it">
   <h2>Try It: Nesting Elements</h2>
   <p>Let's update your CodePen!</p>
-  <p>First, wrap a body tag around all of your code.</p>
-  <p>Then, in one of your existing paragraphs, change at least one word or phrase. Look into <code class="try-it-code">code</code>, <code class="try-it-code">em</code>, <code class="try-it-code">i</code>, <code class="try-it-code">small</code> or <code class="try-it-code">s</code> if you want to do something other than a link!</p>
+  <p>First, wrap a <code class="try-it-code">body</code> tag around all of your code.</p>
+  <p>Then, in one of your existing paragraphs, change at least one word or phrase. Do some Google research on <code class="try-it-code">code</code>, <code class="try-it-code">em</code>, <code class="try-it-code">i</code>, <code class="try-it-code">small</code> or <code class="try-it-code">s</code> if you want to do something other than a link!</p>
 </div>
 
-## Vocabulary Reflection
+In the Try It above, you used a `body` element for the first time. You'll be seeing this more and more.
 
-- HTML
-- HTML Element
-- HTML Tag
-- Attribute
-- Nesting
+Every HTML document has one `head` element and one `body` element. The `head` holds a lot of information about the site that the user won't see in the browser. The `body` wraps everything that the user does see in the browser. When we work in CodePen, we don't _have_ to use the `body` element, but it's good to know that it exists because we'll be seeing it later.
+
+Let's put everything we've learned so far together by completing one last round of practice.
 
 <div class="practice">
   <h2>Practice: HTML</h2>
   <p>If you'd like to save your work from class, save the pen in CodePen, then create a new one for this section.</p>
-  <p>Using the unicorn lorem ipsum below (but selecting your own photo), recreate this site:</p>
+  <p>Using the unicorn lorem ipsum below (but selecting your own photo), recreate this site. The links can go to anywhere you'd like!</p>
   <p>Surprise pegasus surprise app pop pigeon delight. Unicorn unicorn wereunicorn pegasus pigeon delight pop social social. Pony pop pony, kittens kittens pigeon pony puppy unicorn pegasus pigeon. Social wereunicorn kittens app kittens delight delight pony, delight rainbows surprise social app. Surprise social delight unicorn kittens unicorn pony pop rainbows.</p>
   <br>
   <img src="./assets/recreate-unicorn.png">

@@ -11,11 +11,20 @@ title: Intro to CSS
 **Note** - for the Try It and Practice sessions, you should be working in a CodePen Pen. You should have created an account in the Intro to HTML Lesson.
 
 ## Technical Vocabulary
+
 * CSS
 * CSS Property
 * HTML Element
 * id
 * class
+
+## Warm Up
+
+Over the next couple of days, we'll create a lot of small websites to practice what we're learning.
+
+Write a list of topics you are interested in or passionate about that you can refer back to when you need to make a little site.
+
+Share with your partner - this will also help you get to know each other!
 
 ## What is CSS?
 
