@@ -106,6 +106,14 @@ p {
   <p>Based on what you know about the syntax for rules for classes, what do you think the syntax for IDs is?</p>
 </div>
 
+### Classes _and_ IDs
+
+Occasionally, you'll see the use of a class _and_ an ID on the same element. Why?
+
+There may be several reasons for this. When it comes to styling, we may have two paragraphs that should have a lot in common. But one of them should also have a unique style. Both paragraphs can have the class with all the styles they share, then the second has an ID with it's unique styles.
+
+When we get into JavaScript, we will also utilize these classes and IDs. It's common that a class will have the styles for a set of elements, then we use the ID in JavaScript to _do_ something with one of those elements. We'll get more into that later.
+
 ## Borders
 
 You'll learn that there are many CSS properties out there that we can add to rules. You don't need to memorize the entire list; there are resources like <a target="blank" href="https://htmldog.com/references/css/properties/">this</a> which you can reference anytime you are coding. There are some common properties though, that you will find yourself using so often, that you know by heart.
