@@ -86,3 +86,14 @@ On the other hand, this doesn't quiet yet look like a professional form. Wrappin
   <p>Find some inspiration. Go to one of your favorite websites and find a form that you want to recreate. Need some help with ideas? Look at <a target="blank" href="https://app.pairin.com/">Pairin</a>, <a target="blank" href="https://github.com/">GitHub</a> (you'll have to logout), or <a target="blank" href="https://www.codecademy.com/login">Codecademy</a>.</p>
   <p>While your form won't <em>do</em> anything yet, we can style it up to look just as good as a professional site. In the next lesson, we'll dig into that functionality!</p>
 </div>
+
+## Building on Past Projects
+
+One thing that can feel hard at first but is a huge part of a developers job is to build on code written in the past - by them or someone else. It can take some time to read over some code, understand what is happening, then decide how to move forward to add a feature or change some of the styles. Practice that real-world skill by completing the activity below.
+
+<div class="practice">
+  <h2>Practice: HTML Forms</h2>
+  <p>Open up your "box-model-practice" project in Atom, where we made a social media card.</p>
+  <p>Add to the card an option to send a message to the person featured on that card. It might look like this:</p>
+  <img src="./assets/card-with-form.png">
+</div>
