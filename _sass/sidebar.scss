@@ -32,18 +32,15 @@ $sidebar-color: rgb(245, 245, 245);
   }
 }
 
-.active-link {
-  background-color: lighten(#98a1a2, 20);
-}
-
 .sidebar-navigation--links {
   display: flex;
   flex-direction: row;
 
   a {
     display: block;
-    padding: 0.5em 1.1em;
-    border-bottom: none;
+    margin: 0.5em 1.1em;
+    padding-bottom: 0.25em;
+    border-bottom: 3px solid #fff;
     color: $dark-gray;
 
     &:hover {
@@ -53,6 +50,11 @@ $sidebar-color: rgb(245, 245, 245);
     &:active {
       color: $green;
     }
+
+  }
+
+  .active-link {
+    border-bottom: 3px solid $green;
   }
 
   @media (max-width: 600px) {
