@@ -49,7 +49,7 @@ In order to experiment with strings, we’ll click on the console button in Code
 
 Right now, we can see the strings we type in when we hit enter. However, we won’t always be writing our code in the console, so let’s move to a more realistic way of writing our JavaScript.
 
-Keep the console open, but in the JavaScript editor tab on Codepen, type the following:
+Keep the console open, but **in the JavaScript editor tab** on Codepen, type the following:
 
 ```js
 console.log('hello, world!');
@@ -92,6 +92,7 @@ Make sure to use the back-ticks when you are using string interpolation (to the 
 
 <div class="try-it">
   <h2>Try It: Strings and Variables</h2>
+  <p>Complete the following in a CodePen. You should type your code in the JavaScript editor of the CodePen, and see the results in the console.</p>
   <p>If you have the strings "Beyonce" and "Knowles" in the following variables:</p>
   <code class="try-it-code">var first = "Beyonce"</code><br>
   <code class="try-it-code">var last = "Knowles"</code>
@@ -141,15 +142,17 @@ We can also compare values. The return value is a **boolean**, true or false.
 4 >= 9
 //=> false
 
-7 == 7
+7 === 7
 //=> true
 
-"hello" == "hello"
+"hello" === "hello"
 //-> true
 
-"hello" == "Hello"
+"hello" === "Hello"
 //-> false
 ```
+
+Notice the `===`. This checks if two pieces of data are equal to each other. The assignment operator (`=`), assigns the value of a variable. These two are **very** different!
 
 We have some other helpful operators that may be newer to you. Look at each snippet of code and it's return value, then predict what the operator does.
 
@@ -255,12 +258,15 @@ if (queen == "Beyonce") {
 
 <div class="try-it">
   <h2>Try It: Conditionals</h2>
-  <p>Create a variable named <code class="try-it-code">favoriteFood</code> and assign it to a string of your favorite food.</p>
-  <p>Write an if statement comparing your favorite to 'Chipotle', which if evaluated to true, prints out a sentence (you choose!)</p>
-  <p>Write an else if statement comparing your favorite to 'Starbucks', which if evaluated to true, prints out a sentence (you choose!)</p>
-  <p>Write another else if - you choose what you compare it to.</p>
-  <p>Write an else statement that prints out a sentence of your choice.</p><br>
-  <p>Try changing your <code class="try-it-code">favoriteFood</code> to Chipotle, then Starbucks (if it wasn't already). Do you get what you expected?</p>
+  <p>For this Try It, type all your code in the JavaScript editor in CodePen. To see if it's working, look below at the console.</p>
+  <ul>
+    <li>Create a variable named <code class="try-it-code">favoriteFood</code> and assign it to a string of your favorite food.</li>
+    <li>Write an if statement comparing your favorite to 'Chipotle', which if evaluated to true, prints out a sentence (you choose!)</li>
+    <li>Write an else if statement comparing your favorite to 'Starbucks', which if evaluated to true, prints out a sentence (you choose!)</li>
+    <li>Write another else if - you choose what you compare it to.</li>
+    <li>Write an else statement that prints out a sentence of your choice.</li>
+    <li>Try changing your <code class="try-it-code">favoriteFood</code> to Chipotle, then Starbucks (if it wasn't already). Do you get what you expected?</li>
+  </ul>
 </div>
 
 ## JavaScript
