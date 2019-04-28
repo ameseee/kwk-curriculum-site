@@ -142,10 +142,9 @@ Another CSS property with Flexbox is `direction`. This property takes one of fou
 It's not very common to use row-reverse or column-reverse, but it's good to know what's out there!
 
 <div class="try-it">
-  <h2>Try It: Direction</h2>
-  <p>Open <a target="blank" href="https://codepen.io/turing-kwk/pen/WWyYZy">this CodePen</a> and fork it. This will create a new copy to your account that you can edit.</p>
-  <p>Your job will be to update the CSS (you'll probably need to add some classes on some HTML elements, too!) so the outcome looks like the screen shot below, but <strong>first</strong>, take some time to jot down some notes and talk with a partner about <em>how</em> you will approach this.</p>
-  <img src="./assets/direction.png" alt="">
+  <h2>Try It: Flexbox Froggy</h2>
+  <p>Work your way through <a target="blank" href="https://flexboxfroggy.com/">Flexbox Froggy</a>.</p>
+  <p>Make sure to check in with your partner every few levels to see if they need any help!</p>
 </div>
 
 ## Wrap
@@ -170,6 +169,7 @@ There is more to learn about Flexbox, but we can do a lot with what we know. It 
 
 <div class="practice">
   <h2>Practice: Flexbox</h2>
-  <p>Work your way through <a target="blank" href="https://flexboxfroggy.com/">Flexbox Froggy</a>.</p>
-  <p>Make sure to check in with your partner every few levels to see if they need any help!</p>
+  <p>Open <a target="blank" href="https://codepen.io/turing-kwk/pen/WWyYZy">this CodePen</a> and fork it. This will create a new copy to your account that you can edit.</p>
+  <p>Your job will be to update the CSS (you'll probably need to add some classes on some HTML elements, too!) so the outcome looks like the screen shot below, but <strong>first</strong>, take some time to jot down some notes and talk with a partner about <em>how</em> you will approach this.</p>
+  <img src="./assets/direction.png" alt="">
 </div>
