@@ -131,7 +131,7 @@ function timeToWalk(numberOfDogs) {
 
 <div class="try-it">
   <h2>Try It: Logic Inside a Function</h2>
-  <p>Write a function that takes one argument, a <code class="try-it-code">gradeLevel</code>. If should then return "You are in elementary school" or "You are in middle school", etc. based on the grade level passed in.</p>
+  <p>Write a function that takes one argument, a <code class="try-it-code">gradeLevel</code>. It should then print out "You are in elementary school" or "You are in middle school", etc. based on the grade level passed in.</p>
   <p>Now, write another function that takes in a number, a <code class="try-it-code">dogAge</code>, and multiplies it by 7. It should print out a sentence telling the dog how old it is in human years.</p>
 </div>
 
@@ -170,6 +170,7 @@ Over the course of camp, we will write a lot of functions! They will have differ
 
 <div class="practice">
   <h2>Practice: Functions, Arguments, Return Values</h2>
-  <p>With your partner, brainstorm another task that we can give our robot. Make a list of steps that would be required to complete the task. Make a list of possible arguments you could pass the function to make it dynamic. Get your lists approved, then declare and call your function.</p>
+  <p>As a class, let's brainstorm another task that we can give our robot.</p>
+  <p>With your partner, decide which task you'd like to write code for. Make a list of steps that would be required to complete the task. Make a list of possible arguments you could pass the function to make it dynamic. Get your lists approved, then declare and call your function.</p>
   <p>Now, re-write your function so it not only <code>console.log</code>s data, but returns a value. Store the return value in a variable.</p>
 </div>
