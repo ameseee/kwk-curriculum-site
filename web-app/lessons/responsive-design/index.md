@@ -79,7 +79,7 @@ The tricky thing about layout and responsive design is, we can't just think abou
 
 <div class="try-it">
   <h2>Try It: Layout</h2>
-  <p>Create a new folder called "responsive-design", and inside of it, an HTML and CSS file. Copy and paste the code from this <a target="blank" href="https://codepen.io/turing-kwk/pen/bJKzvB?editors=1100">CodePen</a> into Atom.</p>
+  <p>Fork this <a target="blank" href="https://codepen.io/turing-kwk/pen/bJKzvB?editors=1100">CodePen</a> to your account.</p>
   <p>Now, write media queries for 1 breakpoint at 900px. At 900px, the site should change so all four containers are stacked on top of each other. Each should have a little breathing room around it as well.</p>
 </div>
 
@@ -89,7 +89,7 @@ Just like we've been building every piece we know about HTML and CSS, this will 
 
 <div class="practice">
   <h2>Practice: Layout</h2>
-  <p>In your "responsive-design" folder, create a new HTML and new CSS file. Copy and paste the code from this <a target="blank" href="https://codepen.io/turing-kwk/pen/bJKzvB?editors=1100">CodePen</a> into Atom.</p>
+  <p>In your "responsive-design" folder, create a new HTML and new CSS file. Copy and paste the code from this <a target="blank" href="https://codepen.io/turing-kwk/pen/ROJdaR">CodePen</a> into Atom.</p>
   <p>Now, write media queries for 2 breakpoint at 900px. The three layouts you're working towards are pictured below:</p>
   <img src="./assets/full-screen.png" alt="Full screen view">
   <img src="./assets/ipad-screen.png" alt="iPad screen view">
