@@ -164,6 +164,20 @@ The `object-fit` property on the `.correct-ratio` class fixed the distorted rati
   <p>Style the photos so they appear to be the same size, and make sure they aren't squished!</p>
 </div>
 
+## Does Order Matter?
+
+You may have wondered if the order your CSS rules are written in, matters. Let's explore to start answering that question ourselves!
+
+<div class="try-it">
+  <h2>Try It: Does Order Matter?</h2>
+  <p>Go into one of your CodePens and try switching around the order of rules. Do you see any changes?</p>
+  <p>Now, try switching around the order of property/values within a rule. Do you see any changes?</p>
+</div>
+
+The answer is: yes and no.
+
+CSS stands for Cascading Style Sheets. It is read from top to bottom. In very rare cases, you will see that switching the order of rules or property/values within a rule will change the appearance of your site. For what we're doing here at camp, it's probably more important to be aware of the hierarchy of element ➡ class ➡ ID when targeting something to write a rule for.
+
 ## Other Commonly Used Properties
 
 Like we talked about earlier, there is a plethora of CSS properties available to us! You don't have to know them all, but it's fun to explore what's out there. Here is a list of commonly used properties:

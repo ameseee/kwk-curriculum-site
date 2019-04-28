@@ -141,7 +141,7 @@ The `*` means: apply this rule to ALL elements. `box-sizing: border-box` is a li
   <h2>Try It: Margin and Padding</h2>
   <p>Card is a word that is commonly used in front-end development. When we refer to a card, we usually mean a <code class="try-it-code">div</code> or another similar element that is used to contain information. The profile information on twitter could be called a card.</p>
   <p>We are going to begin recreating a Twitter profile card. There are many ways this can be achieved - you may see that you and your partner's outcome looks the same, but code looks very different! That's ok! As you get more practice, you will find which methods you prefer.</p>
-  <p>Create a new file on your desktop called "box-model-display" and make an HTML and CSS file in it. Then, work towards replicating this:</p>
+  <p>Create a new file on your desktop called "box-model-display" and make an HTML and CSS file in it. It's standard to see HTML files named "index.html" and CSS files named "styles.css". Then, work towards replicating this:</p>
   <img class="medium" src="./assets/recreate-twitter-card.png" alt="Start of a Twitter profile card">
 </div>
 
