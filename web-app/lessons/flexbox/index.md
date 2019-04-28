@@ -143,7 +143,8 @@ It's not very common to use row-reverse or column-reverse, but it's good to know
 
 <div class="try-it">
   <h2>Try It: Direction</h2>
-  <p>Open <a target="blank" href="https://codepen.io/turing-kwk/pen/WWyYZy">this CodePen</a> and fork it. This will create a new copy to your account that you can edit. Update the CSS (you'll probably need to add some classes on some HTML elements, too!) so the outcome looks like this:</p>
+  <p>Open <a target="blank" href="https://codepen.io/turing-kwk/pen/WWyYZy">this CodePen</a> and fork it. This will create a new copy to your account that you can edit.</p>
+  <p>Your job will be to update the CSS (you'll probably need to add some classes on some HTML elements, too!) so the outcome looks like the screen shot below, but <strong>first</strong>, take some time to jot down some notes and talk with a partner about <em>how</em> you will approach this.</p>
   <img src="./assets/direction.png" alt="">
 </div>
 
