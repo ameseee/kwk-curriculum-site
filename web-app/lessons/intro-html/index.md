@@ -142,6 +142,8 @@ There are two words you'll hear in regards to nesting - nest and wrap.
 
 In the second example, the `nav` element is wrapping the `h1`, `p`, `input`, and `button` elements. You could also say that the `h1`, `p`, `input`, and `button` elements are nested in the `nav` element. Nesting is a concept you will see in CSS and JavaScript as well!
 
+It's almost important to point out the use of indentation in the example above. Since `nav` is the parent, or wrapping, element, it is not indented at all. Every element nested inside of it is indented on tab. HTML will _run_ if indentation is not used; but it makes it much more readable for you and others.
+
 <div class="try-it">
   <h2>Try It: Nesting Elements</h2>
   <p>Let's update your CodePen!</p>

@@ -72,7 +72,7 @@ Let's go ahead and create an HTML file and open in Atom.
 
 ## Running HTML in the Browser
 
-There are a few steps we will need to take every time we get started on a project. Watch the video, or your instructor, walk through them.
+There are a few steps we will need to take every time we get started on a project.  Either watch this video, or watch your instructor model how to get a project up and running.
 
 <iframe width="100%" height="560" frameborder="0" scrolling="no" src="https://screencast-o-matic.com/embed?sc=cqf0oiZwHp&v=5&ff=1" allowfullscreen="true"></iframe>
 
