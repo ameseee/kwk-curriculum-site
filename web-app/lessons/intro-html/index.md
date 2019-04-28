@@ -8,7 +8,7 @@ title: Intro to HTML
 * Know how to build a site with text content, links, and images
 * Understand and implement nesting with HTML elements
 
-**Note** - for the Try It and Practice sessions, you should be working in a CodePen Pen. You will need to create a free account.
+**Note** - for the Try It and Practice sessions, you should be working in a CodePen Pen.
 
 ## Technical Vocabulary
 
