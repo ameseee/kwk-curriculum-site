@@ -1,18 +1,29 @@
 <nav class="sidebar-navigation">
-
   <section class="sidebar-navigation-logo">
     <h1 class="main-h1">
       <a class="home" href="{{ site.url }}">Kode With Klossy 2019</a>
     </h1>
   </section>
-
   <div class="sidebar-navigation--links">
-    <h2>
-      <a class="curriculum-links" href="{{ site.url }}/web-app/">Web Applications</a>
-    </h2>
-    <h2>
-      <a class="curriculum-links" href="{{ site.url }}/swift-ios/">Mobile Applications</a>
-    </h2>
+    <div class="web-app-drop-down">
+      <h2>
+        <a class="curriculum-links web-app-menu" href="{{ site.url }}/web-app/">Web Applications</a>
+      </h2>
+      <ul class="web-app-options">
+        <li><a class="web-app-option" href="{{ site.url }}/web-app/lessons/">Lessons</a></li>
+        <li><a class="web-app-option" href="{{ site.url }}/web-app/projects/">Project</a></li>
+        <li><a class="web-app-option" href="{{ site.url }}/web-app/calendar/">Calendar</a></li>
+      </ul>
+    </div>
+    <div class="mobile-app-drop-down">
+      <h2>
+        <a class="curriculum-links mobile-app-menu" href="{{ site.url }}/swift-ios/">Web Applications</a>
+      </h2>
+      <ul class="mobile-app-options">
+        <li><a class="mobile-app-option" href="{{ site.url }}/swift-ios/lessons/">Lessons</a></li>
+        <li><a class="mobile-app-option" href="{{ site.url }}/swift-ios/projects/">Project</a></li>
+        <li><a class="mobile-app-option" href="{{ site.url }}/swift-ios/calendar/">Calendar</a></li>
+      </ul>
+    </div>
   </div>
-
 </nav>
