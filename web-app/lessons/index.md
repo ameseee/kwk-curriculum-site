@@ -23,6 +23,7 @@ title: Web Applications Lessons
 - Local Storage
 
 ## Other
+- [Intro to CodePen]({{ site.url }}/web-app/lessons/intro-codepen)
 - [Design]({{ site.url }}/web-app/lessons/design)
 - [Git and GitHub]({{ site.url }}/web-app/lessons/git-github)
 - [Videos]({{ site.url }}/web-app/lessons/videos)
