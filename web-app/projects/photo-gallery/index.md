@@ -19,7 +19,7 @@ Using what you’ve learned about HTML and CSS, you are going to build a photo g
 - The best galleries contain photos that follow a theme - maybe it’s about you! Maybe it’s about your favorite sport, city, animal, food, etc.
 - Use Flexbox
 - Use a [Google Font](https://fonts.google.com/) if you have any text
-- [Pexels](https://www.pexels.com/) is a great resource for photos. Pro-Tip: rename the photos once you drag them into your project, it's much easier to use them in HTML when they have names like "cactus-1.png" rather than "cactus-green-1g623j45y677.png"
+- [Pexels](https://www.pexels.com/) is a great resource for photos. You can also use your own photos! Pro-Tip: rename the photos once you drag them into your project, it's much easier to use them in HTML when they have names like "cactus-1.png" rather than "cactus-green-1g623j45y677.png"
 
 ## Iteration 1 - Wireframe & Vision
 
