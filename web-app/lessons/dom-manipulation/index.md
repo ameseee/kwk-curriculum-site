@@ -47,7 +47,7 @@ We can also access elements by classes and IDs. Instead of `('h1')` we would nee
   <h2>Try It: Accessing Elements</h2>
   <p>Create a folder called "dom" on your Desktop, and create an HTML and Javascript file inside of it. It's standard to title the JavaScript file In your <code class="try-it-code">index.js</code>.</p>
   <p>In your <code class="try-it-code">index.html</code>file, write at least 3 HTML elements. Give at least one a class and at least one an ID.</p>
-  <p>In your <code class="try-it-code">index.js</code>file, write JavaScript to print each element to the console. Practice accessing elements by element type, class, and ID.</p>
+  <p>In your <code class="try-it-code">index.js</code>file, write JavaScript to print each element to the console. Practice accessing elements by element type, class, and ID. Open the site in the browser, and open your dev tools. In the console panel, you should see your <code class="try-it-code">console.log</code> statements.</p>
   <p>Finished Early? Create a duplicate of one of your elements and run the code again. What anything different printed in the console? Use your google skills to research the difference between `.querySelector` and `.querySelectorAll`.</p>
 </div>
 
@@ -71,7 +71,7 @@ Events are really at the heart of DOM Manipulation. When we talked about user in
 
 In order for our site to respond to events, we need to write some code that so that our site becomes "smart" enough to know to lookout for a specific event on a specific element. These are called **event listeners**. Their job is to sit around and wait for an event to take place in the browser, and when it does, it will call a function for us.
 
-This CodePen has an example of the syntax. Click "Edit on CodePen" to open it in the browser. Make sure to open the console in CodePen, then click the button. Click it again.
+This CodePen has an example of the syntax. Click "Edit on CodePen" to open it in the browser. Make sure to open the console in CodePen, then click the button. Click the button a second time. What do you see in the console?
 
 <p class="codepen" data-height="300" data-theme-id="36709" data-default-tab="js,result" data-user="turing-kwk" data-slug-hash="VNGRRv" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid black; margin: 1em 0; padding: 1em;" data-pen-title="Check It Out: Event Listeners">
   <span>See the Pen <a href="https://codepen.io/turing-kwk/pen/VNGRRv/">
@@ -146,6 +146,6 @@ Take some time to put together everything we've learned today and complete the p
 
 <div class="practice">
   <h2>Practice: DOM Manipulation</h2>
-  <p>You can create a file folder, or add this to your code from the Try It about.</p>
+  <p>You can create a folder on your Desktop, or a CodePen.</p>
   <p>Build a small site that has one input field for the user to type their name and a button to submit. When the user clicks the button, they should see a message with their name appear on the screen.</p>
 </div>
