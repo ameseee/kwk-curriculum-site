@@ -12,3 +12,8 @@ $('img').on('mouseover', function() {
   $('.mobile-app-options').css('display', 'none');
   $('.web-app-options').css('display', 'none');
 });
+
+$('h1').on('mouseover', function() {
+  $('.mobile-app-options').css('display', 'none');
+  $('.web-app-options').css('display', 'none');
+});
