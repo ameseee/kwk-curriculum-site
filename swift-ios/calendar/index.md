@@ -11,6 +11,7 @@ title: Mobile Applications Calendar
           <li>Welcome & Intro</li>
           <li>Data Types</li>
           <li>Conditionals</li>
+          <li>Terminal & Git</li>
           <li>Functions</li>
           <li>Collections</li>
         </ul>
@@ -21,14 +22,13 @@ title: Mobile Applications Calendar
           <li>Loops</li>
           <li>Classes & Objects</li>
           <li>Object Interaction</li>
-          <li>Git & GitHub</li>
+          <li>Gear Up 1</li>
         </ul>
       </article>
         <article class="day-card">
         <h3>Wednesday</h3>
         <ul>
           <li><strong>Project:</strong> Aviatrix</li>
-          <li>Gear Up 1</li>
         </ul>
       </article>
         <article class="day-card">
@@ -36,8 +36,8 @@ title: Mobile Applications Calendar
         <ul>
           <li>Design</li>
           <li>StoryBoard</li>
-          <li>Actions & Outlets</li>
           <li>Side Loading</li>
+          <li>Actions & Outlets</li>
           <li><strong>Project:</strong> Emojional</li>
         </ul>
       </article>
