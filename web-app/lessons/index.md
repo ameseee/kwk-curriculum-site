@@ -1,5 +1,5 @@
 ---
-title: Web Applications Lessons
+title: WebDev Lessons
 ---
 
 ## HTML

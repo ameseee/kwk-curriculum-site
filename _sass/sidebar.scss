@@ -41,10 +41,11 @@ $sidebar-color: rgb(245, 245, 245);
 
   a {
     display: block;
-    margin: 0.5em 1.1em;
+    margin: 0.5em 2.8em;
     padding-bottom: 0.25em;
     border-bottom: 3px solid #fff;
     color: $dark-gray;
+    text-align: center;
 
     &:hover {
       color: $green;
@@ -69,13 +70,14 @@ $sidebar-color: rgb(245, 245, 245);
   .mobile-app-options {
     display: none;
     position: fixed;
-    top: 75px;
+    top: 73px;
     border: 1px solid $light-gray;
     padding-left: 0;
-    width: 220px;
+    width: 210px;
 
     li {
       list-style: none;
+      text-align: center;
     }
   }
 

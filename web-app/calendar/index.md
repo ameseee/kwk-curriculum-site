@@ -1,5 +1,5 @@
 ---
-title: Web Applications Calendar
+title: WebDev Calendar
 ---
 
 <section class="week-card">

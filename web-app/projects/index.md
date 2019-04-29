@@ -1,5 +1,5 @@
 ---
-title: Web Applications Projects
+title: WebDev Projects
 ---
 
 - [Photo Gallery]({{ site.url }}/web-app/projects/photo-gallery)

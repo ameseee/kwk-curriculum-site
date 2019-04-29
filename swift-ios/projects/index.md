@@ -1,5 +1,5 @@
 ---
-title: Mobile Applications Projects
+title: Mobile Projects
 ---
 
 - [Aviatrix]({{ site.url}}/swift-ios/projects/aviatrix)

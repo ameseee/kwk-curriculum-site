@@ -1,5 +1,5 @@
 ---
-title: Mobile Applications Calendar
+title: Mobile Calendar
 ---
 
 <section class="week-card">
