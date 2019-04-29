@@ -1,6 +1,6 @@
 $('.web-app-drop-down').on('mouseover', function() {
   $('.web-app-options').css('display', 'inline-block');
-    $('.mobile-app-options').css('display', 'none');
+  $('.mobile-app-options').css('display', 'none');
 });
 
 $('.mobile-app-drop-down').on('mouseover', function() {
