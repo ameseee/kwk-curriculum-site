@@ -11,16 +11,17 @@ title: Web Applications Calendar
           <li>Welcome & Intro</li>
           <li>Intro to HTML</li>
           <li>Intro to CSS</li>
+          <li>Terminal</li>
           <li>HTML & Atom</li>
         </ul>
       </article>
         <article class="day-card">
         <h3>Tuesday</h3>
         <ul>
+        <li>Design</li>
           <li>Box Model & Display</li>
           <li>Flexbox</li>
           <li>Responsive Design</li>
-          <li>Design</li>
           <li><strong>Project:</strong> Photo Gallery</li>
         </ul>
       </article>
