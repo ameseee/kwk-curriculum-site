@@ -45,7 +45,7 @@ Everything looks great on my iPhone 8 screen, but in the simulator... not so muc
 <iframe width="100%" height="560" frameborder="0" scrolling="no" src="https://screencast-o-matic.com/embed?sc=cqfvIlZpvy&v=5&ff=1" allowfullscreen="true"></iframe>
 
 <div class="try-it">
-  <h2>Try It: StoryBoard & Object Library</h2>
+  <h2>Try It: Constraints</h2>
   <p>Building on your project, add constraints to each UI Object. Make sure to get <em>one</em> object looking as expected before moving on to the next.</p>
 </div>
 
