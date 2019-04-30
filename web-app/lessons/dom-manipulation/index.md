@@ -18,6 +18,7 @@ title: DOM Manipulation
 - Event
 - Event Listener
 - Event Handler
+- jQuery
 
 ## What is the DOM?
 
@@ -51,12 +52,40 @@ We can also access elements by classes and IDs. Instead of `('h1')` we would nee
   <p>Finished Early? Create a duplicate of one of your elements and run the code again. What anything different printed in the console? Use your google skills to research the difference between `.querySelector` and `.querySelectorAll`.</p>
 </div>
 
+## jQuery
+
+There is a popular library, of chunk of code someone else wrote, called jQuery. There are a lot of things it can do, all of which are JavaScript, but it's less for us to write. Here's one example:
+
+```javascript
+var header = document.querySelector('h1');    // javascript
+
+var header $('hi');                           // jQuery
+```
+
+In jQuery, we can use the `$` in place of the `document.querySelector` which saves us time typing!
+
+### Load jQuery into a CodePen
+
+jQuery doesn't just magically "work" in a JavaScript file; we have to import the library. To do this, click the gear icon to open the settings next to "JS". Under "Add External Scripts/Pens", start typing in "jQuery", then select the first option. Click "Save & Close"
+
+<img src="./assets/jquery.gif">
+
+Keep in mind that when we use features of jQuery, we are still writing JavaScript. It's just a little "extra" on top! From here on out, we will use the jQuery `$` to access DOM elements.
+
+### Load jQuery into a Project in Atom
+
+On the line above your script tag for your JavaScript file, add this:
+
+```html
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+```
+
 ## Change Content on the DOM
 
 Now that we can access elements and store them in a variable, the possibilities are endless! Let's start by programmatically changing the content of an element. We can use a tool called `.innerText` to change the text inside of an element.
 
 ```js
-var header = document.querySelector('h1');
+var header = $('h1');
 header.innerText = "HIIII";
 //=> In the browser, the hi now says HIIII
 ```
@@ -83,7 +112,7 @@ This CodePen has an example of the syntax. Click "Edit on CodePen" to open it in
 
 <div class="try-it">
   <h2>Turn & Talk</h2>
-  <p>With your partner, read through each line of the JavaScript file in the CodePen. Lines 1 and 5 should be somewhat familiar; but line 3 is brand-new. What is your prediction about what each part of the code is doing?</p>
+  <p>With your partner, read through each line of the JavaScript file in the CodePen above. Lines 1 and 5 should be somewhat familiar; but line 3 is brand-new. What is your prediction about what each part of the code is doing?</p>
   <p>Push It: The function <code class="try-it-code">doSomething</code> is never called with the syntax we've learned: <code class="try-it-code">doSomething</code>. Why not? What happens if we add <code class="try-it-code">()</code> after <code class="try-it-code">doSomething</code> on line 3?</p>
 </div>
 
@@ -112,9 +141,9 @@ Check this out:
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
 <br>
 
-Why does the button go back and forth between pink and purple? Try changing `toggle` to `add` - what happens? What happens when you change it to `remove`? Why?
+Why does the button go back and forth between pink and purple? Try changing `toggleClass` to `addClass` - what happens? What happens when you change it to `removeClass`? Why?
 
-Besides accessing the `classList`, we can also add CSS property/values! Check out the code in the pen below:
+Besides accessing CSS rules be classes, we can also add CSS property/values! Check out the code in the pen below:
 
 <p class="codepen" data-height="300" data-theme-id="36709" data-default-tab="js,result" data-user="turing-kwk" data-slug-hash="YMbvdP" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid black; margin: 1em 0; padding: 1em;" data-pen-title="Check It Out: DOM Manipulation of CSS">
   <span>See the Pen <a href="https://codepen.io/turing-kwk/pen/YMbvdP/">
@@ -126,17 +155,17 @@ Besides accessing the `classList`, we can also add CSS property/values! Check ou
 Let's break this down.
 - On lines 1-2, we declare the `submit` and `body` variables which are storing the submit button and body, respectively
 - On line 3, we declare an event listener for the `submit` button
-- On line 4, we declare the `selectedColor` variable which grabs the value off of the input with a class of `.color-input`
+- On line 4, we declare the `selectedColor` variable which grabs the value off of the input with a class of `.color-input`, using `.val()`
 - Line 5 is where the magic happens:
 
 ```javascript
-body.style.backgroundColor = selectedColor;
+body.css('backgroundColor', selectedColor);
 ```
 
   * `body` references the `body` variable
-  * `.style` says: I'm about to give you directions on adding styles, or CSS rules
-  * `.backgroundColor` says: here is the property I'd like you to add to this element
-  * `= selectedColor` says: here is the value that goes with the property, in this case the value inside our `selectedColor` variable. We could change this to any color, hex, or rgba code.
+  * `.css` says: I'm about to give you directions on adding styles, or CSS rules. `.css` takes two arguments, a property and a value.
+  * `backgroundColor` says: here is the property I'd like you to add to this element
+  * `selectedColor` says: here is the value that goes with the property, in this case the value inside our `selectedColor` variable. We could change this to any color, hex, or rgba code.
 
 This entire line of code accesses the body element and updates that elements styles, so we see the background color change in the browser!
 
@@ -174,6 +203,6 @@ Take some time to put together everything we've learned today and complete the p
 
 <div class="practice">
   <h2>Practice: DOM Manipulation</h2>
-  <p>You can create a folder on your Desktop, or a CodePen.</p>
+  <p>You can create a folder on your Desktop, or a CodePen. Don't forget to load jQuery into your project!</p>
   <p>Build a small site that has one input field for the user to type their name and a button to submit. When the user clicks the button, they should see a message with their name appear on the screen.</p>
 </div>
