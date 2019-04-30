@@ -57,9 +57,7 @@ When we created the outlet, Xcode generated some swift code for us, which lives 
 
 `@IBOutlet` means an outlet on the Interface Builder has been created. `weak` - we'll ignore. `var appTitle` is a declaration of a new variable called appTitle, and `var appTitle: UILabel!` means the variable doesn't have a value assigned, but holds the data type of a `UILabel`.
 
-This code was generated when we established the connection, and we should **not** make any changes to it. If you need to edit the spelling or change the variable name, watch this video.
-
-<p class="to-do">make a video for how to fix a mess up outlet</p>
+> This code was generated when we established the connection, and we should **not** make any changes to it. If you need to edit the spelling or change the variable name, watch <a target="blank" href="{{ site.url }}/swift-ios/lessons/videos/change-actions-outlets">this video</a>.
 
 We created this first outlet so that we can control the text in this `AppTitle Label`. This means we can change it once we have whatever text the user typed in.
 
