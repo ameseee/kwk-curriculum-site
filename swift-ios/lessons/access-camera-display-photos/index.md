@@ -132,7 +132,7 @@ We wrote code to access the camera when the `takeSelfieTapped` button was tapped
 Before we move on to do that, make sure you can also access the Photo Library.
 
 <div class="try-it">
-  <h2>Turn & Talk</h2>
+  <h2>Try It: Choose from Library</h2>
   <p>Establish an action between the "Choose from Library" button and the <code class="try-it-code">ViewController.swift</code> file.</p>
   <p>In that action/function, write code so that the user is taken to the Photo Library when they click the "Choose from Library" button. If you need a hint, scroll up to the <em>Overview</em> from the UIImagePickerController documentation that we annotated.</p>
 </div>
@@ -158,7 +158,6 @@ Pro-Tip: If you start typing `imagePickerController`, Xcode should auto-complete
   <p>What do we want to tell the app to do at this point? If you're following along with code, write pseudocode comments. Otherwise, jot your thoughts down in a notebook.</p>
 </div>
 
-<p class="to-do"> put in teacher notes: We want to update that original photo on our main view controller with the photo that was selected by the user.
 We want the user to be taken back to the screen where they can see their photo in that space from answer # 1.</p>
 
 The two things that need to happen when this functions runs are:
