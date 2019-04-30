@@ -33,7 +33,6 @@ To access a user's data - whether it be from the microphone, camera, health info
 <div class="try-it">
   <h2>Turn & Talk</h2>
   <p>What apps have you used that have asked for your permission to access your data?</p>
-  <p class="to-do">EM: Could be a cool opportunity to connect with ethics in tech gear up a bit??? Like are you sure they always get your permission? how do you feel about that? Jusst some brain thoughts.</p>
 </div>
 
 ### `Info.plist`
