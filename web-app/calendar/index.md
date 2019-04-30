@@ -40,13 +40,14 @@ title: WebDev Calendar
           <li>Functions</li>
           <li>HTML Forms</li>
           <li>DOM Manipulation 1</li>
-          <li>Local Storage</li>
+          <li>Collections</li>
+          <li>DOM Manipulation 2</li>
         </ul>
       </article>
         <article class="day-card">
         <h3>Friday</h3>
         <ul>
-          <li>DOM Manipulation 2</li>
+          <li>Local Storage</li>
           <li><strong>Project:</strong> To-Do Box</li>
           <li>Gear Up 2</li>
         </ul>

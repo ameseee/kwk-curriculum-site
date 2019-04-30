@@ -274,6 +274,37 @@ Right now, this doesn’t seem so bad. What if we had 100 languages on our to-le
   <p>Finish early? Create an array of numbers representing hours worked. Loop over the array and print out the product of each number and 20, representing the pay for each hour. Then print out a complete sentence using string interpolation.</p>
 </div>
 
+## Another Way To Iterate
+
+Another way to iterate over arrays is using the `.forEach` function that is built-in to JavaScript. Here's what it looks like:
+
+```javascript
+var languages = ["Go", "Swift", "Python", "PHP"];
+
+languages.forEach(function(language) {
+  console.log(language);
+});
+```
+
+<div class="try-it">
+  <h2>Turn & Talk: forEach</h2>
+  <p>With your partner, talk about what you think is happening on each line of the code above.
+  <p>Once you've made your predictions, type this code out in a CodePen and see what happens. Were your predictions accurate?</p>
+</div>
+<br>
+
+Let's break this code down:
+- `languages` is the array we are going to iterate over
+- `.forEach()` is a built-in function that basically builds a for loop. It takes on argument, a function. This is different from anything we've seen before. It's saying it will run this function _for each_ element in the array.
+- `function(language) {` is the function that will run on each element in the array. `language` is the variable that represents the current element in the array that is being iterated over.
+  -  `console.log(language)` is the code that will run for each element. In this case, each language in the array will print to the console.
+
+<div class="try-it">
+  <h2>Try It: forEach</h2>
+  <p>In a CodePen, write an array with at least four elements, strings, of things you want to learn.</p>
+  <p>Write a <code class="try-it-code">forEach</code> for this array and print out "I want to learn ____" for each element.</p>
+</div>
+
 ## Objects
 
 Objects are another way to hold multiple pieces of data (collection). There is one big difference between them and arrays: Objects are not ordered by index (0, 1, 2, etc.), instead, each piece of data has a ‘label’ instead of a number. We call the labels `keys` and the data `values`. `key/value pairs` is a term you will hear a lot.
