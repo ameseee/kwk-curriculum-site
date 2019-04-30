@@ -91,6 +91,13 @@ This CodePen has an example of the syntax. Click "Edit on CodePen" to open it in
 
 The event listener is responsible for monitoring an element for events, and doing something when the event occurs. The **event handler** is the function that is called when the event occurs. In our previous example, the function `doSomething` was our event handler. These terms are commonly used interchangeably.
 
+<div class="try-it">
+  <h2>Try It: Event Listeners</h2>
+  <p>In the files in the "dom" folder you created earlier, write an HTML <code class="try-it-code">button</code> and <code class="try-it-code">h1</code>.</p>
+  <p>In the <code class="try-it-code">index.js</code>file, write code so that when the button is clicked, you print something to the console.</p>
+  <p>Now, update your JavaScript so that when the button is clicked, the text in the <code class="try-it-code">h1</code> changes to something that it wasn't originally.</p>
+</div>
+
 ## Access CSS
 
 One cool thing about JavaScript since it's accessing your HTML elements, this includes the styles that have been applied to each element. It works kind of like `innerText`, it's a property on the element. However, we can't just print it out. We can add, remove, replace, or toggle classes.
@@ -107,16 +114,37 @@ Check this out:
 
 Why does the button go back and forth between pink and purple? Try changing `toggle` to `add` - what happens? What happens when you change it to `remove`? Why?
 
-You've seen some examples of DOM Manipulation and it's probably starting to make some sense. It's really important that you can not only understand code you read, but be able to think through it as you write it yourself.
+Besides accessing the `classList`, we can also add CSS property/values! Check out the code in the pen below:
+
+<p class="codepen" data-height="300" data-theme-id="36709" data-default-tab="js,result" data-user="turing-kwk" data-slug-hash="YMbvdP" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid black; margin: 1em 0; padding: 1em;" data-pen-title="Check It Out: DOM Manipulation of CSS">
+  <span>See the Pen <a href="https://codepen.io/turing-kwk/pen/YMbvdP/">
+  Check It Out: DOM Manipulation of CSS</a> by Turing KWK (<a href="https://codepen.io/turing-kwk">@turing-kwk</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+
+Let's break this down.
+- On lines 1-2, we declare the `submit` and `body` variables which are storing the submit button and body, respectively
+- On line 3, we declare an event listener for the `submit` button
+- On line 4, we declare the `selectedColor` variable which grabs the value off of the input with a class of `.color-input`
+- Line 5 is where the magic happens:
+
+```javascript
+body.style.backgroundColor = selectedColor;
+```
+
+  * `body` references the `body` variable
+  * `.style` says: I'm about to give you directions on adding styles, or CSS rules
+  * `.backgroundColor` says: here is the property I'd like you to add to this element
+  * `= selectedColor` says: here is the value that goes with the property, in this case the value inside our `selectedColor` variable. We could change this to any color, hex, or rgba code.
+
+This entire line of code accesses the body element and updates that elements styles, so we see the background color change in the browser!
 
 <div class="try-it">
-  <h2>Try It: Event Listeners</h2>
-  <p>In the files in the "dom" folder you created earlier, write an HTML <code class="try-it-code">button</code> and <code class="try-it-code">h1</code>.</p>
-  <p>In the <code class="try-it-code">index.js</code>file, write code so that when the button is clicked, you print something to the console.</p>
-  <p>Now, update your JavaScript so that when the button is clicked, the text in the <code class="try-it-code">h1</code> changes to something that it wasn't originally.</p>
-  <p>Lastly, add something to your event handler that changes the styles of something on your site.</p>
+  <h2>Try It: Access CSS</h2>
+  <p>In the files in the "dom" folder you created earlier, add some code in an event listener so that the color of the button changes.</p>
+  <p>Finished Early? What other property/values can you implement through JavaScript?</p>
 </div>
-
 
 ## Inputs
 
