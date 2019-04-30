@@ -21,7 +21,7 @@ Up until now, we've mainly worked in Xcode Playgrounds, which are a great place 
 
 Either watch the video below, or watch your instructor walk through how to navigate an Xcode Project.
 
-<p class="to-do">insert video</p>
+<iframe width="100%" height="560" frameborder="0" scrolling="no" src="https://screencast-o-matic.com/embed?sc=cqfUrOZkvH&v=5&ff=1" allowfullscreen="true"></iframe>
 
 ## StoryBoard & Object Library
 
@@ -29,7 +29,7 @@ Before we write all the Swift code we've been learning to make our app DO someth
 
 Either watch the video below, or watch you instructor walk through how to add objects from the Object Library to the StoryBoard.
 
-<p class="to-do">insert video</p>
+<iframe width="100%" height="560" frameborder="0" scrolling="no" src="https://screencast-o-matic.com/embed?sc=cqfUrMZkxS&v=5&ff=1" allowfullscreen="true"></iframe>
 
 <div class="try-it">
   <h2>Try It: StoryBoard & Object Library</h2>
@@ -42,7 +42,7 @@ Either watch the video below, or watch you instructor walk through how to add ob
 
 Everything looks great on my iPhone 8 screen, but in the simulator... not so much. Also, on the iPad Pro, everything is on the far left. **Constraints** are settings on UI Objects that make them appear the way we expect on ever device
 
-<p class="to-do">insert video</p>
+<iframe width="100%" height="560" frameborder="0" scrolling="no" src="https://screencast-o-matic.com/embed?sc=cqfvIlZpvy&v=5&ff=1" allowfullscreen="true"></iframe>
 
 <div class="try-it">
   <h2>Try It: StoryBoard & Object Library</h2>
