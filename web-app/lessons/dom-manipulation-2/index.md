@@ -5,6 +5,7 @@ title: DOM Manipulation 2
 ## Learning Goals
 
 * Append multiple elements to the DOM to create a to-do list-like application
+* Refactor code so that functions have a single responsibility
 
 ## Technical Vocabulary
 
@@ -13,12 +14,13 @@ title: DOM Manipulation 2
 - prepend
 - argument
 - object
+- refactor
 
 ## DOM Manipulation
 
 You've already come so far with implementing JavaScript to manipulate the DOM! Today we will take it to the next level. We are going to build a site that can take user input multiple times and keep adding each input to a list. This "To-Do List" is a very common app that developers use as they are learning JavaScript. Here's an example of something like what we will build by the end of this lesson:
 
-<p class="to-do">add screen shot of a to-do list</p>
+<img src="./assets/to-do.gif">
 
 ## `.append()`
 
@@ -186,7 +188,13 @@ function appendScholar(scholar) {
 
 <div class="try-it">
   <h2>Turn & Talk: Refactoring</h2>
-  <p>Break this code down with your partner. Do we see any new code, compared to the original <code class="try-it-code">appendScholar</code> function? What is happening on the last line of <code class="try-it-code">getScholarInfo</code>? What is that line doing? Why is the <code class="try-it-code">appendScholar</code> function taking an argument? Which of these functions should be called in the event listener? Why?</p>
+  <p>Break this code down with your partner.</p>
+  <ul>
+    <li>Do we see any new code, compared to the original <code class="try-it-code">appendScholar</code> function?</li>
+    <li>What is happening on the last line of <code class="try-it-code">getScholarInfo</code>? What is that line doing?</li>
+    <li>Why is the <code class="try-it-code">appendScholar</code> function taking an argument?</li>
+    <li>Which of these functions should be called in the event listener? Why?</li>
+  </ul>
 </div>
 <br>
 
@@ -208,6 +216,17 @@ To make sure everyone is on the same page...
   <p>Familiarize yourself with the code in <a href="https://codepen.io/turing-kwk/pen/GLbvdX">this CodePen</a>. Then, fork it to your account. Write down the steps you are going to take to refactor the <code class="try-it-code">addNewUser</code> function. (Hint - there is more than on way to do this successfully!)</p>
   <p>Now, implement the code to refactor the <code class="try-it-code">addNewUser</code> function. Make sure the app is still working as expected.</p>
 </div>
+
+## Clear Input Fields
+
+If it's been bothering you that the user has to delete the last thing they typed into the input, you're not alone. We can write code to clear out that field when the use clicks the submit button: We'll use:
+
+```javascript
+$('.name').val("");
+```
+
+The code above would access an element with the class `name`, and change it's value to an empty string.
+<br>
 
 You've learned a **lot** and have already come so far. Put all your skills together by completing this mini-project below.
 
