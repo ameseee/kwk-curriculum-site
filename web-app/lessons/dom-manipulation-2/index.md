@@ -95,7 +95,7 @@ function appendSomeoneAwesome() {
    var birthday = $('.birthday').val();
 
   cardContainer.append(`
-    <div class="name=card">
+    <div class="name-card">
       <p class="name">${name} is awesome!</p>
       <p class="birthday">Their birthday is ${birthday}.</p>
     </div>
@@ -112,13 +112,91 @@ The code above would append a `div` that contains two `p`s to the `cardContainer
 
 ## Appending Lots of Info
 
-get into objects.
+On most sites, we provide more than one piece of information, usually it's at least three. The more data we have to deal with, the more variables we have, it gets harder to read and messier to update... etc. If you are dealing with 3 or more pieces of information from a user, it's recommended to store them in an object. Here's an example:
+
+```javascript
+function appendScholar() {
+  var name = $('.name').val();
+  var studying = $('.studying').val();
+  var city = $('.city').val();
+
+  var scholarInfo = { name: name, studying: studying, city: city };
+
+  cardContainer.append(`
+    <div class="name-card">
+      <p class="name">
+        ${scholarInfo.name} is studying ${scholarInfo.studying} in ${scholarInfo.city}!
+      </p>
+    </div>
+  `);
+}
+```
+
+As a class, let's discuss what is happening here. Why would this be a benefit? (If you're not quite sure yet, that's ok!)
 
 ## Refactor Tractor
 
-code is getting long and messy - refactor into a couple functions.
+Our `appendScholar` example above has grown to 15 lines of code - that's quite long. It's borderline messy and hard to people new to this code to read. So, let's **refactor** it!
 
-try it
+Refactoring is something we do once our code already works, but it's like editing it. We go back over it and look for opportunities to make it more readable or concise. When we notice that a function has more than 1 or 2 jobs, we need to refactor.
+
+In the `appendScholar` function, it is gathering all the scholar information from the user, organizing it in an object, and then appending it:
+
+```javascript
+function appendScholar() {
+  var name = $('.name').val();
+  var studying = $('.studying').val();
+  var city = $('.city').val();
+
+  var scholarInfo = { name: name, studying: studying, city: city };
+
+  cardContainer.append(`
+    <div class="name-card">
+      <p class="name">
+        ${scholarInfo.name} is studying ${scholarInfo.studying} in ${scholarInfo.city}!
+      </p>
+    </div>
+  `);
+}
+```
+
+We're to create what is commonly referred to as a **helper** function, which will take one of the jobs. We can then call it from inside the other function.
+
+```javascript
+function getScholarInfo() {
+  var name = $('.name').val();
+  var studying = $('.studying').val();
+  var city = $('.city').val();
+
+  var scholarInfo = { name: name, studying: studying, city: city };
+
+  appendScholar(scholarInfo);
+}
+
+function appendScholar(scholar) {
+  cardContainer.append(`
+    <div class="name-card">
+      <p class="name">
+        ${scholarInfo.name} is studying ${scholarInfo.studying} in ${scholarInfo.city}!
+      </p>
+    </div>
+  `);
+}
+```
+
+<div class="try-it">
+  <h2>Turn & Talk: Refactoring</h2>
+  <p>Break this code down with your partner. Do we see any new code, compared to the original <code class="try-it-code">appendScholar</code> function? What is happening on the last line of <code class="try-it-code">getScholarInfo</code>? What is that line doing? Why is the <code class="try-it-code">appendScholar</code> function taking an argument? Which of these functions should be called in the event listener? Why?</p>
+</div>
+
+Something to debrief
+
+<div class="try-it">
+  <h2>Try It: Refactoring</h2>
+  <p>Familiarize yourself with the code in <a href="https://codepen.io/turing-kwk/pen/GLbvdX">this CodePen</a>. Then, fork it. Write down the steps you are going to take to refactor the <code class="try-it-code">addNewUser</code> function. (Hint - there is more than on way to do this successfully!)</p>
+  <p>Now, implement the code to refactor the <code class="try-it-code">addNewUser</code> function. Make sure the app is still working as expected.</p>
+</div>
+
 
 Practice section
 - have a form with at least 3 inputs and a button. Take user input and render it in a card, user should be able to add another set of info and also see that card.
