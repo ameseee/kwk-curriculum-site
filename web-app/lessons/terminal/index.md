@@ -16,25 +16,27 @@ title: Terminal
 
 ## Navigating the Terminal
 
+**Note:** All of the examples below start with a `$`. This indicates the terminal's prompt for a user to type in a command. You do not need to type in that `$`, just the command following it. 
+
 The terminal is like the "programming version" of your finder. In it, you can access and open any file, or directory, on your computer, and do much more. We won't go too far in depth, but you do need to know a few commands in order to navigate to a project:
 
 To go into files, use `cd`. The following command will take me into my Desktop directory:
 
 ```bash
-cd Desktop
+$ cd Desktop
 ```
 
 To see what we have inside of a directory, use `ls`. For this command, the _only_ thing we type is `ls`; it is short for "list". It will list everything inside of the directory you are currently in.
 
 ```bash
-ls
+$ ls
 => flexbox      html-in-atom     responsive-design        
 ```
 
 If I wanted to see what was inside the flexbox directory, I could run:
 
 ```bash
-cd flexbox
+$ cd flexbox
 ls
 => index.html       styles.css
 ```
@@ -42,7 +44,7 @@ ls
 If we now want to leave flexbox and go back to the Desktop, we can `cd` out, or up:
 
 ```bash
-cd ..
+$ cd ..
 ls
 => flexbox      html-in-atom     responsive-design   
 ```
@@ -56,7 +58,7 @@ We can also use the terminal to create **directories**, or folders, and files.
 To create a directory, use the `mkdir` command, then the desired name of the directory. To create a directory titled "intro-to-css", we would run:
 
 ```bash
-mkdir intro-to-css
+$ mkdir intro-to-css
 ```
 
 It's important to not that you cannot have spaces between words in directory or file names; you'll typically see the dash, `-`, used to separate words.
@@ -64,20 +66,20 @@ It's important to not that you cannot have spaces between words in directory or 
 Now that we have an `intro-to-css` directory, we need to make some files. First, let's change into that directory:
 
 ```bash
-cd intro-to-css
+$ cd intro-to-css
 ```
 
 Now, let's create two files using the `touch` command:
 
 ```bash
-touch index.html
+$ touch index.html
 touch styles.css
 ```
 
 We won't get any output, or feedback, from running those, we can run `ls` to see the list of files inside of `intro-to-css`:
 
 ```bash
-ls
+$ ls
 => index.html     styles.css
 ```
 
@@ -86,13 +88,13 @@ ls
 Now that we have this directory and empty files, we need to write some code! We can actually open the project in Atom from the terminal. Running `atom .` opens up _all_ directories/files inside of your current directory.
 
 ```bash
-atom .
+$ atom .
 ```
 
 Once you've written some code and want to check it out in the browser, you can open it from the terminal as well! Assuming the name of your HTML file is `index.html`, run the following:
 
 ```bash
-open index.html
+$ open index.html
 ```
 
 Chrome should open up and show your page. Since your HTML will be responsible for pulling in the CSS and JavaScript files, this is all you need to do!
