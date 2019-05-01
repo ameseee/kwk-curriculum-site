@@ -22,6 +22,6 @@ Using HTML, CSS, and JavaScript, we will be able to build beautiful sites that c
 
 <a target="blank" href="https://ameseee.github.io/photo-gallery-example/"><img class="medium" src="./assets/photo-gallery.png"></a>
 <a target="blank" href="https://turingschool.github.io/inspire-me-js/"><img class="extra-small" src="./assets/inspire-me.png"></a>
-<a target="blank" href="https://ameseee.github.io/fetch-hedgehog-party/"><img class="medium" src="./assets/hedgehog-party.png"></a>
+<a target="blank" href="https://turingschool.github.io/hedgehog-js/"><img class="medium" src="./assets/hedgehog-party.png"></a>
 
 During the last few days of camp, you'll be able to brainstorm and design a project that you are passionate about building, using all the skills you have at that point!
