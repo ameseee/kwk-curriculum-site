@@ -31,5 +31,6 @@ title: Swift/iOS Lessons
 
 ## Other
 
+- [Welcome to KWK]({{ site.url }}/web-app/lessons/welcome-to-kwk)
 - [Git & GitHub]({{ site.url }}/swift-ios/lessons/git-github)
 - [Videos]({{ site.url }}/swift-ios/lessons/videos)
