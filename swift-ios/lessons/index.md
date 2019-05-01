@@ -2,6 +2,8 @@
 title: Swift/iOS Lessons
 ---
 
+Find all lessons below. Note that the lessons are organized by topic below; to find the ordering of lessons, visit the [Mobile calendar]({{ site.url }}/swift-ios/calendar).
+
 ## Swift
 
 - [Data Types]({{ site.url }}/swift-ios/lessons/data-types)
