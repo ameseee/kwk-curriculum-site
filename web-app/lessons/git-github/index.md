@@ -24,41 +24,6 @@ Have you ever used GoogleDocs? Have you noticed the feature where you can save a
 
 **Version control** is a tool that keeps track of the differences in code bases at different points in time. One common software for this is called **git**. We interact with git from the **terminal**. These are tools that all professional developers use.
 
-## Navigating the Terminal
-
-The terminal is like the "programming version" of your finder. In it, you can access and open any file, or directory, on your computer, and do much more. We won't go too far in depth, but you do need to know a few commands in order to navigate to a project:
-
-To go into files, use `cd`. The following command will take me into my Desktop directory:
-
-```bash
-cd Desktop
-```
-
-To see what we have inside of a directory, use `ls`. For this command, the _only_ thing we type is `ls`; it is short for "list". It will list everything inside of the directory you are currently in.
-
-```bash
-ls
-=> flexbox      html-in-atom     responsive-design        
-```
-
-If I wanted to see what was inside the flexbox directory, I could run:
-
-```bash
-cd flexbox
-ls
-=> index.html       styles.css
-```
-
-If we now want to leave flexbox and go back to the Desktop, we can `cd` out, or up:
-
-```bash
-cd ..
-ls
-=> flexbox      html-in-atom     responsive-design   
-```
-
-(make sure you include that space between `cd` and `.`)
-
 ## Git/Local Repository
 
 The git commands work similar in the terminal. When we work with a project on our machine, we are working on the **local** repository. Local refers to being physically here, on this machine. Here are the main commands we will use at camp:
