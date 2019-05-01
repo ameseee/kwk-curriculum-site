@@ -16,8 +16,6 @@ title: DOM Manipulation 2
 
 ## DOM Manipulation
 
-Turn and Talk - what can we do with DOM Manipulation as of now?
-
 You've already come so far with implementing JavaScript to manipulate the DOM! Today we will take it to the next level. We are going to build a site that can take user input multiple times and keep adding each input to a list. This "To-Do List" is a very common app that developers use as they are learning JavaScript. Here's an example of something like what we will build by the end of this lesson:
 
 <p class="to-do">add screen shot of a to-do list</p>
@@ -49,20 +47,22 @@ As you can see above, we have an empty `section` element in the HTML document. I
 - `.append()` - this is being called on the `container`, so it's saying: I'd like you to attach something to the container.
 - `(`<p>Hello!</p>`)` - this is the argument that `.append()` takes, wrapped in back-ticks, an HTML element. Whatever lives inside the back-ticks will be added into `innerHTML` of the container.
 
-Try it -
-
-write an HTML article that has an H2. Run in Code pen.
-In JS, write an append to add a paragraph. Run in Code Pen.
+<div class="try-it">
+  <h2>Try It: Basic Append</h2>
+  <p>In a new CodePen write HTML so you have an <code class="try-it-code">article</code> with a nested <code class="try-it-code">h2</code>. Run the code and make sure you can see your header in the browser.</p>
+  <p>Now, write some JavaScript that will append a paragraph to the <code class="try-it-code">article</code>. You should see the paragraph in your browser now.</p>
+</div>
 
 ## When to Append
 
 This is great, but the append is happening right away, so it's not really helping us build a dynamic to-do list.
 
-Turn and Talk
-Considering everything we've learned, map out a list of steps we would want to eventually code to make our to-do list work. (re word this)
+<div class="try-it">
+  <h2>Turn & Talk: When to Append</h2>
+  <p>With your partner, write out a list (pseudo-code) of things we want to the computer to do to make a working to-do list, in order. Include in the order: when the user would interact.</p>
+</div>
 
-
-We can't just append directly in our JavaScript file, or as we saw, that HTML is added immediately. We want to respond to our user with an event listener and handler. Here's a more-realistic example, with a little more going on.
+We can't just append directly in our JavaScript file, or as we saw, that HTML is added immediately. We want to respond to our user with an event listener and handler. Here's a more realistic example, with a little more going on.
 
 <p class="codepen" data-height="300" data-theme-id="36709" data-default-tab="css,result" data-user="turing-kwk" data-slug-hash="WWqjLp" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid black; margin: 1em 0; padding: 1em;" data-pen-title="Check it Out: Append">
   <span>See the Pen <a href="https://codepen.io/turing-kwk/pen/WWqjLp/">
@@ -106,7 +106,7 @@ function appendSomeoneAwesome() {
 The code above would append a `div` that contains two `p`s to the `cardContainer`.
 
 <div class="try-it">
-  <h2>Turn & Talk: Append</h2>
+  <h2>Try It: Append</h2>
   <p>Fork <a href="https://codepen.io/turing-kwk/pen/rbEzOa">this CodePen</a> and write JavaScript so that the user can write a to-do list.</p>
 </div>
 
@@ -188,15 +188,32 @@ function appendScholar(scholar) {
   <h2>Turn & Talk: Refactoring</h2>
   <p>Break this code down with your partner. Do we see any new code, compared to the original <code class="try-it-code">appendScholar</code> function? What is happening on the last line of <code class="try-it-code">getScholarInfo</code>? What is that line doing? Why is the <code class="try-it-code">appendScholar</code> function taking an argument? Which of these functions should be called in the event listener? Why?</p>
 </div>
+<br>
 
-Something to debrief
+To make sure everyone is on the same page...
+
+- Do we see any new code, compared to the original `appendScholar` function?
+  * A new function was declared, but other than that, code was just moved around.
+- What is happening on the last line of `getScholarInfo`?
+  * `appendScholar(scholarInfo);`
+- What is that line doing?
+  * We are calling the helper, `appendScholar` and passing it 1 argument, the object of `scholarInfo`.
+- Why is the `appendScholar` function taking an argument?
+  * This function is the one that actually appends the information. We have to pass it the argument with they info so it has something to append.
+- Which of these functions should be called in the event listener? Why?
+  * The event listener should call `getScholarInfo` because that step has to be taken before the `appendScholar` can do its job.
 
 <div class="try-it">
   <h2>Try It: Refactoring</h2>
-  <p>Familiarize yourself with the code in <a href="https://codepen.io/turing-kwk/pen/GLbvdX">this CodePen</a>. Then, fork it. Write down the steps you are going to take to refactor the <code class="try-it-code">addNewUser</code> function. (Hint - there is more than on way to do this successfully!)</p>
+  <p>Familiarize yourself with the code in <a href="https://codepen.io/turing-kwk/pen/GLbvdX">this CodePen</a>. Then, fork it to your account. Write down the steps you are going to take to refactor the <code class="try-it-code">addNewUser</code> function. (Hint - there is more than on way to do this successfully!)</p>
   <p>Now, implement the code to refactor the <code class="try-it-code">addNewUser</code> function. Make sure the app is still working as expected.</p>
 </div>
 
+You've learned a **lot** and have already come so far. Put all your skills together by completing this mini-project below.
 
-Practice section
-- have a form with at least 3 inputs and a button. Take user input and render it in a card, user should be able to add another set of info and also see that card.
+<div class="practice">
+  <h2>Practice: Build a To-Do List</h2>
+  <p>Brainstorm a small-app idea that would require the user to type in at least one input. The user should see their inputted information on the browser, and should be able to enter more information and see that also listed on the browser.</p>
+  <p>Wireframe your app and choose a color palette. Once your plans are approved, create a directory on your Desktop called and all the files you need.</p>
+  <p>Now, build your list!</p>
+</div>
