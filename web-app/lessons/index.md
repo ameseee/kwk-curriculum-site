@@ -2,6 +2,8 @@
 title: WebDev Lessons
 ---
 
+Find all lessons below. Note that the lessons are organized by topic below; to find the ordering of lessons, visit the [WebDev calendar]({{ site.url }}/web-app/calendar).
+
 ## HTML
 - [Intro to HTML]({{ site.url }}/web-app/lessons/intro-html)
 - [HTML with Atom]({{ site.url }}/web-app/lessons/html-atom)
@@ -24,6 +26,7 @@ title: WebDev Lessons
 
 ## Other
 - [Welcome to KWK]({{ site.url }}/web-app/lessons/welcome-to-kwk)
+- [Terminal]({{ site.url }}/web-app/lessons/terminal)
 - [Intro to CodePen]({{ site.url }}/web-app/lessons/intro-codepen)
 - [Design]({{ site.url }}/web-app/lessons/design)
 - [Git and GitHub]({{ site.url }}/web-app/lessons/git-github)
