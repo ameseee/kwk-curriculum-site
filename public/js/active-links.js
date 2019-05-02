@@ -3,7 +3,7 @@ $('.curriculum-links').each(function(idx, link) {
   var linkPath = $(link).attr('href');
   console.log("linkPath:", linkPath);
 
-  var currentCamp = currentPath.split('/')[1];
+  var currentCamp = currentPath.split('/')[2];
   console.log("currentPath:", currentPath);
 
   var campPath = `/${currentCamp}/`
