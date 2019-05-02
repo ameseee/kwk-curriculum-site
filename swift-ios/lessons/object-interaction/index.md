@@ -124,7 +124,7 @@ func addFood(food : String, calories : Int) {
 }
 ```
 
-Notice that the food object is stored in a variable called `newFood`. On the next line, we are still using the `append` method, this time appending a food object instead of the food string.
+Notice that the food object is stored in a variable called `newFood`. On the next line, we are still using the `append` method, this time appending a _food **object**_ instead of the _food string_.
 
 <div class="try-it">
   <h2>Try It: Loop over Fridge contents</h2>
@@ -152,7 +152,7 @@ There are many ways objects can interact; we will mainly work with code that loo
 To recap:
 - We wrote two classes that had a relationship (a fridge has a collection of foods)
 - We wrote an action on the fridge that adds foods
-- The method takes in any arguments that are required to create a food, then creates a food, then appends that food to the fridge's property.
+- The method takes in any arguments that are required to create a food, then creates a food object, then appends that food object to the fridge's `contents` property.
 
 <div class="practice">
   <h2>Practice: Object Interaction</h2>
