@@ -84,7 +84,7 @@ Luckily, Swift gives us a way to personalize each object when it's created. It w
 
 The initializer is a special function inside of a class. `init` is a keyword; if you write a function called `init` inside of a class, it will be called when you create an object from that class. One difference is that we _don't_ use the `func` keyword before `init`.
 
-`init` runs once and only once: when we create a new object from the class. It is written inside the class, below any property variables we declare for that class. It can take arguments, which can help make our class dynamic, in this case, give each student their own name.
+`init` runs once and only once: when we create a new object from the class. It is written inside the class, below any property variables we declare for that class. It can take arguments, which can help make our class dynamic. In this case, that means giving each student their own name.
 
 Let's add this `init` function into our class, giving it an argument of `studentName`, which is a string.
 
@@ -102,7 +102,7 @@ class Student {
 }
 ```
 
-Inside of init, we've re-assigned `name` to whatever studentName was passed in as. This won't work quite yet, because when we call `Student()`, we are not passing it a `studentName` argument like it expects. Let's pass it Student(studentName : "Viola") and re-run.
+Inside of init, we've re-assigned `name` to whatever `studentName` was passed in as. This won't work quite yet, because when we call `Student()`, we are not passing it a `studentName` argument like it expects. Let's pass it Student(studentName : "Viola") and re-run.
 
 ```swift
 var newStudent = Student(studentName : "Viola")
@@ -159,6 +159,18 @@ newStudent.writeCode()
   <h2>Try It: Actions</h2>
   <p>Update your code so that you have the <code class="try-it-code">writeCode</code> action. Then, add another method of your choice to the student class! Call the action on an object to make sure it's working as expected.</p>
 </div>
+
+Just to be clear, actions written inside a class can **only** be called on objects created from that class. If you try to call it like a normal function, you'll run into problems.
+
+```swift
+var newStudent = Student(studentName: "Amy", studentGrade : 11)
+
+newStudent.writeCode()
+//-> "Amy is busy writing code!"
+
+writeCode()
+//-> ERROR
+```
 
 ## Classes vs. Objects
 
