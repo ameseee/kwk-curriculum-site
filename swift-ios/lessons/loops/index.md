@@ -49,7 +49,7 @@ for animal in animals {
 <div class="try-it">
   <h2>Turn & Talk</h2>
   <ul>
-    <li>What do you think will happen?</li>
+    <li>What do you think will happen when we run the code above?</li>
     <li>What if we add another animal to our array?</li>
     <li>Why do you think we used the words "animal" and "animals" in our <code class="try-it-code">for-in</code> loop?</li>
   </ul>
@@ -71,7 +71,7 @@ for animal in animals {
 
 The word `animal` right after the keyword `for` refers to each element of our array, and the `animals` after the `in` keyword is the name of the array we are telling the computer to iterate over. We've told our loop to run the same number of times as there are elements in the array. So, since we currently have 3 elements in the array, it will run three times. If we added another animal to our array, the loop would run four times.
 
-By using the word `animal` after the `for` keyword, we're telling our code that we can use `animal` like a variable, and its value for each iteration of the loop will be whatever element of the array it's currently iterating over.
+By using the word `animal` after the `for` keyword, we're telling our code that we can use `animal` like a variable (inside of the code block, or the curly braces, only), and its value for each iteration of the loop will be whatever element of the array it's currently iterating over.
 
 ## `for-in` Loops and Dictionaries
 
@@ -87,14 +87,14 @@ for pair in capitals {
 <div class="try-it">
   <h2>Turn & Talk</h2>
   <ul>
-    <li>What do you think will print?</li>
+    <li>What do you think will print when we run this code?</li>
     <li>Why does the variable <code class="try-it-code">pair</code> represent on each iteration?</li>
   </ul>
-  <p>With your partner, verify your predictions from the Turn and Talk by running this code in an Xcode playground.</p>
-  <p>Now, instead of printing <code class="try-it-code">pair</code> inside the loop, try printing <code class="try-it-code">pair.key</code> and <code class="try-it-code">pair.values</code> and see what happens.</p>
+  <p>With your partner, verify your predictions from the Turn & Talk by running this code in an Xcode playground.</p>
+  <p>Now, instead of printing <code class="try-it-code">pair</code> inside the loop, try printing <code class="try-it-code">pair.key</code> and <code class="try-it-code">pair.value</code> and see what happens.</p>
 </div>
 
-### Another Way to Iterative Over Dictionaries
+### Another Way to Iterate Over Dictionaries
 
 Another cool thing you can do if you are going to utilize both keys and values, is something like this:
 
@@ -154,7 +154,7 @@ for index in 0..<animals.count {
   </ul>
 </div>
 
-We are really getting int some complicated work. Work through the practice below to make you have this down.
+We are really getting into some complicated work. Work through the practice below to make you have this down.
 
 <div class="practice">
   <h2>Practice: Loops</h2>
