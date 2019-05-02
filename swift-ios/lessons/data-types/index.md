@@ -18,6 +18,8 @@ title: Data Types & Variables
 * Constant
 * Keyword
 
+**Note:** For all practice today, scholars will be working in Xcode Playgrounds.
+
 ## Strings
 
 * A string is a series of characters
@@ -80,14 +82,30 @@ var age = 15
 
 The computer reads anything inside of the `\()` as Swift code - it will look for a variable titled `age`.
 
+<p>String values can be added together (or concatenated) with the addition operator (+) to create a new String value, can use interpolation with the <code>\()</code> syntax:</p>
+
+```swift
+let string1 = "hello"
+let string2 = "there"
+var welcome = "\(string1) \(string2)"
+var anotherWelcome = string1 + " " string2
+// welcome and anotherWelcome are both storing the string "hello there"
+```
+
+### A Note on Printing
+
+To print values to the console, Swift gives us a handy `print()` function. Here's how it works:
+
+```swift
+print("Hello, World!")
+```
+
+We would write that line of code in the text editor (top) portion of Xcode Playgrounds, click the blue arrow on the left, then see the value printed in the console (bottom portion of the screen).
+
+<img src="./assets/print.gif">
+
 <div class="try-it">
   <h2>Try It: Strings</h2>
-  <p>String values can be added together (or concatenated) with the addition operator (+) to create a new String value, can use interpolation with the <code>\()</code> syntax:</p>
-  <code class="try-it-code">let string1 = "hello"</code><br>
-  <code class="try-it-code">let string2 = "there"</code><br>
-  <code class="try-it-code">var welcome = "\(string1) \(string2)"</code><br>
-  <code class="try-it-code">var anotherWelcome = string1 + " " string2</code><br>
-  <code class="try-it-code">// welcome and anotherWelcome are both storing the string "hello there"</code>
 
   <p>If you have the strings "Beyonce" and "Knowles" in the following variables:</p>
   <code class="try-it-code">var first = "Beyonce"</code><br>
