@@ -84,7 +84,7 @@ Again, if a function is only declared, it will not do it's job. We have to call 
 
 If we are really going to have this robot help out, we need it to be a little 'smarter'. We need it to know that if there are two dogs, it needs to put two leashes on, bring two poops bags, etc.
 
-We can make functions a little 'smarter' with something called **arguments**. It allows us to give a function special information. Using this information, it may make slightly different calculations or give us different outputs. Take a look at the code below, then we'll talk about what's happening:
+We can make functions a little 'smarter' with something called **arguments**. Arguments allow us to give a function special information. Using this information, it may make slightly different calculations or give us different outputs. Take a look at the code below, then we'll talk about what's happening:
 
 ```swift
 func walkDog(numberOfDogs : Int) {
@@ -132,7 +132,7 @@ You probably observed two new things in this function:
 
 ## How to use Return Values
 
-If you are wondering... This is all great - but where did that return value _go_? Who sees it? What can we do with it? ... this section is for you. Sometimes we have many functions working together. Below is a simpler example, where we take the return value of a function and use it to write a custom sentence for our robot:
+If you are wondering... "This is all great - but where did that return value _go_? Who sees it? What can we do with it?" ... this section is for you. Sometimes we have many functions working together. Below is a simpler example, where we take the return value of a function and use it to write a custom sentence for our robot:
 
 ```swift
 func walkDog(numberOfDogs : Int) -> Int {

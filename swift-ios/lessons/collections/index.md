@@ -15,7 +15,7 @@ title: Collections
 * index
 * element
 * dictionary
-* key / Value pair
+* key / value pair
 * initialize
 * iterate
 * unwrap
@@ -65,7 +65,7 @@ shoppingList
 //-> ["Bread", "Cheese", "Milk", "Bacon"]
 ```
 
-Side note: The lines `=> "Milk"` and `=> "Bread"` are indicating the return value of the previous code; it's just a way to notate what happens after writing some code.
+Side note: The lines `//-> "Milk"` and `//-> "Bread"` are indicating the return value of the previous code; it's just a way to notate what happens after writing some code.
 
 <div class="try-it">
   <h2>Turn and Talk</h2>
@@ -79,7 +79,7 @@ Side note: The lines `=> "Milk"` and `=> "Bread"` are indicating the return valu
 
 ### Accessing Information
 
-Each element in an array is automatically assigned a number called an **index**. This index can be used to access a specific element inside the array. Indices begin at 0 and count up. If we look back at our `shoppingList` array, the following would be true:
+Each element in an array is automatically assigned a number called an **index**. This index can be used to access a specific element inside the array. Indices begin at 0 and count up. If we look back at our `shoppingList` array, the following is true:
 
 ```swift
 var shoppingList = ["Bread", "Cheese", "Milk", "Bacon"]
@@ -96,10 +96,10 @@ By using the square brackets, we can use the index to access a specific value in
 var shoppingList = ["Bread", "Cheese", "Milk", "Bacon"]
 
 shoppingList[2]
-=> "Milk"
+//-> "Milk"
 
 shoppingList[0]
-=> "Bread"
+//-> "Bread"
 ```
 
 ### Updating Information
@@ -111,7 +111,7 @@ var shoppingList = ["Bread", "Cheese", "Milk", "Bacon"]
 
 shoppingList[2] = "Candy"
 
-=> ["Bread", "Cheese", "Candy", "Bacon"]
+//-> ["Bread", "Cheese", "Candy", "Bacon"]
 ```
 
 ### Adding Information
@@ -122,8 +122,7 @@ A common way to add something to an already existing array is to use the append(
 var shoppingList = ["Bread", "Cheese", "Candy", "Bacon"]
 shoppingList.append("Pasta")
 
-=> ["Bread", "Cheese", "Candy", "Bacon", "Pasta"]
-
+//-> ["Bread", "Cheese", "Candy", "Bacon", "Pasta"]
 ```
 
 ### Removing Information
@@ -134,8 +133,7 @@ A common way of removing elements is to use the remove(at:) method - which will 
 var shoppingList = ["Bread", "Cheese", "Candy", "Bacon", "Pasta"]
 shoppingList.remove(at: 0)
 
-=> ["Cheese", "Candy", "Bacon", "Pasta"]
-
+//-> ["Cheese", "Candy", "Bacon", "Pasta"]
 ```
 
 <div class="try-it">
@@ -158,22 +156,22 @@ Here is an example of the syntax:
 
 ```swift
 for item in shoppingList {
-  print("We need some " + item)
+  print("We need some \(item)")
 }
 
-=> "We need some Cheese"
-=> "We need some Milk"
-=> "We need some Candy"
-=> "We need some Pasta"
+//-> "We need some Cheese"
+//-> "We need some Milk"
+//-> "We need some Candy"
+//-> "We need some Pasta"
 ```
 
 The benefit of this is it saves us time. When we want do to the same thing for lots of items, we only have to write that command _once_. If we didn't use an array and use this `for-in` loop, out code would look like this:
 
 ```swift
-print("We need some " + item[0])
-print("We need some " + item[1])
-print("We need some " + item[2])
-print("We need some " + item[3])
+print("We need some \(item[0])")
+print("We need some \(item[1])")
+print("We need some \(item[2])")
+print("We need some \(item[3])")
 ```
 
 Right now, this doesn't seem so bad. What if we had 100 items on our grocery list? 1000? That's a lot of lines of code to write and a lot of places we would need to update it every time we added or removed and item.
@@ -215,7 +213,7 @@ Applications like Instagram probably utilize arrays **a lot**. Each user has a l
 
 ## Dictionaries
 
-Dictionaries are another way to hold multiple pieces of data (collection). There is one big difference between them and arrays: Dictionaries are not ordered by index (0, 1, 2, etc.), instead, each piece of data has a 'label' instead of a number. We call the labels **keys** and the data **values**. **key/value pairs** is a term you will hear a lot.
+Dictionaries are another way to hold multiple pieces of data (collection). There is one big difference between them and arrays: Dictionaries are not ordered by index (0, 1, 2, etc.), instead, each piece of data has a 'label' instead of a numbered index. We call the labels **keys** and the data **values**. **key/value pairs** is a term you will hear a lot.
 
 ### When to use Dictionaries
 
@@ -249,7 +247,7 @@ A cell phone vendor wants to keep a list of all the phones they sell so they can
 var phones : [String : String] = [:]
 
 print(phones)
-=> [:]
+//-> [:]
 ```
 
 We can also initialize a dictionary _with_ data. See the syntax below:
@@ -264,7 +262,7 @@ var phones = [
 <div class="try-it">
   <h2>Try It: Creating and Accessing Dictionaries</h2>
   <p>Create a dictionary with a list of 3 people (yourself, family, friends, or other students here!) and their birthdays.</p>
-  <p>Use <code>print()</code> statements to verify your syntax is correct. Then use a <code>print()</code> statement to practice accessing specific pieces of data. Try to print your birthday by using the <code>[]</code> notation.</p>
+  <p>Use <code>print()</code> statements to verify your syntax is correct.</p>
 </div>
 
 ### Adding Data to Dictionaries
@@ -272,27 +270,27 @@ var phones = [
 To add key/value pairs to my empty dictionary, we use also use `[]` notation. Instead of using a number like with arrays, we will use a string - the label, or **key** for this set of data. Then, we will use the `=` to assign the value.
 
 ```swift
+var phones : [String : String] = [:]
+
 phones["apple"] = "iPhone"
 phones["google"] = "Pixel 2"
 
 print(phones)
-=> ["apple": "iPhone", "google": "Pixel 2"]
+//-> ["apple": "iPhone", "google": "Pixel 2"]
 ```
 
 Since we access values with the key, _keys must be unique_, meaning you can't have two things with the same key:
 
 ```swift
 print(phones["apple"])
-
-=> Optional("iPhone")
+//-> Optional("iPhone")
 ```
 
 Notice that `Optional("iPhone")` was printed - not just the string "iPhone", like you probably expected. Swift is very specific and wants to make sure that there **is data** stored in the dictionary (in this case, `phones["apple"]`) before doing anything with the data; if it were `nil` it could cause problems in bigger programs. To tell Swift we are sure there is data, we do something called **unwrapping** - by typing an exclamation point after the closing bracket.
 
 ```swift
 print(phones["apple"]!)
-
-=> "iPhone"
+//-> "iPhone"
 ```
 
 ### Removing Data from Dictionaries
@@ -314,8 +312,11 @@ If we run this code, we will see quite an error! That's because the key "apple" 
 Let's say we want a list of all the companies that make the phones, but we _don't_ want to have to look at the phone names. Check out the code below, then we'll explain what's happening.
 
 ```swift
-phones.keys
-Array(phones.keys)
+print(phones.keys)
+//-> ["apple", "google"]
+
+print(Array(phones.keys))
+//-> ["apple", "google"]
 ```
 
 `phones.keys` gives us a `keys` object with "apple", and "google" but is difficult to use because `keys` is not a commonly used data type. Typically, you'll see iOS developers wrap `Array()` around, in this case, the `phones.keys` so that `keys` objects can be converted into an array, which is much more friendly!
