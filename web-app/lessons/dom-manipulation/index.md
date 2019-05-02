@@ -8,7 +8,7 @@ title: DOM Manipulation
 * Continue to develop a basic understanding for JavaScript syntax
 * Understand how to query and update a page after its been loaded
 
-**Note**: You will need to write your code in Atom and run in the browser for this lesson. You can either watch this video or your instructor can walk you through how to connect HTML to a JavaScript file.
+**Note**: You will need to write your code in Atom and run in the browser for this lesson. You can either watch go through <a target="blank" href="{{ site.url }}/web-app/lessons/setup-project-atom">this guide</a> or your instructor can walk you through how to connect HTML to a JavaScript file.
 
 ## Technical Vocabulary
 
