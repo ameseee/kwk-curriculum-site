@@ -199,6 +199,29 @@ Check out the CodePen below to see what that looks like in JavaScript:
 
 What was the line of code that allowed us to access the information the user typed in? What's new to us about this line of code? Note: the location of this is very important; it must be _inside_ the event handler.
 
+## Forms
+
+In the HTML Forms lesson, we wrapped inputs in a `form` element. In this lesson, we've just left `input` elements floating around. The `form` element has some default behavior that can be tricky, but we'll briefly go into it.
+
+By default, when a `form` is submitted, it will attempt to send that request somewhere (to our back-end, if we had one), then refresh the page. This is not ideal for us because we don't actually want to send information off or refresh the page. The CodePen below illustrates the default behavior:
+
+codepen with form and no prevent default. or real video and slow it down.
+
+While this can be inconvenient, we have a work-around! We can prevent the default behavior that the click usually causes. We will add one line of code to our event handler:
+
+```js
+function addName(event) {
+  event.preventDefault();
+}
+```
+
+The `event` variable we are passing around represents the click event. This is a little abstract, but when an event takes place, we have an object with a lot of information about that event. `.preventDefault()` is a function we can call on the event to prevent the refresh from occurring.
+
+<div class="try-it">
+  <h2>Try It: Refactor into a Form</h2>
+  <p>Fork <a target="blank" href="https://codepen.io/turing-kwk/pen/YbKWbw?editors=1111">this CodePen</a> and refactor it so that the inputs are wrapped in a form. Make sure it has the same functionality it did before your refactor.</p>
+</div>
+
 Take some time to put together everything we've learned today and complete the practice below.
 
 <div class="practice">
