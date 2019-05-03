@@ -28,7 +28,7 @@ Find all lessons below. Note that the lessons are organized by topic below; to f
 - [Welcome to KWK]({{ site.url }}/web-app/lessons/welcome-to-kwk)
 - [Terminal]({{ site.url }}/web-app/lessons/terminal)
 - [Intro to CodePen]({{ site.url }}/web-app/lessons/intro-codepen)
-- [Set Up a Project in Atom]({{ site.url }}/web-app/solutions/setup-project-atom)
+- [Set Up a Project in Atom]({{ site.url }}/web-app/lessons/setup-project-atom)
 - [Design]({{ site.url }}/web-app/lessons/design)
 - [Git and GitHub]({{ site.url }}/web-app/lessons/git-github)
 - [Videos]({{ site.url }}/web-app/lessons/videos)
