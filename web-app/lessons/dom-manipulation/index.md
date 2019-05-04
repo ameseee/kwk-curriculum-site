@@ -18,6 +18,7 @@ title: DOM Manipulation
 - Event
 - Event Listener
 - Event Handler
+- library
 - jQuery
 
 ## What is the DOM?
@@ -54,7 +55,7 @@ We can also access elements by classes and IDs. Instead of `('h1')` we would nee
 
 ## jQuery
 
-There is a popular library, of chunk of code someone else wrote, called jQuery. There are a lot of things it can do, all of which are JavaScript, but it's less for us to write. Here's one example:
+There is a popular **library**, or chunk of code someone else wrote, called **jQuery**. There are a lot of things it can do, all of which are JavaScript, but it's less for us to write! Here's one example:
 
 ```javascript
 var header = document.querySelector('h1');    // javascript
