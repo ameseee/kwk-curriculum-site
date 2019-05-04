@@ -59,7 +59,7 @@ There is a popular library, of chunk of code someone else wrote, called jQuery. 
 ```javascript
 var header = document.querySelector('h1');    // javascript
 
-var header $('hi');                           // jQuery
+var header = $('hi');                         // jQuery
 ```
 
 In jQuery, we can use the `$` in place of the `document.querySelector` which saves us time typing!
