@@ -14,6 +14,8 @@ title: Local Storage
 - database
 - client-side storage
 - JSON
+- persist
+- domain
 
 ## Storing User Data
 
@@ -21,9 +23,9 @@ Up until this point, the data in our projects has disappeared whenever we refres
 
 **Server-side storage:** On someone else’s computer (often times one that is in a data warehouse), in a database. Good for storing sensitive information. This is what a back-end developer usually handles.
 
-**Client-side storage:** On the user’s computer, using a JavaScript the storage provided by the browser. This is good for less sensitive information (shopping cart), and front-end developers write the code to make this happen.
+**Client-side storage:** On the user’s computer, using JavaScript and the storage provided by the browser. This is good for less sensitive information (shopping cart). Front-end developers write the code to make this happen.
 
-Since we are front-end developers, we will learn how to use Local Storage, an implementation of client-side storage, as a database to hold our information. Once we do this, we can refresh a page after a user has added data, and the data will persist (still be on the page)!
+Since we are front-end developers, we will learn how to use Local Storage, an implementation of client-side storage, as a database to hold our information. Once we do this, we can refresh a page after a user has added data, and the data will **persist** (still be on the page)!
 
 ## Local Storage
 
@@ -37,22 +39,23 @@ Local Storage is like a local database. Each user that uses an application have 
 
 <div class="try-it">
   <h2>Turn & Talk: Local Storage</h2>
-  <p>With any site opened in the browser, open the dev tools and in the console, type `localStorage` then press enter/return.</p>
+  <p>With any site opened in the browser, open the dev tools and in the console, type <code class="try-it-code">localStorage</code> then press enter/return.</p>
   <p>What is the output? What data type does that look like? What do you notice about all of the values in red?</p>
+  <p>Do the same thing on a different site and compare the outputs - are they the same or different?</p>
 </div>
 
-`localStorage` stores an object with key/value pairs. They key is like a label and the value holds the actual data we want to be stored.
+`localStorage` stores an object with key/value pairs. They key is like a label and the value holds the actual data we want to be stored. `localStorage` is a database that holds information for a given **domain**, or web address.
 
 `localStorage` supports the following methods:
 
 - `localStorage.setItem();` takes two arguments—a key and value (key must be string)—and stores the given value under the provided key.
 - `localStorage.getItem();` gets an item from storage based on the key provided.
 - `localStorage.removeItem();` takes a key and removes that key and its associated value from storage.
-- `localStorage.clear();` removes all items from storage for that domain.
+- `localStorage.clear();` removes **all** items from storage for that domain.
 
 <div class="try-it">
   <h2>Try It: Get, Set, Remove and Clear</h2>
-  <p>Still in your dev tools in the browser, try running the following methods, and pay close attention to the outputs and changes in what is in your `localStorage` object.</p>
+  <p>Still in your dev tools in the browser, try running the following methods, and pay close attention to the outputs and changes in what is in your <code class="try-it-code">localStorage</code> object.</p>
   <ol>
     <li><code class="try-it-code">localStorage.clear();</code></li>
     <li><code class="try-it-code">localStorage.setItem('storeMePlease', 2);</code></li>
@@ -77,21 +80,23 @@ You may be thinking, this is great, but we're writing code in the browser; what 
 </p>
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
 
-To see what it does, you'll need to open this pen in the browser, and with the CodePen console opened, type in your name and click submit! What logs to the console? Do you see your name in a key/value pair?
+To see what it does, you'll need to open this pen in the browser, and with the dev tools console opened, type in your name and click submit! What logs to the console? Do you see your name in a key/value pair?
 
 <div class="try-it">
   <h2>Try It: Color Picker</h2>
   <p>It's your turn to implement some work with <code class="try-it-code">localStorage</code> in a project.</p>
-  <p><strong>Step 1:</strong> Copy and paste the code from each of the 3 files in this CodePen into a project called "color-picker" in Atom. it will be easier to see what's happening when we run it in the real browser.</p>
+  <p><strong>Step 1:</strong> Copy and paste the code from each of the 3 files in <a href="https://codepen.io/turing-kwk/pen/yWBbmM">this CodePen</a> into a project called "color-picker" in Atom. it will be easier to see what's happening when we run it in the real browser.</p>
   <p><strong>Step 2:</strong> Read through the JavaScript and make sure you understand how the current code is creating the functionality that the app currently has.</p>
-  <p><strong>Step 3:</strong> With your partner, talk about/pseudo code what code you would write, and where you would write it to implement localStorage.</p>
+  <p><strong>Step 3:</strong> With your partner, talk about/pseudo-code what code you would write, and where you would write it to implement localStorage.</p>
 </div>
 
-<p class="to-do"> get this section below into instructor guide</p>
-Class Discussion: put something in solution guide, students will probably come to the idea that we need to set the selected color to local storage. Live code: instructor, add that to your code. Pick a color, call localStorage in the console, and you have the color! great! refresh - it didn't persist.
+> As a class, let's discuss everyone's ideas on how to implement localStorage.
 
-After our class discussion, we are setting the color to localStorage in the event handler, but we aren't doing anything when the page loads. We need to give the browser an additional instruction:
-- when the page loads, get the color from local storage. If there isn't a color stored yet, set the default color to "#000000" (black).
+<br>
+<br>
+
+After our class discussion, we are setting the color to `localStorage` in the event handler, but we aren't doing anything when the page loads. We need to give the browser an additional instruction:
+- when the page loads, get the color from `localStorage`. If there isn't a color stored yet, set the default color to "#000000" (black).
 
 Let's add this line of code at the top of the file:
 
@@ -120,11 +125,11 @@ JSON has the following rules:
   * Arrays
   * Objects
 
-The browser provides a JSON object with two methods:
+There are two methods we can use on a JSON object:
 - `JSON.stringify();` turns any JavaScript object into valid JSON.
 - `JSON.parse();` turns any valid JSON into a JavaScript object.
 
-Instead of wrapping everything in double we can call `JSON.stringify` and it will do that for us. This should be used before we set something into `localStorage`.
+Instead of wrapping everything in double quotes, we can call `JSON.stringify` and it will do that for us. This should be used before we set something into `localStorage`.
 
 ```javascript
 var names = ["Leta", "Brianne", "Cindy"];
@@ -140,6 +145,7 @@ JSON.parse(stringifiedNames);
 //-> ["Leta", "Brianne", "Cindy"]
 ```
 
-<p class="to-do">Get into practice box and drill down what I want them to work off of here. Don't want them to be in codepen.</p>
-### Practice
-go back to an idea box and implement local storage on top of what you already have
+<div class="practice">
+  <h2>Practice: localStorage</h2>
+  <p>Clone down <a target="blank" href="https://github.com/turingschool/local-storage-practice">this repo</a> and implement <code class="try-it-code">localStorage</code>, so that when a user adds some to-dos and refreshes the page, to to-dos are still there.</p>
+</div>
