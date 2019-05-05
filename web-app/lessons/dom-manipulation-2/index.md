@@ -15,6 +15,7 @@ title: DOM Manipulation 2
 - argument
 - object
 - refactor
+- helper function
 
 ## DOM Manipulation
 
@@ -89,7 +90,7 @@ Inside the event handler, we took two important steps:
 
 When we appended the `p` element, we wrote a class on it. The CSS file has a rule written for that class, so when the paragraph was appended, it came with styles already applied!
 
-You may have noticed that multiple elements can be appended at the same time. Typically, we will see one `div` or other container, wrapping other elements with information, appended. Might look something like this:
+You may have noticed that multiple elements can be appended at the same time. Typically, we will see one `div` or other container, wrapping other elements with information, appended. It could look something like this:
 
 ```javascript
 function appendSomeoneAwesome() {
@@ -114,7 +115,7 @@ The code above would append a `div` that contains two `p`s to the `cardContainer
 
 ## Appending Lots of Info
 
-On most sites, we provide more than one piece of information, usually it's at least three. The more data we have to deal with, the more variables we have, it gets harder to read and messier to update... etc. If you are dealing with 3 or more pieces of information from a user, it's recommended to store them in an object. Here's an example:
+On most sites, we provide more than one piece of information, usually it's at least three. The more data we have to deal with, the more variables we have, it gets harder to read and messier to update... etc. If you are dealing with 3 or more pieces of information from a user, it's recommended to store them in an **object**. Here's an example:
 
 ```javascript
 function appendScholar() {
@@ -216,6 +217,22 @@ To make sure everyone is on the same page...
   <p>Familiarize yourself with the code in <a href="https://codepen.io/turing-kwk/pen/GLbvdX">this CodePen</a>. Then, fork it to your account. Write down the steps you are going to take to refactor the <code class="try-it-code">addNewUser</code> function. (Hint - there is more than on way to do this successfully!)</p>
   <p>Now, implement the code to refactor the <code class="try-it-code">addNewUser</code> function. Make sure the app is still working as expected.</p>
 </div>
+
+## Delete a To-Do
+
+The point of a To-Do list is to finish items and cross them off, so we need to add some functionality on our app that allows users to cross-off, or delete, completed to-dos.
+
+<div class="try-it">
+  <h2>Try It: Delete a To-Do</h2>
+  <p>Familiarize yourself with the code in <a href="https://codepen.io/turing-kwk/pen/XwWgXe">this CodePen</a>. Then, fork it to your account and start working on the steps below:</p>
+  <ol>
+    <li>First, where you are appending the to-do, add a button inside the div. Style it however you'd like!</li>
+    <li>Now, write an event listener for the button. Put a <code class="try-it-code">console.log()</code> statement inside the event handler to make sure you are getting into that function. Make sure that the function is taking the argument <code class="try-it-code">event</code>.</li>
+    <li>In this function, we need to locate that <code class="try-it-code">div</code> that is wrapped around the button, and delete the entire thing. Print to the console <code class="try-it-code">event.target.parentNode</code>. That should be the <code class="try-it-code">div</code>. We can call <code class="try-it-code">.remove()</code> on that element, and it should disappear. Make sure the remove the <code class="try-it-code">console.log()</code>.</li>
+  </ol>
+</div>
+
+As a class, let's discuss how that worked to make sure we are all on the same page.
 
 ## Clear Input Fields
 
