@@ -249,7 +249,7 @@ You've learned a **lot** and have already come so far. Put all your skills toget
 
 <div class="practice">
   <h2>Practice: Build a To-Do List</h2>
-  <p>Brainstorm a small-app idea that would require the user to type in at least one input. The user should see their inputted information on the browser, and should be able to enter more information and see that also listed on the browser.</p>
+  <p>Brainstorm a small-app idea that would require the user to type in at least one input. The user should see their inputted information on the browser, and should be able to enter more information and see that also listed on the browser. The user should also be able to delete items previously added to the list.</p>
   <p>Wireframe your app and choose a color palette. Once your plans are approved, create a directory on your Desktop called and all the files you need.</p>
   <p>Now, build your list!</p>
 </div>
