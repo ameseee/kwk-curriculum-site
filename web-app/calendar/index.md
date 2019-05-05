@@ -68,7 +68,7 @@ title: WebDev Calendar
         <h3>Tuesday</h3>
         <ul>
           <li>Fetch Requests</li>
-          <li>Project: Whateverly</li>
+          <li><strong>Project:</strong> Whateverly</li>
           <li>Gear Up 3</li>
         </ul>
       </article>
