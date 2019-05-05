@@ -50,7 +50,7 @@ We can also access elements by classes and IDs. Instead of `('h1')` we would nee
   <p>Create a folder called "dom" on your Desktop, and create an HTML and Javascript file inside of it. It's standard to title the JavaScript file <code class="try-it-code">index.js</code>.</p>
   <p>In your <code class="try-it-code">index.html</code>file, write at least 3 HTML elements. Give at least one a class and at least one an ID.</p>
   <p>In your <code class="try-it-code">index.js</code>file, write JavaScript to print each element to the console. Practice accessing elements by element type, class, and ID. Open the site in the browser, and open your dev tools. In the console panel, you should see your <code class="try-it-code">console.log</code> statements.</p>
-  <p>Finished Early? Create a duplicate of one of your elements and run the code again. What anything different printed in the console? Use your google skills to research the difference between `.querySelector` and `.querySelectorAll`.</p>
+  <p>Finished Early? Create a duplicate of one of your elements and run the code again. Was anything different printed in the console? Use your google skills to research the difference between `.querySelector` and `.querySelectorAll`.</p>
 </div>
 
 ## jQuery
