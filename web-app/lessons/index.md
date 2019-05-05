@@ -23,6 +23,7 @@ Find all lessons below. Note that the lessons are organized by topic below; to f
 - [Collections]({{ site.url }}//web-app/lessons/collections)
 - [DOM Manipulation II]({{ site.url }}/web-app/lessons/dom-manipulation-2)
 - [Local Storage]({{ site.url }}/web-app/lessons/local-storage)
+- [Fetch Requests]()
 
 ## Other
 - [Welcome to KWK]({{ site.url }}/web-app/lessons/welcome-to-kwk)
