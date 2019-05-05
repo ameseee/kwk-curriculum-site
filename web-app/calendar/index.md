@@ -61,16 +61,14 @@ title: WebDev Calendar
         <article class="day-card">
         <h3>Monday</h3>
         <ul>
-          <li>lesson title</li>
-          <li>lesson title</li>
-          <li>lesson title</li>
+          <li>Mini Projects</li>
         </ul>
       </article>
         <article class="day-card">
         <h3>Tuesday</h3>
         <ul>
-          <li>lesson title</li>
-          <li>lesson title</li>
+          <li>Fetch Requests</li>
+          <li>Project: Whateverly</li>
           <li>Gear Up 3</li>
         </ul>
       </article>
