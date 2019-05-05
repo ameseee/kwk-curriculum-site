@@ -79,7 +79,7 @@ There are a few steps we will need to take every time we get started on a projec
 <div class="try-it">
   <h2>Try It: Running HTML in the Browser</h2>
   <p>Write an HTML document in your <code class="try-it-code">index.html</code> file. Include a title in the head tag, and an <code class="try-it-code">h1</code> and a <code class="try-it-code">list</code> in the body.</p>
-  <p>Open your <code class="try-it-code">index.js</code> file in Chrome.</p>
+  <p>Open your <code class="try-it-code">index.html</code> file in Chrome.</p>
 </div>
 
 ## Linking Stylesheets & Google Fonts
