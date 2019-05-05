@@ -144,7 +144,7 @@ Check this out:
 
 Why does the button go back and forth between pink and purple? Try changing `toggleClass` to `addClass` - what happens? What happens when you change it to `removeClass`? Why?
 
-Besides accessing CSS rules be classes, we can also add CSS property/values! Check out the code in the pen below:
+Besides accessing CSS rules by classes, we can also add CSS property/values! Check out the code in the pen below:
 
 <p class="codepen" data-height="300" data-theme-id="36709" data-default-tab="js,result" data-user="turing-kwk" data-slug-hash="YMbvdP" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid black; margin: 1em 0; padding: 1em;" data-pen-title="Check It Out: DOM Manipulation of CSS">
   <span>See the Pen <a href="https://codepen.io/turing-kwk/pen/YMbvdP/">
