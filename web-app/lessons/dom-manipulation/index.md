@@ -60,7 +60,7 @@ There is a popular **library**, or chunk of code someone else wrote, called **jQ
 ```javascript
 var header = document.querySelector('h1');    // javascript
 
-var header = $('hi');                         // jQuery
+var header = $('h1');                         // jQuery
 ```
 
 In jQuery, we can use the `$` in place of the `document.querySelector` which saves us time typing!
