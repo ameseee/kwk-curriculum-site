@@ -130,7 +130,7 @@ The event listener is responsible for monitoring an element for events, and doin
 
 ## Access CSS
 
-One cool thing about JavaScript since it's accessing your HTML elements, this includes the styles that have been applied to each element. It works kind of like `innerText`, it's a property on the element. However, we can't just print it out. We can add, remove, replace, or toggle classes.
+One cool thing about JavaScript is that since it's accessing your HTML elements, you can also access the styles that have been applied to each element. It works kind of like `innerText`, it's a property on the element. However, we can't just print it out. We can add, remove, replace, or toggle classes.
 
 Check this out:
 
