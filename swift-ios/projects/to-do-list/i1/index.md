@@ -219,4 +219,4 @@ The only piece of functionality that we are missing is being able to remove a To
 
 In your terminal, make sure you are still in the viewfinder directory. Add and commit your changes. Your commit message should be something like "Complete Iteration 1".
 
-Let's keep going! [Move on to Iteration 1]({{ site.url }}/swift-ios/projects/to-do-list/i2)
+Let's keep going! [Move on to Iteration 2]({{ site.url }}/swift-ios/projects/to-do-list/i2)
