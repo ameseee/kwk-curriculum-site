@@ -22,13 +22,7 @@ Iteration 1: Camera & Photos
 <p class="to-do">provide screenshot/giphy of everything they should have at the end.</p>
 
 
-
 Iteration 2: Core Data
-- bullet point #2 - real shitty direction, fix.
-- lots of shitty directions in first section.
-- ??Should first section actually go into iteration 1 - UI setup??? I think so.
-
-- never explains how to do this: "create an instance of the Core Data Object (I called my Photo; yours may be something else, so keep that in mind while you are going through this!)", so super confusing
 - provide screenshot/giphy of everything they should have at the end.
 
 
