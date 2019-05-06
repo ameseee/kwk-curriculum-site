@@ -27,8 +27,6 @@ Iteration 2: Core Data
 
 
 Iteration 3: Photo Detail View
-https://github.com/turingschool-projects/kwk-level3-swift/blob/master/sessions/build_photo_detail_view.markdown
-- directions are decent.
 - provide screenshot/giphy of everything they should have at the end.
 
 Iteration 4: Delete Functionality
