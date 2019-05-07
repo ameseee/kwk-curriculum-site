@@ -21,10 +21,10 @@ Here's a simple version of what you're shooting for:
 
 ## Iterations
 
-- [Iteration 0: Build Your UI]({{ site.url }}/swift-ios/projects/viewfinder/i0.md)
-- [Iteration 1: Camera & Photos]({{ site.url }}/swift-ios/projects/viewfinder/i1.md)
-- [Iteration 2: Core Data]({{ site.url }}/swift-ios/projects/viewfinder/i2.md)
-- [Iteration 3: Photo Detail View]({{ site.url }}/swift-ios/projects/viewfinder/i3.md)
-- [Iteration 4: Delete Functionality]({{ site.url }}/swift-ios/projects/viewfinder/i4.md)
+- [Iteration 0: Build Your UI]({{ site.url }}/swift-ios/projects/viewfinder/i0)
+- [Iteration 1: Camera & Photos]({{ site.url }}/swift-ios/projects/viewfinder/i1)
+- [Iteration 2: Core Data]({{ site.url }}/swift-ios/projects/viewfinder/i2)
+- [Iteration 3: Photo Detail View]({{ site.url }}/swift-ios/projects/viewfinder/i3)
+- [Iteration 4: Delete Functionality]({{ site.url }}/swift-ios/projects/viewfinder/i4)
 
 <p class="to-do">provide screenshot/giphy of everything they should have at the end of each iteration.</p>
