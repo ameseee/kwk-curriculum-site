@@ -2,7 +2,7 @@
 title: Countdown Timer
 ---
 
-Applying what you've learned about HTML, CSS, and JavaScript, then pushing yourself to do some problem-solving and research, you are going to build a countdown timer!
+Applying what you've learned about Swift and StoryBoards, then pushing yourself to do some problem-solving and research, you are going to build a countdown timer!
 
 You may have seen these before:
 - countdown to graduation
@@ -18,11 +18,11 @@ You may have seen these before:
 ### Tips
 
 - You will need to utilize the Swift 4 `Date()` class
-- You will need to utilize JavaScripts `Timer.scheduledTimer` class and function
+- You will need to utilize Swifts `Timer.scheduledTimer` class and function
 - You will probably have to do some work with around converting numbers to strings, and vice versa
 - You will probably have to split apart strings
 
-Here's <a target="blank" href="https://turingschool-projects.github.io/countdown-timer-js/">an example</a>:
+Here's an example:
 
 <img alt="Screenshot of countdown timer, ticking each second" src="{{ site.url }}/swift-ios/projects/countdown-timer/assets/example.gif">
 
