@@ -26,5 +26,3 @@ Here's a simple version of what you're shooting for:
 - [Iteration 2: Core Data]({{ site.url }}/swift-ios/projects/viewfinder/i2)
 - [Iteration 3: Photo Detail View]({{ site.url }}/swift-ios/projects/viewfinder/i3)
 - [Iteration 4: Delete Functionality]({{ site.url }}/swift-ios/projects/viewfinder/i4)
-
-<p class="to-do">provide screenshot/giphy of everything they should have at the end of each iteration.</p>
