@@ -189,7 +189,7 @@ What actually happened when the photo picker appeared, was that it slid in on to
 We need to `dismiss` the photo picker. Let's add the following to our action/function:
 
 ```swift
-picker.dismiss(animated: true, completion: nil)
+imagePicker.dismiss(animated: true, completion: nil)
 ```
 
 The `dismiss` function is another built-in function that Apple gives us. It takes an argument of `animated` and `completion`. Like we've done before, give `animated: true` and `completion: nil`. If you're wondering what animated does, try changing it to false and see what happens!
