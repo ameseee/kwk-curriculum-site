@@ -25,5 +25,3 @@ Here's the simple version of what you're shooting for:
 - [Iteration 0: Static To-Dos]({{ site.url }}/swift-ios/projects/to-do-list/i0)
 - [Iteration 1: Dynamic To-Dos]({{ site.url }}/swift-ios/projects/to-do-list/i1)
 - [Iteration 2: Add & Delete with Core Data]({{ site.url }}/swift-ios/projects/to-do-list/i2)
-
-<p class="to-do">provide screenshot/giphy of everything they should have at the end of each iteration.</p>
