@@ -11,4 +11,4 @@ title: Mobile Projects
 
 - [To-Do List]({{ site.url }}/swift-ios/projects/to-do-list)
 - [Countdown Timer]({{ site.url }}/swift-ios/projects/countdown-timer)
-- [Alarm Clock/POM Timer]({{ site.url }}/web-app/projects/)
+- [Alarm Clock/POM Timer]({{ site.url }}/swift-ios/projects/alarm-clock)
