@@ -138,7 +138,7 @@ class Student {
   }
 
   func writeCode() {
-    "\(name) is busy writing code!"
+    print("\(name) is busy writing code!")
   }
 
 }
@@ -216,7 +216,7 @@ Now that we can write classes and use them to create objects, _and_ organize our
   <h3>Extension: Super and Sub Classes</h3>
   <ul>
     <li>Read this
-      <a href="https://www.weheartswift.com/swift-classes-part-2/" target="_blank">blog post</a>
+      <a href="https://www.weheartswift.com/swift-classes-part-2/" target="blank">blog post</a>
     </li>
     <li>What is a scenario where you could use a superclass and subclass?</li>
     <li>If you still have time, try to build the superclass and subclass you brainstormed. You can just create a new file in the project you've been working in.</li>
