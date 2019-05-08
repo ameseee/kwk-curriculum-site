@@ -87,13 +87,13 @@ What we've done is create a repository on GitHub named the same thing as our loc
 
 You now see a page with three options. Look to the section that looks like this:
 
-<img class="medium" src="./assets/create-repo.png" alt="Directions to create from existing repo from command line">
+<img class="medium" src="{{ site.url }}/web-app/lessons/git-github/assets/create-repo.png" alt="Directions to create from existing repo from command line">
 
 Copy that first line, then paste it into your terminal (you should still be in the responsive-design directory while doing this). Now, copy and paste in the second line.
 
 Go back to GitHub and refresh the browser. The page should change quite a bit, you should see something more like this:
 
-<img class="small" src="./assets/repo.png" alt="Screen shot of a repository page on GitHub">
+<img class="small" src="{{ site.url }}/web-app/lessons/git-github/assets/repo.png" alt="Screen shot of a repository page on GitHub">
 
 ## Updating GitHub
 
