@@ -22,7 +22,7 @@ So far, we’ve done an excellent job of displaying information to the user, but
 
 There is a lot to forms that we’ll go more into depth with in a moment, but to start we’ll focus on two elements:
 
-- `<input>` creates an input field. `<input>` is like `<img>` in that it does not require or support a closing tag. It can take an optional type attribute that helps validate user input in some browsers (click <a target="blank" href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input">here</a>) to find out more).
+- `<input>` creates an input field. `<input>` is like `<img>` in that it does not require or support a closing tag. It can take an optional type attribute that helps validate user input in some browsers (<a target="blank" href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input">visit MDN</a> to find out more).
 - `<button>` creates a button. `<button>` on the other hand does support a closing tag.
 
 <p class="codepen" data-height="300" data-theme-id="36709" data-default-tab="html,result" data-user="turing-kwk" data-slug-hash="qwyyqe" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid black; margin: 1em 0; padding: 1em;" data-pen-title="Check It Out: Inputs and Buttons">

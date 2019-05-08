@@ -120,7 +120,7 @@ One common example is when you see one word within a paragraph that is a link. T
 
 <div class="try-it">
   <h2>Turn & Talk</h2>
-  <p>Read through the two code snippets below, then talk with your partner about both, including answers these questions:</p>
+  <p>Read through the two code snippets below, then talk with your partner about both, including answers to these questions:</p>
   <p>In the first code snippet, which element is nested inside of the <code class="try-it-code">nav</code>? Why do you think the author of this code decided to use nesting?</p>
   <p>In the second code snippet, which element is wrapped around other elements? What do you think the author decided to indent all of the nested elements they way they did? What do you imagine <code class="try-it-code">nav</code> stands for/does?</p>
 </div>

@@ -66,7 +66,7 @@ Now that we know how to compare things, we can tell our program to take a differ
 Let's look at this example.
 
 ```swift
-dogAge = 1
+var dogAge = 1
 
 if dogAge < 2 {
   print("You are a puppy 🐶")

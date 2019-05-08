@@ -18,7 +18,7 @@ title: Functions
 
 ## What is a function?
 
-You can think of a function as an action in our code. A function has a specific job, and it sits around waiting to be asked to do it's job. It can have a very small job (add two numbers together) or a very big job (find the standard deviation of 1 million numbers). We get to write them so we have control over what their jobs are.
+You can think of a function as an action in our code. A function has a specific job, and it sits around waiting to be asked to do its job. It can have a very small job (add two numbers together) or a very big job (find the standard deviation of 1 million numbers). We get to write them so we have control over what their jobs are.
 
 You may have seen these before - in JavaScript they are also called functions; in Ruby they are called methods. This is the meat of a program; without functions we can't do much.
 
@@ -26,7 +26,7 @@ Today, we will go through the syntax of functions in Swift, and make sure you ha
 
 ## Declaring Functions
 
-Some people describe functions as 'packages of commands' - we usually group a few commands into one function. The function name should describe what it's job is. Today, we are going to write a `walkDog` function, which will give a set of commands to the robot to walk a dog.
+Some people describe functions as 'packages of commands' - we usually group a few commands into one function. The function name should describe what its job is. Today, we are going to write a `walkDog` function, which will give a set of commands to the robot to walk a dog.
 
 ```swift
 func walkDog() {  
@@ -71,7 +71,7 @@ func walkDog() {
 walkDog()
 ```
 
-Again, if a function is only declared, it will not do it's job. We have to call it to tell it it's time to do it's job. We can call a function as many times as you want. Add a call to your function and make sure it runs!
+Again, if a function is only declared, it will not do its job. We have to call it to tell it it is time to do its job. We can call a function as many times as you want. Add a call to your function and make sure it runs!
 
 <div class="try-it">
   <h2>Try It: Writing Your Own Functions</h2>

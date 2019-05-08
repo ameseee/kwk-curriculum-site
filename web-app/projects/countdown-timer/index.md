@@ -34,7 +34,7 @@ Here's <a target="blank" href="https://turingschool-projects.github.io/countdown
 - Find your inspiration! Create a folder on your desktop that you can save images/icons to as you find ones you like. Also, decide on any colors and fonts you'd like to use. <a target="blank" href="https://www.flaticon.com/">FlatIcon</a> is a great, free resource. Make sure you give credit to the artists, if necessary.
 - Make sure your wireframe and assets are approved by your instructor before moving on.
 
-**Notice:** you haven't written any code in Atom yet. The planning process is extremely important and professional developers spend a lot of time in this phase.
+**Notice** that you haven't written any code in Atom yet. The planning process is extremely important and professional developers spend a lot of time in this phase.
 <br>
 
 ## Iteration 2 - Research and Pseudo-Code

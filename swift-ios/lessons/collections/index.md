@@ -165,7 +165,7 @@ for item in shoppingList {
 //-> "We need some Pasta"
 ```
 
-The benefit of this is it saves us time. When we want do to the same thing for lots of items, we only have to write that command _once_. If we didn't use an array and use this `for-in` loop, out code would look like this:
+The benefit of this is it saves us time. When we want do to the same thing for lots of items, we only have to write that command _once_. If we didn't use an array and use this `for-in` loop, our code would look like this:
 
 ```swift
 print("We need some \(item[0])")
@@ -174,7 +174,7 @@ print("We need some \(item[2])")
 print("We need some \(item[3])")
 ```
 
-Right now, this doesn't seem so bad. What if we had 100 items on our grocery list? 1000? That's a lot of lines of code to write and a lot of places we would need to update it every time we added or removed and item.
+Right now, this doesn't seem so bad. What if we had 100 items on our grocery list? 1000? That's a lot of lines of code to write and a lot of places we would need to update it every time we added or removed an item.
 
 
 <div class="try-it">
@@ -223,7 +223,7 @@ We just got the hang of arrays and are feeling pretty great about them - why do 
 
 If I wanted to make a list of all the dogs in my apartment building, I should use an array. They are all strings, they are all the same thing. I don't care about how old they are, or their owners, names, or anything else.
 
-If I wanted to make a list of all the dogs in my apartment building and their birthday so that we can throw a party for each of them, I should use a dictionary. There is an _associative_ relationship between each dog and it's birthday.
+If I wanted to make a list of all the dogs in my apartment building and their birthday so that we can throw a party for each of them, I should use a dictionary. There is an _associative_ relationship between each dog and its birthday.
 
 <div class="try-it">
   <h2>Try It: Array or Dictionary?</h2>
@@ -267,7 +267,7 @@ var phones = [
 
 ### Adding Data to Dictionaries
 
-To add key/value pairs to my empty dictionary, we use also use `[]` notation. Instead of using a number like with arrays, we will use a string - the label, or **key** for this set of data. Then, we will use the `=` to assign the value.
+To add key/value pairs to my empty dictionary, we also use `[]` notation. Instead of using a number like with arrays, we will use a string - the label, or **key** for this set of data. Then, we will use the `=` to assign the value.
 
 ```swift
 var phones : [String : String] = [:]

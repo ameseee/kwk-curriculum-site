@@ -35,7 +35,7 @@ Your HTML and CSS skills will come in handy to make this look great, but the foc
 
 ## Iteration 2 - HTML & CSS
 
-- Now that you have wireframes, write out the HTML to make this come to like.
+- Now that you have wireframes, write out the HTML to make this come to life.
 - Apply styles, including media queries.
 
 ## Iteration 3 - DOM Manipulation
@@ -47,7 +47,7 @@ Your HTML and CSS skills will come in handy to make this look great, but the foc
 
 - Create an array of your "messages" that will be randomly picked from
 - Inside your event handler, write logic to randomly select a message from the array.
-- Your event handler should also make sure that they selected message appears on the screen for your user.
+- Your event handler should also make sure that the selected message appears on the screen for your user.
 
 ## Iteration 5 - Deploy
 
