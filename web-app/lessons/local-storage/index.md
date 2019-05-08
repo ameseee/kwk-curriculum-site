@@ -44,7 +44,7 @@ Local Storage is like a local database. Each user that uses an application have 
   <p>Do the same thing on a different site and compare the outputs - are they the same or different?</p>
 </div>
 
-`localStorage` stores an object with key/value pairs. They key is like a label and the value holds the actual data we want to be stored. `localStorage` is a database that holds information for a given **domain**, or web address.
+`localStorage` stores an object with key/value pairs. The key is like a label and the value holds the actual data we want to be stored. `localStorage` is a database that holds information for a given **domain**, or web address.
 
 `localStorage` supports the following methods:
 
