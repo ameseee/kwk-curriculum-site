@@ -21,3 +21,7 @@ You can decide if it's a countdown timer - set a timer for 30 minutes to study, 
 Here's <a target="blank" href="https://turingschool-projects.github.io/study-timer-js/">an example</a>. It is currently counting down in seconds rather than minutes to more easily capture the functionality in this gif:
 
 <img alt="Screenshot of study timer, ticking each second" src="{{ site.url }}/web-app/projects/alarm-clock/assets/example.gif">
+
+### Iterations
+
+You are not being provided with Iterations in order to push you to plan out how you will spend your time. You got this!

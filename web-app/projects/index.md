@@ -10,7 +10,7 @@ title: WebDev Projects
 
 - [Countdown Timer]({{ site.url }}/web-app/projects/countdown-timer)
 - [Alarm Clock/POM Timer]({{ site.url }}/web-app/projects/alarm-clock)
-- [Mad Lib Generator]({{ site.url }}/web-app/projects/mad-lib-generator)
 - [Star Ratings]({{ site.url }}/web-app/projects/star-ratings)
-- [Penguin Game]({{ site.url }}/web-app/projects/penguin-game)
-- [Quiz]({{ site.url }}/web-app/projects/quiz)
+- [Making Music]({{ site.url }}/web-app/projects/making-music)
+- [Mad Lib Generator]({{ site.url }}/web-app/projects/mad-lib-generator)
+<!-- - [Quiz]({{ site.url }}/web-app/projects/quiz) -->
