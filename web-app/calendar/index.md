@@ -31,7 +31,7 @@ title: WebDev Calendar
           <li>Git & GitHub</li>
           <li><strong>Project:</strong> Photo Gallery</li>
           <li>Intro to JavaScript</li>
-          <li>Gear Up 1</li>
+          <li>Culture of Tech 1</li>
         </ul>
       </article>
         <article class="day-card">
@@ -49,7 +49,7 @@ title: WebDev Calendar
         <ul>
           <li>Local Storage</li>
           <li><strong>Project:</strong> To-Do Box</li>
-          <li>Gear Up 2</li>
+          <li>Culture of Tech 2</li>
         </ul>
       </article>
     </section>
@@ -69,7 +69,7 @@ title: WebDev Calendar
         <ul>
           <li>Fetch Requests</li>
           <li><strong>Project:</strong> Whateverly</li>
-          <li>Gear Up 3</li>
+          <li>Culture of Tech 3</li>
         </ul>
       </article>
         <article class="day-card">

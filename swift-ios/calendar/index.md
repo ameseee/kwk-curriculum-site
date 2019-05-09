@@ -22,7 +22,7 @@ title: Mobile Calendar
           <li>Loops</li>
           <li>Classes & Objects</li>
           <li>Object Interaction</li>
-          <li>Gear Up 1</li>
+          <li>Culture of Tech 1</li>
         </ul>
       </article>
         <article class="day-card">
@@ -46,7 +46,7 @@ title: Mobile Calendar
         <ul>
           <li>Table Views</li>
           <li>Segues</li>
-          <li>Gear Up 2</li>
+          <li>Culture of Tech 2</li>
         </ul>
       </article>
     </section>
@@ -69,7 +69,7 @@ title: Mobile Calendar
           <li>Delete Functionality</li>
           <li><strong>Project:</strong> ViewFinder</li>
           <li>How to Demo</li>
-          <li>Gear Up 3</li>
+          <li>Culture of Tech 3</li>
         </ul>
       </article>
         <article class="day-card">
