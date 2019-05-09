@@ -1,5 +1,5 @@
 ---
-title: Mad Lib Generator
+title: Mad Libs Generator
 ---
 
 Applying what you've learned about HTML, CSS, and JavaScript, then pushing yourself to do some problem-solving and research, you are going to build a Mad Libs Generator! If you aren't familiar with "Mad Libs", read up on it <a target="blank" href="https://en.wikipedia.org/wiki/Mad_Libs">here</a>.
@@ -13,7 +13,7 @@ Applying what you've learned about HTML, CSS, and JavaScript, then pushing yours
 ### Tips
 
 - One you get the inputs, you'll need to use `string interpolation` with the user inputs and some of your words, as well.
-- It's be great if every Mad Lib generated didn't have the exact same sentence structure...🤔
+- It's be great if every Mad Libs generated didn't have the exact same sentence structure...🤔
 
 ### Iterations
 
