@@ -16,9 +16,9 @@ title: Terminal
 
 ## Navigating the Terminal
 
-**Note:** All of the examples below start with a `$`. This indicates the terminal's prompt for a user to type in a command. You do not need to type in that `$`, just the command following it. 
+**Note:** All of the examples below start with a `$`. This indicates the terminal's prompt for a user to type in a command. You do not need to type in that `$`, just the command following it.
 
-The terminal is like the "programming version" of your finder. In it, you can access and open any file, or directory, on your computer, and do much more. We won't go too far in depth, but you do need to know a few commands in order to navigate to a project:
+The terminal is like the "programming version" of your finder. In it, you can access and open any file, or directory, on your computer, and do much more. We won't go too far in depth, but you do need to know a few commands in order to navigate to a project. To open the terminal, press `cmd + space`, start typing in `terminal`, then hit `enter/return`.
 
 To go into files, use `cd`. The following command will take me into my Desktop directory:
 
