@@ -59,12 +59,12 @@ title: Mobile Calendar
         <h3>Monday</h3>
         <ul>
           <li>Mini Projects</li>
+          <li>Access Camera & Display Photos</li>
         </ul>
       </article>
         <article class="day-card">
         <h3>Tuesday</h3>
         <ul>
-          <li>Access Camera & Display Photos</li>
           <li><strong>Project:</strong> ViewFinder</li>
           <li>How to Demo</li>
           <li>Culture of Tech 3</li>
