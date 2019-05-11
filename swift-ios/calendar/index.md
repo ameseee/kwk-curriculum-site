@@ -58,15 +58,13 @@ title: Mobile Calendar
         <article class="day-card">
         <h3>Monday</h3>
         <ul>
-          <li>Access Camera & Display Photos</li>
-          <li>ViewFinder UI</li>
-          <li>Core Data</li>
+          <li>Mini Projects</li>
         </ul>
       </article>
         <article class="day-card">
         <h3>Tuesday</h3>
         <ul>
-          <li>Delete Functionality</li>
+          <li>Access Camera & Display Photos</li>
           <li><strong>Project:</strong> ViewFinder</li>
           <li>How to Demo</li>
           <li>Culture of Tech 3</li>
