@@ -85,7 +85,7 @@ To see what it does, you'll need to open this pen in the browser, and with the d
 <div class="try-it">
   <h2>Try It: Color Picker</h2>
   <p>It's your turn to implement some work with <code class="try-it-code">localStorage</code> in a project.</p>
-  <p><strong>Step 1:</strong> Copy and paste the code from each of the 3 files in <a href="https://codepen.io/turing-kwk/pen/yWBbmM">this CodePen</a> into a project called "color-picker" in Atom. it will be easier to see what's happening when we run it in the real browser.</p>
+  <p><strong>Step 1:</strong> Copy and paste the code from each of the 3 files in <a href="https://codepen.io/turing-kwk/pen/yWBbmM">this CodePen</a> into a project called "color-picker" in Atom. It will be easier to see what's happening when we run it in the real browser.</p>
   <p><strong>Step 2:</strong> Read through the JavaScript and make sure you understand how the current code is creating the functionality that the app currently has.</p>
   <p><strong>Step 3:</strong> With your partner, talk about/pseudo-code what code you would write, and where you would write it to implement localStorage.</p>
 </div>
