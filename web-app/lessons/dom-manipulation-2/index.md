@@ -180,7 +180,7 @@ function appendScholar(scholar) {
   cardContainer.append(`
     <div class="name-card">
       <p class="name">
-        ${scholarInfo.name} is studying ${scholarInfo.studying} in ${scholarInfo.city}!
+        ${scholar.name} is studying ${scholar.studying} in ${scholar.city}!
       </p>
     </div>
   `);
