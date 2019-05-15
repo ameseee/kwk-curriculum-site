@@ -34,6 +34,12 @@ Find all lessons below. Note that the lessons are organized by topic below; to f
 - [Set Up a Project in Atom]({{ site.url }}/web-app/lessons/setup-project-atom)
 - [Git and GitHub]({{ site.url }}/web-app/lessons/git-github)
 
+## Culture of Tech
+
+- [The Gender Gap](https://docs.google.com/document/u/1/d/1RM2ewEKXNX6LjQ_wSa4im-z4VOy8iSArNE56UebjPsI/edit#)
+- [Biases](https://docs.google.com/document/u/1/d/1fIML-3pNmVhdi7wrYzRwGf-emHCT6M67qm8Bv6DEpHI/edit#)
+- [Big Ideas](https://docs.google.com/document/d/1JpjHZn_DDllq1dU-3p4OD-SPfzHh5OV-arMnYrWRUOw/edit)
+
 ## Other
 
 - [Welcome to KWK]({{ site.url }}/web-app/lessons/welcome-to-kwk)
