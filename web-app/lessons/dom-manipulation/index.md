@@ -75,7 +75,7 @@ Keep in mind that when we use features of jQuery, we are still writing JavaScrip
 
 ### Load jQuery into a Project in Atom
 
-On the line above your script tag for your JavaScript file, add this:
+In your HTML file, on the line above your script tag for your JavaScript file, add this:
 
 ```html
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>

@@ -21,3 +21,11 @@ Now that your page is looking great, we add functionality with JavaScript. Unlik
 ```html
 <script type="text/javascript" src="./index.js"></script>
 ```
+
+### Add jQuery to your project
+
+jQuery is a library we use on top of JavaScript; it gives us more built-in functions that make our lives easier. It's safe to assume we will always use it. In your HTML file, on the line above your script tag for your JavaScript file, add this:
+
+```html
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+```
