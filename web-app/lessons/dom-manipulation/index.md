@@ -87,11 +87,11 @@ Now that we can access elements and store them in a variable, the possibilities 
 
 ```js
 var header = $('h1');
-header.innerText = "HIIII";
+header.text("HIIII");
 //=> In the browser, the hi now says HIIII
 ```
 
-What's happening is, the `h1` element has an attribute called `innerText`. When we originally wrote the `h1`, we gave it an `innerText` value of "hello" by typing "hello" between the tags. JavaScript gives us a method to change that original text.
+What's happening is, the `h1` element has an attribute called `text`. When we originally wrote the `h1`, we gave it an `text` value of "hello" by typing "hello" between the tags. jQuery gives us a method to change that original text.
 
 ## Events
 
