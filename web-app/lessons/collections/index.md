@@ -122,12 +122,12 @@ var languages = ["JavaScript", "Go", "Swift", "Python", "PHP"];
 languages.pop();
 
 console.log(languages);
-//-> ["JavaScript", "Go", "Swift", "Python", "PHP"]
+//-> ["JavaScript", "Go", "Swift", "Python"]
 
 languages.shift();
 
 console.log(languages);
-//-> ["Go", "Swift", "Python", "PHP"]
+//-> ["Go", "Swift", "Python"]
 ```
 
 A little different from `.push()`, `.pop()` and `.shift()` do not take arguments - they know what to do. `.pop()` removes the last element from an array, and `.shift()` removes the first.
