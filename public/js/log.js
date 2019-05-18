@@ -4,5 +4,5 @@ localStorage.setItem('Denver', "Welcome, KWK Instructors💗");
 localStorage.setItem('KWK Instructors', "You are amazing🤩. Thanks for all the work you do.");
 
 var names = ["Rachana", "Yaritza", "Mehreen", "Izsie", "Will"];
-var nameStrings = JSON.stringigy(names);
+var nameStrings = JSON.stringify(names);
 localStorage.setItem('Just some of these all-stars:', nameStrings);
