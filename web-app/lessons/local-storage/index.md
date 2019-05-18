@@ -27,6 +27,12 @@ Up until this point, the data in our projects has disappeared whenever we refres
 
 Since we are front-end developers, we will learn how to use Local Storage, an implementation of client-side storage, as a database to hold our information. Once we do this, we can refresh a page after a user has added data, and the data will **persist** (still be on the page)!
 
+<div class="try-it">
+  <h2>Turn & Talk: Favorite App</h2>
+  <p>What is your favorite or most go-to app? Why?</p>
+  <p>Does it store any of your information? Do you think it's stored client-side or server-side? What would your experience with the app be like if it couldn't store any of your information?</p>
+</div>
+
 ## Local Storage
 
 Local Storage is like a local database. Each user that uses an application have have information saved to the app, on that computer. Let's say you make a to-do list app that uses Local Storage:
