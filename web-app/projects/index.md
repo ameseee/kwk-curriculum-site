@@ -4,6 +4,7 @@ title: WebDev Projects
 
 - [Photo Gallery]({{ site.url }}/web-app/projects/photo-gallery)
 - [Random Message Generator]({{ site.url }}/web-app/projects/random-message-generator)
+- [ToDo Box]({{ site.url }}/web-app/projects/to-do-box)
 - [Personal Project]({{ site.url }}/web-app/projects/personal-project)
 
 ## Mini Projects:
