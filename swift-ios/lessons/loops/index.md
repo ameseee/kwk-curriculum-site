@@ -39,10 +39,10 @@ A `for-in` loop has a few parts:
 We can use `for-in` loops to use data from an array. If we created an array of cute animals, we could write a `for-in` loop to do the same thing with each of the strings in our array.
 
 ```swift
-var animals = ["red pandas", "giraffes", "sea turtles"]
+var sponsors = ["adidas", "Estee Lauder", "Carolina Herrera Good Girl", "Apple", "WeWork"]
 
-for animal in animals {
-  print("I love \(animal)!")"
+for sponsor in sponsors {
+  print("Shout out to \(sponsor) for help making KWK happen!")"
 }
 ```
 
@@ -50,8 +50,8 @@ for animal in animals {
   <h2>Turn & Talk</h2>
   <ul>
     <li>What do you think will happen when we run the code above?</li>
-    <li>What if we add another animal to our array?</li>
-    <li>Why do you think we used the words "animal" and "animals" in our <code class="try-it-code">for-in</code> loop?</li>
+    <li>What if we add another sponsor to our array?</li>
+    <li>Why do you think we used the words "sponsor" and "sponsors" in our <code class="try-it-code">for-in</code> loop?</li>
   </ul>
 </div>
 
@@ -60,18 +60,20 @@ for animal in animals {
 Let's try to understand what's going on here.
 
 ```swift
-for animal in animals {
-  print("I love " + animal)
+for sponsor in sponsors {
+  print("Shout out to \(sponsor) for help making KWK happen!")"
 }
 
-// => I love red pandas
-// => I love giraffes
-// => I love sea turtles
+// => Shout out to adidas for help making KWK happen!
+// => Shout out to Estee Lauder for help making KWK happen!
+// => Shout out to Carolina Herrera Good Girl for help making KWK happen!
+// => Shout out to Apple for help making KWK happen!
+// => Shout out to WeWork for help making KWK happen!
 ```
 
-The word `animal` right after the keyword `for` refers to each element of our array, and the `animals` after the `in` keyword is the name of the array we are telling the computer to iterate over. We've told our loop to run the same number of times as there are elements in the array. So, since we currently have 3 elements in the array, it will run three times. If we added another animal to our array, the loop would run four times.
+The word `sponsor` right after the keyword `for` refers to each element of our array, and the `sponsors` after the `in` keyword is the name of the array we are telling the computer to iterate over. We've told our loop to run the same number of times as there are elements in the array. So, since we currently have 5 elements in the array, it will run 5 times. If we added another sponsor to our array, the loop would run 6 times.
 
-By using the word `animal` after the `for` keyword, we're telling our code that we can use `animal` like a variable (inside of the code block, or the curly braces, only), and its value for each iteration of the loop will be whatever element of the array it's currently iterating over.
+By using the word `sponsor` after the `for` keyword, we're telling our code that we can use `sponsor` like a variable (inside of the code block, or the curly braces, only), and its value for each iteration of the loop will be whatever element of the array it's currently iterating over.
 
 ## `for-in` Loops and Dictionaries
 

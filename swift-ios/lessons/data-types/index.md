@@ -107,17 +107,17 @@ We would write that line of code in the text editor (top) portion of Xcode Playg
 <div class="try-it">
   <h2>Try It: Strings</h2>
 
-  <p>If you have the strings "Beyonce" and "Knowles" in the following variables:</p>
-  <code class="try-it-code">var first = "Beyonce"</code><br>
-  <code class="try-it-code">var last = "Knowles"</code><br>
+  <p>If you have the strings "Karlie" and "Kloss" in the following variables:</p>
+  <code class="try-it-code">var first = "Karlie"</code><br>
+  <code class="try-it-code">var last = "Kloss"</code><br>
 
   <p>Use <strong>only</strong> the "string interpolation" technique to complete the following:</p>
   <ol>
-    <li>What code can you write to output the string `"BeyonceKnowles"`?</li>
-    <li>What code can you write to output the string `"KnowlesBeyonce"`?</li>
-    <li>What code can you write to output the string `"Beyonce Knowles"`?</li>
-    <li>What code can you write to output the string `"Knowles Beyonce Knowles Beyonce"`?</li>
-    <li>What code can you write to output the string `"I love Beyonce"`?</li>
+    <li>What code can you write to output the string `"KarlieKloss"`?</li>
+    <li>What code can you write to output the string `"KlossKarlie"`?</li>
+    <li>What code can you write to output the string `"Karlie Kloss"`?</li>
+    <li>What code can you write to output the string `"Kloss Karlie Kloss Karlie"`?</li>
+    <li>What code can you write to output the string `"I love Karlie"`?</li>
   </ol>
 </div>
 
@@ -196,6 +196,6 @@ Let's take a few minutes to practice these fundamentals - we will use this knowl
   <p>Let's sing Happy Birthday to our favorite celebrity. Their name should be stored in a variable, just in case you want to sing to someone else.</p>
 
   <h3>Extension: String Compression</h3>
-  <p>There's a silly compression algorithm that outputs the first letter, the number of letters in the middle, and the last letter. So for the string <code>Kalamazoo</code> it'd output <code>K7o</code> or <code>Denver</code> would be <code>D4r</code>.</p>
+  <p>There's a silly compression algorithm that outputs the first letter, the number of letters in the middle, and the last letter. So for the string <code>Klossy</code> it'd output <code>K4y</code> or <code>Scholar</code> would be <code>S5r</code>.</p>
   <p>Can you write code to implement that?</p>
 </div>

@@ -56,16 +56,17 @@ If you've worked in other languages, you may have noticed that it's possible to 
 Instead of declaring an empty array, we can also declare an array that starts with data, like this:
 
 ```swift
-var shoppingList = ["Bread", "Cheese", "Milk", "Bacon"]
+var friendsOfKarlie = ["Michelle Obama", "Serena Williams", "T Swift", "Jimmy Fallon"]
 ```
-This array is stored in the variable `shoppingList`, so anytime we call this variable, we will get back this whole list!
+
+This array is stored in the variable `friendsOfKarlie`, so anytime we call this variable, we will get back this whole list!
 
 ```swift
-shoppingList
-//-> ["Bread", "Cheese", "Milk", "Bacon"]
+friendsOfKarlie
+//-> ["Michelle Obama", "Serena Williams", "T Swift", "Jimmy Fallon"]
 ```
 
-Side note: The lines `//-> "Milk"` and `//-> "Bread"` are indicating the return value of the previous code; it's just a way to notate what happens after writing some code.
+Side note: The lines stating with `//->` indicate the return value of the previous code; it's just a way to notate what happens after writing some code.
 
 <div class="try-it">
   <h2>Turn and Talk</h2>
@@ -79,27 +80,27 @@ Side note: The lines `//-> "Milk"` and `//-> "Bread"` are indicating the return 
 
 ### Accessing Information
 
-Each element in an array is automatically assigned a number called an **index**. This index can be used to access a specific element inside the array. Indices begin at 0 and count up. If we look back at our `shoppingList` array, the following is true:
+Each element in an array is automatically assigned a number called an **index**. This index can be used to access a specific element inside the array. Indices begin at 0 and count up. If we look back at our `friendsOfKarlie` array, the following is true:
 
 ```swift
-var shoppingList = ["Bread", "Cheese", "Milk", "Bacon"]
+var friendsOfKarlie = ["Michelle Obama", "Serena Williams", "T Swift", "Jimmy Fallon"]
 ```
 
-* "Bread" has an index of 0
-* "Cheese" has an index of 1
-* "Milk" has an index of 2
-* "Bacon" has an index of 3  
+* "Michelle Obama" has an index of 0
+* "Serena Williams" has an index of 1
+* "T Swift" has an index of 2
+* "Jimmy Fallon" has an index of 3  
 
 By using the square brackets, we can use the index to access a specific value in an array.
 
 ```swift
-var shoppingList = ["Bread", "Cheese", "Milk", "Bacon"]
+var friendsOfKarlie = ["Michelle Obama", "Serena Williams", "T Swift", "Jimmy Fallon"]
 
-shoppingList[2]
-//-> "Milk"
+friendsOfKarlie[2]
+//-> "T Swift"
 
-shoppingList[0]
-//-> "Bread"
+friendsOfKarlie[0]
+//-> "Michelle Obama"
 ```
 
 ### Updating Information
@@ -107,11 +108,11 @@ shoppingList[0]
 We can also update elements with the square bracket syntax we looked at earlier. We access the index value that we would like to change, and then reassign a new value for that index with a `=`.
 
 ```swift
-var shoppingList = ["Bread", "Cheese", "Milk", "Bacon"]
+var friendsOfKarlie = ["Michelle Obama", "Serena Williams", "T Swift", "Jimmy Fallon"]
 
-shoppingList[2] = "Candy"
+friendsOfKarlie[2] = "Josh Kushner"
 
-//-> ["Bread", "Cheese", "Candy", "Bacon"]
+//-> ["Michelle Obama", "Serena Williams", "Josh Kushner", "Jimmy Fallon"]
 ```
 
 ### Adding Information
@@ -119,10 +120,10 @@ shoppingList[2] = "Candy"
 A common way to add something to an already existing array is to use the append() method - which will add an element to the end of the array.
 
 ```swift
-var shoppingList = ["Bread", "Cheese", "Candy", "Bacon"]
-shoppingList.append("Pasta")
+var friendsOfKarlie = ["Michelle Obama", "Serena Williams", "T Swift", "Jimmy Fallon"]
+friendsOfKarlie.append("Josh Kushner")
 
-//-> ["Bread", "Cheese", "Candy", "Bacon", "Pasta"]
+//-> ["Michelle Obama", "Serena Williams", "T Swift", "Jimmy Fallon", "Josh Kushner"]
 ```
 
 ### Removing Information
@@ -130,21 +131,21 @@ shoppingList.append("Pasta")
 A common way of removing elements is to use the remove(at:) method - which will remove an element at whatever index you type in after the `at:`.
 
 ```swift
-var shoppingList = ["Bread", "Cheese", "Candy", "Bacon", "Pasta"]
-shoppingList.remove(at: 0)
+var friendsOfKarlie = ["Michelle Obama", "Serena Williams", "T Swift", "Jimmy Fallon"]
+friendsOfKarlie.remove(at: 0)
 
-//-> ["Cheese", "Candy", "Bacon", "Pasta"]
+//-> ["Serena Williams", "T Swift", "Jimmy Fallon"]
 ```
 
 <div class="try-it">
   <h2>Try It: Creating Arrays and Accessing Data</h2>
 
-  <p>Create an array of 3 adorable animals, and store it in a variable. Then, take these steps:</p>
+  <p>Create an array of 3 of your role models and/or friends, and store it in a variable. Then, take these steps:</p>
   <ul>
-  <li>Access the second animal using <code>[]</code> notation</li>
-  <li>Add another adorable animal</li>
-  <li>Change one of the adorable animals</li>
-  <li>Remove the third animal from the array</li>
+  <li>Access the second person using <code>[]</code> notation</li>
+  <li>Add another person to the list</li>
+  <li>Change one of the people</li>
+  <li>Remove the person from the array</li>
   </ul>
 </div>
 
@@ -155,27 +156,29 @@ When you need to perform an operation on all of an array's elements, you can **i
 Here is an example of the syntax:
 
 ```swift
-for item in shoppingList {
-  print("We need some \(item)")
+var friendsOfKarlie = ["Michelle Obama", "Serena Williams", "T Swift", "Jimmy Fallon"]
+
+for friend in friendsOfKarlie {
+  print("👋 Hello \(friend)!")
 }
 
-//-> "We need some Cheese"
-//-> "We need some Milk"
-//-> "We need some Candy"
-//-> "We need some Pasta"
+//-> "👋 Hello Michelle Obama!"
+//-> "👋 Hello Serena Williams!"
+//-> "👋 Hello T Swift!"
+//-> "👋 Hello Jimmy Fallon!"
+
 ```
 
 The benefit of this is it saves us time. When we want do to the same thing for lots of items, we only have to write that command _once_. If we didn't use an array and use this `for-in` loop, our code would look like this:
 
 ```swift
-print("We need some \(item[0])")
-print("We need some \(item[1])")
-print("We need some \(item[2])")
-print("We need some \(item[3])")
+print("👋 Hello \(friendsOfKarlie[0])")
+print("👋 Hello \(friendsOfKarlie[1])")
+print("👋 Hello \(friendsOfKarlie[2])")
+print("👋 Hello \(friendsOfKarlie[3])")
 ```
 
-Right now, this doesn't seem so bad. What if we had 100 items on our grocery list? 1000? That's a lot of lines of code to write and a lot of places we would need to update it every time we added or removed an item.
-
+Right now, this doesn't seem so bad. What if we had 100 friends? 1000? That's a lot of lines of code to write and a lot of places we would need to update it every time we added or removed someone.
 
 <div class="try-it">
   <h2>Ink - Pair - Share: Arrays IRL</h2>
@@ -200,7 +203,7 @@ Applications like Instagram probably utilize arrays **a lot**. Each user has a l
     <li>You should have five hobbies in your array. Using a for-in loop and string interpolation, iterate over the values in your array in order to print five strings that say "I love ______!"</li>
   </ul>
 
-  <h3>Part 2: Do some research!</h3>
+  <h3>Extension: Do some research!</h3>
 
   <p>There are several ways to add, remove, and modify values in an array. There is also a variety of other ways to iterate over arrays. Using Google and the Swift documentation, find a <i>different</i> way to do each of the following:</p>
   <ul>
@@ -221,9 +224,9 @@ We just got the hang of arrays and are feeling pretty great about them - why do 
 * When we don't care about the order of items (array)
 * When we need an _associative_ relationship (title for some info)
 
-If I wanted to make a list of all the dogs in my apartment building, I should use an array. They are all strings, they are all the same thing. I don't care about how old they are, or their owners, names, or anything else.
+If I wanted to make a list of all of Karlie's friends, I should use an array. They are all strings, they are all the same thing. I don't care about how old they are, their birthdays, where they live, or anything else.
 
-If I wanted to make a list of all the dogs in my apartment building and their birthday so that we can throw a party for each of them, I should use a dictionary. There is an _associative_ relationship between each dog and its birthday.
+If I wanted to make a list of all of Karlie's friends **and** their birthday so that we can throw a party for each of them, I should use a dictionary. There is an _associative_ relationship between each friend and their birthday.
 
 <div class="try-it">
   <h2>Try It: Array or Dictionary?</h2>

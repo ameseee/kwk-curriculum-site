@@ -99,7 +99,7 @@ Now, we need to tell Xcode that we want this new file to be connected to the Sto
 
 <img class="medium" src="./assets/link-sb-vc.png">
 
-### Halfway There - Take a Pom (put something cute here)
+### Halfway There - Take a Pom 🎉
 
 Now, instead of making "Static Cells", static meaning not-changing, we want to make dynamic cells so that the data can vary based on the array we use to fill the table. While the `Table View` is selected in the Document Outline, change the "Content Type" to "Dynamic Prototypes" and the "Style" to "Plain".
 
