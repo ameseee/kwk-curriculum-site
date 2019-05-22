@@ -64,14 +64,14 @@ Local Storage is like a local database. Each user that uses an application have 
   <p>Still in your dev tools in the browser, try running the following methods, and pay close attention to the outputs and changes in what is in your <code class="try-it-code">localStorage</code> object.</p>
   <ol>
     <li><code class="try-it-code">localStorage.clear();</code></li>
-    <li><code class="try-it-code">localStorage.setItem('storeMePlease', 2);</code></li>
-    <li><code class="try-it-code">localStorage.getItem('storeMePlease');</code></li>
+    <li><code class="try-it-code">localStorage.setItem('Karlie Kloss', 'Supermodel, Entrepreneur, Philanthropist');</code></li>
+    <li><code class="try-it-code">localStorage.getItem('Karlie Kloss');</code></li>
     <li><code class="try-it-code">Refresh the page and try to get the item again.</code></li>
-    <li><code class="try-it-code">localStorage.getItem('storeMePlease');</code></li>
-    <li><code class="try-it-code">localStorage.removeItem('storeMePlease');</code></li>
-    <li><code class="try-it-code">localStorage.getItem('storeMePlease');</code></li>
-    <li><code class="try-it-code">localStorage.setItem('anotherThing', 'you look nice today');</code></li>
-    <li><code class="try-it-code">localStorage.getItem('anotherThing');</code></li>
+    <li><code class="try-it-code">localStorage.getItem('Karlie Kloss');</code></li>
+    <li><code class="try-it-code">localStorage.removeItem('Karlie Kloss');</code></li>
+    <li><code class="try-it-code">localStorage.getItem('Karlie Kloss');</code></li>
+    <li><code class="try-it-code">localStorage.setItem('Kode With Klossy', 'inspires!');</code></li>
+    <li><code class="try-it-code">localStorage.getItem('Kode With Klossy');</code></li>
   </ol>
 </div>
 

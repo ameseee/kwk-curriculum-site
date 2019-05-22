@@ -75,7 +75,7 @@ The `<a>` tag, like the `<img>` tag, also has an attribute. Instead of `src`, we
 For example:
 
 ```html
-<a href="http://google.com">Google</a>
+<a href="https://www.karliekloss.com/">Karlie Kloss</a>
 ```
 
 <div class="try-it">

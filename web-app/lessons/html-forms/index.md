@@ -40,7 +40,7 @@ Basic input and button elements are a great starting point, but to build a truly
 - `form`
 - `label`
 - `input`
-- type attribute
+- `type` attribute
 
 As you look at the code for forms, you will notice quite a bit of nesting; this is necessary. It's important to indent properly to made you code more readable!
 
@@ -56,10 +56,10 @@ As you look at the code for forms, you will notice quite a bit of nesting; this 
 
 Most often, we ask users for text. If they are registering for an event like camp, we probably ask for their name, age, address, and food allergies. Sometimes we ask for an age/birthdate, sometimes we ask them to "check all that apply". We can have special inputs based on the information we are asking our users for. Here are some common input types you've probably seen. Can you predict what they do?
 
-- `<input type="password"`
-- `<input type="number"`
-- `<input type="date"`
-- `<input type="color"`
+- `<input type="password">`
+- `<input type="number">`
+- `<input type="date">`
+- `<input type="color">`
 
 <div class="try-it">
   <h2>Try It: HTML Forms</h2>

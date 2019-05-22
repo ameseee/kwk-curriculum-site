@@ -163,7 +163,7 @@ A lime border was applied to this `a` element nested inside of a paragraph to il
 
 <img src="./assets/inline.png" alt="a inline elements with border directly around element">
 
-It is sometimes inconvenient for a `div` or `p` or `h1` elements to take up the space. Look at Instagram: the username is an `h1` but has an icon and buttons to the left of it. How did Instagram do that?
+It is sometimes inconvenient for a `div` or `p` or `h1` elements to take up the space. Look at Instagram: the username is an `h1` but has an icon and buttons to the right of it. How did Instagram do that?
 
 <img src="./assets/michelle.png" alt="Michelle Obama's Instragram profile card">
 

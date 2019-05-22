@@ -93,16 +93,16 @@ Make sure to use the back-ticks when you are using string interpolation (to the 
 <div class="try-it">
   <h2>Try It: Strings and Variables</h2>
   <p>Complete the following in a CodePen. You should type your code in the JavaScript editor of the CodePen, and see the results in the console.</p>
-  <p>If you have the strings "Beyonce" and "Knowles" in the following variables:</p>
-  <code class="try-it-code">var first = "Beyonce"</code><br>
-  <code class="try-it-code">var last = "Knowles"</code>
+  <p>If you have the strings "Karlie" and "Kloss" in the following variables:</p>
+  <code class="try-it-code">var first = "Karlie"</code><br>
+  <code class="try-it-code">var last = "Kloss"</code>
   <p>Use string interpolation to complete the following:</p>
   <ul>
-    <li>What code can you write to output the string "BeyonceKnowles"?</li>
-    <li>What code can you write to output the string "KnowlesBeyonce"?</li>
-    <li>What code can you write to output the string "Beyonce Knowles"?</li>
-    <li>What code can you write to output the string "Knowles Beyonce Knowles Beyonce"?</li>
-    <li>What code can you write to output the string "I love Beyonce"?</li>
+    <li>What code can you write to output the string "KarlieKloss"?</li>
+    <li>What code can you write to output the string "KlossKarlie"?</li>
+    <li>What code can you write to output the string "Karlie Kloss"?</li>
+    <li>What code can you write to output the string "Kloss Karlie Kloss Karlie"?</li>
+    <li>What code can you write to output the string "I love Karlie"?</li>
   </ul>
 </div>
 
@@ -111,9 +111,8 @@ Make sure to use the back-ticks when you are using string interpolation (to the 
 Like we saw with strings above, we can also store numbers in variables.
 
 ```js
-var kids = 3;
-var numberOneAlbums = 6;
-var age = 37.5;
+var sisters = 3;
+var age = 26;
 ```
 
 We can also do math with numbers in JavaScript! The same math operators you are used to from class work here.
@@ -145,10 +144,10 @@ We can also compare values. The return value is a **boolean**, true or false.
 7 === 7
 //=> true
 
-"hello" === "hello"
+"karlie" === "karlie"
 //-> true
 
-"hello" === "Hello"
+"karlie" === "Karlie"
 //-> false
 ```
 
@@ -175,15 +174,15 @@ The modulo operator is a helpful tool to determine if numbers are even or odd. L
 We can also use math on variables, if those variables hold numbers.
 
 ```js
-var name = "Beyonce";
-var formationStops = 49;
-var perShowRate = 5.2; //million dollars
+var name = "Karlie";
+var tinsOfKookies = 1200;
+var mealsDonatedPerTin = 10;
 
-var formationEarnings = formationStops * perShowRate;
+var mealsDonated = tinsOfKookies * mealsDonatedPerTin;
 
-console.log(formationEarnings);
-console.log(`${name} made $${formationEarnings} million for her 2016 Formation Tour.`);
-//=> Beyonce made $254.8 million for her 2016 Formation Tour.
+console.log(mealsDonated);
+console.log(`Because ${tinsOfKookies} were purchased during Fashion's Night Out, ${mealsDonated} meals were donated to starving children all over the world. Thanks, ${name}!`);
+//=> "Because 1200 were purchased during Fashion's Night Out, 10 meals were donated to starving children all over the world. Thanks, Karlie!"
 ```
 
 <div class="try-it">
@@ -194,9 +193,8 @@ console.log(`${name} made $${formationEarnings} million for her 2016 Formation T
   <code class="try-it-code">var c = 31</code><br>
   <code class="try-it-code">var d = 98</code>
   <p>Write code to find the average of these four numbers.</p><br>
-
-  <p>Find the answer to this problem using JavaScript: Karina earns $10.25 per hour at her job at Express. If she worked 20 hours last week, how much should she get paid?</p>
-  <p>Push It: Print out to the console a complete sentence with your answer to the problem about Karina's pay.</p>
+  <p>Find the answer to this problem using JavaScript: On average, there are 23.5 scholars at each Kode With Klossy camp this year. If there are 36 camps taking place, about how many scholars are attending in total?</p>
+  <p>Push It: Print out to the console a complete sentence with your answer to the problem about Kode With Klossy scholars nation-wide.</p>
 </div>
 
 ## Conditionals
@@ -206,14 +204,14 @@ Just like in real life, programming is full of decisions. We usually make decisi
 A real life example:
 
 Am I hungry?
-Yes -> I'll eat
-No -> I won't eat
+Yes ➡ I'll eat
+No  ➡ I won't eat
 
 A programming example:
 
 Do you have an account?
-Yes -> Please log in
-No -> Please create an account
+Yes ➡ Please log in
+No  ➡ Please create an account
 
 JavaScript, like most all languages, gives us a mechanism to ask those questions and provide different outcomes based on the answer:
 
