@@ -244,22 +244,25 @@ If I wanted to make a list of all of Karlie's friends **and** their birthday so 
 
 ### Creating Dictionaries
 
-A cell phone vendor wants to keep a list of all the phones they sell so they can market it on their website. Let's make them a dictionary. The key will be the brand and the value will be the name of the phone. We can create a variable called `phones`, which is currently an empty dictionary which will hold a String in the key and a String in the value.
+Momofuku is creating a digital version of all of their recipes, including <a target="blank" href="http://aperiodictableblog.com/?p=4529">The Perfect 10</a>, a delicious & healthy Kookie that Karlie herself created! Each recipe has a set of ingredients with the amount needed, and a list of instructions. For now, let's focus on organizing the ingredients and amounts.
+
+We will store the list of ingredients in a dictionary, because we want to make sure that each ingredient is associated with the amount of it that we need. The key will be the ingredient name, and the value will be the amount. We can create a variable called `perfectTen`, which is currently an empty dictionary which will later hold a String in the key and a String in the value.
 
 ```swift
-var phones : [String : String] = [:]
+var perfectTen : [String : String] = [:]
 
-print(phones)
+print(perfectTen)
 //-> [:]
 ```
 
 We can also initialize a dictionary _with_ data. See the syntax below:
 
 ```swift
-var phones = [
-  "apple": "iPhone",
-  "google": "Pixel 2"
-  ]
+var perfectTen = [
+  "almond flour": "3 and 1/2 cups",
+  "gluten-free outs": "2 cups",
+  "mini chocolate chips": "1 cup"
+]
 ```
 
 <div class="try-it">
@@ -273,27 +276,39 @@ var phones = [
 To add key/value pairs to my empty dictionary, we also use `[]` notation. Instead of using a number like with arrays, we will use a string - the label, or **key** for this set of data. Then, we will use the `=` to assign the value.
 
 ```swift
-var phones : [String : String] = [:]
+var perfectTen : [String : String] = [:]
 
-phones["apple"] = "iPhone"
-phones["google"] = "Pixel 2"
+perfectTen["almond flour"] = "3 and 1/2 cups"
+perfectTen["gluten-free outs"] = "2 cups"
+perfectTen["mini chocolate chips"] = "1 cup"
 
-print(phones)
-//-> ["apple": "iPhone", "google": "Pixel 2"]
+print(perfectTen)
+//-> ["almond flour": "3 and 1/2 cups", "gluten-free outs": "2 cups", "mini chocolate chips": "1 cup"]
 ```
 
 Since we access values with the key, _keys must be unique_, meaning you can't have two things with the same key:
 
 ```swift
-print(phones["apple"])
-//-> Optional("iPhone")
+perfectTen["almond flour"] = "4 cups"
+print(perfectTen)
+//-> ["almond flour": "4 cups", "gluten-free outs": "2 cups", "mini chocolate chips": "1 cup"]
 ```
 
-Notice that `Optional("iPhone")` was printed - not just the string "iPhone", like you probably expected. Swift is very specific and wants to make sure that there **is data** stored in the dictionary (in this case, `phones["apple"]`) before doing anything with the data; if it were `nil` it could cause problems in bigger programs. To tell Swift we are sure there is data, we do something called **unwrapping** - by typing an exclamation point after the closing bracket.
+In the snipper above, `almond flour` was already a key, so when we attempted to add a key with `almond flour`, the original data was overwritten.
+
+
+Now, let's try printing just one value to the console:
 
 ```swift
-print(phones["apple"]!)
-//-> "iPhone"
+print(perfectTen["almond flour"])
+//-> Optional("4 cups")
+```
+
+Notice that `Optional("4 cups")` was printed - not just the string "4 cups", like you probably expected. Swift is very specific and wants to make sure that there **is data** stored in the dictionary (in this case, `perfectTen["almond flour"]`) before doing anything with the data; if it were `nil` it could cause problems in bigger programs. To tell Swift we are sure there is data, we do something called **unwrapping** - by typing an exclamation point after the closing bracket.
+
+```swift
+print(perfectTen["almond flour"]!)
+//-> "4 cups"
 ```
 
 ### Removing Data from Dictionaries
@@ -301,28 +316,28 @@ print(phones["apple"]!)
 Let's say the company discontinues a phone and the vendor will no longer have them for sale. We need to help them remove this key/value pair for their dictionary so they don't have any angry customers. Unlike arrays, we don't have a special method that does this, we just set the value to `nil`.
 
 ```swift
-print(phones["apple"]!)
+print(perfectTen["almond flour"]!)
 
-phones["apple"] = nil
+perfectTen["almond flour"] = nil
 
-print(phones["apple"]!)
+print(perfectTen["almond flour"]!)
 ```
 
-If we run this code, we will see quite an error! That's because the key "apple" no longer exists.
+If we run this code, we will see quite an error! That's because the key "almond flour" no longer exists.
 
-# **JUST** get the keys
+### **JUST** get the keys
 
 Let's say we want a list of all the companies that make the phones, but we _don't_ want to have to look at the phone names. Check out the code below, then we'll explain what's happening.
 
 ```swift
-print(phones.keys)
-//-> ["apple", "google"]
+print(perfectTen.keys)
+//-> ["almond flour", "gluten-free outs", "mini chocolate chips"]
 
-print(Array(phones.keys))
-//-> ["apple", "google"]
+print(Array(perfectTen.keys))
+//-> ["almond flour", "gluten-free outs", "mini chocolate chips"]
 ```
 
-`phones.keys` gives us a `keys` object with "apple", and "google" but is difficult to use because `keys` is not a commonly used data type. Typically, you'll see iOS developers wrap `Array()` around, in this case, the `phones.keys` so that `keys` objects can be converted into an array, which is much more friendly!
+`perfectTen.keys` gives us a `keys` object with "almond flour", "gluten-free outs", and "mini chocolate chips" but is difficult to use because `keys` is not a commonly used data type. Typically, you'll see iOS developers wrap `Array()` around, in this case, the `perfectTen.keys` so that `keys` objects can be converted into an array, which is much more friendly!
 
 <div class="practice">
   <h2>Practice: Dictionaries</h2>
