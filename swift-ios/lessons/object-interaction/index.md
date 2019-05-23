@@ -30,13 +30,11 @@ With your partner:
 
 class Pantry {
 
-  var brand = ""
-  var color = ""
+  var walkIn = false
   var temperature = 0
 
-  init(pantryBrand : String, pantryColor : String, pantryTemp : Int) {
-    brand = pantryBrand
-    color = pantryColor
+  init(pantryWalkIn : String, pantryTemp : Int) {
+    walkIn = pantryWalkIn
     temperature = pantryTemp
   }
 
@@ -46,10 +44,9 @@ class Pantry {
 ```swift
 // main.swift
 
-var pantry = Pantry(pantryBrand: "Maytag", pantryColor: "White", pantryTemp: 34)
+var pantry = Pantry(pantryWalkIn: true, pantryTemp: 62)
 
-print(pantry.brand)
-print(pantry.color)
+print(pantry.walkIn)
 print(pantry.temperature)
 ```
 
@@ -67,14 +64,12 @@ Let's update our pantry with that contents property:
 ```swift
 class Pantry {
 
-  var brand = ""
-  var color = ""
+  var walkIn = false
   var temperature = 0
   var contents = [String]()
 
-  init(pantryBrand : String, pantryColor : String, pantryTemp : Int) {
-    brand = pantryBrand
-    color = pantryColor
+  init(pantryWalkIn : String, pantryTemp : Int) {
+    walkIn = pantryWalkIn
     temperature = pantryTemp
   }
 
@@ -129,7 +124,7 @@ Notice that the food object is stored in a variable called `newFood`. On the nex
 <div class="try-it">
   <h2>Try It: Loop over Pantry contents</h2>
   <p><strong>First</strong>, update your Pantry and Food classes to reflect what we've talked about, then add the following to your <code class="try-it-code">main.swift</code> file:</p>
-  <code class="try-it-code">var pantry = Pantry(pantryBrand: "Maytag", pantryColor: "White", pantryTemp: 34)</code>
+  <code class="try-it-code">var pantry = Pantry(pantryWalkIn: true, pantryTemp: 62)</code>
   <br><br>
   <code class="try-it-code">print(pantry.foods)</code>
   <br><br>
@@ -156,7 +151,7 @@ To recap:
 
 <div class="practice">
   <h2>Practice: Object Interaction</h2>
-  <h3>Campers and Camps</h3>
+  <h3>Scholars and Camps</h3>
   <p>Your job is to build a Scholar class and a Camp class. You can choose what properties each class has on it. The Camp class should have an <code class="try-it-code">addCamper</code> action on it, which creates a Scholar object and stores that in a list of all the campers.</p>
   <h3>Extension: Camps and KWK</h3>
   <p>Build a KWK class that creates and stores camps. The KWK class should have a year property. Make sure your camp has a location and title (WebDev or Mobile).</p>
