@@ -287,7 +287,7 @@ friendsOfKarlie.forEach(function(friend) {
 ```
 
 <div class="try-it">
-  <h2>Turn & Talk: forEach</h2>
+  <h2>Turn & Talk: <code class="try-it-code">forEach</code></h2>
   <p>With your partner, talk about what you think is happening on each line of the code above.</p>
   <p>Once you've made your predictions, type this code out in a CodePen and see what happens. Were your predictions accurate?</p>
 </div>
