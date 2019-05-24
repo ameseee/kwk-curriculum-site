@@ -40,7 +40,7 @@ An array is an ordered collection that stores multiple values. An array can stor
 
 ```js
 // An array of strings:
-var languages = ["JavaScript", "Ruby", "Swift", "Python"];
+var friendsOfKarlie = ["Michelle Obama", "Serena Williams", "T Swift", "Jimmy Fallon"];
 
 // An array of numbers:
 var temperatures = [78, 72, 81, 75];
@@ -48,33 +48,33 @@ var temperatures = [78, 72, 81, 75];
 
 ### Access an Element
 
-Each element in an array is automatically assigned a number called an index. This index can be used to access a specific element inside the array. Indices begin at 0 and count up. If we look back at our `languages` array, the following would be true:
+Each element in an array is automatically assigned a number called an index. This index can be used to access a specific element inside the array. Indices begin at 0 and count up. If we look back at our `friendsOfKarlie` array, the following would be true:
 
 ```js
-var languages = ["JavaScript", "Ruby", "Swift", "Python"];
+var friendsOfKarlie = ["Michelle Obama", "Serena Williams", "T Swift", "Jimmy Fallon"];
 ```
-- "JavaScript" has an index of 0
-- "Ruby" has an index of 1
-- "Swift" has an index of 2
-- "Python" has an index of 3
+- "Michelle Obama" has an index of 0
+- "Serena Williams" has an index of 1
+- "T Swift" has an index of 2
+- "Jimmy Fallon" has an index of 3
 
 By using the square brackets, we can use the index to access a specific value in an array.
 
 ```js
-var languages = ["JavaScript", "Ruby", "Swift", "Python"];
+var friendsOfKarlie = ["Michelle Obama", "Serena Williams", "T Swift", "Jimmy Fallon"];
 
-console.log(languages[0]);
-//-> "JavaScript"
+console.log(friendsOfKarlie[0]);
+//-> "Michelle Obama"
 
-console.log(languages[2]);
-//-> "Swift"
+console.log(friendsOfKarlie[2]);
+//-> "T Swift"
 ```
 
 We can also check how many elements are in an array with the `.length` property:
 
 ```js
-var languages = ["JavaScript", "Ruby", "Swift", "Python"];
-languages.length;
+var friendsOfKarlie = ["Michelle Obama", "Serena Williams", "T Swift", "Jimmy Fallon"];
+friendsOfKarlie.length;
 //-> 4
  ```
 
@@ -89,12 +89,12 @@ languages.length;
 We can also update elements with the square bracket syntax we looked at earlier. We access the index value that we would like to change, and then reassign a new value for that index with a =.
 
 ```js
-var languages = ["JavaScript", "Ruby", "Swift", "Python"];
+var friendsOfKarlie = ["Michelle Obama", "Serena Williams", "T Swift", "Jimmy Fallon"];
 
-languages[2] = "Go";
+friendsOfKarlie[2] = "Josh Kushner";
 
 console.log(languages);
-//-> ["JavaScript", "Go", "Swift", "Python"]
+//-> ["Michelle Obama", "Serena Williams", "Josh Kushner", "Jimmy Fallon"]
 ```
 
 ### Adding Elements
@@ -102,32 +102,32 @@ console.log(languages);
 A common way to add something to an already existing array is to use the `push()` method - which will add an element to the end of the array.
 
 ```js
-var languages = ["JavaScript", "Go", "Swift", "Python"];
+var friendsOfKarlie = ["Michelle Obama", "Serena Williams", "Josh Kushner", "Jimmy Fallon"];
 
-languages.push("PHP");
+friendsOfKarlie.push("T Swift");
 
-console.log(languages);
-//-> ["JavaScript", "Go", "Swift", "Python", "PHP"]
+console.log(friendsOfKarlie);
+//-> ["Michelle Obama", "Serena Williams", "Josh Kushner", "Jimmy Fallon", "T Swift"]
 ```
 
-In the code snippet above, you can see that `.push()` is called on the languages array, then we give it an argument of the new element we want to be added on the array.
+In the code snippet above, you can see that `.push()` is called on the friendsOfKarlie array, then we give it an argument of the new element we want to be added on the array.
 
 ### Removing Elements
 
 There are a few ways we can remove elements from an array. Most often, we either want to remove the first or last element. To do this, we have the `pop()` and `shift()` methods. Check it out:
 
 ```js
-var languages = ["JavaScript", "Go", "Swift", "Python", "PHP"];
+var friendsOfKarlie = ["Michelle Obama", "Serena Williams", "Josh Kushner", "Jimmy Fallon", "T Swift"];
 
 languages.pop();
 
 console.log(languages);
-//-> ["JavaScript", "Go", "Swift", "Python"]
+//-> ["Michelle Obama", "Serena Williams", "Josh Kushner", "Jimmy Fallon"]
 
 languages.shift();
 
 console.log(languages);
-//-> ["Go", "Swift", "Python"]
+//-> ["Serena Williams", "Josh Kushner", "Jimmy Fallon"]
 ```
 
 A little different from `.push()`, `.pop()` and `.shift()` do not take arguments - they know what to do. `.pop()` removes the last element from an array, and `.shift()` removes the first.
@@ -238,34 +238,34 @@ As a class, let's run this look in a CodePen and talk through what's happening.
 `for` loops are commonly used to iterate over the items in an array. To do this, we use the length of the array as the `condition`.
 
 ```js
-var languages = ["Go", "Swift", "Python", "PHP"];
+var friendsOfKarlie = ["Michelle Obama", "Serena Williams", "T Swift", "Jimmy Fallon"];
 
-for (var i = 0; i < languages.length; i++) {
-  console.log("I want to learn " + languages[i]);
+for (var i = 0; i < friendsOfKarlie.length; i++) {
+  console.log(`👋 Hi, ${friendsOfKarlie[i]}!`);
 }
 ```
 
-Our `initialExpression` tells us that our counter, the variable `i` starts at 0. The `condition` tells us that the code inside the block will run the same number of times as the number of elements in our array. The `incrementExpression` tells us that each time the block runs and comes back to run again `i` will increase by 1. Since we are accessing `languages[i]`, each time we print the sentence out, it will fill in the next language in the array.
+Our `initialExpression` tells us that our counter, the variable `i` starts at 0. The `condition` tells us that the code inside the block will run the same number of times as the number of elements in our array. The `incrementExpression` tells us that each time the block runs and comes back to run again `i` will increase by 1. Since we are accessing `friendsOfKarlie[i]`, each time we print the sentence out, it will fill in the next friend in the array.
 
 This is what will print to the console:
 
 ```js
-//-> I want to learn Go
-//-> I want to learn Swift
-//-> I want to learn Python
-//-> I want to learn PHP
+//-> 👋 Hi, Michelle Obama!
+//-> 👋 Hi, Serena Williams!
+//-> 👋 Hi, T Swift!
+//-> 👋 Hi, Jimmy Fallon!
 ```
 
 The benefit of this is it saves us time. When we want do to the same thing for lots of items, we only have to write that command once. If we didn’t use an array and use this `for` loop, out code would look like this:
 
 ```js
-console.log(`I want to learn ${languages[0]}`);
-console.log(`I want to learn ${languages[1]}`);
-console.log(`I want to learn ${languages[2]}`);
-console.log(`I want to learn ${languages[3]}`);
+console.log(`👋 Hi, ${friendsOfKarlie[0]}!`);
+console.log(`👋 Hi, ${friendsOfKarlie[1]}!`);
+console.log(`👋 Hi, ${friendsOfKarlie[2]}!`);
+console.log(`👋 Hi, ${friendsOfKarlie[3]}!`);
 ```
 
-Right now, this doesn’t seem so bad. What if we had 100 languages on our to-learn list? 1000? That’s a lot of lines of code to write and a lot of places we would need to update it every time we added or removed and item.
+Right now, this doesn’t seem so bad. What if we had 100 friends on our list? 1000? That’s a lot of lines of code to write and a lot of places we would need to update it every time we added or removed a friend.
 
 <div class="try-it">
   <h2>Try It: Looping over Arrays</h2>
@@ -279,10 +279,10 @@ Right now, this doesn’t seem so bad. What if we had 100 languages on our to-le
 Another way to iterate over arrays is using the `.forEach` function that is built-in to JavaScript. Here's what it looks like:
 
 ```javascript
-var languages = ["Go", "Swift", "Python", "PHP"];
+var friendsOfKarlie = ["Michelle Obama", "Serena Williams", "T Swift", "Jimmy Fallon"];
 
-languages.forEach(function(language) {
-  console.log(language);
+friendsOfKarlie.forEach(function(friend) {
+  console.log(friend);
 });
 ```
 
@@ -294,10 +294,10 @@ languages.forEach(function(language) {
 <br>
 
 Let's break this code down:
-- `languages` is the array we are going to iterate over
+- `friendsOfKarlie` is the array we are going to iterate over
 - `.forEach()` is a built-in function that basically builds a for loop. It takes on argument, a function. This is different from anything we've seen before. It's saying it will run this function _for each_ element in the array.
-- `function(language) {` is the function that will run on each element in the array. `language` is the variable that represents the current element in the array that is being iterated over.
-  -  `console.log(language)` is the code that will run for each element. In this case, each language in the array will print to the console.
+- `function(friend) {` is the function that will run on each element in the array. `friend` is the variable that represents the current element in the array that is being iterated over.
+  -  `console.log(friend)` is the code that will run for each element. In this case, each friend in the array will print to the console.
 
 <div class="try-it">
   <h2>Try It: forEach</h2>
