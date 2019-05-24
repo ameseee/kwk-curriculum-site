@@ -66,7 +66,7 @@ friendsOfKarlie
 //-> ["Michelle Obama", "Serena Williams", "T Swift", "Jimmy Fallon"]
 ```
 
-Side note: The lines stating with `//->` indicate the return value of the previous code; it's just a way to notate what happens after writing some code.
+Side note: The lines starting with `//->` indicate the return value of the previous code; it's just a way to notate what happens after writing some code.
 
 <div class="try-it">
   <h2>Turn and Talk</h2>
