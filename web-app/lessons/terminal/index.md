@@ -73,7 +73,11 @@ Now, let's create two files using the `touch` command:
 
 ```bash
 $ touch index.html
-touch styles.css
+$ touch styles.css
+
+OR
+
+$ touch index.html styles.css
 ```
 
 We won't get any output, or feedback, from running those, we can run `ls` to see the list of files inside of `intro-to-css`:
