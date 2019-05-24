@@ -37,7 +37,7 @@ If I wanted to see what was inside the flexbox directory, I could run:
 
 ```bash
 $ cd flexbox
-ls
+$ ls
 => index.html       styles.css
 ```
 
@@ -45,7 +45,7 @@ If we now want to leave flexbox and go back to the Desktop, we can `cd` out, or 
 
 ```bash
 $ cd ..
-ls
+$ ls
 => flexbox      html-in-atom     responsive-design   
 ```
 
