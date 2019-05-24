@@ -336,7 +336,7 @@ If I wanted to make a list of all of Karlie’s friends **and** their birthday s
 
 Momofuku is creating a digital version of all of their recipes, including The Perfect 10, a delicious & healthy Kookie that Karlie herself created! Each recipe has a set of ingredients with the amount needed, and a list of instructions. For now, let’s focus on organizing the ingredients and amounts.
 
-We will store the list of ingredients in a JavaScript object, because we want to make sure that each ingredient is associated with the amount of it that we need. The key will be the ingredient name, and the value will be the amount. We can create a variable called `perfectTen` to store the data in..
+We will store the list of ingredients in a JavaScript object, because we want to make sure that each ingredient is associated with the amount of it that we need. The key will be the ingredient name, and the value will be the amount. We can create a variable called `perfectTen` to store the data in.
 
 ```js
 var perfectTen = {
