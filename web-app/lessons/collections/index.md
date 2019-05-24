@@ -311,14 +311,14 @@ Objects are another way to hold multiple pieces of data (collection). There is o
 
 ### When to use Objects
 
-We just got the hang of arrays and are feeling pretty great about them - why do we also need dictionaries?
+We just got the hang of arrays and are feeling pretty great about them - when/why do we also need dictionaries?
 
 - When we don’t care about the order of items (array)
 - When we need an associative relationship (title for some info)
 
-If I wanted to make a list of all the dogs in my apartment building, I should use an array. They are all strings, they are all the same thing. I don’t care about how old they are, or their owners, names, or anything else.
+If I wanted to make a list of all of Karlie’s friends, I should use an array. They are all strings, they are all the same thing. I don’t care about how old they are, their birthdays, where they live, or anything else.
 
-If I wanted to make a list of all the dogs in my apartment building and their birthday so that we can throw a party for each of them, I should use an object. There is an associative relationship between each dog and it’s birthday.
+If I wanted to make a list of all of Karlie’s friends **and** their birthday so that we can throw a party for each of them, I should use a dictionary. There is an _associative_ relationship between each friend and their birthday.
 
 <div class="try-it">
   <h2>Try It: Array or Object?</h2>
@@ -334,29 +334,30 @@ If I wanted to make a list of all the dogs in my apartment building and their bi
 
 ### Syntax
 
-Instead of a list of programming languages we want to learn, let's write a list of popular programming languages and the year they were invented:
+Momofuku is creating a digital version of all of their recipes, including The Perfect 10, a delicious & healthy Kookie that Karlie herself created! Each recipe has a set of ingredients with the amount needed, and a list of instructions. For now, let’s focus on organizing the ingredients and amounts.
+
+We will store the list of ingredients in a JavaScript object, because we want to make sure that each ingredient is associated with the amount of it that we need. The key will be the ingredient name, and the value will be the amount. We can create a variable called `perfectTen` to store the data in..
 
 ```js
-var languages = {
-  "Go": 2009,
-  "Swift": 2014,
-  "Python": 1990,
-  "PHP": 1995
+var perfectTen = {
+  "almond flour": "3 and 1/2 cups",
+  "gluten-free outs": "2 cups",
+  "mini chocolate chips": "1 cup"
 }
 ```
 
-Each of the keys, also referred to as properties, is in a string. Each value is a number. Each key/value pair is separated by a comma.
+Each of the keys, is in a string. Each value is a also a string. Each key/value pair is separated by a comma.
 
 ### Access a Value
 
 To access a value, we will use the label, or `key`, associated with it.
 
 ```js
-console.log(languages["Go"]);
-//-> 2009
+console.log(perfectTen["almond flour"]);
+//-> 3 and 1/2 cups
 
-console.log(languages["PHP"]);
-//-> 1995
+console.log(languages["mini chocolate chips"]);
+//-> 1 cup
 ```
 
 <div class="try-it">
@@ -367,7 +368,7 @@ console.log(languages["PHP"]);
 
 ### Updating, Adding & Removing Data
 
-We won't go into detail on how to do this here as it likely won't be used during camp. If you are curious to learn more or find yourself needing a resource while working on your personal project, here are a couple resources.
+We won't go into detail on how to do this here as it likely won't be used during camp. If you are curious to learn more or find yourself needing a resource while working on your personal project, here are a couple resources:
 - [JavaScript Info](https://javascript.info/object)
 - [Free Code Camp](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/add-new-properties-to-a-javascript-object/)
 
