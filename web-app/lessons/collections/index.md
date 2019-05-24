@@ -231,7 +231,7 @@ What do each of the three things inside the condition mean?
 - `condition`: The sets the condition for when the loop **stops** running.
 - `incrementExpression`: This tells the counter what to increase by each time the loop runs
 
-As a class, let's run this look in a CodePen and talk through what's happening.
+As a class, let's run this loop in a CodePen and talk through what's happening.
 
 ### Looping over Arrays
 
