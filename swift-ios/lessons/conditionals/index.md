@@ -51,9 +51,9 @@ You have seen < and > in math class, right? We use those in code, too!
   <code class="try-it-code">12 > 7</code><br>
   <code class="try-it-code">6 != 8</code><br>
   <code class="try-it-code">7 == "7"</code><br><br>
-  <code class="try-it-code">"puppy" == "puppy"</code><br>
-  <code class="try-it-code">"puppy" == " puppy"</code><br>
-  <code class="try-it-code">"Puppy" == "puppy"</code><br><br>
+  <code class="try-it-code">"karlie" == "karlie"</code><br>
+  <code class="try-it-code">"karlie" == " karlie"</code><br>
+  <code class="try-it-code">"Karlie" == "karlie"</code><br><br>
 
   <code class="try-it-code">var luckyNum = 7</code><br>
   <code class="try-it-code">luckyNum < 10</code><br>
