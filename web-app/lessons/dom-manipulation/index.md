@@ -27,6 +27,11 @@ The DOM, or Document Object Model, represents how HTML is read by the browser. I
 
 Manipulating the DOM refers to changes that are made in the browser, that are prompted but not directly made by the user. If I type my email in a form then click "Submit", I might see a message like "Thanks for signing up!". I clicked the button and in response, JavaScript made that message appear. That is an example of DOM manipulation. Today we will learn how to change something on our site based on user interaction.
 
+<div class="try-it">
+  <h2>Turn & Talk</h2>
+  <p>Visit the Estee Lauder site. Where do you think the developers used DOM manipulation?</p>
+</div>
+
 ## Access Elements from the DOM
 
 JavaScript has some `built-in` functions that allow us to access elements from the DOM. Here's an example of accessing an `h1` element.
