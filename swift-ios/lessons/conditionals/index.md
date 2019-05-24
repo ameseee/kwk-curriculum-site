@@ -124,8 +124,6 @@ else if dogAge > 12 {
 else {
   print("You are also awesome 🐾")
 }
-
-etc...
 ```
 
 <div class="try-it">
