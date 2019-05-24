@@ -113,11 +113,11 @@ We would write that line of code in the text editor (top) portion of Xcode Playg
 
   <p>Use <strong>only</strong> the "string interpolation" technique to complete the following:</p>
   <ol>
-    <li>What code can you write to output the string `"KarlieKloss"`?</li>
-    <li>What code can you write to output the string `"KlossKarlie"`?</li>
-    <li>What code can you write to output the string `"Karlie Kloss"`?</li>
-    <li>What code can you write to output the string `"Kloss Karlie Kloss Karlie"`?</li>
-    <li>What code can you write to output the string `"I love Karlie"`?</li>
+    <li>What code can you write to output the string <code class="try-it-code">"KarlieKloss"</code>?</li>
+    <li>What code can you write to output the string <code class="try-it-code">"KlossKarlie"</code>?</li>
+    <li>What code can you write to output the string <code class="try-it-code">"Karlie Kloss"</code>?</li>
+    <li>What code can you write to output the string <code class="try-it-code">"Kloss Karlie Kloss Karlie"</code>?</li>
+    <li>What code can you write to output the string <code class="try-it-code">"I love Karlie"</code>?</li>
   </ol>
 </div>
 
