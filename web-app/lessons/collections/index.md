@@ -93,7 +93,7 @@ var friendsOfKarlie = ["Michelle Obama", "Serena Williams", "T Swift", "Jimmy Fa
 
 friendsOfKarlie[2] = "Josh Kushner";
 
-console.log(languages);
+console.log(friendsOfKarlie);
 //-> ["Michelle Obama", "Serena Williams", "Josh Kushner", "Jimmy Fallon"]
 ```
 
