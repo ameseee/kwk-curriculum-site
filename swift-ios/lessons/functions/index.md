@@ -126,7 +126,7 @@ You probably observed two new things in this function:
   <p>Explore:</p>
   <ul>
     <li>What happens if you forget to include to <code class="try-it-code">-> Int</code> in your function declaration?</li>
-    <li>What happens if you forget to use the <code class="try-it-code">return</code> keyword, when you have <code>-> Int</code>  in the declaration?</li>
+    <li>What happens if you forget to use the <code class="try-it-code">return</code> keyword, when you have <code class="try-it-code">-> Int</code>  in the declaration?</li>
   </ul>
 </div>
 
