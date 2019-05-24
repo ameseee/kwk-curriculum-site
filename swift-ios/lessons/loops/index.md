@@ -36,7 +36,7 @@ A `for-in` loop has a few parts:
 
 ## For-In Loops and Arrays
 
-We can use `for-in` loops to use data from an array. If we created an array of cute animals, we could write a `for-in` loop to do the same thing with each of the strings in our array.
+We can use `for-in` loops to use data from an array. If we created an array of KWK sponsors, we could write a `for-in` loop to do the same thing with each of the strings in our array.
 
 ```swift
 var sponsors = ["adidas", "Estee Lauder", "Carolina Herrera Good Girl", "Apple", "WeWork"]
