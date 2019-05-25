@@ -11,7 +11,7 @@ title: Mobile Calendar
           <li>Welcome & Intro</li>
           <li>Data Types</li>
           <li>Conditionals</li>
-          <li>Terminal & Git</li>
+          <li>Git & GitHub</li>
           <li>Functions</li>
           <li>Collections</li>
         </ul>
