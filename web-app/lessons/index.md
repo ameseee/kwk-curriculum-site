@@ -45,5 +45,6 @@ Find all lessons below. Note that the lessons are organized by topic below; to f
 - [Welcome to KWK]({{ site.url }}/web-app/lessons/welcome-to-kwk)
 - [Terminal]({{ site.url }}/web-app/lessons/terminal)
 - [Design]({{ site.url }}/web-app/lessons/design)
+- [How to Demo]({{ site.url }}/web-app/lessons/how-to-demo)
 - [Videos]({{ site.url }}/web-app/lessons/videos)
 - [Code Challenges]({{ site.url }}/web-app/lessons/code-challenges)
