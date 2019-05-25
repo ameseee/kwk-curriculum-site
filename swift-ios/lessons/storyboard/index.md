@@ -62,10 +62,9 @@ The `Nav Bar` and `Tool Bar` are components of most apps we use on our phones. F
 
 On the simulator, click the 'Home' button, and notice our app icon is pretty boring. Follow the directions below to add one to your app:
 
-* To add an icon for iPad, it must be exactly 152x152. In Google Images search, you can select the 'Tools' button, then 'Size' dropdown, then 'Exactly' option.
-* Drag and drop the image from your finder, into the '2x' box right above 'iPad App, iOS 7 - 11 76pt'
-<p class="to-do">verify iPads that students will have with Tara</p>
-* To see it appear, make sure you are running your simulator with a ___ iPad.
+* To add an icon for iPad, it must be exactly 76x76 OR 152x152. In Google Images search, you can select the 'Tools' button, then 'Size' dropdown, then 'Exactly' option.
+* Drag and drop the image from your finder, into the '2x' box right above 'iPad App, iOS 7 - 12 76pt' for a 152x152 image, and into the '1x'box if the image is 76x76.
+* To see it appear, make sure you are running your simulator with an iPad.
 
 ## iOS: StoryBoard
 
