@@ -51,7 +51,7 @@ If we now want to leave aviatrix and go back to the Desktop, we can `cd` out, or
 
 ```bash
 $ cd ..
-ls
+$ ls
 => class-objects      object-interaction     aviatrix  
 ```
 
