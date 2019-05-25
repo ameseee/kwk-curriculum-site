@@ -29,28 +29,28 @@ The terminal is like the "programming version" of your finder. In it, you can ac
 To go into files, use `cd`. The following command will take me into my Desktop directory:
 
 ```bash
-cd Desktop
+$ cd Desktop
 ```
 
 To see what we have inside of a directory, use `ls`. For this command, the _only_ thing we type is `ls`; it is short for "list". It will list everything inside of the directory you are currently in.
 
 ```bash
-ls
+$ ls
 => class-objects      object-interaction     aviatrix        
 ```
 
 If I wanted to see what was inside the aviatrix directory, I could run:
 
 ```bash
-cd aviatrix
-ls
+$ cd aviatrix
+$ ls
 => AviatrixApp		AviatrixApp.xcodeproj
 ```
 
 If we now want to leave aviatrix and go back to the Desktop, we can `cd` out, or up:
 
 ```bash
-cd ..
+$ cd ..
 ls
 => class-objects      object-interaction     aviatrix  
 ```
