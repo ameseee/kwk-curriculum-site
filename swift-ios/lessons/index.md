@@ -24,10 +24,8 @@ Find all lessons below. Note that the lessons are organized by topic below; to f
 
 ## iOS Features
 
-- Intro to Xcode
-- Sideloading
 - [Tables]({{ site.url }}/swift-ios/lessons/tables)
-- AR
+- [AR]({{ site.url }}/swift-ios/lessons/ar)
 
 ## Culture of Tech
 
