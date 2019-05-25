@@ -106,7 +106,7 @@ Now that we have a function which will run once the user clicks the button, we n
 Let's break down what is happening here. First, we have to **unwrap** the `textField.text` to make sure it is not nil. We assign the `textField.text` value to a new constant called `newTitle`.
 If we make it into that code block (if textField.text is not nil), then the `appTitle.text` is assigned to the `newTitle`.
 
-Get your code up-to-date with this, and run in simulator. It should be working! If it's now, ask a neighbor or instructor.
+Get your code up-to-date with this, and run in simulator. It should be working! If it's not, ask a neighbor or instructor.
 
 <div class="try-it">
   <h2>Turn & Talk</h2>
