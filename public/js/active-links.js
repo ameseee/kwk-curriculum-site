@@ -1,6 +1,5 @@
 $('.curriculum-links').each(function(idx, link) {
   var currentPath = window.location.pathname;
-  console.log(currentPath);
   var linkPath = $(link).attr('href');
 
   var currentCamp = currentPath.split('/')[2];
@@ -10,7 +9,7 @@ $('.curriculum-links').each(function(idx, link) {
     $(link).toggleClass('active-link');
   }
 
-  if(currentPath === "/") {
+  if(currentPath === "/kwk-curriculum-site/") {
     $('.sidebar-navigation--links a').removeClass('active-link');
   }
 });
