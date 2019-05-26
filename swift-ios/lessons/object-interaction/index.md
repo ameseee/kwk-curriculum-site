@@ -121,6 +121,12 @@ func addFood(food : String, calories : Int) {
 
 Notice that the food object is stored in a variable called `newFood`. On the next line, we are still using the `append` method, this time appending a _food **object**_ instead of the _food string_.
 
+Now that we are passing in a food object instead of a string, we need to update the `contents` property in our Pantry class to hold an array of `Food` objects rather than `Strings`.
+
+```swift
+var contents = [Food]()
+```
+
 <div class="try-it">
   <h2>Try It: Loop over Pantry contents</h2>
   <p><strong>First</strong>, update your Pantry and Food classes to reflect what we've talked about, then add the following to your <code class="try-it-code">main.swift</code> file:</p>
