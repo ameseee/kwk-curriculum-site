@@ -98,6 +98,22 @@ func getToDos() {
 }
 ```
 
+**NOTE:** If you are using Swift 5, you may not need to do that last unwrap, your code may look more like:
+
+```swift
+func getToDos() {
+  if let context = (UIApplication.shared.delegate as? AppDelegate)?.persistentContainer.viewContext {
+
+    if let coreDataToDos = try? context.fetch(ToDoCD.fetchRequest()) as? [ToDoCD] {
+            toDos = coreDataToDos
+            tableView.reloadData()
+    }
+  }
+}
+```
+
+These libraries from Swift are very reliant on the version you are running on, so you may have slightly different code than someone sitting next to you. That's ok. Follow the errors and work through it. You got this!
+
 * Delete `toDos = createToDos()` inside the `viewDidLoad` function - we no longer need to create our fake ToDos since we are fetching them from Core Data (you can delete or comment out our `createToDos` function that we wrote earlier since we are no longer using it)
 
 You may be getting an error in your `tableView` function about a String not being unwrapped. If so, here's how we can fix this problem. Basically, we have to unwrap the name.
