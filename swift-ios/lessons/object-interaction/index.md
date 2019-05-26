@@ -33,7 +33,7 @@ class Pantry {
   var walkIn = false
   var temperature = 0
 
-  init(pantryWalkIn : String, pantryTemp : Int) {
+  init(pantryWalkIn : Bool, pantryTemp : Int) {
     walkIn = pantryWalkIn
     temperature = pantryTemp
   }
@@ -68,7 +68,7 @@ class Pantry {
   var temperature = 0
   var contents = [String]()
 
-  init(pantryWalkIn : String, pantryTemp : Int) {
+  init(pantryWalkIn : Bool, pantryTemp : Int) {
     walkIn = pantryWalkIn
     temperature = pantryTemp
   }
@@ -115,7 +115,7 @@ Now that we have Food objects with a little more information than a string, we c
 ```swift
 func addFood(food : String, calories : Int) {
     var newFood = Food(foodName: food, numberCalories: calories)
-    foods.append(newFood)
+    contents.append(newFood)
 }
 ```
 
