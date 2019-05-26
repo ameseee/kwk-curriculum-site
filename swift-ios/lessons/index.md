@@ -37,6 +37,6 @@ Find all lessons below. Note that the lessons are organized by topic below; to f
 
 - [Welcome to KWK]({{ site.url }}/swift-ios/lessons/welcome-to-kwk)
 - [Git & GitHub]({{ site.url }}/swift-ios/lessons/git-github)
-- [How to Demo]({ site.url }}/swift-ios/lessons/how-to-demo)
+- [How to Demo]({{ site.url }}/swift-ios/lessons/how-to-demo)
 - [Code Challenges]({{ site.url }}/swift-ios/lessons/code-challenges)
 - [Videos]({{ site.url }}/swift-ios/lessons/videos)
