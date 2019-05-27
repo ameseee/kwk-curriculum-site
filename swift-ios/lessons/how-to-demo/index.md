@@ -51,5 +51,6 @@ Your audience will be so excited and proud to see the app you built and all you'
 Your instructors will schedule 1-2 practice times with you/your group before the final demos.
 
 ## Resources
+- [Screen Recording on iPhone or iPad](https://support.apple.com/en-us/HT207935)
 - https://www.linkedin.com/pulse/20-best-practices-technical-demos-presentations-girish-jain/
 - https://apptimize.com/blog/2014/02/how-to-give-a-great-app-demo/
