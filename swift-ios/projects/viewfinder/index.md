@@ -26,3 +26,5 @@ Here's a simple version of what you're shooting for:
 - [Iteration 2: Core Data]({{ site.url }}/swift-ios/projects/viewfinder/i2)
 - [Iteration 3: Photo Detail View]({{ site.url }}/swift-ios/projects/viewfinder/i3)
 - [Iteration 4: Delete Functionality]({{ site.url }}/swift-ios/projects/viewfinder/i4)
+
+- [Fix Image Orientation]({{ site.url }}/swift-ios/projects/viewfinder/image-orientation)
