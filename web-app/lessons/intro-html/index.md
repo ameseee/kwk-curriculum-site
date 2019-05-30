@@ -63,7 +63,7 @@ Here is an example of a slightly more complex HTML document:
 <div class="try-it">
   <h2>Try It: Building a Basic Page</h2>
   <p>Use what you know about headings and paragraph tags to create at least three headings of any size (h1 - h6) and three paragraph elements in your CodePen. The topic is your choice!</p>
-  <p>Need some filler text? Check out <a href="https://meettheipsums.com/">Meet the Ipsums.</a></p>
+  <p>Need some filler text? Check out <a href="https://loremipsum.io/ultimate-list-of-lorem-ipsum-generators/">this Lorem Ipsum Generator.</a></p>
 </div>
 
 ## Links
