@@ -341,7 +341,7 @@ We will store the list of ingredients in a JavaScript object, because we want to
 ```js
 var perfectTen = {
   "almond flour": "3 and 1/2 cups",
-  "gluten-free outs": "2 cups",
+  "gluten-free oats": "2 cups",
   "mini chocolate chips": "1 cup"
 }
 ```

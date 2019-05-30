@@ -260,7 +260,7 @@ We can also initialize a dictionary _with_ data. See the syntax below:
 ```swift
 var perfectTen = [
   "almond flour": "3 and 1/2 cups",
-  "gluten-free outs": "2 cups",
+  "gluten-free oats": "2 cups",
   "mini chocolate chips": "1 cup"
 ]
 ```
@@ -279,11 +279,11 @@ To add key/value pairs to my empty dictionary, we also use `[]` notation. Instea
 var perfectTen : [String : String] = [:]
 
 perfectTen["almond flour"] = "3 and 1/2 cups"
-perfectTen["gluten-free outs"] = "2 cups"
+perfectTen["gluten-free oats"] = "2 cups"
 perfectTen["mini chocolate chips"] = "1 cup"
 
 print(perfectTen)
-//-> ["almond flour": "3 and 1/2 cups", "gluten-free outs": "2 cups", "mini chocolate chips": "1 cup"]
+//-> ["almond flour": "3 and 1/2 cups", "gluten-free oats": "2 cups", "mini chocolate chips": "1 cup"]
 ```
 
 Since we access values with the key, _keys must be unique_, meaning you can't have two things with the same key:
@@ -291,7 +291,7 @@ Since we access values with the key, _keys must be unique_, meaning you can't ha
 ```swift
 perfectTen["almond flour"] = "4 cups"
 print(perfectTen)
-//-> ["almond flour": "4 cups", "gluten-free outs": "2 cups", "mini chocolate chips": "1 cup"]
+//-> ["almond flour": "4 cups", "gluten-free oats": "2 cups", "mini chocolate chips": "1 cup"]
 ```
 
 In the snipper above, `almond flour` was already a key, so when we attempted to add a key with `almond flour`, the original data was overwritten.
@@ -331,13 +331,13 @@ Let's say we want a list of all the companies that make the phones, but we _don'
 
 ```swift
 print(perfectTen.keys)
-//-> ["almond flour", "gluten-free outs", "mini chocolate chips"]
+//-> ["almond flour", "gluten-free oats", "mini chocolate chips"]
 
 print(Array(perfectTen.keys))
-//-> ["almond flour", "gluten-free outs", "mini chocolate chips"]
+//-> ["almond flour", "gluten-free oats", "mini chocolate chips"]
 ```
 
-`perfectTen.keys` gives us a `keys` object with "almond flour", "gluten-free outs", and "mini chocolate chips" but is difficult to use because `keys` is not a commonly used data type. Typically, you'll see iOS developers wrap `Array()` around, in this case, the `perfectTen.keys` so that `keys` objects can be converted into an array, which is much more friendly!
+`perfectTen.keys` gives us a `keys` object with "almond flour", "gluten-free oats", and "mini chocolate chips" but is difficult to use because `keys` is not a commonly used data type. Typically, you'll see iOS developers wrap `Array()` around, in this case, the `perfectTen.keys` so that `keys` objects can be converted into an array, which is much more friendly!
 
 <div class="practice">
   <h2>Practice: Dictionaries</h2>
