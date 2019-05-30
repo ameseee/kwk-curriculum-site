@@ -58,7 +58,7 @@ Whether or not we consciously realize it, colors carry meaning. The exact meanin
 
 There are three groupings that colors fall into: warm, cool, and neutral. The colors inside of these groups tend to share similar meanings: warm colors are generally positive and energetic, cool colors are calmer and relaxing, and neutral colors are more conservative.
 
-<img class="medium" src="./assets/color-emotion-guide.png">
+<img class="medium" src="./assets/color-emotion-guide.jpg">
 
 ### Contrast
 
