@@ -29,22 +29,21 @@ Here's an example:
 ## Iteration 1 - Wireframe & Vision
 
 - Decide on the event or big day you will count down to.
-- Draw out your vision for the way your Countdown Timer will look - on a desktop, iPad size, and phone size.
-- Like we did with the Twitter card, label each section with the HTML element that will be used.
+- Draw out your vision for the way your Countdown Timer will look
 - Find your inspiration! Create a folder on your desktop that you can save images/icons to as you find ones you like. Also, decide on any colors and fonts you'd like to use. <a target="blank" href="https://www.flaticon.com/">FlatIcon</a> is a great, free resource. Make sure you give credit to the artists, if necessary.
 - Make sure your wireframe and assets are approved by your instructor before moving on.
 
-**Notice:** you haven't written any code in Atom yet. The planning process is extremely important and professional developers spend a lot of time in this phase.
+**Notice:** you haven't written any code in Xcode yet. The planning process is extremely important and professional developers spend a lot of time in this phase.
 <br>
 
 ## Iteration 2 - Research and Pseudo-Code
 
-- Psuedo-code or whiteboard the JavaScript that will need to be in place to make your timer work.
-  - What DOM elements will you need to manipulate?
+- Psuedo-code or whiteboard the Swift code that will need to be in place to make your timer work.
+  - What objects elements will you need outlets/actions for?
   - How often will it "tick"?
   - How will you get ahold of today's date to compare it to the date in the future?
   - Hint: The tips above give you some starting points on what to research.
-- Play around in a CodePen or with some `console.log()` statements to get familiar with the new tools/technologies you need to complete this project.
+- Play around in a Playground or with some `print()` statements to get familiar with the new tools/technologies you need to complete this project.
 
 ## Iteration 3 - Implement JavaScript
 
@@ -54,6 +53,3 @@ Here's an example:
 
 - Create a GitHub repository
 - Commit and push your work
-- Deploy to GitHub pages in the Settings tab
-
-**Note**: Once your event/big day takes place, this site will no longer... have any helpful info. If you ever want to re-set the date, you'll update the date, then push back up to GitHub! GitHub Pages will automatically deploy your master branch, sometimes you need to wait for about 1 hour for it to update.
