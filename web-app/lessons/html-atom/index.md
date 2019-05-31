@@ -1,5 +1,5 @@
 ---
-title: HTML with Atom
+title: HTML & Atom
 ---
 
 ## Learning Goals
@@ -48,9 +48,15 @@ Let's practice our dev tool skills by exploring a live site! Either watch this v
 <iframe width="100%" height="560" frameborder="0" scrolling="no" src="https://screencast-o-matic.com/embed?sc=cqf0IAZwgs&v=5&ff=1" allowfullscreen="true"></iframe>
 
 <div class="try-it">
-  <h2>Try It: Dev Tools</h2>
-  <p class="to-do">Specific instructions for inspecting Estee Lauder sites.</p>
-  <p>Things like, find the H2. What type of element is ____? What class is on the h1? Change ___ to whatever words you want!</p>
+  <h2>Try It: Dev Tools Scavenger Hunt</h2>
+  <p>Visit the Kode With Klossy - Estee Lauder homepage and find the following:</p>
+  <ul>
+    <li>What element is the text "Gifts To Make her Day" in?</li>
+    <li>What kind of element is the Estee Lauder logo in the top left corner?</li>
+    <li>Find an <code class="try-it-code">h2</code> - what is the content in that element?</li>
+    <li>Several of the elements that appear to be buttons are really <code class="try-it-code">a</code> elements; can you find an actual <code class="try-it-code">button</code>?</li>
+    <li>Find at least one input element on the page.</li>
+  </ul>
   <p><code class="try-it-code"></code></p>
 </div>
 
