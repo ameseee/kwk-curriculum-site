@@ -356,7 +356,7 @@ To access a value, we will use the label, or `key`, associated with it.
 console.log(perfectTen["almond flour"]);
 //-> 3 and 1/2 cups
 
-console.log(languages["mini chocolate chips"]);
+console.log(perfectTen["mini chocolate chips"]);
 //-> 1 cup
 ```
 
