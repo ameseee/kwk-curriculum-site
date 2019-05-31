@@ -194,8 +194,7 @@ This level of complexity means a lot of nesting. We never want to overcomplicate
 
 <div class="try-it">
   <h2>Try It: Creating Sections</h2>
-  <p class="to-do">get hard copies of a twitter profile so girls can actually mark up??</p>
-  <p>Looking at Twitter, let's mark up where we think containers were probably used.</p>
+  <p>Looking at Twitter, let's mark up where we think containers were probably used. Sketch out a twitter profile on a piece of paper or anchor chart, and mark up the outline of where containers were probably used.</p>
 </div>
 
 We have several container elements in addition to the `div` that we can use. Typically, developers decide to use different containers so they convey a purpose to a) other developers and b) users with visual impairments who use a screen-reader. Here is a list, with short explanations, of some other elements you may want to consider using when appropriate:
