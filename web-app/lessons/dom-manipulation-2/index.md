@@ -222,12 +222,14 @@ To make sure everyone is on the same page...
 
 The point of a To-Do list is to finish items and cross them off, so we need to add some functionality on our app that allows users to cross-off, or delete, completed to-dos.
 
+This presents an interesting challenge - we can't access an element on the DOM with jQuery if it wan't on the original HTML document. Since a delete button associated with a given to-do will be created dynamically, we will need to do some **DOM traversal**.
+
 <div class="try-it">
   <h2>Try It: Delete a To-Do</h2>
   <p>Familiarize yourself with the code in <a href="https://codepen.io/turing-kwk/pen/XwWgXe">this CodePen</a>. Then, fork it to your account and start working on the steps below:</p>
   <ol>
     <li>First, where you are appending the to-do, add a button inside the div. Style it however you'd like!</li>
-    <li>Now, write an event listener for the button. Put a <code class="try-it-code">console.log()</code> statement inside the event handler to make sure you are getting into that function. Make sure that the function is taking the argument <code class="try-it-code">event</code>.</li>
+    <li>Now, write an event listener for the button. Put a <code class="try-it-code">console.log()</code> statement inside the event handler to make sure you are getting into that function. Make sure that the function is taking the argument <code class="try-it-code">event</code>. This is the point you'll have to do some DOM traversal to get the listener to work - read up on it <a target="blank" href="https://stackoverflow.com/questions/12065329/jquery-adding-event-listeners-to-dynamically-added-elements">here!</a></li>
     <li>In this function, we need to locate that <code class="try-it-code">div</code> that is wrapped around the button, and delete the entire thing. Print to the console <code class="try-it-code">event.target.parentNode</code>. That should be the <code class="try-it-code">div</code>. We can call <code class="try-it-code">.remove()</code> on that element, and it should disappear. Make sure the remove the <code class="try-it-code">console.log()</code>.</li>
   </ol>
 </div>
