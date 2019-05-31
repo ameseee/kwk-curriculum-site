@@ -41,12 +41,12 @@ To fetch information from a JSON API, we will use the **Fetch API**. It is somet
 
 ### Getting Data
 
-Let's say we're trying to get a list of Cat Facts using the <a target="blank" href="http://www.catfact.info/">Cat Fact API</a>.
+Let's say we're trying to get a list of Smoothie Recipes using the <a target="blank" href="https://fe-apps.herokuapp.com/api/v1/whateverly/1811/lizAsbell/smoothies">this Smoothie API</a>.
 
 The fetch request would start with this line of code:
 
 ```javascript
-fetch('http://www.catfact.info/api/v1/facts')
+fetch('https://fe-apps.herokuapp.com/api/v1/whateverly/1811/lizAsbell/smoothies')
 ```
 
 This line asks the browser to make a request for the JSON that is available at the URL inside the `('')`.
@@ -54,7 +54,7 @@ This line asks the browser to make a request for the JSON that is available at t
 Now, if there is information there and we have permission to access it (which we do), it will return a `response.` The response won't be in a data format we can work with, so we need to write a line of code to get it into JSON:
 
 ```javascript
-fetch('http://www.catfact.info/api/v1/facts')
+fetch('https://fe-apps.herokuapp.com/api/v1/whateverly/1811/lizAsbell/smoothies')
   .then(response => response.json())
 ```
 
@@ -66,7 +66,7 @@ Let's break down this line:
 As of now, we are just assuming that there is data here, but we haven't seen it. Let's add a line to `console.log()` it to make sure we have something to work with.
 
 ```javascript
-fetch('http://www.catfact.info/api/v1/facts')
+fetch('https://fe-apps.herokuapp.com/api/v1/whateverly/1811/lizAsbell/smoothies')
   .then(response => response.json())
   .then(data => console.log(data))
 ```
@@ -79,20 +79,22 @@ Let's break down this new line of code:
 When we run this, we should see something like this in the dev tools console:
 
 ```
-> {page: 1, total: 1246, total_pages: 50, facts: Array(25)}
+> {smoothies: Array(40)}
 ```
 
-If we click on the arrow to the left of that object, then the arrow to the left of "facts", we'll see something like this:
+If we click on the arrow to the left of that object, then the arrow to the left of "smoothies", we'll see something like this:
 
 <img src="./assets/json-response.png">
 
-Sure enough, we have data! Since we only want the facts, we can use dot notation to access the facts from that data:
+Sure enough, we have data! We can use dot notation to access the smoothies from that data.
 
 ```javascript
-fetch('http://www.catfact.info/api/v1/facts')
+fetch('https://fe-apps.herokuapp.com/api/v1/whateverly/1811/lizAsbell/smoothies')
   .then(response => response.json())
-  .then(data => console.log(data.facts))
+  .then(data => console.log(data.smoothies))
 ```
+
+This `console.log()` looks suspiciously similar to the previous one - we just only had to click one of the little down arrows to see the data.
 
 <div class="try-it">
   <h2>Try It: Print Data to the console</h2>
@@ -107,39 +109,39 @@ We have the data, now it's time to present it to the user, or `render` the data 
 We will add one more line of code, giving our app directions to call a function that hasn't yet been written:
 
 ```javascript
-fetch('http://www.catfact.info/api/v1/facts')
+fetch('https://fe-apps.herokuapp.com/api/v1/whateverly/1811/lizAsbell/smoothies')
   .then(response => response.json())
-  .then(data => data.facts)
-  .then(facts => appendFacts(facts))
+  .then(data => data.smoothies)
+  .then(smoothies => appendSmoothies(smoothies))
 ```
 
 Let's break down this last line:
 - `.then()` - this runs once the `.then()` on the line above it completes.
-- `facts =>` - this is the return value of the previous line, the array of fact objects.
-- `appendFacts(facts)` - this calls a function names `appendFacts`, which will we write soon.
+- `smoothies =>` - this is the return value of the previous line, the array of fact objects.
+- `appendSmoothies(smoothies)` - this calls a function names `appendSmoothies`, which will we write soon.
 
-When we run this code, the fetch request will be made, the data will be converted, and then it will error out because the `appendFacts` function doesn't yet exist. Below our fetch, let's write that function:
+When we run this code, the fetch request will be made, the data will be converted, and then it will error out because the `appendSmoothies` function doesn't yet exist. Below our fetch, let's write that function:
 
 ```javascript
-function appendFacts(facts) {
-  facts.forEach(function(fact) {
-    console.log(fact);
-  })
+function appendSmoothies(smoothies) {
+  smoothies.forEach(function(smoothie) {
+    console.log(smoothie);
+  });
 }
 ```
 
-Inside of `appendFacts`, we iterate over the `facts` array that was passed in as an argument, then print each fact to the console. When we run this code, we should see something like this:
+Inside of `appendSmoothies`, we iterate over the `smoothies` array that was passed in as an argument, then print each smoothie to the console. When we run this code, we should see something like this:
 
 <img src="./assets/print-each.png">
 
-Notice that each fact object is printed on it's own line, telling us we had a separate `console.log()` for each fact in the array. We're about the remove the `console.log()` statement, but it's always good to check on the data you have at each step along the process.
+Notice that each smoothie object is printed on it's own line, telling us we had a separate `console.log()` for each smoothie in the array. We're about the remove the `console.log()` statement, but it's always good to check on the data you have at each step along the process.
 
-Lets refactor the `appendFacts` function so it actually appends each fact to the DOM:
+Lets refactor the `appendSmoothies` function so it actually appends each smoothie name to the DOM:
 
 ```javascript
-function appendFacts(facts) {
-  facts.forEach(function(fact) {
-    $('article').append(`<p>${fact.details}</p>`)
+function appendSmoothies(smoothies) {
+  smoothies.forEach(function(smoothie) {
+    $('article').append(`<p>${smoothie.name}</p>`)
   })
 }
 ```
@@ -156,15 +158,15 @@ Now, we should see each fact in the browser! We did it!
 Remember, we can also add classes and IDs to the HTML element we append. Here's an example:
 
 ```javascript
-function appendFacts(facts) {
-  facts.forEach(function(fact) {
-    $('article').append(`<p class="cat-fact">${fact.details}</p>`)
+function appendSmoothies(smoothies) {
+  smoothies.forEach(function(smoothie) {
+    $('article').append(`<p class="smoothie-name">${smoothie.name}</p>`)
   })
 }
 ```
 
 ```css
-.cat-fact {
+.smoothie-name{
   background-color: teal;
 }
 ```
