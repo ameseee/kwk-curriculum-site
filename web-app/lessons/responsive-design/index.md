@@ -24,8 +24,9 @@ One thing we can do is tell the computer to read different code when the screen 
 
 <div class="try-it">
   <h2>Check It Out: Breakpoints</h2>
-  <p>Go to the Estee Lauder site. Open your dev tools, and make sure the dock is on the bottom of the screen. Slowly, drag the right side of the browser window in, making the browser skinnier. Does the layout change? How many times? How many breakpoints do you think were used to build this site? (ask more specific questions one I see the site.)</p>
-  <p class="to-do"> Get the details on where breakpoints are.</p>
+  <p>Go to the Estee Lauder site. Open your dev tools, and make sure the dock is on the bottom of the screen. Slowly, drag the right side of the browser window in, making the browser skinnier. Does the layout change at any point? How many times? </p>
+  <p>When the layout changes, does the user still have access to the same information? What is different?</p>
+  <p>If you have time, check out the responsiveness on another site or two. Where are the breakpoints, and what did the developers do with the layout at those breakpoints?</p>
 </div>
 
 ## Media Queries
