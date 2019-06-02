@@ -88,7 +88,7 @@ The computer reads anything inside of the `\()` as Swift code - it will look for
 let string1 = "hello"
 let string2 = "there"
 var welcome = "\(string1) \(string2)"
-var anotherWelcome = string1 + " " string2
+var anotherWelcome = string1 + " " + string2
 // welcome and anotherWelcome are both storing the string "hello there"
 ```
 
