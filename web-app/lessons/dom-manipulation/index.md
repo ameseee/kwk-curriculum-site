@@ -29,7 +29,7 @@ Manipulating the DOM refers to changes that are made in the browser, that are pr
 
 <div class="try-it">
   <h2>Turn & Talk</h2>
-  <p>Visit the Estee Lauder site. Where do you think the developers used DOM manipulation?</p>
+  <p>Visit the Estée Lauder site. Where do you think the developers used DOM manipulation?</p>
 </div>
 
 ## Access Elements from the DOM

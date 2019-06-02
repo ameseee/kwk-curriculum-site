@@ -39,7 +39,7 @@ A `for-in` loop has a few parts:
 We can use `for-in` loops to use data from an array. If we created an array of KWK sponsors, we could write a `for-in` loop to do the same thing with each of the strings in our array.
 
 ```swift
-var sponsors = ["adidas", "Estee Lauder", "Carolina Herrera Good Girl", "Apple", "WeWork"]
+var sponsors = ["adidas", "Estée Lauder", "Carolina Herrera Good Girl", "Apple", "WeWork"]
 
 for sponsor in sponsors {
   print("Shout out to \(sponsor) for help making KWK happen!")"
@@ -65,7 +65,7 @@ for sponsor in sponsors {
 }
 
 // => Shout out to adidas for help making KWK happen!
-// => Shout out to Estee Lauder for help making KWK happen!
+// => Shout out to Estée Lauder for help making KWK happen!
 // => Shout out to Carolina Herrera Good Girl for help making KWK happen!
 // => Shout out to Apple for help making KWK happen!
 // => Shout out to WeWork for help making KWK happen!

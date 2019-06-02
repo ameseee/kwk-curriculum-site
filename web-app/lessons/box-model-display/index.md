@@ -36,7 +36,7 @@ Well for one, the font and colors are all off, but we know how to adjust that. W
 
 <div class="try-it">
   <h2>Check It Out: Box Model</h2>
-  <p>Go to the Estee Lauder site and open your dev tools. Click the inspect arrow, and hover over elements on the page. Where do you see margin and padding being used?</p>
+  <p>Go to the Estée Lauder site and open your dev tools. Click the inspect arrow, and hover over elements on the page. Where do you see margin and padding being used?</p>
 </div>
 
 **Margin** and **padding** are the CSS properties, but what values can they take? The need to know _how much space_ to give around the content or border, so they take either pixels or percentages:
