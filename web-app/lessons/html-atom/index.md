@@ -48,11 +48,16 @@ Let's practice our dev tool skills by exploring a live site! Either watch this v
 <iframe width="100%" height="560" frameborder="0" scrolling="no" src="https://screencast-o-matic.com/embed?sc=cqf0IAZwgs&v=5&ff=1" allowfullscreen="true"></iframe>
 
 <div class="try-it">
-  <h2>Try It: Dev Tools Scavenger Hunt</h2>
-  <p>Visit the Kode With Klossy - Estee Lauder homepage and find the following:</p>
+  <h2>Try It: Kode With Klossy x Estée Lauder</h2>
+  <p>As part of today's lesson, you’ll be getting a behind-the-scenes look at the launch of Estée Lauder’s new Rebellious Rose Collection and you will be working on an actual lipstick campaign development site, learning how eCommerce code and design comes to life for a global beauty.</p>
+
+  <p>So why Estée Lauder? As you may or may not know, our Kode With Klossy founder Karlie Kloss is also the global spokesmodel and brand ambassador for Estée Lauder.  Mrs. Estée Lauder, the founder of the brand, was a visionary and a rule breaker. She was the OG girl boss who changed the face of the cosmetics industry.</p>
+
+  <p>As a brand founded by a woman for women, Estée Lauder is really excited to support Karlie and Kode With Klossy’s goal of empowering young women, like you, to become future leaders in tech.</p>
+  <p>Visit the Kode With Klossy - Estée Lauder homepage and find the following:</p>
   <ul>
     <li>What element is the text "Gifts To Make her Day" in?</li>
-    <li>What kind of element is the Estee Lauder logo in the top left corner?</li>
+    <li>What kind of element is the Estée Lauder logo in the top left corner?</li>
     <li>Find an <code class="try-it-code">h2</code> - what is the content in that element?</li>
     <li>Several of the elements that appear to be buttons are really <code class="try-it-code">a</code> elements; can you find an actual <code class="try-it-code">button</code>?</li>
     <li>Find at least one input element on the page.</li>
