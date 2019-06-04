@@ -1,8 +1,8 @@
 console.log("%c 0000----0000----0000----------------0000----0000----0000----"+"%c ----000000------000000----\n"+"%c 0000---0000------0000--------------0000-----0000---0000-----"+"%c ---000000000--000000000---\n"+"%c 0000--0000--------0000------------0000------0000--0000------"+"%c --0000000000000000000000--\n"+"%c 0000-0000----------0000---0000---0000-------0000-0000-------"+"%c ---00000000000000000000---\n"+"%c 0000000-------------0000--0000--0000--------0000000---------"+"%c ----000000000000000000----\n"+"%c 0000-0000------------0000-0000-0000---------0000-0000-------"+"%c ------00000000000000------\n"+"%c 0000---0000-----------000000000000----------0000---0000-----"+"%c -------000000000000-------\n"+"%c 0000----0000----------00000--00000----------0000----0000----"+"%c ---------00000000---------\n"+"%c 0000-----0000----------0000--0000-----------0000-----0000---"+"%c -----------0000-----------\n", 'background: #222; color: rgba(96, 188, 87, 1)', 'background: #222; color: #D31580;', 'background: #222; color: rgba(96, 188, 87, 1)', 'background: #222; color: #D31580;', 'background: #222; color: rgba(96, 188, 87, 1)', 'background: #222; color: #D31580;', 'background: #222; color: rgba(96, 188, 87, 1)', 'background: #222; color: #D31580;', 'background: #222; color: rgba(96, 188, 87, 1)', 'background: #222; color: #D31580;', 'background: #222; color: rgba(96, 188, 87, 1)', 'background: #222; color: #D31580;', 'background: #222; color: rgba(96, 188, 87, 1)', 'background: #222; color: #D31580;', 'background: #222; color: rgba(96, 188, 87, 1)', 'background: #222; color: #D31580;', 'background: #222; color: rgba(96, 188, 87, 1)', 'background: #222; color: #D31580;');
 
-localStorage.setItem('Denver', "Welcome, KWK Instructors💗");
-localStorage.setItem('KWK Instructors', "You are amazing🤩. Thanks for all the work you do.");
+localStorage.setItem('St. Louis', "Look at you code! You're amazing! 💪👩🏽‍💻💯");
+localStorage.setItem('Atlanta', "Karlie can't wait to see your personal projects🙌");
 
-var names = ["Rachana", "Yaritza", "Mehreen", "Izsie", "Will"];
+var names = ["Tara", "Yasmin", "Colin", "Mehreen", "Molly", "Will"];
 var nameStrings = JSON.stringify(names);
-localStorage.setItem('Just some of these all-stars:', nameStrings);
+localStorage.setItem('Just some of the all-star instructors:', nameStrings);
