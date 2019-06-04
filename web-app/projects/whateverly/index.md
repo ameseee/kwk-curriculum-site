@@ -11,5 +11,5 @@ Your HTML, CSS, and DOM Manipulation skills will come in handy to make this look
 
 ### Tips
 
-- Research your API: There are a lot of free APIs out there, some still require a key. That's ok, as long as they get it to you ASAP. Some make you wait several days before receiving a key.
+- Research your API: There are a lot of free APIs out there, some still require a key. That's ok, as long as they get it to you ASAP. Some make you wait several days before receiving a key. You can also reference the Fetch lesson for a list of relatively easy-to-work-with JSON APIs!
 - Make sure you can get data from your API before building the whole project. You may want to create a "practice-project" folder, or just in your project, before writing HTML, make a fetch request and make sure you can `console.log()` some data.

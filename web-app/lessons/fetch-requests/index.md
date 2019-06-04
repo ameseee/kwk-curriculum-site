@@ -25,14 +25,15 @@ Have you ever thought about how the weather app gets the data that it presents t
 - **API**: API stands for Application Programming Interface. It's a program written by someone else with data or functionality that can be included in various apps.
 - **JSON API**: We can think of a JSON API as a source of information. We can access a JSON API and bring that information into our app, formatting and presenting it any way we'd like. There are JSON APIs out there for just about every topic. Here are just a few examples:
 
-  - [Cat Facts]()
-  - [NASA]()
-  - [Tacos]()
-  - [Census.gov]()
-  - [Universities list]()
-  - [Star Wars]()
-  - [Trivia (questions and answers)]()
-
+  - [NASA](https://api.nasa.gov/#live_example) (you do need to get an API key from them, it's free)
+  - [Cat Facts](https://documenter.getpostman.com/view/1946054/S11HvKSz?version=latest)
+  - [Census.gov](https://www.census.gov/data/developers/data-sets.html)
+  - [Star Wars](https://swapi.co/)
+  - [Tacos](https://taco-food-api.herokuapp.com/#api-Category-GetCategoriesList)
+  - [Trivia (questions and answers)](https://opentdb.com/)
+  - [The Dog API](https://thedogapi.com/)
+  - [Marvel](https://developer.marvel.com/documentation/getting_started) (you do need to get an API key from them, it's free)
+  
 It's especially helpful to use a JSON API when your data is ever-changing - like the weather. It's also helpful when you want to provide your user with a lot of data, but don't want to type or hard-code it all into your site.
 
 ## Fetch API
