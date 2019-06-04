@@ -4,8 +4,8 @@ title: CSS Animations
 
 ## Learning Goals
 
-* something
-* something
+* Write transformations for HTML elements
+* Build CSS animations with keyframes
 
 ## Technical Vocabulary
 
