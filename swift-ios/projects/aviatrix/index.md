@@ -2,7 +2,7 @@
 title: Aviatrix
 ---
 
-This is a one-day Swift project for the first week of KWK Level 3 Swift/iOS camp.
+This is a one-day Swift project for the first week of the Mobile camp.
 
 ## Learning Goals
 
