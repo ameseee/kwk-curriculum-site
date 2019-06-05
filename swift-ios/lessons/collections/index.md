@@ -294,7 +294,7 @@ print(perfectTen)
 //-> ["almond flour": "4 cups", "gluten-free oats": "2 cups", "mini chocolate chips": "1 cup"]
 ```
 
-In the snipper above, `almond flour` was already a key, so when we attempted to add a key with `almond flour`, the original data was overwritten.
+In the snippet above, `almond flour` was already a key, so when we attempted to add a key with `almond flour`, the original data was overwritten.
 
 
 Now, let's try printing just one value to the console:
@@ -313,7 +313,7 @@ print(perfectTen["almond flour"]!)
 
 ### Removing Data from Dictionaries
 
-Let's say the company discontinues a phone and the vendor will no longer have them for sale. We need to help them remove this key/value pair for their dictionary so they don't have any angry customers. Unlike arrays, we don't have a special method that does this, we just set the value to `nil`.
+Let's say the recipe gets updated and an ingredient is no longer needed. We need to help them remove this key/value pair for their dictionary so they don't have any strange-tasting Klossies. Unlike arrays, we don't have a special method that does this, we just set the value to `nil`.
 
 ```swift
 print(perfectTen["almond flour"]!)
@@ -327,7 +327,7 @@ If we run this code, we will see quite an error! That's because the key "almond 
 
 ### **JUST** get the keys
 
-Let's say we want a list of all the companies that make the phones, but we _don't_ want to have to look at the phone names. Check out the code below, then we'll explain what's happening.
+Let's say we want a list of all the ingredients, but we _don't_ want to have to look at the amounts. Check out the code below, then we'll explain what's happening.
 
 ```swift
 print(perfectTen.keys)
