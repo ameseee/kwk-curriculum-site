@@ -7,7 +7,7 @@
 
 ### Getting Started
 
-* Make sure you've completed [Iteration 0: Static To-Dos]() before starting this.
+* Make sure you've completed [Iteration 0: Static To-Dos]({{ site.url }}/swift-ios/projects/to-do-list/i0) before starting this.
 
 ## Design the AddToDoViewController
 

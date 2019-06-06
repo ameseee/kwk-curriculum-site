@@ -6,7 +6,7 @@
 
 ### Getting Started
 
-* Make sure you've completed [Iteration 1: Dynamic To-Dos]() before starting this.
+* Make sure you've completed [Iteration 1: Dynamic To-Dos]({{ site.url }}/swift-ios/projects/to-do-list/i1) before starting this.
 
 ## Core Data
 
