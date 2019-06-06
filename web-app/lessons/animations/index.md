@@ -13,6 +13,16 @@ title: CSS Animations
 - transformation
 - keyframes
 
+## Overview
+
+CSS has some "behavior tricks" up its sleeve. Through CSS transitions, transformations, and animations you can create quite a bit of movement on your page without any real JavaScript. Check out some of these stunning examples:
+
+- [Type Terms](https://www.supremo.co.uk/typeterms/)
+- [Code Pen: Page Flip](https://codepen.io/_fbrz/pen/whxbF?editors=1100#0)
+- [Movie Posters](http://demo.marcofolio.net/3d_animation_css3/)
+- [Coke Can](http://www.romancortes.com/ficheros/css-coke.html)
+- [Album Covers](http://www.bluedashed.com/covers/)...okay, so there is some JS happening in this one, but the covers were recreated using pure CSS.
+
 ## Transformations
 
 `transform` is a CSS property that can be used to change the way an element is presented. It can take a variety of values. Here are some popular ones:
