@@ -143,9 +143,7 @@ cell.textLabel?.text = "Section \(indexPath.section) Row \(indexPath.row)"
 
 This is change the text of the label in each cell to say "Section 1 Row 3" (if the cell were in section 1, row 3).
 
-Now, we need to override the `tableView` that takes an argument of `tableTitleHeader`. We can do this by starting to type `tableTitleHeader`, then Xcode will autocomplete the function for us. See the giphy below if you need help:
-
-<img class="medium" src="table-title-header">
+Now, we need to override the `tableView` that takes an argument of `tableTitleHeader`. We can do this by starting to type `tableTitleHeader`, then Xcode will autocomplete the function for us. 
 
 Inside that function, add `return "Section \(section)"`. This will label the section as Section 0, Section 1, Section 2, so we can clearly see what's going on once this is running in the simulator.
 
