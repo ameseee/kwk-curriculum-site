@@ -11,7 +11,6 @@ title: DOM Manipulation 2
 
 - event
 - append
-- prepend
 - argument
 - object
 - refactor
