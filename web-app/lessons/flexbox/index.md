@@ -132,7 +132,7 @@ Just like we can control how our content sits _horizontally_ with `justify-conte
 
 ## Direction
 
-Another CSS property with Flexbox is `direction`. This property takes one of four values:
+Another CSS property with Flexbox is `flex-direction`. This property takes one of four values:
 
 - `row` (default): left-to-right
 - `row-reverse`: opposite of row (right-to-left)
