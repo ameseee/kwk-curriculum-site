@@ -182,7 +182,7 @@ var mealsDonated = tinsOfKookies * mealsDonatedPerTin;
 
 console.log(mealsDonated);
 console.log(`Because ${tinsOfKookies} were purchased during Fashion's Night Out, ${mealsDonated} meals were donated to starving children all over the world. Thanks, ${name}!`);
-//=> "Because 1200 were purchased during Fashion's Night Out, 10 meals were donated to starving children all over the world. Thanks, Karlie!"
+//=> "Because 1200 were purchased during Fashion's Night Out, 12,000 meals were donated to starving children all over the world. Thanks, Karlie!"
 ```
 
 <div class="try-it">
