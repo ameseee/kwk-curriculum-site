@@ -10,9 +10,12 @@ title: Intro to CSS
 
 ## Technical Vocabulary
 
-* CSS
-* CSS Property
 * HTML Element
+* CSS
+* Rule
+* Declaration
+* Property
+* Value
 
 ## Warm Up
 
@@ -188,3 +191,27 @@ Take a minute to write down your key takeaways from this lesson.
 - Things that seem the newest to you
 - Things that seem most interesting to you
 - Questions that are still on your mind
+
+## More Practice/Extensions
+
+For each practice prompt, start a new CodePen. _Hint: One thing that may be helpful for any/all challenges is `text-align: center`!_
+
+**Mild:**
+
+Recreate a button from [the Kode With Klossy](https://www.kodewithklossy.com/) site.
+
+**Medium:**
+
+You are planning to open your ✨dream✨ business. Make a landing page to let your customers know the name of it, a little bit about it, and a button they can click to let you know they are interested in learning more!
+
+Make sure you use a border and font-family. For colors, you might want to use [Color Supply](https://colorsupplyyy.com/app) or a similar site to help pick a palette. To achieve this medium challenge, use hex codes instead of color names (ex: use `#ffffff` instead of `white`).
+
+**Spicy:**
+
+First, complete the medium challenge. This will build off of that.
+
+Do some research on classes and IDs. You'll need to utilize one or the other to complete this challenge:
+
+- Create three buttons on your business landing page
+- Use CSS selectors rules to style all three buttons _differently_
+- Each button should draw on inspiration from a button you've seen on a professional site
