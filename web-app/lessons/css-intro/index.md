@@ -66,17 +66,17 @@ element {
 
 <div class="try-it">
   <h2>Try It: Style Text</h2>
-  <p>We'll be working in CodePen again, but today we will use both the HTML _and_ CSS panes. You can collapse the JavaScript (JS) pane so you have more room to view your code. Follow these steps:</p>
+  <p>We'll be working in CodePen again, but today we will use both the HTML <em>and</em> CSS panes. You can collapse the JavaScript (JS) pane so you have more room to view your code. Follow these steps:</p>
   <ul>
     <li>Start by writing some HTML so we have some elements to style. Write an <code class="try-it-code">h1</code> element and make sure to include some content between the tags!</li>
     <li>Now, write a CSS rule for the <code class="try-it-code">h1</code>. Inside the rule, change the size and color of your <code class="try-it-code">h1</code>. Find a list of colors to use <a target="blank" href="http://colours.neilorangepeel.com/">here</a></li>
-    <li>Repeat these steps with a, <code class="try-it-code">h2</code>, then a <code class="try-it-code">p</code>, then another <code class="try-it-code">p</code>. Also check out the <code class="try-it-code">background-color</code> property!</li>
+    <li>Repeat these steps with an <code class="try-it-code">h2</code>, then a <code class="try-it-code">p</code>, then another <code class="try-it-code">p</code>. Also check out the <code class="try-it-code">background-color</code> property!</li>
   </ul>
 
   <p>Finished Early? Here are two fun things to add on:</p>
   <ul>
-    <li>Do some google research on how to use hexadecimal codes instead of color names. For example, the hexadecimal code for white is #ffffff. See if you can implement these in your code!</li>
-    <li>To add in some really fun fonts, check out <a href="https://codepen.io/team/sparkbox/full/OMdwoJ">this</a> how-to guide, then add some fun fonts to your CodePen!</li>
+    <li>Do some google research on how to use hexadecimal codes instead of color names. For example, the hexadecimal code for white is <code class="try-it-code">#ffffff</code>. See if you can implement these in your code!</li>
+    <li>To add in some really fun fonts, check out <a href="https://codepen.io/team/sparkbox/full/OMdwoJ">this how-to guide</a>, then add some fun fonts to your CodePen!</li>
   </ul>
 </div>
 
