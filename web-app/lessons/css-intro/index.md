@@ -5,18 +5,14 @@ title: Intro to CSS
 ## Learning Goals
 
 * Understand the basics of CSS
-* Experiment with some of the major properties for both aesthetic
+* Experiment with some of the common properties for aesthetic
 * Build a small static site and style our markup
-
-**Note** - for the Try It and Practice sessions, you should be working in a CodePen Pen. You should have created an account in the Intro to HTML Lesson.
 
 ## Technical Vocabulary
 
 * CSS
 * CSS Property
 * HTML Element
-* id
-* class
 
 ## Warm Up
 
