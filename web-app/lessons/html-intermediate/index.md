@@ -57,3 +57,7 @@ It's almost important to point out the use of indentation in the example above. 
 </div>
 
 In the Try It above, you used a `body` element for the first time. You'll be seeing this more and more.
+
+## Required Tags
+
+Every HTML document has one `head` element and one `body` element. The `head` holds a lot of information about the site that the user won't see in the browser. The `body` wraps everything that the user does see in the browser. When we work in CodePen, we don't _have_ to use the `body` element, but it's good to know that it exists because we'll be seeing it later.
