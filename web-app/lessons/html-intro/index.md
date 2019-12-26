@@ -7,15 +7,12 @@ title: Intro to HTML
 * Understand what HTML stands for and it's purpose
 * Know how to build a site with text content, links, and images
 
-**Note** - for the Try It and Practice sessions, you should be working in a CodePen Pen.
-
 ## Technical Vocabulary
 
 - HTML
 - HTML Element
 - HTML Tag
 - Attribute
-- Nesting
 
 ## Warm Up
 
@@ -61,7 +58,8 @@ Here is an example of a slightly more complex HTML document:
 
 <div class="try-it">
   <h2>Try It: Building a Basic Page</h2>
-  <p>Use what you know about headings and paragraph tags to create at least three headings of any size (h1 - h6) and three paragraph elements in your CodePen. The topic is your choice!</p>
+  <p>Open up your CodePen account, and create a new Pen.</p>
+  <p>Use what you know about headings and paragraph tags to create at least three headings of any size (h1 - h6) and three paragraph elements in your new CodePen. The topic is your choice!</p>
   <p>Need some filler text? Check out <a href="https://loremipsum.io/ultimate-list-of-lorem-ipsum-generators/">this Lorem Ipsum Generator.</a></p>
 </div>
 
@@ -80,7 +78,7 @@ For example:
 <div class="try-it">
   <h2>Try It: Adding Links</h2>
   <p>In the same CodePen you started before, add a few links to your HTML.</p>
-  <p>Want a challenge? Make an HTML list and add your links as list items.</p>
+  <p><strong>Medium Challenge:</strong> Make an HTML list and add your links as list items. <em>You may need to Google search to learn how to create an HTML list.</em></p>
 </div>
 
 ## Images and Attributes
@@ -93,33 +91,45 @@ Consider the following:
 <img src="http://indonesiatatler.com/images/i/story-20170113165507-kwk-hero-image-670x447_resized_670x447.jpg" alt="Karlie Kloss kicking off a Kode with Klossy camp">
 ```
 
-There are two things happening here:
+There are two new things happening here:
 
-First, we have an `<img>` tag that is somewhat unique in that it doesn’t have a closing tag like all of the others we’ve seen so far.
+**First**, we have an `<img>` tag that is somewhat unique in that it doesn’t have a closing tag like all of the others we’ve seen so far.
 
-Second, our `<img>` tag has extra information inside it!
+**Second**, our `<img>` tag has extra information inside it!
 
-- Our browser is more than happy to present an image, but it has to know which image we want to it present. That’s where the `src` attribute comes in. It tells the browser what the source of our image is - we give it a link (an address!) to the image we want to render.
+- Our browser can present an image, but it has to know _which_ image we want to it present. That’s where the `src` attribute comes in. It tells the browser what the source of our image is - we give it a link (an address!) to the image we want to render.
 - We also add the `alt` attribute contains text that identifies the image to a screen reader. The alt text is displayed if the picture can’t be displayed for some reason. It helps all users, not just those using screen readers!
 
 <img class="img-tag-anatomy" src="./assets/img-tag-anatomy.png">
 
 <div class="try-it">
   <h2>Try It: Adding Images</h2>
-  <p>Let's update our page in CodePen with two (or more!) images.</p>
-  <p>First, copy and paste the code above into your CodePen. Does the image of Karlie appear on your site?</p>
-  <p>Now, go to <a href="https://unsplash.com/">Unsplash</a>, <a href="https://www.pexels.com/">Pexels</a>, or Google and find an image you'd like to use. Right-click it, then select "Copy Image Address". In your HTML, write an image tag, then use <code class="try-it-code">cmd + v</code> to paste the image address in.</p>
+  <p>First, copy and paste the code above into your CodePen. Does the image of Karlie appear on your site? (It should!)</p>
+  <p>Now, follow the directions below 2-3 times to add in images of your own!</p>
+  <ul>
+    <li>Go to <a href="https://unsplash.com/">Unsplash</a>, <a href="https://www.pexels.com/">Pexels</a>, or Google and find an image you'd like to use</li>
+    <li>Right-click it, then select "Copy Image Address"</li>
+    <li>In your HTML, write an image tag, then use <code class="try-it-code">cmd + v</code> to paste the image address in</li>
+  </ul>
 </div>
 
+## Commonly Used Elements
 
+There are close to 100 elements available to us when we write HTML! You don't need to know all of them, but there are a few that you'll find extremely helpful. We'll learn some today, and more in the next lesson.
 
-Every HTML document has one `head` element and one `body` element. The `head` holds a lot of information about the site that the user won't see in the browser. The `body` wraps everything that the user does see in the browser. When we work in CodePen, we don't _have_ to use the `body` element, but it's good to know that it exists because we'll be seeing it later.
+Follow the directions your instructor gives you to explore the following elements:
+
+- Set 1: `header`, `div`, `footer`
+- Set 2: `em`, `strong`, `code`
+- Set 3: `button`, `input`, `textarea`
+
+<br>
 
 Let's put everything we've learned so far together by completing one last round of practice.
 
 <div class="practice">
   <h2>Practice: HTML</h2>
-  <p>If you'd like to save your work from class, save the pen in CodePen, then create a new one for this section.</p>
+  <p>Save the CodePen you were working on throughout class. Create a new Pen for this challenge.</p>
   <p>Using the unicorn lorem ipsum below (but selecting your own photo), recreate this site. The links can go to anywhere you'd like!</p>
   <p>Surprise pegasus surprise app pop pigeon delight. Unicorn unicorn wereunicorn pegasus pigeon delight pop social social. Pony pop pony, kittens kittens pigeon pony puppy unicorn pegasus pigeon. Social wereunicorn kittens app kittens delight delight pony, delight rainbows surprise social app. Surprise social delight unicorn kittens unicorn pony pop rainbows.</p>
   <br>
