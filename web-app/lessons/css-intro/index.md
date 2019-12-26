@@ -82,19 +82,29 @@ element {
 
 ## Borders
 
-One of the most helpful CSS properties to use while you are in the process of building a page is `border`. We will get into formatting in the next lesson, but the `border` property really helps you see what space a given element is taking up on the page. It also is sometimes something you want to add!
+One of the most helpful CSS properties to use while you are in the process of building a page is `border`. We will get into formatting in the next lesson, but the `border` property really helps you see what space a given element is taking up on the page.
 
 <div class="try-it">
-  <h2>Try It: Borders</h2>
-  <p>Building off your CodePen from when we added colors, add the property/value <code class="try-it-code">border: 1px solid you-choose-the-color;</code> to each rule in your CSS file. This value looks a little different from most of those we've seen; there are 3 pieces of information. 1px refers to the thickness of the line on the border, solid refers to a solid line, and the last thing is the color that you would like the border to be in.</p>
-  <p>How much space is the <code class="try-it-code">h1</code> taking up? Does this surprise you? What if you wanted to put an h2 or image to the right of it? (We will discuss this as a group; if you're not sure, it's ok!)</p>
-  <p>Now, add the property/value <code class="try-it-code">border-radius: 10px;</code> to your <code class="try-it-code">div</code>. What happens?</p>
-  <p>This may not be the most <i>visually appealing</i> site as of now... but don't worry, we are learning the foundations to make something really beautiful!</p>
+  <h2>Explore: Borders</h2>
+  <p>For this activity, you'll be using the same CodePen that you started with text and colors.</p>
+  <p>Add the property/value <code class="try-it-code">border: 1px solid red;</code> to each rule in your CSS file. This value looks a little different from most of those we've seen; there are 3 pieces of information.</p>
+  <ul>
+    <li><strong>1px</strong> refers to the thickness of the line on the border</li>
+    <li><strong>solid</strong> refers to the border style, in this case a solid line</li>
+    <li><strong>red</strong> is the color that you would like the border to be (it could be changed to any valid color name or hex code!)</li>
+  </ul>
+  <p>Tinker with the 3 pieces of information - change <strong>1px</strong> to <strong>5px</strong>, change the color, etc! Check out all the <a href="https://www.w3schools.com/css/css_border.asp">possible border styles</a> as well!</p>
 </div>
+
+Takeaways from this exploration:
+- Any element can have a border
+- We can define how thick it is, the style of it, and the color of it
+- When we apply the rule, a border is added to all four sides of an element. (If you ever want to just apply it to one side - google around for `border-bottom`, `border-top`, etc.)
+- If we don't define a border, no border will show up!
 
 ## Buttons
 
-Before you get more information about buttons, take a minute to explore and reflect on what you already know about them from a user standpoint!
+Before you get information about buttons in CSS, take a minute to explore and reflect on what you already know about them from a _user standpoint_!
 
 <div class="try-it">
   <h2>Explore: Buttons</h2>
@@ -115,20 +125,20 @@ Before you get more information about buttons, take a minute to explore and refl
 Let's translate this into some CSS tools that we can use in the future:
 
 **Kode With Klossy**:
-1. When a user hovers over the button, the color slightly changes
-2. When a user hovers over a button, the cursor changes from an arrow to a pointer finger
-3. The color was the same on the whole button
+1. The color was the same on the whole button
+2. When a user hovers over the button, the color slightly changes
+3. When a user hovers over a button, the cursor changes from an arrow to a pointer finger
 
 Here is the code that was used to accomplish this (colors were modified for simplicity):
 
 ```css
 button {
-  background-color: green; /* (#3) */
+  background-color: green; /* (#1) */
 }
 
 button:hover {
-  background-color: light-green; /* (#1) */
-  cursor: pointer; /* (#2) */
+  background-color: light-green; /* (#2) */
+  cursor: pointer; /* (#3) */
 }
 ```
 
@@ -137,20 +147,20 @@ The code snippet above includes two things we haven't talked about yet:
 - `cursor: pointer;`: This declaration will change the image that is presented as the cursor. `pointer` provides a little hand that looks like it's pointing with its finger. If you're interested in learning about other cursors you could use, check out [this resource](https://developer.mozilla.org/en-US/docs/Web/CSS/cursor).
 
 **GitHub**:
-1. When a user hovers over a button, the cursor changes from an arrow to a pointer finger
-2. The button only has an outline - it's not filled in with the same color
-3. The button has rounded corners
+1. The button only has an outline - it's not filled in with the same color
+2. The button has rounded corners
+3. When a user hovers over a button, the cursor changes from an arrow to a pointer finger
 
 Here is the code that was used to accomplish this:
 
 ```css
 button {
-  border: 1px solid white; /* (#2) */
-  border-radius: 3px; /* (#3) */
+  border: 1px solid white; /* (#1) */
+  border-radius: 3px; /* (#2) */
 }
 
 button:hover {
-  cursor: pointer; /* (#1) */
+  cursor: pointer; /* (#3) */
 }
 ```
 
@@ -159,7 +169,15 @@ Another property/value pair that we haven't talked about:
 
 <div class="try-it">
   <h2>Try It: Buttons</h2>
-  <p></p>
+  <p>Create a new CodePen for this activity.</p>
+  <ol>
+    <li>In the HTML file, write a button element with the content "Try Pro Free for 7 Days".</li>
+    <li>In the CSS file, write the rules necessary to re-create the button pictured below! Use any color you want.</li>
+  </ol>
+  <img src="./assets/button.png" alt="Bright button with rounded corners">
+  <br>
+  <p><strong>Spicy Challenge:</strong>: When the button is hovered over, it should look like the image below. Implement the CSS code necessary to re-create that hover state.</p>
+  <img src="./assets/button-hover.png" alt="Bright button with rounded corners">
 </div>
 
 ## Other Commonly Used Properties
