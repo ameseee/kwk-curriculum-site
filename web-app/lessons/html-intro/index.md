@@ -32,7 +32,7 @@ Let’s say that we had some text and we wanted to communicate that this text wa
 This text is a paragraph.
 ```
 
-We’d wrap the text in paragraph tags.
+In our HTML code, we’d wrap the text in paragraph tags. The code would look like this:
 
 ```html
 <p>This text is a paragraph.</p>
