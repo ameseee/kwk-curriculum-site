@@ -180,21 +180,11 @@ Another property/value pair that we haven't talked about:
   <img src="./assets/button-hover.png" alt="Bright button with rounded corners">
 </div>
 
-## Other Commonly Used Properties
+## Putting It All Together
 
-Like we talked about earlier, there is a plethora of CSS properties available to us! You don't have to know them all, but it's fun to explore what's out there. Here is a list of commonly used properties:
+In just your first day learning about CSS at Kode With Klossy, you've already learned so much!
 
-- width/height
-- text-align
-- cursor
-- box-shadow
-- opacity
-- border-bottom/border-top/border-right/border-left
-
-<div class="practice">
-  <h2>Practice: CSS Rules</h2>
-  <p>Create a new CodePen for this set of practice.</p>
-  <p>Your job is to re-create the site in the screen shot below. You can choose your own image and lorem ipsum! We should make a better-looking site to celebrate <a target="blank" href="https://www.space.com/17169-mae-jemison-biography.html">Mae Jemison</a>, but she'd understand that we are just starting our CSS journey 😉</p>
-  <p>This isn't obvious from looking at the screen shot, but push yourself to use classes and IDs when it feels appropriate. Use <a target="blank" href="https://htmldog.com/references/css/properties/">this</a> as a reference for syntax examples for each property!</p>
-  <img src="./assets/mae-jemison.png">
-</div>
+Take a minute to write down your key takeaways from this lesson.
+- Things that seem the newest to you
+- Things that seem most interesting to you
+- Questions that are still on your mind
