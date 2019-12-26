@@ -162,42 +162,6 @@ Another property/value pair that we haven't talked about:
   <p></p>
 </div>
 
-## Sizing Images
-
-Many times, the photos we bring in will not be the exact size we want it to be for our site. We can use the `width` and `height` properties to handle this.
-
-We will almost always want to preserve the ratio of the image, so we can give either a width or height. Once we set the width or height, the other dimension will be determined by the ratio of the original image.
-
-If you want to give both width and height for some reason, you may need to apply the `object-fit` property. This might come in handy if you want to display a row of photos of the same height and width, but which all started off in various sizes.
-
-Look at the two images of <a target="blank" href="https://www.youtube.com/watch?v=dhWPBY4IgRU">Dr. Katie Bouman</a> below, then look at the code that was used to style them:
-
-<img class="image-ratio" src="./assets/dr-katie-bouman.png" alt="Two photos, the one on the left has the correct ratio, the one on the right is squished">
-
-```html
-<img class="correct-ratio" src="./assets/dr-katie-bouman" alt="Dr. Katie Bouman">
-<img class="squished" src="./assets/dr-katie-bouman" alt="Dr. Katie Bouman">
-```
-
-```css
-img {
-  height: 300px;
-  width: 250px;
-}
-
-.correct-ratio {
-  object-fit: cover;
-}
-```
-
-The `object-fit` property on the `.correct-ratio` class fixed the distorted ratio for us. We did lose some of the photo (sides), but with most things, we want to maintain the original ratio.
-
-<div class="try-it">
-  <h2>Try It: Sizing Images</h2>
-  <p>Open up a new CodePen. Find 3 photos from <a target="blank" href="https://www.pexels.com/">Pexels</a> and create image tags for each of them in the new CodePen. Get a mix of images that are vertical and horizontal.</p>
-  <p>Style the photos so they appear to be the same size, and make sure they aren't squished!</p>
-</div>
-
 ## Other Commonly Used Properties
 
 Like we talked about earlier, there is a plethora of CSS properties available to us! You don't have to know them all, but it's fun to explore what's out there. Here is a list of commonly used properties:
