@@ -14,6 +14,7 @@ Find all lessons below. Note that the lessons are organized by topic below; to f
 ## CSS
 
 - [Intro to CSS]({{ site.url }}/web-app/lessons/css-intro)
+- [Intermediate CSS]({{ site.url }}/web-app/lessons/css-intermediate)
 - [Box Model & Display]({{ site.url }}/web-app/lessons/box-model-display)
 - [Flex Box]({{ site.url }}/web-app/lessons/flexbox)
 - [Responsive Design]({{ site.url }}/web-app/lessons/responsive-design)
