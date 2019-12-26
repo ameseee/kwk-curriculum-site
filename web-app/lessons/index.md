@@ -7,6 +7,7 @@ Find all lessons below. Note that the lessons are organized by topic below; to f
 ## HTML
 
 - [Intro to HTML]({{ site.url }}/web-app/lessons/html-intro)
+- [Intermediate HTML]({{ site.url }}/web-app/lessons/intro-intermediate)
 - [HTML & Atom]({{ site.url }}/web-app/lessons/html-atom)
 - [HTML Forms]({{ site.url }}/web-app/lessons/html-forms)
 
