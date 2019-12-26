@@ -86,3 +86,17 @@ Occasionally, you'll see the use of a class _and_ an ID on the same element. Why
 There may be several reasons for this. When it comes to styling, we may have two paragraphs that should have a lot in common. But one of them should also have a unique style. Both paragraphs can have the class with all the styles they share, then the second has an ID with it's unique styles.
 
 When we get into JavaScript, we will also utilize these classes and IDs. It's common that a class will have the styles for a set of elements, then we use the ID in JavaScript to _do_ something with one of those elements. We'll get more into that later.
+
+## Does Order Matter?
+
+You may have wondered if the order your CSS rules are written in, matters. Let's explore to start answering that question ourselves!
+
+<div class="try-it">
+  <h2>Try It: Does Order Matter?</h2>
+  <p>Go into one of your CodePens and try switching around the order of rules. Do you see any changes?</p>
+  <p>Now, try switching around the order of property/values within a rule. Do you see any changes?</p>
+</div>
+
+The answer is: yes and no.
+
+CSS stands for Cascading Style Sheets. It is read from top to bottom. In very rare cases, you will see that switching the order of rules or property/values within a rule will change the appearance of your site. For what we're doing here at camp, it's probably more important to be aware of the hierarchy of element ➡ class ➡ ID when targeting something to write a rule for.
