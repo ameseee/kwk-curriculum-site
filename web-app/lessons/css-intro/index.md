@@ -49,7 +49,7 @@ In the previous section, we said that "there is so much that CSS can do". Each l
 
 While we may take it for granted, the decisions that a developer makes for a webpage makes regarding text has a huge influence on the experience a user has on that webpage! Here are some things to notice about any piece of text:
 
-- Font Family
+- Font
 - Size
 - Weight
 - Color
@@ -69,16 +69,26 @@ p {
 }
 ```
 
+Let's breakdown the code above, using our vocabulary:
+- The entire code snippet is referred to as a **CSS rule**
+- The **selector** is `p` - that's the element which will be changed with this rule
+- Each line inside the curly braces is a **declaration**
+- `font-family`, `font-size`, `font-weight`, and `color` are the four **properties** that are being assigned values in this rule.
+- `'sofiapro-medium'`, `16px`, `500`, and `#000000` are the four **values** assigned to their respective properties
+- The colons `:` and semi-colons `;` are necessary!
+
+<br>
+
 <div class="try-it">
   <h2>Try It: Style Text</h2>
   <p>We'll be working in CodePen again, but today we will use both the HTML <em>and</em> CSS panes. You can collapse the JavaScript (JS) pane so you have more room to view your code. Follow these steps:</p>
   <ul>
     <li>Start by writing some HTML so we have some elements to style. Write an <code class="try-it-code">h1</code> element and make sure to include some content between the tags!</li>
-    <li>Now, write a CSS rule for the <code class="try-it-code">h1</code>. Inside the rule, change the size and color of your <code class="try-it-code">h1</code>. Find a list of colors to use <a target="blank" href="http://colours.neilorangepeel.com/">here</a></li>
+    <li>Now, write a CSS rule for the <code class="try-it-code">h1</code>. Inside the rule, write a declaration to change the size and color of your <code class="try-it-code">h1</code>. Find a list of colors to use <a target="blank" href="http://colours.neilorangepeel.com/">here</a>.</li>
     <li>Repeat these steps with an <code class="try-it-code">h2</code>, then a <code class="try-it-code">p</code>, then another <code class="try-it-code">p</code>. Also check out the <code class="try-it-code">background-color</code> property!</li>
   </ul>
 
-  <p>Finished Early? Here are two fun things to add on:</p>
+  <p>Finished Early? Here are two <strong>mild challenges</strong>:</p>
   <ul>
     <li>Do some google research on how to use hexadecimal codes instead of color names. For example, the hexadecimal code for white is <code class="try-it-code">#ffffff</code>. See if you can implement these in your code!</li>
     <li>To add in some really fun fonts, check out <a href="https://codepen.io/team/sparkbox/full/OMdwoJ">this how-to guide</a>, then add some fun fonts to your CodePen!</li>
