@@ -74,6 +74,26 @@ It's also important to point out the use of indentation in the example above. Si
 
 In the Try It above, you used a `div` element for the first time. You'll be seeing this more and more! `div` is an element that is used to contain other elements.
 
+Other container elements we can use:
+- `nav`
+- `header`
+- `section`
+- `aside`
+- `footer`
+
+For all the container elements listed above, they behave the same as a `div`. They just hold other elements and keep them contained. We _should_ use them only when appropriate - but there isn't a right or wrong as to how to use them. Two sites could look exactly the same, but the code that created them could look quite different!
+
+<div class="try-it">
+  <h2>Turn & Talk: Container Elements</h2>
+  <p>What type of content, do you predict, would be appropriate to be contained in each of the elements listed above?</p>
+  <p>With your partner, visit the landing page for <a href="https://www.spotify.com/us/">Spotify</a>, and answer these questions:</p>
+  <ul>
+    <li>What information is in the header/nav?</li>
+    <li>Is there a footer? What type of information is in it?</li>
+    <li>Besides header and footer, in what other places do you think the developers of this page probably used a container element?</li>
+  </ul>
+</div>
+
 ## Block vs. Inline Elements
 
 You might notice that some elements behave a little differently in a layout than others. Some elements make content stack, while others let content sit next to each other. What’s that about?
