@@ -47,7 +47,7 @@ In the previous section, we said that "there is so much that CSS can do". Each l
 
 ## Text
 
-While we may take it for granted, the decisions that a website makes regarding text has a huge influence on the entire experience! Here are some things to notice about any piece of text:
+While we may take it for granted, the decisions that a developer makes for a website makes regarding text has a huge influence on the entire experience! Here are some things to notice about any piece of text:
 
 - Font Family
 - Size
@@ -61,7 +61,7 @@ Using CSS, we can control all of that! If you visit [TikTok](https://www.tiktok.
 Each link that a user can click on has the follow CSS rules applied to it. All of these lines of code are there solely to control the look and feel of those small links!
 
 ```css
-element {
+p {
   font-family: 'sofiapro-medium';
   font-size: 16px;
   font-weight: 500;
