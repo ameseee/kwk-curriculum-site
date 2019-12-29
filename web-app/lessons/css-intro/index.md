@@ -47,7 +47,7 @@ In the previous section, we said that "there is so much that CSS can do". Each l
 
 ## Text
 
-While we may take it for granted, the decisions that a developer makes for a website makes regarding text has a huge influence on the entire experience! Here are some things to notice about any piece of text:
+While we may take it for granted, the decisions that a developer makes for a webpage makes regarding text has a huge influence on the experience a user has on that webpage! Here are some things to notice about any piece of text:
 
 - Font Family
 - Size
