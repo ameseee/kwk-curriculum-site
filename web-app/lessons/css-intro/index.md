@@ -35,7 +35,7 @@ You'll learn that there is so much that CSS can do, and there are so many specif
 
 Over the course of our first 2 CSS lessons, we'll talk about most of the commonly-used things that CSS can do. By the middle of the week, you'll have most of the CSS tools you'll need to build a beautiful site!
 
-## Styling Elements
+## Syntax
 
 In CSS, we write a set of rules for how our document should look. The browser evaluates those rules and styles the page accordingly. A CSS rule is defined as follows:
 
@@ -43,7 +43,7 @@ In CSS, we write a set of rules for how our document should look. The browser ev
 
 In the example above, the browser will set the color of any text element inside the `<body>` element. We can define multiple sets of properties and values in a given rule.
 
-You don't need to memorize the entire list; there are resources like <a target="blank" href="https://htmldog.com/references/css/properties/">this</a> which you can reference anytime you are coding! There are some common properties though, that you will find yourself using so often, that you know by heart.
+In the previous section, we said that "there is so much that CSS can do". Each little thing it does comes from a **property**. One example of `color` - that property can help us change the color of some text. There are many, many properties that we could use. There are some that you will use frequently and quickly memorize. However, you do _not_ need to memorize the entire list; there are resources like <a target="blank" href="https://htmldog.com/references/css/properties/">this</a> which you can reference anytime you are coding!
 
 ## Text
 
