@@ -5,12 +5,13 @@ title: Intermediate HTML
 ## Learning Goals
 
 * Understand and implement nesting with HTML elements
-
+* Identify and use container elements
 
 ## Technical Vocabulary
 
 - HTML
 - HTML Element
+- Container Elements
 - Nest
 - Wrap
 
@@ -21,7 +22,7 @@ title: Intermediate HTML
 
 In most HTML documents, we will see **nesting**. This means that one (or more) elements will live inside of another element.
 
-One common example is when you see one word within a paragraph that is a link. To aid in formatting pages (which we will go into more tomorrow), we can use **container** elements. Their job is to hold a group of elements together. Two examples are below.
+One common example is when you see one word within a paragraph that is a link. To aid in formatting pages (which we will go into more in our next CSS lesson), we can use **container** elements. Their job is to hold a group of elements together. The Turn & Talk box below is made with a container element! Inside of it is an `h2` and several `p` tags.
 
 <div class="try-it">
   <h2>Turn & Talk</h2>
@@ -43,17 +44,24 @@ One common example is when you see one word within a paragraph that is a link. T
 </nav>
 ```
 
-There are two words you'll hear in regards to nesting - nest and wrap.
+There are two words you'll hear in regards to nesting - **nest** and **wrap**.
 
-In the second example, the `nav` element is wrapping the `h1`, `p`, `input`, and `button` elements. You could also say that the `h1`, `p`, `input`, and `button` elements are nested in the `nav` element. Nesting is a concept you will see in CSS and JavaScript as well!
+In the second example, the `nav` element _is wrapping_ the `h1`, `p`, `input`, and `button` elements. You could also say that the `h1`, `p`, `input`, and `button` elements _are nested in_ the `nav` element.
 
-It's almost important to point out the use of indentation in the example above. Since `nav` is the parent, or wrapping, element, it is not indented at all. Every element nested inside of it is indented on tab. HTML will _run_ if indentation is not used; but it makes it much more readable for you and others.
+It's also important to point out the use of indentation in the example above. Since `nav` is the parent, or wrapping element, it is not indented at all. Every element nested inside of it is indented one tab. The HTML will _work_ even if indentation is not used; but it makes it much more readable for you and others.
 
 <div class="try-it">
   <h2>Try It: Nesting Elements</h2>
-  <p>Let's update your CodePen!</p>
-  <p>First, wrap a <code class="try-it-code">body</code> tag around all of your code.</p>
-  <p>Then, in one of your existing paragraphs, change at least one word or phrase. Do some Google research on <code class="try-it-code">code</code>, <code class="try-it-code">em</code>, <code class="try-it-code">i</code>, <code class="try-it-code">small</code> or <code class="try-it-code">s</code> if you want to do something other than a link!</p>
+  <p>Let's open a new pen in CodePen and follow these steps!</p>
+  <ul>
+    <li>First, write an empty <code class="try-it-code">body</code> tag.</li>
+    <li>Inside of the body tag, write 2-3 paragraphs.</li>
+    <li>Outside of the body tag, write one more paragraph.</li>
+    <li>In CSS, add a border to the body element. (If you forgot the syntax, <a href="https://css-tricks.com/almanac/properties/b/border/">check this out</a>.</li>
+    <li>Check your indentation - the body and last paragraph should not be indented at all, but the paragraphs nested inside the body should be indented once.</li>
+  </ul>
+
+  <p><em>Why did we use CSS in an HTML lesson? Sometimes CSS, especially the border property, can help us see how HTML code, particularly a container element, is working.</em></p>
 </div>
 
 In the Try It above, you used a `body` element for the first time. You'll be seeing this more and more.

@@ -102,13 +102,13 @@ One of the most helpful CSS properties to use while you are in the process of bu
 <div class="try-it">
   <h2>Explore: Borders</h2>
   <p>For this activity, you'll be using the same CodePen that you started with text and colors.</p>
-  <p>Add the property/value <code class="try-it-code">border: 1px solid red;</code> to each rule in your CSS file. This value looks a little different from most of those we've seen; there are 3 pieces of information.</p>
+  <p>Add the declaration: <code class="try-it-code">border: 1px solid red;</code> to each rule in your CSS file. This value looks a little different from most of those we've seen; there are 3 pieces of information.</p>
   <ul>
     <li><strong>1px</strong> refers to the thickness of the line on the border</li>
     <li><strong>solid</strong> refers to the border style, in this case a solid line</li>
     <li><strong>red</strong> is the color that you would like the border to be (it could be changed to any valid color name or hex code!)</li>
   </ul>
-  <p>Tinker with the 3 pieces of information - change <strong>1px</strong> to <strong>5px</strong>, change the color, etc! Check out all the <a href="https://www.w3schools.com/css/css_border.asp">possible border styles</a> as well!</p>
+  <p>What change did you see on your page when you added this border declaration? Tinker with the 3 pieces of information - change <strong>1px</strong> to <strong>5px</strong>, change the color, etc! Check out all the <a href="https://www.w3schools.com/css/css_border.asp">possible border styles</a> as well!</p>
 </div>
 
 Takeaways from this exploration:
@@ -162,7 +162,7 @@ The code snippet above includes two things we haven't talked about yet:
 - `cursor: pointer;`: This declaration will change the image that is presented as the cursor. `pointer` provides a little hand that looks like it's pointing with its finger. If you're interested in learning about other cursors you could use, check out [this resource](https://developer.mozilla.org/en-US/docs/Web/CSS/cursor).
 
 **GitHub**:
-1. The button only has an outline - it's not filled in with the same color
+1. The button only has an outline; it's not filled in with the same color
 2. The button has rounded corners
 3. When a user hovers over a button, the cursor changes from an arrow to a pointer finger
 
@@ -179,7 +179,7 @@ button:hover {
 }
 ```
 
-Another property/value pair that we haven't talked about:
+Another declaration that we haven't talked about:
 - `border-radius: 3px;`: This is what rounds the corners of the button. `3px` was used for the GitHub Sign In button, but we could provide any value in pixels!
 
 <div class="try-it">
@@ -191,8 +191,10 @@ Another property/value pair that we haven't talked about:
   </ol>
   <img src="./assets/button.png" alt="Bright button with rounded corners">
   <br>
-  <p><strong>Spicy Challenge:</strong>: When the button is hovered over, it should look like the image below. Implement the CSS code necessary to re-create that hover state.</p>
+  <p><strong>Spicy Challenge:</strong> When the button is hovered over, it should look like the image below. Implement the CSS code necessary to re-create that hover state.</p>
   <img src="./assets/button-hover.png" alt="Bright button with rounded corners">
+  <p><strong>Extra Spicy:</strong> There is a slight shadow behind the bottom and right side of the button - do some research online to explore how that might be achieved with CSS.</p>
+  <p><em>Does this button look familiar? It's from the <a href="">Codecademy</a> website!</em></p>
 </div>
 
 ## Putting It All Together
