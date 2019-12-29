@@ -50,7 +50,7 @@ One common example is when you see one word within a paragraph that is a link. T
 </nav>
 ```
 
-There are two words you'll hear in regards to nesting - **nest** and **wrap**.
+There are two words you'll hear in regards to nesting: **nest** and **wrap**.
 
 In the second example, the `nav` element _is wrapping_ the `h1`, `p`, `input`, and `button` elements. You could also say that the `h1`, `p`, `input`, and `button` elements _are nested in_ the `nav` element.
 
