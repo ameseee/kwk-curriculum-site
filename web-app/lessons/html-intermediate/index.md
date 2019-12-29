@@ -18,6 +18,12 @@ title: Intermediate HTML
 ## Warm Up
 
 
+## Intro
+
+A lot of the content in this lesson will feel really connected to CSS. In fact, we will reference CSS several times and need to use it a couple times!
+
+The reason for this is that as we begin to build more professional looking sites, we have to understand the relationship between HTML and CSS, and how they can work together. We can't learn much about either of them without talking about both.
+
 ## Nesting Elements
 
 In most HTML documents, we will see **nesting**. This means that one (or more) elements will live inside of another element.
