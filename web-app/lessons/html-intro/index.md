@@ -109,8 +109,9 @@ There are two new things happening here:
   <ul>
     <li>Go to <a href="https://unsplash.com/">Unsplash</a>, <a href="https://www.pexels.com/">Pexels</a>, or Google and find an image you'd like to use</li>
     <li>Right-click it, then select "Copy Image Address"</li>
-    <li>In your HTML, write an image tag, then use <code class="try-it-code">cmd + v</code> to paste the image address in</li>
+    <li>In your HTML, write an image tag, then use <code class="try-it-code">cmd + v</code> to paste the image address into the quotes for your <code class="try-it-code">src</code> attribute!</li>
   </ul>
+  <p>Are some images showing up way larger than you'd like? We will learn how to control that with CSS soon. For now, you can add this line of code to the CSS file in your CodePen: <code class="try-it-code">img { height: 300px; } </code></p>
 </div>
 
 ## Commonly Used Elements
@@ -119,9 +120,9 @@ There are close to 100 elements available to us when we write HTML! You don't ne
 
 Follow the directions your instructor gives you to explore the following elements:
 
-- Set 1: `header`, `div`, `footer`
-- Set 2: `em`, `strong`, `code`
-- Set 3: `button`, `input`, `textarea`
+- Set 1: `button`,`code`
+- Set 2: `em`, `strong`
+- Set 3: `input`, `textarea`
 
 <br>
 
@@ -129,9 +130,9 @@ Let's put everything we've learned so far together by completing one last round 
 
 <div class="practice">
   <h2>Practice: HTML</h2>
-  <p>Save the CodePen you were working on throughout class. Create a new Pen for this challenge.</p>
-  <p>Using the unicorn lorem ipsum below (but selecting your own photo), recreate this site. The links can go to anywhere you'd like!</p>
-  <p>Surprise pegasus surprise app pop pigeon delight. Unicorn unicorn wereunicorn pegasus pigeon delight pop social social. Pony pop pony, kittens kittens pigeon pony puppy unicorn pegasus pigeon. Social wereunicorn kittens app kittens delight delight pony, delight rainbows surprise social app. Surprise social delight unicorn kittens unicorn pony pop rainbows.</p>
+  <p>Save the CodePen you were working on throughout class. Create a new pen for this challenge.</p>
+  <p>Using any text and image you'd like, write a short bio like the one below. Try to use all the HTML elements you've learned about today.</p>
   <br>
-  <img src="./assets/recreate-unicorn.png">
+  <img src="./assets/shantell-martin.png">
+  <p>Just for a frame of reference, a total of 10 elements were used to create the bio above, and 6 unique elements were used!</p>
 </div>
