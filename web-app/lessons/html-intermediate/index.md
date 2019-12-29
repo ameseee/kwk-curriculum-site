@@ -54,14 +54,57 @@ It's also important to point out the use of indentation in the example above. Si
   <h2>Try It: Nesting Elements</h2>
   <p>Let's open a new pen in CodePen and follow these steps!</p>
   <ul>
-    <li>First, write an empty <code class="try-it-code">body</code> tag.</li>
-    <li>Inside of the body tag, write 2-3 paragraphs.</li>
-    <li>Outside of the body tag, write one more paragraph.</li>
-    <li>In CSS, add a border to the body element. (If you forgot the syntax, <a href="https://css-tricks.com/almanac/properties/b/border/">check this out</a>.</li>
-    <li>Check your indentation - the body and last paragraph should not be indented at all, but the paragraphs nested inside the body should be indented once.</li>
+    <li>First, write an empty <code class="try-it-code">div</code> tag.</li>
+    <li>Inside of the div tag, write 2-3 paragraphs.</li>
+    <li>Outside of the div tag, write one more paragraph.</li>
+    <li>In CSS, add a border to the div element. (If you forgot the syntax, <a href="https://css-tricks.com/almanac/properties/b/border/">check this out</a>.</li>
+    <li>Check your indentation - the div and last paragraph should not be indented at all, but the paragraphs nested inside the div should be indented once.</li>
   </ul>
 
   <p><em>Why did we use CSS in an HTML lesson? Sometimes CSS, especially the border property, can help us see how HTML code, particularly a container element, is working.</em></p>
 </div>
 
-In the Try It above, you used a `body` element for the first time. You'll be seeing this more and more.
+<p class="to-do">great spot for sponsor integration, reference something on their site?</p>
+
+In the Try It above, you used a `div` element for the first time. You'll be seeing this more and more! `div` is an element that is used to contain other elements.
+
+## Block vs. Inline Elements
+
+You might notice that some elements behave a little differently in a layout than others. Some elements make content stack, while others let content sit next to each other. What’s that about?
+
+This is an important difference:
+
+* **Block elements** stack on top of each other. Each one starts and ends on its own line.
+* **Inline elements** can be used to mark up a few words inside of a block element.
+
+Most elements are block elements. When you write two paragraph, `<p>`, elements in your HTML file, they will show up on different lines, right? That is because they are block elements. Other block elements we've worked with:
+
+- `h1`
+- `h2` (and `h3` - `h6`)
+- `div`
+
+Some common inline elements that are used:
+
+- `a`
+- `em`
+- `strong`
+- `button`
+- `input`
+
+When looking at the markup, you also notice that it’s common for inline elements to be written on the same line of code, nested inside of a parent element.
+
+```html
+<p>“Don't let anyone rob you of your imagination, your creativity, or your curiosity. It's your place in the world; it's your life. Go on and do all you can with it, and make it the life you want to live.”  - <a href="https://www.space.com/17169-mae-jemison-biography.html">Mae Jemison<a>, first African American woman astronaut in space</p>
+```
+
+<div class="try-it">
+  <h2>See It To Believe It: Inline vs. Block</h2>
+  <p>Let's take a couple minutes to see this in action, to make sure we have an understanding. Open <a href="https://codepen.io/turing-kwk/pen/LYEjaZY">this CodePen</a>, then click the "Fork" button in the top nav bar. This will create a copy of the CodePen to your account!</p>
+  <ul>
+    <li>In the CSS file, add a border of any color to the <code class="try-it-code">h1</code>.</li>
+    <li>Element by element, add a border (use a different color for each one).</li>
+  </ul>
+  <p>When we introduced the <code class="try-it-code">border</code> property in the first lesson, we mentioned it was a helpful tool. This is what we were talking about! It's a great way to quickly check what space an element is actually taking up. A short title in an <code class="try-it-code">h1</code> element may look like it's only an inch or so wide, but it's actually taking up the entire width of the page!</p>
+</div>
+
+For now, we just need to know that some elements behave differently than others do. In our next CSS lesson, we will learn how to **change** the default behavior.
