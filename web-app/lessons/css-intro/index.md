@@ -4,9 +4,9 @@ title: Intro to CSS
 
 ## Learning Goals
 
-* Understand the basics of CSS
+* Understand the purpose and role of CSS in a webpage
+* Understand and use the syntax of a CSS rule
 * Experiment with some of the common properties for aesthetic
-* Build a small static site and style our markup
 
 ## Technical Vocabulary
 
@@ -27,13 +27,13 @@ Share with your partner - this will also help you get to know each other!
 
 ## What is CSS?
 
-CSS stands for Cascading Style Sheets. It is a language that allows us to add styles to HTML documents on the web. It’s incredibly powerful!
+CSS stands for **Cascading Style Sheets**. It is a language that allows us to add styles to HTML documents on the web. It’s incredibly powerful!
 
 Take a few minutes to check out the <a target="blank" href="http://www.csszengarden.com">CSS Zen Garden</a>. You'll notice that all of the sites here are created with the exact same HTML document; they were just styled differently with CSS.
 
-You'll learn that there are many CSS properties out there that we can add to rules. You don't need to memorize the entire list; there are resources like <a target="blank" href="https://htmldog.com/references/css/properties/">this</a> which you can reference anytime you are coding! There are some common properties though, that you will find yourself using so often, that you know by heart.
+You'll learn that there is so much that CSS can do, and there are so many specific ways we can give directions, in code, to style our webpages.
 
-Over the course of our first 2 CSS lessons, we'll talk about most of those common properties. By the middle of the week, you'll have most of the CSS tools you'll need to build a beautiful site!
+Over the course of our first 2 CSS lessons, we'll talk about most of the commonly-used things that CSS can do. By the middle of the week, you'll have most of the CSS tools you'll need to build a beautiful site!
 
 ## Styling Elements
 
@@ -42,6 +42,8 @@ In CSS, we write a set of rules for how our document should look. The browser ev
 <img src="./assets/css-rule.png">
 
 In the example above, the browser will set the color of any text element inside the `<body>` element. We can define multiple sets of properties and values in a given rule.
+
+You don't need to memorize the entire list; there are resources like <a target="blank" href="https://htmldog.com/references/css/properties/">this</a> which you can reference anytime you are coding! There are some common properties though, that you will find yourself using so often, that you know by heart.
 
 ## Text
 
