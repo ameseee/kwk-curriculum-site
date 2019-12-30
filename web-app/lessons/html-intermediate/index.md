@@ -186,61 +186,37 @@ p {
 }
 ```
 
-The browser needs really specific directions in order to show your content just how you want! So instead of only targeting elements by the element name, we can now target by class or ID. Here is the syntax:
+The browser needs very specific directions in order to show your content just how you want! So instead of only targeting elements by the element name, we can now target by class. Here is the syntax:
 
 ```css
 /* this rule will target ANY element with the class of "magenta-text" on it */
 .magenta-text {
   color: magenta;
 }
-
-/* this rule will target ANY element with the class of "black-text" on it */
-.black-text {
-  color: black;
-}
-
-/* this rule will target ANY element with the ID of "special-text" on it */
-#special-text {
-  text-decoration: underline;
-}
 ```
 
-- Classes are targeted by using the `.`, then the class name defined on the HTML element
-- IDs are targeted by using the `#`, then the ID name defined on the HTML element
+The rule above will look for every element — regardless of type — that has the class of `magenta-text` and style it with a magenta color.
+
+Notice the syntax - when we were just targeting an `p` element, we would just type `p`. Since we are targeting a class, we have to be really specific in telling the computer how to do that - when it sees a `.` it will look for a class name that matches the words following the `.`.
 
 <div class="try-it">
   <h2>Try It: Targeting with Classes & IDs</h2>
   <p>Create a new pen on your CodePen account.</p>
   <ul>
     <li>In the HTML file, write a <code class="try-it-code">section</code> element with at 4 <code class="try-it-code">paragraphs</code> nested inside of it.</li>
-    <li>Give 3 of the 4 nested paragraphs the same class. Give the other paragraph a different class name.</li>
-    <li>Give the <code class="try-it-code">section</code> an ID.</li>
+    <li>Give 3 of the 4 nested paragraphs the same class name. Give the other paragraph a different class name.</li>
     <li>In your CSS file, style the 3 paragraphs one way, and the other paragraph in a different way.</li>
-    <li>Now, style the <code class="try-it-code">section</code> by targeting the ID instead of the element.</li>
   </ul>
 </div>
 
-### Class or ID?
-
-You may be noticing that classes and IDs do essentially the same thing. They do! So, why do we have both?
-
-Classes can be used by many elements. If you want several elements to share styles, they should all get the same class name. IDs should only be used by one single element.
-
-You can think of them in terms of a common school situation:
-- **Class:** The class all shares a teacher. That teachers name may be written in every single planner, or on the top of a paper that is submitted.
-- **ID:** Every scholar has their own lunch number, or phone number, etc. that is unique to that ONE scholar. It should only be used for them.
-
-At the end of the day, it won't mess anything up if you use the "wrong" one. If you aren't sure, it's good to default to using a class.
-
 <div class="try-it">
   <h2>Practice</h2>
-  <p>Create a new pen on your CodePen account. Work to re-create the screenshot pictured below. You'll need to use containers, classes, and/or IDs to achieve this. Feel free to use content and colors of your choice.</p>
+  <p>Create a new pen on your CodePen account. Work to re-create the screenshot pictured below. You'll need to use containers and classes to achieve this. Feel free to use content and colors of your choice.</p>
   <img src="./assets/hidden-figures.png">
   <br>
   <br>
   <br>
   <p><strong>Medium Challenge:</strong> We know that each container used for each mathematician is a block element. Do some research, and try to find a way that you can change these "rows" into "columns". Example below:</p>
   <img src="./assets/hidden-figures-cols.png">
-
-  <p><strong>Spicy Challenge:</strong> Add a photo for each mathematician, and size each photo differently. You'll have to do some research as we have not covered how to do that yet.</p>
+  <p><strong>Spicy Challenge:</strong> Did you notice that the text is bumped right up against the border or each box? Do some research, and find a way to give that text inside of each box a little breathing room.</p>
 </div>
