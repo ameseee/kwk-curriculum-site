@@ -15,7 +15,6 @@ Find all lessons below. Note that the lessons are organized by topic below; to f
 
 - [Intro to CSS]({{ site.url }}/web-app/lessons/css-intro)
 - [Intermediate CSS]({{ site.url }}/web-app/lessons/css-intermediate)
-- [Box Model & Display]({{ site.url }}/web-app/lessons/box-model-display)
 - [Flex Box]({{ site.url }}/web-app/lessons/flexbox)
 - [Responsive Design]({{ site.url }}/web-app/lessons/responsive-design)
 - [Animations]({{ site.url }}/web-app/lessons/animations)
@@ -45,7 +44,6 @@ Find all lessons below. Note that the lessons are organized by topic below; to f
 ## Other
 
 - [Welcome to KWK]({{ site.url }}/web-app/lessons/welcome-to-kwk)
-- [Terminal]({{ site.url }}/web-app/lessons/terminal)
 - [Design]({{ site.url }}/web-app/lessons/design)
 - [How to Demo]({{ site.url }}/web-app/lessons/how-to-demo)
 - [Videos]({{ site.url }}/web-app/lessons/videos)
