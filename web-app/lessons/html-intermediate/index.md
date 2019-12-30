@@ -16,7 +16,6 @@ title: Intermediate HTML
 - Wrap
 - Attribute
 - Class
-- ID
 
 ## Warm Up
 
