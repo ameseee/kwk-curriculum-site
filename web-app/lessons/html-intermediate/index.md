@@ -137,32 +137,32 @@ When looking at the markup, you also notice that it’s common for inline elemen
 
 For now, we just need to know that some elements behave differently than others do. In our next CSS lesson, we will learn how to **change** the default behavior.
 
-## More Attributes - Classes and IDs
+## Classes
 
-This section is technically a part of HTML, but only because HTML and CSS must work together.
+Right now, we know how to style all of the paragraphs or all of the links on a page. But what if we only wanted to style a particular one? **Classes** will help us do that!
 
-Earlier, we learned that an `img` tag has a `src` attribute. An **attribute** is an extra piece of information we can choose to attach to any HTML element. There are two very commonly used attributes: **class** and **ID**. Below are examples of what they'd look like in your code:
+Earlier, we learned that an `img` tag has a `src` attribute. An **attribute** is an extra piece of information we can choose to attach to any HTML element. One common and handy attribute is **class**.
 
 ```html
 <div>
   <h2 class="magenta-text">Sub Header</h2>
-  <p class="magenta-text" id="special-text">Some text</p>
-  <p class="blue-text">Some more text</p>
+  <p class="magenta-text">Some text</p>
+  <p class="blue-text underlined">Some more text</p>
   <p class="magenta-text">Some more text</p>
   <p class="black-text">Even more text</p>
 </div>
 ```
 
-A couple of things to note about **class** and **ID** attributes:
+A couple of things to note about **class** attributes:
 - They are written inside of the opening tag of an element
 - They can be used on ANY type of element
-- An element can have both a class and ID
-- As the developers writing the code, we make up the class or ID name that is inside the quotes
-- Class names should be in lower case. If they are 2 words or more, a dash `-` should be used instead of a space
+- An element can have more than one class
+- As the developers writing the code, we get to decide the class name that is inside the quotes
+- Class names should be in lower case. If the class name is more than one word, a dash `-` should be used instead of a space
 
-### Why do we need classes and IDs?
+### Why do we need classes?
 
-Classes and IDs allow us to more specifically target an element with CSS. If we wanted to have many paragraphs on a page, some being black and some magenta, there's not way that this rule alone would do the job:
+Classes allow us to more specifically target an element with CSS. If we wanted to have many paragraphs on a page, some being black and some magenta, there's no way that this rule alone would do the job:
 
 ```css
 p {
