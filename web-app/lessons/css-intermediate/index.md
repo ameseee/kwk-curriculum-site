@@ -209,10 +209,30 @@ img {
 }
 ```
 
-The `object-fit` property on the `.correct-ratio` class fixed the distorted ratio for us. We did lose some of the photo (sides), but with most things, we want to maintain the original ratio.
+The `object-fit` property on the `.correct-ratio` class fixed the distorted ratio for us. We did lose some of the photo (on the sides), but with most things, we want to maintain the original ratio.
 
 <div class="try-it">
   <h2>Try It: Sizing Images</h2>
   <p>Open up a new CodePen. Find 3 photos from <a target="blank" href="https://www.pexels.com/">Pexels</a> and create image tags for each of them in the new CodePen. Get a mix of images that are vertical and horizontal.</p>
   <p>Style the photos so they appear to be the same size, and make sure they aren't squished!</p>
 </div>
+
+## Putting it All Together
+
+In this final section, you'll use your new knowledge about the box model and image sizing to start re-creating a Twitter profile card!
+
+<div class="try-it">
+  <h2>Practice</h2>
+  <p>Card is a word that is commonly used in front-end development. When we refer to a card, we usually mean a <code class="try-it-code">div</code> or another similar element that is used to contain information. The profile information on Twitter could be called a card.</p>
+  <p>We are going to begin recreating a Twitter profile card. There are many ways this can be achieved - you may see that you and your partner's outcome looks the same, but code looks very different! That's ok! As you get more practice, you will find which methods you prefer.</p>
+  <p>Create a new pen on CodePen. Then, work towards replicating the image below. Feel free to use any images and text you'd like!</p>
+  <img class="medium" src="./assets/recreate-twitter-card.png" alt="Start of a Twitter profile card">
+  <p><em>Hint: You can also use percentages as units for the width of an image.</em></p>
+  <p><strong>Medium Challenge:</strong> Add a blue checkmark next to the user's name. You can find a lot of icons at <a href="https://www.flaticon.com/">Flat Icon</a>. Make sure the icon is about the correct size, and right next to the name. You can reference Michelle Obama's profile at the top of this lesson for what this should look like. Follow the same workflow to include an icon just as you would an image (right click and copy image address).</p>
+  <p><strong>Spicy Challenge:</strong> Add another image to your Twitter profile. This image should be round, and part of it should lay over the background image. You can reference Michelle Obama's profile at the top of this lesson for what this should look like.</p>
+</div>
+
+## Extensions
+
+- [Classes & IDs](../html-css-ids)
+- [CSS: Does Order Matter?](../css-order)
