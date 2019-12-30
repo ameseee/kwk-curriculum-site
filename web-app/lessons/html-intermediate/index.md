@@ -14,6 +14,9 @@ title: Intermediate HTML
 - Container Elements
 - Nest
 - Wrap
+- Attribute
+- Class
+- ID
 
 ## Warm Up
 
@@ -134,3 +137,111 @@ When looking at the markup, you also notice that it’s common for inline elemen
 </div>
 
 For now, we just need to know that some elements behave differently than others do. In our next CSS lesson, we will learn how to **change** the default behavior.
+
+## More Attributes - Classes and IDs
+
+This section is technically a part of HTML, but only because HTML and CSS must work together.
+
+Earlier, we learned that an `img` tag has a `src` attribute. An **attribute** is an extra piece of information we can choose to attach to any HTML element. There are two very commonly used attributes: **class** and **ID**. Below are examples of what they'd look like in your code:
+
+```html
+<div>
+  <h2 class="magenta-text">Sub Header</h2>
+  <p class="magenta-text" id="special-text">Some text</p>
+  <p class="blue-text">Some more text</p>
+  <p class="magenta-text">Some more text</p>
+  <p class="black-text">Even more text</p>
+</div>
+```
+
+A couple of things to note about **class** and **ID** attributes:
+- They are written inside of the opening tag of an element
+- They can be used on ANY type of element
+- An element can have both a class and ID
+- As the developers writing the code, we make up the class or ID name that is inside the quotes
+- Class names should be in lower case. If they are 2 words or more, a dash `-` should be used instead of a space
+
+### Why do we need classes and IDs?
+
+Classes and IDs allow us to more specifically target an element with CSS. If we wanted to have many paragraphs on a page, some being black and some magenta, there's not way that this rule alone would do the job:
+
+```css
+p {
+  color: magenta;
+}
+```
+
+... or this:
+
+```css
+p {
+  color: black;
+}
+```
+
+... or this:
+
+```css
+p {
+  color: usually black but sometimes magenta;
+}
+```
+
+The browser needs really specific directions in order to show your content just how you want! So instead of only targeting elements by the element name, we can now target by class or ID. Here is the syntax:
+
+```css
+/* this rule will target ANY element with the class of "magenta-text" on it */
+.magenta-text {
+  color: magenta;
+}
+
+/* this rule will target ANY element with the class of "black-text" on it */
+.black-text {
+  color: black;
+}
+
+/* this rule will target ANY element with the ID of "special-text" on it */
+#special-text {
+  text-decoration: underline;
+}
+```
+
+- Classes are targeted by using the `.`, then the class name defined on the HTML element
+- IDs are targeted by using the `#`, then the ID name defined on the HTML element
+
+<div class="try-it">
+  <h2>Try It: Targeting with Classes & IDs</h2>
+  <p>Create a new pen on your CodePen account.</p>
+  <ul>
+    <li>In the HTML file, write a <code class="try-it-code">section</code> element with at 4 <code class="try-it-code">paragraphs</code> nested inside of it.</li>
+    <li>Give 3 of the 4 nested paragraphs the same class. Give the other paragraph a different class name.</li>
+    <li>Give the <code class="try-it-code">section</code> an ID.</li>
+    <li>In your CSS file, style the 3 paragraphs one way, and the other paragraph in a different way.</li>
+    <li>Now, style the <code class="try-it-code">section</code> by targeting the ID instead of the element.</li>
+  </ul>
+</div>
+
+### Class or ID?
+
+You may be noticing that classes and IDs do essentially the same thing. They do! So, why do we have both?
+
+Classes can be used by many elements. If you want several elements to share styles, they should all get the same class name. IDs should only be used by one single element.
+
+You can think of them in terms of a common school situation:
+- **Class:** The class all shares a teacher. That teachers name may be written in every single planner, or on the top of a paper that is submitted.
+- **ID:** Every scholar has their own lunch number, or phone number, etc. that is unique to that ONE scholar. It should only be used for them.
+
+At the end of the day, it won't mess anything up if you use the "wrong" one. If you aren't sure, it's good to default to using a class.
+
+<div class="try-it">
+  <h2>Practice</h2>
+  <p>Create a new pen on your CodePen account. Work to re-create the screenshot pictured below. You'll need to use containers, classes, and/or IDs to achieve this. Feel free to use content and colors of your choice.</p>
+  <img src="./assets/hidden-figures.png">
+  <br>
+  <br>
+  <br>
+  <p><strong>Medium Challenge:</strong> We know that each container used for each mathematician is a block element. Do some research, and try to find a way that you can change these "rows" into "columns". Example below:</p>
+  <img src="./assets/hidden-figures-cols.png">
+
+  <p><strong>Spicy Challenge:</strong> Add a photo for each mathematician, and size each photo differently. You'll have to do some research as we have not covered how to do that yet.</p>
+</div>
