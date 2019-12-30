@@ -4,17 +4,18 @@ title: Intermediate CSS
 
 ## Learning Goals
 
-* a
-* b
-* c
+* Understand the difference between inline and block elements
+* Use margin and padding to achieve ideal breathing room around elements
+* Control the layout of a page using height, width, and an understanding of the box model
 
 ## Technical Vocabulary
 
-* CSS
-* CSS Property
-* HTML Element
-* id
-* class
+- CSS Property
+- Inline
+- Block
+- Box Model
+- Margin
+- Padding
 
 ## Warm Up
 
