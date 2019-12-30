@@ -39,87 +39,147 @@ section {
 }
 ```
 
-## Classes
+## Block vs. Inline
 
-Right now, we know how to style all of the paragraphs or all of the links on a page. But what if we only wanted to style a particular one?
+In the last HTML lesson, we talked about the difference between inline and block elements. With CSS, we have the power to override an elements default state of inline or block by using the `display` property.
 
-As it turns out, we can set a `class` attribute on an HTML element. The class attribute takes one or more words, separated by spaces. Typically we use classes to describe what kind of element we’re creating. For example, we might create a <p> element with the class of "sidebar" to denote that this is a particular kind of section on the page. We might also use classes to describe the kind of content inside of the element.
-
-When we add classes, we make one change in the HTML and one change in the CSS:
-
-```html
-<h2 class="heading-main">Lorem Ipsum</h2>
-```
+Here's an example:
 
 ```css
-.heading-main {
-  background-color: yellow;
+button {
+  display: block;
 }
-```
 
-This will look for every element — regardless of type — that has the class of `heading-main` and style it with a yellow background color.
-
-Notice the syntax - when we were just targeting an `h2` element, we would just type `h2`. Since we are targeting a class, we have to be really specific in telling the computer how to do that - when it sees a `.` it will look for a class that matches the words following the `.`.
-
-<div class="try-it">
-  <h2>Try It: Add Classes</h2>
-  <p>In your CodePen, apply a class to your <code class="try-it-code">h1</code> and change your CSS to target the class instead of the <code class="try-it-code">h1</code> element. Then, apply that same class to <strong>one</strong> of your paragraph elements.</p>
-  <p>What happened to the paragraphs? Is that what you expected? Talk with your partner about why this may have behaved this way.</p>
-</div>
-
-## IDs
-
-IDs add one more layer of complexity. On the surface, they look and behave a lot like our classes. IDs are really meant to only be used once. Classes can, and usually are, used multiple times. Here's an example of an ID in action:
-
-```html
-<div>
-  <p>Space is completely silent.</p>
-  <p class="space-fact">Nobody knows how many stars are in space.</p>
-  <p class="space-fact" id="nasa-suit-cost">A full NASA space suit costs $12,000,000.</p>
-</div>
-```
-
-```css
 p {
-  color: darkred;
-}
-
-.space-fact {
-  color: slategrey;
-}
-
-#nasa-suit-cost {
-  color: midnightblue;
+  display: inline;
 }
 ```
 
 <div class="try-it">
-  <h2>Turn & Talk</h2>
-  <p>Looking at the HTML and CSS above, what color do you predict each paragraph will appear?</p>
-  <p>Based on what you know about the syntax for rules for classes, what do you think the syntax for IDs is?</p>
+  <h2>Check It Out: Block vs. Inline</h2>
+  <p>Fork <a href="https://codepen.io/turing-kwk/pen/ZEYXOxw">this CodePen</a>. One by one, copy and paste the two CSS rules above, into your CSS file in CodePen. What happens when you paste in the rule for the buttons? For the paragraphs?</p>
 </div>
 
-### Classes _and_ IDs
+In our next CSS lesson, we'll go a step further with layout. Understanding the difference between block and inline elements, and being able to change them, allows us to control the layout of a page a little more.
 
-Occasionally, you'll see the use of a class _and_ an ID on the same element. Why?
+## CSS Box Model
 
-There may be several reasons for this. When it comes to styling, we may have two paragraphs that should have a lot in common. But one of them should also have a unique style. Both paragraphs can have the class with all the styles they share, then the second has an ID with it's unique styles.
+When you hover over elements in the browser when you are in inspect mode, you may have noticed that there are flashes of blue, green, orange, and sometimes yellow. Chrome didn't just put different colors in there for fun; each color has a meaning.
 
-When we get into JavaScript, we will also utilize these classes and IDs. It's common that a class will have the styles for a set of elements, then we use the ID in JavaScript to _do_ something with one of those elements. We'll get more into that later.
+Up until now, we haven't used CSS to create space or "breathing room" between elements. Let's look at Michelle Obama's <a target="blank" href="https://twitter.com/MichelleObama">twitter account</a> for some examples:
 
-## Does Order Matter?
+<img class="small" src="./assets/michelle-twitter.png" alt="Michelle Obama's Twitter Profile card">
 
-You may have wondered if the order your CSS rules are written in, matters. Let's explore to start answering that question ourselves!
+Each element is a rectangular box. CSS leverages the **box model** to control layout and design. An HTML element is made up of its content and the padding, border, and margins surrounding it. The image below helps us visualize each piece (and the colors match those in the Chrome Dev Tools!).
+
+<img class="medium" src="./assets/box-model.jpg" alt="The CSS Box Model">
+
+<!-- directions for instructor to know walk through examples of where we see breathing room -->
+
+**Padding** creates space between the content and the border. **Margin** creates space outside the border, between other elements. The image below shows these coming together, including the color coding that the Chrome dev tools use:
 
 <div class="try-it">
-  <h2>Try It: Does Order Matter?</h2>
-  <p>Go into one of your CodePens and try switching around the order of rules. Do you see any changes?</p>
-  <p>Now, try switching around the order of property/values within a rule. Do you see any changes?</p>
+  <h2>Check It Out: Box Model</h2>
+  <p class="to-do">Opportunity for sponsor integration. If not, Codecademy is a good one for this.</p>
+  <p>Go to the _______ site and open your dev tools. Click the inspect arrow, and hover over elements on the page. Where do you see margin and padding being used?</p>
 </div>
 
-The answer is: yes and no.
+## Padding
 
-CSS stands for Cascading Style Sheets. It is read from top to bottom. In very rare cases, you will see that switching the order of rules or property/values within a rule will change the appearance of your site. For what we're doing here at camp, it's probably more important to be aware of the hierarchy of element ➡ class ➡ ID when targeting something to write a rule for.
+**Padding** creates space between the content and the border. Most element don't have any by default, so a lot of times our content can look squished. `padding` is a CSS property we can use to add what we call "breathing room" between content and it's border.
+
+Thinking back to Twitter, the following CSS rule is on each of the 4 `a` elements on that "Tweets/Tweets & Replies/Media/Likes" section:
+
+```css
+.r-1oqcu8e {
+  padding-bottom: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 15px;
+}
+```
+
+We can also see this by using the dev tools to inspect. The part highlighted in blue is the content and the part highlighted in green was space created by the `padding` rules.
+
+<img class="medium" src="./assets/padding.png" alt="Padding used on Twitter card">
+
+There are several ways we can tell CSS that we want it to add padding. In the rule above that Twitter used, they wrote out a declaration for each side of the element. They could have written this rule and had the exact same outcome:
+
+```css
+.r-1oqcu8e {
+  padding: 15px;
+}
+```
+
+When you don't specify which side of the element you want padding on, all four sides will get that amount of padding.
+
+If you want different sides of the element to have different amounts of padding, you should use `padding-right`, `padding-top`, etc. Here's an example:
+
+```css
+.r-1oqcu8e {
+  padding-bottom: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 0px;
+}
+```
+
+In the code snippet above, the element would have 10px of padding on the bottom and no padding on the top. Both sides - right and left - would have 30px of padding.
+
+<div class="try-it">
+  <h2>Try It: Padding</h2>
+  <p>Fork <a href="https://codepen.io/turing-kwk/pen/qBEPOea">this CodePen</a>. Read through the HTML and CSS provided to make sure you understand what you're starting with.</p>
+  <p>Work to re-create the image below using the HTML and CSS provided as a starter kit. The colors used were <code class="try-it-code">deeppink</code>, <code class="try-it-code">darkviolet</code>, and <code class="try-it-code">deepskyblue</code>.</p>
+  <img src="./assets/padding-try-it.png"/>
+</div>
+
+## Margin
+
+Similar to padding, `margin` is a CSS property that helps us control spacing of elements. The difference between the two is, **margin** creates space outside the border, between other elements. Twitter uses margin to create some space around the content and the edges of the screen (notice the orange parts):
+
+<img class="medium" src="./assets/margin.png" alt="Margin used around Twitter card">
+
+<img class="medium" src="./assets/twitter-margin.png" alt="Margin used around Twitter card">
+
+Writing declarations with the `margin` property is very similar to what we know about `padding`. Here is the CSS that was written for the margin at the bottom of a Twitter profile:
+
+
+```css
+.css-1dbjc4n {
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 15px;
+}
+```
+
+We can also write one declaration for all fours sides:
+
+```css
+.class-name {
+  margin: 10px;
+}
+```
+
+<div class="try-it">
+  <h2>Try It: Margin</h2>
+  <p>Fork <a href="https://codepen.io/turing-kwk/pen/ExawKoR">this CodePen</a>. Read through the HTML and CSS provided to make sure you understand what you're starting with.</p>
+  <p>Work to re-create the image below using the HTML and CSS provided as a starter kit. You'll need both margin and padding!</p>
+  <img src="./assets/margin-try-it.png"/>
+</div>
+
+### Default Browser Behavior
+
+One thing to note - you may have noticed that the browser provides some "built-in" margin and padding, just like it makes out `h1` elements larger and bolder than content in a `p` element. The browser does this to be helpful to developers who aren't going to use any CSS (think <a target="blank" href="https://denver.craigslist.org/">Craigslist</a>), but it can become bothersome for developers like us, who really want to customize the look and feel of our pages. So, at the top of every CSS file we write from here on out, we should include the following rule:
+
+```css
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+```
+
+The `*` means: apply this rule to ALL elements. `box-sizing: border-box` is a little complicated; it basically means that if borders are used, they will be counted as the content. If you are doing very specific work with margins, where it would be obvious if you were off by 1 tiny pixel, this would be very important.
 
 ## Sizing Images
 
