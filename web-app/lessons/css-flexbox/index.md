@@ -12,14 +12,25 @@ title: Flexbox
 - parent
 - child
 - direct child
+- container
+- item
 
 ## What is Flexbox?
 
-Flexbox is a part of CSS that provides a more efficient way to lay out, align and distribute space among items in a container. It helps us when we have those silly block elements, that even with `display: inline-block`, can be hard to do just what we want them to do.
+Flexbox is a part of CSS that provides a more efficient way to lay out, align and distribute space among items in a container. It helps us when we have those silly block elements that can be hard to do just what we want them to do.
+
+## Flexbox IRL
+
+Flexbox is used _all over_ the internet. It's a little tough to learn, but once you know it, it makes your life a lot easier! That's why it is so popular among front-end developers.
+
+Here are just a few popular pages that use Flexbox:
+- [Disney Plus](https://www.disneyplus.com/) uses Flexbox on the top Nav bar and the grey bar at the bottom of the landing page
+- [Lomotif](https://lomotif.com/) uses Flexbox to control the content on the right side of the landing page (title, subtitle, and two buttons)
+- [The Ringer](https://www.theringer.com/) uses Flexbox to organize the links in the nav bar at the top of the page. It also uses Flexbox for each "section" of content - usually an image, title, subtitle, author, date, and tag
 
 ## Parents and Children
 
-As we start working with Flexbox, a very important distinction should be pointed out. We need to be careful about the CSS rules we apply to a parent element vs. those to a child element. A **parent** element wraps other elements, a **child** is nested inside the parent. We will also refer to parents as containers, and children as items.
+Before we start working with Flexbox, we need to make sure we are referring to elements and their relationship to other elements correctly. We need to be careful about the CSS rules we apply to a _parent_ element vs. those to a _child_ element. A **parent** element wraps other elements, a **child** is nested inside the parent. We will also refer to parents as **containers**, and children as **items**.
 
 Let's look an some HTML to make sure we are all on the same page:
 
@@ -47,7 +58,7 @@ In the code above, the `section` is the parent/container, and the 3 `article`s a
 </section>
 ```
 
-In the code above, we now have these `h2` elements nested inside of the `article`s. It's important to know that `h2` is **not** a child of the `section`. It is technically a grandchild, and a child of `article`. The idea of **direct child** is really important to understand as we work with Flexbox.
+In the code above, we now have these `h2` elements nested inside of the `article`s. It's important to know that `h2` is **not** a child of the `section`. It is technically a grandchild of the `section`, and a child of `article`. The idea of **direct child** is really important to understand as we work with Flexbox.
 
 <img class="small" src="./assets/parent-container.svg" alt="">
 <img class="small" src="./assets/child-item.svg" alt="">
@@ -81,6 +92,11 @@ But with Flexbox, we can start, having some control over them:
   <p>What element(s) is the property <code class="try-it-code">display: flex;</code> applied to? Is that a parent or child?</p>
 </div>
 
+Takeaways:
+- To use Flexbox, we need a container element with one or more children inside of it
+- The declaration `display: flex;` should be on the parent's rule
+- The parent won't be affected, but the way the children elements sit inside the parent may change
+
 ### Flex helps even things out
 
 Adding `display: flex` to the CSS rule on the parent makes the parent element a flex container, and opens up a world of possibilities.
@@ -107,20 +123,26 @@ In professional apps, we typically see white space (margin or padding) used, and
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
 <br>
 
-But the items are still all crunched together, they might need some breathing room too.
+By adding `justify-content: center;`, the items in the container are now centered, instead of being crunched up on the left side of the container.
 
 <div class="try-it">
   <h2>Try It: Justify Content</h2>
-  <p>On the container's CSS rule, change the code to: <code class="try-it-code">justify-content: space-between;</code>. What happens?</p>
-  <p>Now try: <code class="try-it-code">justify-content: space-around;</code>. What is the difference between around and space-between?</p>
-  <p>Finished early? Learn about even more values that we can provide to <code class="try-it-code">justify-content</code> with <a target="blank" href="https://css-tricks.com/almanac/properties/j/justify-content/">CSS Tricks</a>.</p>
+  <p>Fork the CodePen above. On the container's CSS rule, change the code to: <code class="try-it-code">justify-content: space-between;</code>. What happens?</p>
+  <p>Now try: <code class="try-it-code">justify-content: space-around;</code>. What is the difference between space-around and space-between?</p>
+  <p><strong>Finished early?</strong> Learn about even more values that we can provide to <code class="try-it-code">justify-content</code> with <a target="blank" href="https://css-tricks.com/almanac/properties/j/justify-content/">CSS Tricks</a>.</p>
 </div>
 
-The `justify-content` property allows us to control how our content sits _horizontally_.
+The `justify-content` property allows us to control how our content sits _in relation to the main axis_ (for now, this means horizontally).
+
+<div class="try-it">
+  <h2>Try It: Flexbox Froggy</h2>
+  <p>Work your way through Levels 1 - 4 of <a target="blank" href="https://flexboxfroggy.com/">Flexbox Froggy</a>.</p>
+  <p>Make sure to check in with your partner every few levels to see if they need any help!</p>
+</div>
 
 ## Align Items
 
-Just like we can control how our content sits _horizontally_ with `justify-content`, we have a tool to control how our content sits _vertically_. Check out the CodePen below. Try changing the value for `align-items` to `flex-end`, then `flex-start`, and see what happens!
+Just like we can control how our content sits _in relation to the main axis_ with `justify-content`, we have a tool to control how our content sits _in relation to the secondary axis_. Check out the CodePen below. Try changing the value for `align-items` to `flex-end`, then `flex-start`, and see what happens!
 
 <p class="codepen" data-height="300" data-theme-id="36709" data-default-tab="html,result" data-user="turing-kwk" data-slug-hash="mgKQOR" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid black; margin: 1em 0; padding: 1em;" data-pen-title="Flexbox: Align Items">
   <span>See the Pen <a href="https://codepen.io/turing-kwk/pen/mgKQOR/">
@@ -130,21 +152,35 @@ Just like we can control how our content sits _horizontally_ with `justify-conte
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
 <br>
 
+<div class="try-it">
+  <h2>Try It: Flexbox Froggy</h2>
+  <p>Work your way through levels 5 - 7<a target="blank" href="https://flexboxfroggy.com/">Flexbox Froggy</a>.</p>
+  <p>Make sure to check in with your partner every few levels to see if they need any help!</p>
+</div>
+
 ## Direction
 
 Another CSS property with Flexbox is `flex-direction`. This property takes one of four values:
 
 - `row` (default): left-to-right
-- `row-reverse`: opposite of row (right-to-left)
+- `row-reverse`: opposite of row; right-to-left
 - `column`: same as `row` but top to bottom
 - `column-reverse`: same as `column` but bottom to top
 
-It's not very common to use row-reverse or column-reverse, but it's good to know what's out there!
+The direction of your flex container defines the _main axis_.
+<br>
+<br>
+
+Here is a visual, created by the amazing [Samantha Ming](https://www.samanthaming.com/).
+
+<img class="small" src="./assets/flex-direction.png">
 
 <div class="try-it">
-  <h2>Try It: Flexbox Froggy</h2>
-  <p>Work your way through <a target="blank" href="https://flexboxfroggy.com/">Flexbox Froggy</a>.</p>
-  <p>Make sure to check in with your partner every few levels to see if they need any help!</p>
+  <h2>Try It: Flex Direction</h2>
+  <p>Fork <a href="https://codepen.io/turing-kwk/pen/oNgGLKY">this CodePen</a>.</p>
+  <p>On line 3 of the CSS file there is a "____" as the value for the `flex-direction` property. One by one, change that out for each of the four properties listed above. What happens to the 10 items?</p>
+  <br>
+  <p>Back in Flexbox Froggy, work through levels 8 - 13.</p>
 </div>
 
 ## Wrap
@@ -165,7 +201,7 @@ Now, sometimes we don't want _all_ our items on the same row or column. We can u
 
 ## Flexbox
 
-There is more to learn about Flexbox, but we can do a lot with what we know. It will take a while to get used to; remember to use your dev tools and use that `border` property to help you understand what space each element is taking up.
+There is more to learn about Flexbox, but we can do a lot with what we know. It will take a while to get used to; remember to use your Dev Tools and use that `border` property to help you understand what space each element is taking up.
 
 <div class="practice">
   <h2>Practice: Flexbox</h2>
@@ -173,3 +209,8 @@ There is more to learn about Flexbox, but we can do a lot with what we know. It 
   <p>Your job will be to update the CSS (you'll probably need to add some classes on some HTML elements, too!) so the outcome looks like the screen shot below, but <strong>first</strong>, take some time to jot down some notes and talk with a partner about <em>how</em> you will approach this.</p>
   <img src="./assets/direction.png" alt="">
 </div>
+
+## More Practice
+
+- Finish levels 14 - 24 of Flexbox Froggy
+- Can't get enough of Flexbox Froggy? Try out [Flexbox Defense](http://www.flexboxdefense.com/)
