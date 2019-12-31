@@ -21,7 +21,8 @@ Find all lessons below. Note that the lessons are organized by topic below; to f
 
 ## JavaScript
 
-- [Intro to JavaScript]({{ site.url }}/web-app/lessons/intro-to-js)
+- [Intro to JavaScript]({{ site.url }}/web-app/lessons/js-intro)
+- [Intermediate JavaScript]({{ site.url }}/web-app/lessons/js-intermediate)
 - [Functions]({{ site.url }}/web-app/lessons/functions)
 - [DOM Manipulation I]({{ site.url }}/web-app/lessons/dom-manipulation)
 - [Collections]({{ site.url }}//web-app/lessons/collections)
