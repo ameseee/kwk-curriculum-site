@@ -23,7 +23,7 @@ Find all lessons below. Note that the lessons are organized by topic below; to f
 
 - [Intro to JavaScript]({{ site.url }}/web-app/lessons/js-intro)
 - [Intermediate JavaScript]({{ site.url }}/web-app/lessons/js-intermediate)
-- [Functions]({{ site.url }}/web-app/lessons/functions)
+- [Functions]({{ site.url }}/web-app/lessons/js-functions)
 - [DOM Manipulation I]({{ site.url }}/web-app/lessons/dom-manipulation)
 - [Collections]({{ site.url }}//web-app/lessons/collections)
 - [DOM Manipulation II]({{ site.url }}/web-app/lessons/dom-manipulation-2)
