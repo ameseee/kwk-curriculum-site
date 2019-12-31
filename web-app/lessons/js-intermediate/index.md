@@ -16,7 +16,7 @@ title: Intermediate JavaScript
 
 ## Operators
 
-We can also compare values. The return value is a **boolean**, true or false.
+We can also compare values. Each statement below will be **evaluated** to a **boolean**, true or false.
 
 ```js
 3 < 5
@@ -37,14 +37,25 @@ We can also compare values. The return value is a **boolean**, true or false.
 
 Notice the `===`. This checks if two pieces of data are equal to each other. The assignment operator (`=`), assigns the value of a variable. These two are **very** different!
 
-We have some other helpful operators that may be newer to you. Look at each snippet of code and its return value, then predict what the operator does.
+<div class="try-it">
+  <h2>Explore: Operators</h2>
+  <p>Look at each statement below and the value it evaluates to. Based on that information, try to determine what that operator does.</p>
+</div>
 
 ```js
-3 != 4
+3 !== 4
 //=> true
 
-5 != 5
+5 !== 5
 //=> false
+
+4 !== 9
+//=> true
+```
+
+```js
+11 % 2
+//=> 1
 
 32 % 6
 //=> 2
@@ -53,7 +64,9 @@ We have some other helpful operators that may be newer to you. Look at each snip
 //=> 1
 ```
 
-The modulo operator is a helpful tool to determine if numbers are even or odd. Learn more <a target="blank" href="https://css-tricks.com/snippets/javascript/check-if-number-is-evenodd/">here</a>!
+The `not equal` operator - `!==` - checks that two values are not equal. It is the opposite of our `===` operator - the first `=` is replaced with an `!`.
+
+The `modulo` operator - `%` - finds the remainder of the two numbers. It is a helpful tool to determine if numbers are even or odd. Learn more <a target="blank" href="https://css-tricks.com/snippets/javascript/check-if-number-is-evenodd/">here</a>!
 
 ## Conditionals
 
