@@ -93,12 +93,16 @@ language === "JavaScript"
 //=> false
 
 var year = 2020;
+var nextYear = 2021;
 
 year > 2000
 //=> true
 
 year != 2019
-//-> true
+//=> true
+
+year < nextYear
+//=> true
 ```
 
 <div class="try-it">
@@ -223,6 +227,6 @@ JavaScript is pretty different from HTML and CSS. It feels like a really differe
   <h2>Practice: Operators & Conditionals</h2>
   <p>For each of these exercises, you should use a <code class="try-it-code">console.log()</code> to print your output or feedback.</p>
   <p>Declare a variable called <code class="try-it-code">numberOfScholars</code> and assign it to any number. Write a condition that checks the number of scholars. If there are less than 24, output "There is room for more - welcome!". If there are already 24 or 25 scholars, output "Oh no, we're going to have to put you on the waiting list." If there are more than 25 scholars, output "We are so sorry but we are booked. Would you like to sign up for next year?"</p>
-  <p><strong>Medium Challenge:</strong>Declare a new variable <code class="try-it-code">number</code> and assign it to any number. If it is a multiple of 3, print "Fizz" instead of the number. If it is a multiple of 5, print "Buzz" instead of the number. If it is a multiple of both 3 and 5, print "FizzBuzz" instead of the number. If it isn't a multiple of 3 or 5, just print out the number.</p>
-  <p><strong>Spicy Challenge:</strong> Have you ever tried to create a password, but the application told you you need at least 1 number and between 8 and 14 characters total? Time to solve another real-world challenge! Declare a new variable called <code class="try-it-code">fakePassword</code> and assign it to a string of your choice. Write a conditional that checks the value of <code class="try-it-code">fakePassword</code> and gives appropriate feedback on if it is a valid password (contains at least 1 number and between 8 and 14 characters total).</p>
+  <p><strong>Medium Challenge:</strong> Declare a new variable <code class="try-it-code">number</code> and assign it to any number. If it is a multiple of 3, print "Fizz". If it is a multiple of 5, print "Buzz". If it is a multiple of both 3 and 5, print "FizzBuzz". If it isn't a multiple of 3 or 5, just print out the number.</p>
+  <p><strong>Spicy Challenge:</strong> Have you ever tried to create a password, but the application told you that _you need at least 1 number and between 8 and 14 characters total_? Time to solve another real-world challenge! Declare a new variable called <code class="try-it-code">fakePassword</code> and assign it to a string of your choice. Write a conditional that checks the value of <code class="try-it-code">fakePassword</code> and gives appropriate feedback on if it is a valid password (contains at least 1 number and between 8 and 14 characters total).</p>
 </div>
