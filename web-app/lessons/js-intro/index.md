@@ -5,6 +5,7 @@ title: Intro to JavaScript
 ## Learning Goals
 
 * Use variables to store strings and numbers
+* Use string interpolation to write sentences using variables
 
 ## Technical Vocabulary
 
