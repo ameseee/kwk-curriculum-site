@@ -1,5 +1,5 @@
 ---
-title: Arrays
+title: Intro to Arrays
 ---
 
 ## Learning Goals
