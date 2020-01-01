@@ -16,7 +16,7 @@ title: Arrays
 
 ## Warm Up
 
-- Something about lists, keeping them organized.
+In a CodePen, declare a variable for every scholar in the room. The variable names should be something like `scholar1`, `scholar2`, etc. and the values should be strings of their first names.
 
 ## Collections
 
