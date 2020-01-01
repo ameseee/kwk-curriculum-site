@@ -9,16 +9,14 @@ title: Arrays
 
 ## Technical Vocabulary
 
-- collection
-- array
-- element
-- index
+- Collection
+- Array
+- Element
+- Index
 
 ## Warm Up
 
-Imagine you are in this situation: You have a busy day ahead. Grocery shopping, packing for a trip, and cooking a big family dinner. For each task, you have a list of things to do or purchase.
-
-Discuss with your partner: How would you organize all the things you need to do and/or purchase?
+- Something about lists, keeping them organized.
 
 ## Collections
 
@@ -28,9 +26,9 @@ In JavaScript, there are two types of collections: arrays and objects. In this l
 
 ## Arrays
 
-Arrays are useful whenever you need to keep track of an ordered list of things. This is similar to how we keep track of lists in the real world. When we write out a to-do list, we use one piece of paper to keep track of all the tasks we need to complete.
+An **array** is an ordered collection that stores multiple values. They are useful whenever you need to keep track of an ordered list of things. This is similar to how we keep track of lists in the real world. When we write out a to-do list, we use one piece of paper to keep track of all the tasks we need to complete.
 
-An **array** is an ordered collection that stores multiple values. An array can store any kind of element - from numbers to strings to ... other arrays. Usually, a single array holds a lot of items that are all of the same type.
+An array can store any kind of element - from numbers to strings to ... other arrays. Usually, a single array holds a lot of items that are all of the _same type_.
 
 <div class="try-it">
   <h2>Turn & Talk</h2>
@@ -133,7 +131,7 @@ console.log(trending);
 //=> ["@thecardguy", "@cosette", "@avani", "@lorengray", "@jamescharles"]
 ```
 
-In the code snippet above, you can see that `.push()` is called on the `trending` array, then we give it an argument of the new element we want to be added on the array.
+In the code snippet above, `.push()` is called on the `trending` array. We give `.push()` an argument of the new element we want to be added on the array. In this case, it was the string of `@jamescharles`.
 
 ### Removing Elements
 
@@ -168,9 +166,7 @@ Sometimes, we want to pull an element out of an array at random - have any of yo
 JavaScript gives us a tool called `Math` to do advanced math, like square roots, logarithms, etc. Included in that are some options on how to use it. We've got:
 
 - `Math.random()` - returns a random decimal between 0 and 1
-- `Math.round(number)` - returns the value of a number rounded to the nearest integer
 - `Math.floor(number)` - returns the value of a number rounded down to the nearest integer
-
 
 Let's work on generating a random number between 1 and 20.
 
@@ -204,7 +200,7 @@ var final = Math.floor(random);
 Going back to `why would this be useful`? A teacher could have a program with an array of names, like this:
 
 ```js
-var students = ["Leta", "Ellen Mary", "Pam", "Megan", "Amy", "Sarah", "Robyn", "Courtney", "Rachel", "Allison", "Ruby", "Maile", "Julie", "Meg", "Christie", "Emmie", "Aurora", "Tori", "Kerry", "Juliana"];
+var students = ["Leta", "Ellen Mary", "Pam", "Megan", "Amy", "Sarah", "Robyn", "Courtney", "Rachel", "Allison", "Ruby", "Maile", "Julie", "Meg", "Christie", "Emmie", "Aurora", "Tori", "Juliana", "Kerry"];
 ```
 
 Now, the teacher can write a `pickStudent` function:
@@ -213,10 +209,28 @@ Now, the teacher can write a `pickStudent` function:
 function pickStudent() {
   var random = Math.random() * 20;
   var rounded = Math.floor(random);
-  var student = students[rounded];
+  var student = students[rounded]; // note about how this work below!
   return student;
 }
+
+var randomStudent = pickStudent();
+console.log(randomStudent);
+//=> one random element from the array will print out
 ```
+
+Instead of calling `students[0]` or `students[7]`, we called `students[rounded]`. Since we know that `rounded` is a variable that stores a number, the number it stores is substituted in for the variable name `rounded`, then the array looks for the element in that index.
+
+<div class="try-it">
+  <h2>Turn & Talk</h2>
+  <p>Considering this section on selecting random elements from an array, answer the following questions with your partner:</p>
+  <ul>
+    <li>What does <code class-"try-it-code">Math.random()</code> do?</li>
+    <li>Why did we choose to multiply <code class-"try-it-code">Math.random()</code> by 20 for this example?</li>
+    <li>What does <code class-"try-it-code">Math.floor()</code> do?</li>
+    <li>Why do we have to pass an argument, or put a number inside the parenthesis for <code class-"try-it-code">Math.floor()</code>?</li>
+    <li>Is it possible for this function to ever return the same number? Why or why not?</li>
+  </ul>
+</div>
 
 ## Putting It All Together
 
@@ -226,12 +240,16 @@ Arrays are a type of collection that developers use on a daily basis. It's impor
 
 <div class="practice">
   <h2>Practice: Arrays</h2>
+  <p>Declare a variable called <code class="try-it-code">hobbies</code> that stores an array of your top five favorite accounts to follow on social media, in strings.</p>
   <ul>
-    <li>Create an array of your top five favorite hobbies</li>
-    <li>Change at least one of the values in the array</li>
-    <li>Add a new hobby to the array</li>
-    <li>Remove the last hobby from the array</li>
+    <li>Change the value of at least one of the elements in the array</li>
+    <li>Add a new account to the array</li>
+    <li>Remove the last account from the array</li>
     <li>Print the value of the third element of the array</li>
-    <li>Print one hobby to the console, at random.</li>
+    <li>Change the value of another element in the array</li>
+    <li>Add another account to the array</li>
+    <li>Print the value of the first element of the array</li>
+    <li>Print one account to the console, at random.</li>
   </ul>
+  <p><strong>Spicy Challenge:</strong> Write a function that takes in one argument, a string. If the string is "happy", output a randomly generated sentence about being happy. If the string is "ok", output a randomly generated sentence about being ok. If the string is "sad", output a randomly generated sentence to cheer someone up. _You will need to use a function, conditional, multiple arrays, and have to generate a random number._</p>
 </div>
