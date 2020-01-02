@@ -146,7 +146,7 @@ Check out the CodePen below to see what that looks like in JavaScript:
 
 <div class="try-it">
   <h2>Turn & Talk</h2>
-  <p>Do your best to answer each question with your parter.</p>
+  <p>While referencing the CodePen above, do your best to answer each question with your parter.</p>
   <ul>
     <li>What is the name of the event handler?</li>
     <li>Based on the name of the event handler, what do you think its job is to do?</li>
