@@ -45,12 +45,33 @@ Basic input and button elements are a great starting point, but to build a truly
 
 As you look at the code for forms, you will notice quite a bit of nesting; this is necessary. It's important to indent properly to made you code more readable!
 
-<p class="codepen" data-height="300" data-theme-id="36709" data-default-tab="html,result" data-user="turing-kwk" data-slug-hash="QPBBda" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid black; margin: 1em 0; padding: 1em;" data-pen-title="Check It Out: Simple HTML Form">
-  <span>See the Pen <a href="https://codepen.io/turing-kwk/pen/QPBBda/">
-  Check It Out: Simple HTML Form</a> by Turing KWK (<a href="https://codepen.io/turing-kwk">@turing-kwk</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
-<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+Here's a **good** example of indentation:
+
+```html
+<form>
+  <label>Your Name
+    <input type="text">
+  </label>
+  <label>Your Email
+    <input type="email">
+  </label>
+  <input type="submit">
+</form>
+```
+
+Here's a **bad** example of indentation:
+
+```html
+<form>
+<label>Your Name
+  <input type="text">
+  </label>
+<label>Your Email
+<input type="email">
+</label>
+<input type="submit">
+</form>
+```
 <br>
 
 ## What can you do within a form?
