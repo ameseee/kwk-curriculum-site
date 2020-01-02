@@ -11,10 +11,7 @@ title: Intermediate DOM Manipulation
 
 - Event
 - Append
-- Argument
 - Object
-<!-- - Refactor
-- helper function -->
 
 ## DOM Manipulation
 
@@ -212,6 +209,7 @@ You've learned a **lot** and have already come so far. Put all your skills toget
   <p>Wireframe your app and choose a color palette. Once your plans are approved by your instructor, get started!</p>
   <p><strong>Spicy Challenge:</strong> In addition to a delete button, add another button that will do something else to the card. If it's a to-do list, it's nice to have a way to indicate the level of importance one task has over another. The details depend on what you initially built. (The real-life connection here is in basically everything you see on the internet - any social media post has at least two ways a user can interact - favorite, comment, view profile, etc. You are essentially building that type of functionality!)</p>
 </div>
+<br>
 
 ## Extensions
 
