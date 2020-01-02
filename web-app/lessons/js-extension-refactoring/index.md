@@ -2,9 +2,13 @@
 title: JS Extension: Refactoring
 ---
 
-## Refactor Tractor
+## Pre-requisites
 
-Our `appendScholar` example above has grown to 15 lines of code - that's quite long. It's borderline messy and hard to people new to this code to read. So, let's **refactor** it!
+Before diving into this, make sure you are familiar with [using objects and DOM manipulation](../js-extension-objects-dom).
+
+## Refactoring
+
+Our `appendScholar` example (code shown below) above has grown to 15 lines of code - that's quite long. It's borderline messy and hard to people new to this code to read. So, let's **refactor** it!
 
 Refactoring is something we do once our code already works, but it's like editing it. We go back over it and look for opportunities to make it more readable or concise. When we notice that a function has more than 1 or 2 jobs, we need to refactor.
 
@@ -53,8 +57,8 @@ function appendScholar(scholar) {
 ```
 
 <div class="try-it">
-  <h2>Turn & Talk: Refactoring</h2>
-  <p>Break this code down with your partner.</p>
+  <h2>Think About It: Refactoring</h2>
+  <p>Answer these questions to break down the code in the snippet above.</p>
   <ul>
     <li>Do we see any new code, compared to the original <code class="try-it-code">appendScholar</code> function?</li>
     <li>What is happening on the last line of <code class="try-it-code">getScholarInfo</code>? What is that line doing?</li>
@@ -62,7 +66,6 @@ function appendScholar(scholar) {
     <li>Which of these functions should be called in the event listener? Why?</li>
   </ul>
 </div>
-<br>
 
 To make sure everyone is on the same page...
 
@@ -73,12 +76,11 @@ To make sure everyone is on the same page...
 - What is that line doing?
   * We are calling the helper, `appendScholar` and passing it 1 argument, the object of `scholarInfo`.
 - Why is the `appendScholar` function taking an argument?
-  * This function is the one that actually appends the information. We have to pass it the argument with they info so it has something to append.
+  * This function is the one that actually appends the information. We have to pass it the argument with the scholar info so that it has something to append.
 - Which of these functions should be called in the event listener? Why?
   * The event listener should call `getScholarInfo` because that step has to be taken before the `appendScholar` can do its job.
 
 <div class="try-it">
   <h2>Try It: Refactoring</h2>
   <p>Familiarize yourself with the code in <a href="https://codepen.io/turing-kwk/pen/GLbvdX">this CodePen</a>. Then, fork it to your account. Write down the steps you are going to take to refactor the <code class="try-it-code">appendNewUser</code> function. (Hint - there is more than on way to do this successfully!)</p>
-  <p>Now, implement the code to refactor the <code class="try-it-code">addNewUser</code> function. Make sure the app is still working as expected.</p>
 </div>

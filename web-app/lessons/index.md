@@ -26,9 +26,11 @@ Find all lessons below. Note that the lessons are organized by topic below; to f
 - [Intro to Arrays]({{ site.url }}//web-app/lessons/js-arrays-intro)
 - [Intro to Objects]({{ site.url }}//web-app/lessons/js-objects)
 - [Intermediate Arrays]({{ site.url }}//web-app/lessons/js-arrays-intermediate)
-- [DOM Manipulation I]({{ site.url }}/web-app/lessons/js-dom-manipulation-intro)
+- [Intro to DOM Manipulation]({{ site.url }}/web-app/lessons/js-dom-manipulation-intro)
 - [Forms]({{ site.url }}/web-app/lessons/js-forms)
-- [DOM Manipulation II]({{ site.url }}/web-app/lessons/js-dom-manipulation-intermediate)
+- [Intermediate DOM Manipulation]({{ site.url }}/web-app/lessons/js-dom-manipulation-intermediate)
+- [Advanced DOM Manipulation]({{ site.url }}/web-app/lessons/js-extension-objects-dom)
+- [Refactoring]({{ site.url }}/web-app/lessons/js-extension-refactoring)
 - [Local Storage]({{ site.url }}/web-app/lessons/local-storage)
 <!-- - [Fetch Requests]({{ site.url }}/web-app/lessons/fetch-requests) -->
 
