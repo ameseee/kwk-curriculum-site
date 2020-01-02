@@ -121,7 +121,21 @@ Check out the CodePen below to see what that looks like in JavaScript:
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
 <br>
 
-What was the line of code that allowed us to access the information the user typed in? What's new to us about this line of code? Note: the location of this is very important; it must be _inside_ the event handler.
+<div class="try-it">
+  <h2>Turn & Talk</h2>
+  <p>Do your best to answer each question with your parter.</p>
+  <ul>
+    <li>What is the name of the event handler?</li>
+    <li>Based on the name of the event handler, what do you think its job is to do?</li>
+    <li>Which part of this code looks <em>new</em> to you?</li>
+    <li>What do you <em>predict</em> that new piece of code does for us?</li>
+  </ul>
+</div>
+
+Takeaways:
+- Inside our event handler, we can instruct our program to grab the current value of an input element. We do this with `.val()`.
+- We need to store the value of the input element in a variable.
+- We have to wait until we are inside the event handler to grab the input value, otherwise it would still be an empty string.
 
 ## Forms
 
@@ -155,5 +169,4 @@ Take some time to put together everything we've learned today and complete the p
   <p><strong>Mild Challenge:</strong> Build a small site that has two input fields and a button to submit. You can choose what type of information the user needs to provide! Just make sure that the user gets clear directions on what they should enter. When the user clicks the button, they should see a message that includes both pieces of information that they provided appear on the screen.</p>
   <p><strong>Medium Challenge:</strong> Build a small site that has two input fields and a button to submit. The user should see directions instructing them to create a new password, then type that same password in the second input field. When they click the button, they should get one of two messages: "Oops! Those don't match." or "Great password! It's been reset." based on if the two inputs match each other.</p>
   <p><strong>Spicy Challenge:</strong> You can add this on to either the Mild or Medium Challenge. If the user didn't complete one of the input fields, don't let them click the button. You'll need to look into the HTML attribute <code class="try-it-code">disabled</code> and a conditional! </p>
-  spicy: check that two passwords match.
 </div>
