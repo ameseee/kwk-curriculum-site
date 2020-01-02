@@ -9,7 +9,6 @@ Find all lessons below. Note that the lessons are organized by topic below; to f
 - [Intro to HTML]({{ site.url }}/web-app/lessons/html-intro)
 - [Intermediate HTML]({{ site.url }}/web-app/lessons/html-intermediate)
 - [HTML & Atom]({{ site.url }}/web-app/lessons/html-atom)
-- [HTML Forms]({{ site.url }}/web-app/lessons/html-forms)
 
 ## CSS
 
@@ -28,9 +27,10 @@ Find all lessons below. Note that the lessons are organized by topic below; to f
 - [Intro to Objects]({{ site.url }}//web-app/lessons/js-objects)
 - [Intermediate Arrays]({{ site.url }}//web-app/lessons/js-arrays-intermediate)
 - [DOM Manipulation I]({{ site.url }}/web-app/lessons/dom-manipulation)
+- [Forms]({{ site.url }}/web-app/lessons/js-forms)
 - [DOM Manipulation II]({{ site.url }}/web-app/lessons/dom-manipulation-2)
 - [Local Storage]({{ site.url }}/web-app/lessons/local-storage)
-- [Fetch Requests]({{ site.url }}/web-app/lessons/fetch-requests)
+<!-- - [Fetch Requests]({{ site.url }}/web-app/lessons/fetch-requests) -->
 
 ## Setup
 
