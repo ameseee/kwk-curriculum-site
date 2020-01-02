@@ -123,10 +123,9 @@ Check out the CodePen below to see what that looks like in JavaScript:
 
 What was the line of code that allowed us to access the information the user typed in? What's new to us about this line of code? Note: the location of this is very important; it must be _inside_ the event handler.
 
-
 ## Forms
 
-In the HTML Forms lesson, we wrapped inputs in a `form` element. In this lesson, we've just left `input` elements floating around. The `form` element has some default behavior that can be tricky, but we'll briefly go into it.
+Earlier in the lesson, we wrapped inputs in a `form` element. In the example above, we've just left `input` elements floating around. The `form` element has some default behavior that can be tricky, but we'll briefly go into it.
 
 By default, when a `form` is submitted, it will attempt to send that request somewhere (to our back-end, if we had one), then refresh the page. This is not ideal for us because we don't actually want to send information off or refresh the page. The video below illustrates the default behavior:
 
@@ -151,7 +150,10 @@ The `event` variable we are passing around represents the click event. This is a
 Take some time to put together everything we've learned today and complete the practice below.
 
 <div class="practice">
-  <h2>Practice: DOM Manipulation</h2>
-  <p>You can create a folder on your Desktop, or a CodePen. Don't forget to load jQuery into your project!</p>
-  <p>Build a small site that has one input field for the user to type their name and a button to submit. When the user clicks the button, they should see a message with their name appear on the screen.</p>
+  <h2>Practice: Forms</h2>
+  <p>Create a new CodePen. Don't forget to load jQuery into the pen!</p>
+  <p><strong>Mild Challenge:</strong> Build a small site that has two input fields and a button to submit. You can choose what type of information the user needs to provide! Just make sure that the user gets clear directions on what they should enter. When the user clicks the button, they should see a message that includes both pieces of information that they provided appear on the screen.</p>
+  <p><strong>Medium Challenge:</strong> Build a small site that has two input fields and a button to submit. The user should see directions instructing them to create a new password, then type that same password in the second input field. When they click the button, they should get one of two messages: "Oops! Those don't match." or "Great password! It's been reset." based on if the two inputs match each other.</p>
+  <p><strong>Spicy Challenge:</strong> You can add this on to either the Mild or Medium Challenge. If the user didn't complete one of the input fields, don't let them click the button. You'll need to look into the HTML attribute <code class="try-it-code">disabled</code> and a conditional! </p>
+  spicy: check that two passwords match.
 </div>
