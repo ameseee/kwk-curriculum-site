@@ -31,7 +31,7 @@ Find all lessons below. Note that the lessons are organized by topic below; to f
 - [Intermediate DOM Manipulation]({{ site.url }}/web-app/lessons/js-dom-manipulation-intermediate)
 - [Advanced DOM Manipulation]({{ site.url }}/web-app/lessons/js-extension-objects-dom)
 - [Refactoring]({{ site.url }}/web-app/lessons/js-extension-refactoring)
-- [Local Storage]({{ site.url }}/web-app/lessons/local-storage)
+- [Local Storage]({{ site.url }}/web-app/lessons/js-local-storage)
 <!-- - [Fetch Requests]({{ site.url }}/web-app/lessons/fetch-requests) -->
 
 ## Setup
