@@ -85,7 +85,7 @@ On the other hand, this doesn't quiet yet look like a professional form. Wrappin
 <div class="try-it">
   <h2>Try It: Styling Forms</h2>
   <p>Find some inspiration. Go to one of your favorite websites and find a form that you want to recreate. Need some help with ideas? Look at <a target="blank" href="https://app.pairin.com/">Pairin</a>, <a target="blank" href="https://github.com/">GitHub</a> (you'll have to logout), or <a target="blank" href="https://www.codecademy.com/login">Codecademy</a>.</p>
-  <p>While your form won't <em>do</em> anything yet, we can style it up to look just as good as a professional site. In the next lesson, we'll dig into that functionality!</p>
+  <p>While your form won't <em>do</em> anything yet, we can style it up to look just as good as a professional site. In the next section, we'll dig into that functionality!</p>
 </div>
 
 <!-- ## Building on Past Projects
