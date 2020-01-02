@@ -1,18 +1,19 @@
 ---
-title: HTML Forms
+title: Forms
 ---
 
 ## Learning Goals
 
-* Understand the structure of an HTML form
-* Create and style an HTML form
+* Understand the required structure of an HTML form
+* Grab the user input from a form
+* Give user a customized response after a user completes a form
 
 ## Technical Vocabulary
 
-- form
-- input
-- label
-- type
+- Form
+- Input
+- Label
+- Type
 
 ## Forms
 
@@ -87,7 +88,7 @@ On the other hand, this doesn't quiet yet look like a professional form. Wrappin
   <p>While your form won't <em>do</em> anything yet, we can style it up to look just as good as a professional site. In the next lesson, we'll dig into that functionality!</p>
 </div>
 
-## Building on Past Projects
+<!-- ## Building on Past Projects
 
 One thing that can feel hard at first but is a huge part of a developers job is to build on code written in the past - by them or someone else. It can take some time to read over some code, understand what is happening, then decide how to move forward to add a feature or change some of the styles. Practice that real-world skill by completing the activity below.
 
@@ -96,4 +97,61 @@ One thing that can feel hard at first but is a huge part of a developers job is 
   <p>Open up your "box-model-practice" project in Atom, where we made a social media card.</p>
   <p>Add to the card an option to send a message to the person featured on that card. It might look like this:</p>
   <img src="./assets/card-with-form.png">
+</div> -->
+
+## Using User Input
+
+Now we know how to write HTML forms, let's make them functional! Usually, the flow of interactions is as follows:
+- User types in information
+- User clicks a button
+- User gets some sort of response
+
+To make this happen, we will have to write code that:
+- Listens for the button click
+- Gets the information that user typed in
+- Use that information in a message/response
+
+Check out the CodePen below to see what that looks like in JavaScript:
+
+<p class="codepen" data-height="300" data-theme-id="36709" data-default-tab="css,result" data-user="turing-kwk" data-slug-hash="YMOMgE" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid black; margin: 1em 0; padding: 1em;" data-pen-title="Check It Out: Forms with JS">
+  <span>See the Pen <a href="https://codepen.io/turing-kwk/pen/YMOMgE/">
+  Check It Out: Forms with JS</a> by Turing KWK (<a href="https://codepen.io/turing-kwk">@turing-kwk</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+<br>
+
+What was the line of code that allowed us to access the information the user typed in? What's new to us about this line of code? Note: the location of this is very important; it must be _inside_ the event handler.
+
+
+## Forms
+
+In the HTML Forms lesson, we wrapped inputs in a `form` element. In this lesson, we've just left `input` elements floating around. The `form` element has some default behavior that can be tricky, but we'll briefly go into it.
+
+By default, when a `form` is submitted, it will attempt to send that request somewhere (to our back-end, if we had one), then refresh the page. This is not ideal for us because we don't actually want to send information off or refresh the page. The video below illustrates the default behavior:
+
+<iframe width="100%" height="560" frameborder="0" scrolling="no" src="https://screencast-o-matic.com/embed?sc=cqhebOZmE0&v=5&ff=1" allowfullscreen="true"></iframe>
+
+While this can be inconvenient, we have a work-around! We can prevent the default behavior that the click usually causes. We will add one line of code to our event handler:
+
+```js
+function addName(event) {
+  event.preventDefault();
+  // the rest of your code here
+}
+```
+
+The `event` variable we are passing around represents the click event. This is a little abstract, but when an event takes place, we have an object with a lot of information about that event. `.preventDefault()` is a function we can call on the event to prevent the refresh from occurring.
+
+<div class="try-it">
+  <h2>Try It: Refactor into a Form</h2>
+  <p>Fork <a target="blank" href="https://codepen.io/turing-kwk/pen/YbKWbw?editors=1111">this CodePen</a> and refactor it so that the inputs are wrapped in a form. Make sure it has the same functionality it did before your refactor.</p>
+</div>
+
+Take some time to put together everything we've learned today and complete the practice below.
+
+<div class="practice">
+  <h2>Practice: DOM Manipulation</h2>
+  <p>You can create a folder on your Desktop, or a CodePen. Don't forget to load jQuery into your project!</p>
+  <p>Build a small site that has one input field for the user to type their name and a button to submit. When the user clicks the button, they should see a message with their name appear on the screen.</p>
 </div>
