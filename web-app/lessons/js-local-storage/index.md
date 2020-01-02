@@ -108,7 +108,7 @@ You may be thinking, this is great, but we're writing code in the browser; what 
 </p>
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
 
-To see what it does, you'll need to open this pen in the browser, and with the Dev Tools console opened, type in your name and click submit! What logs to the console? Do you see your name in a key/value pair?
+To see what it does, you'll need to open this pen in the browser, and have the Dev Tools console opened. In the CodePen browser, type in your name in the input field and click submit. What logs to the console? Do you see your name in a key/value pair?
 
 <div class="try-it">
   <h2>Try It: Color Picker</h2>
