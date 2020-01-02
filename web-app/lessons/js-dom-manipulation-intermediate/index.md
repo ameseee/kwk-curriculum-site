@@ -5,7 +5,7 @@ title: Intermediate DOM Manipulation
 ## Learning Goals
 
 * Append multiple elements to the DOM to create a to-do list-like application
-* Refactor code so that functions have a single responsibility
+* Use DOM traversal to listen for events on dynamically created elements
 
 ## Technical Vocabulary
 
