@@ -76,7 +76,7 @@ To make sure everyone is on the same page...
 - What is that line doing?
   * We are calling the helper, `appendScholar` and passing it 1 argument, the object of `scholarInfo`.
 - Why is the `appendScholar` function taking an argument?
-  * This function is the one that actually appends the information. We have to pass it the argument with the scholar info so that it has something to append.
+  * This function is the one that actually appends the information. We have to pass in the argument with the scholar info so that it has something to append.
 - Which of these functions should be called in the event listener? Why?
   * The event listener should call `getScholarInfo` because that step has to be taken before the `appendScholar` can do its job.
 
