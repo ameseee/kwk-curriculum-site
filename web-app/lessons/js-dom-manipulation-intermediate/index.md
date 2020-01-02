@@ -214,6 +214,7 @@ You've learned a **lot** and have already come so far. Put all your skills toget
 </div>
 
 ## Extensions
+
 - Using objects when we get lots of info from our user is a common pattern. [Read more about it here]()!
 - As developers write more and more code, it can get difficult to keep track of what is what. It's important to step back and clean up our code from time to time. **Refactoring** is a common and important practice for developers. [Learn about it here]().
 
