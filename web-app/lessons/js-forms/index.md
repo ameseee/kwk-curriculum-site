@@ -85,11 +85,13 @@ Most often, we ask users for text. If they are registering for an event like cam
 
 <div class="try-it">
   <h2>Try It: HTML Forms</h2>
-  <p>In a new CodePen, create an HTML with at least 4 inputs. (Your submit button can count as an input.)</p>
+  <p>In a new CodePen, create an HTML with at least 4 inputs. Use at least 2 different types of inputs.</p>
   <p>Finished early? Check out other types of input you have available with HTML <a target="blank" href="https://www.w3schools.com/html/html_form_input_types.asp">here</a>. Also, check out the <code class="try-it-code">textarea</code> element.</p>
 </div>
 
-## Styling Forms
+<!-- Styling Forms - maybe there is a little code challenge on this as a "break" from JS? on Friday W1 afternoon? -->
+
+<!-- ## Styling Forms
 
 These forms have all the right components, but don't look very professional. Because `<input>` is an inline element, each input is bumping up against each other. See how much of a difference just a few CSS rules can make, and lookout for anything new in the HTML:
 
@@ -107,7 +109,7 @@ On the other hand, this doesn't quiet yet look like a professional form. Wrappin
   <h2>Try It: Styling Forms</h2>
   <p>Find some inspiration. Go to one of your favorite websites and find a form that you want to recreate. Need some help with ideas? Look at <a target="blank" href="https://app.pairin.com/">Pairin</a>, <a target="blank" href="https://github.com/">GitHub</a> (you'll have to logout), or <a target="blank" href="https://www.codecademy.com/login">Codecademy</a>.</p>
   <p>While your form won't <em>do</em> anything yet, we can style it up to look just as good as a professional site. In the next section, we'll dig into that functionality!</p>
-</div>
+</div> -->
 
 <!-- ## Building on Past Projects
 
