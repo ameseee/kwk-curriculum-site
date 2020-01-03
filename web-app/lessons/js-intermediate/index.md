@@ -9,12 +9,12 @@ title: Intermediate JavaScript
 
 ## Technical Vocabulary
 
-- boolean
-- operators
-- condition
-- statement
-- conditionals
-- evaluate
+- Boolean
+- Condition
+- Conditionals
+- Evaluate
+- Operators
+- Statement
 
 ## Conditionals
 
