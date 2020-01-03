@@ -148,8 +148,7 @@ console.log(largeNumbers); // [23, 14, 11, 92]
   <p><strong>Spicy Challenge:</strong> Declare a function called <code class="try-it-code">findLongestWord</code>. It should iterate over an array of strings. Your function should return one string, the string from the original array that had the greatest number of characters. If there is a tie for the greatest number of characters, return the last one that is in the array.</p>
 </div>
 
-At this point, you have the tools to do just about anything with an array! If you'd like more practice before moving on, see the resources below.
 
 ## More Practice
 
-- [Leveled Array Practice](../js-array-practice)
+At this point, you have the tools to do just about anything with an array! If you'd like more practice before moving on, check out the [Leveled Array Exercises](../js-array-exercises).

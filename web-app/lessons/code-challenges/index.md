@@ -43,7 +43,7 @@ title: JavaScript Code Challenges
   <p>Your task today is to write a program that will calculate the score of any given word. Your function should take one argument (a word) and return an integer (the score of that word).</p>
   <p>Use this object to access the scores for each letter:</p>
   <code class="try-it-code">
-  let letterScores = [<br>
+  let letterScores = {<br>
       "A": 1, "B": 3, "C": 3, "D": 2,<br>
       "E": 1, "F": 4, "G": 2, "H": 4,<br>
       "I": 1, "J": 8, "K": 5, "L": 1,<br>
@@ -51,7 +51,7 @@ title: JavaScript Code Challenges
       "Q": 10, "R": 1, "S": 1, "T": 1,<br>
       "U": 1, "V": 4, "W": 4, "X": 8,<br>
       "Y": 4, "Z": 10<br>
-  ]
+  }
   </code>
 </div>
 
