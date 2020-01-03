@@ -61,6 +61,16 @@ console.log('hello, world!');
 
 You should see "hello, world!" appear in the console. This isn’t super exciting right now, but let’s build on it.
 
+## `alert()`
+
+Another tool is `alert()`. There will be times this will feel quicker than `console.log()` because you don't have to open your console. Sometimes though, it may not feel as helpful. It will be referenced in some lessons, so you should be familiar with it.
+
+```js
+alert('hello, world!');
+```
+
+You should see "hello, world!" appear in a box that pops up over your browser. You can't continue working into your browser until you click
+
 ## Variables
 
 In most programming languages, including JavaScript, values can be saved to variables. Unlike in math class, where we would use x or y and a number, variables in programming are much more flexible. For example, here are three variables, each of which has a string as its value.
