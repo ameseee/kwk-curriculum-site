@@ -107,7 +107,7 @@ year < nextYear
 
 <div class="try-it">
   <h2>Try It: Comparison Operators</h2>
-  <p>For this Try It, type all your code in the JavaScript editor in CodePen. You will need to use <code class="try-it-code">console.log()</code> to check the output of your statements.</p>
+  <p>For this Try It, type all your code in the JavaScript editor in CodePen. You will need to use <code class="try-it-code">console.log()</code> or <code class="try-it-code">alert()</code> to check the output of your statements.</p>
   <p>Declare two variables - <code class="try-it-code">firstName</code> and <code class="try-it-code">age</code>, and assign them to appropriate values. Now, check for the following things:</p>
   <ul>
     <li>Is your name the same as "Karlie"?</li>
@@ -149,9 +149,9 @@ JavaScript gives us a way to ask those questions **and** provide different outco
 var queen = "Beyoncé";
 
 if (queen === "Beyoncé") {
-  console.log("You are correct!")
+  alert("You are correct!")
 } else {
-  console.log("Beyoncé is the only queen.")
+  alert("Beyoncé is the only queen.")
 }
 ```
 
@@ -162,9 +162,9 @@ var queen = "Beyoncé";          // new variable created
 
 if (queen === "Beyoncé") {       // program checks for this condition
                                 // if it evaluates to true, it will execute this block
-  console.log("You are correct!")
+  alert("You are correct!")
 } else {                        // if it evaluates to false, it will execute this block
-  console.log("Beyoncé is the only queen.")
+  alert("Beyoncé is the only queen.")
 }
 ```
 We call this entire piece of code an `if statement`.
@@ -175,7 +175,7 @@ Inside the parenthesis after the keyword `if`, we have to give JavaScript a stat
 
 <div class="try-it">
   <h2>Try It: Conditionals</h2>
-  <p>For this Try It, type all your code in the JavaScript editor in CodePen. To see if it's working, look below at the console.</p>
+  <p>For this Try It, type all your code in the JavaScript editor in CodePen. To see if it's working, look below at the console or use alerts.</p>
   <ul>
     <li>Create a variable named <code class="try-it-code">luckyNumber</code> and assign it to a number of your choice.</li>
     <li>Write an if statement checking if <code class="try-it-code">luckyNumber</code> is less than 50, which if evaluated to true, prints out a sentence (you choose!). If it is evaluated to false, it should print out a different sentence.</li>
