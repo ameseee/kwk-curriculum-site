@@ -9,11 +9,11 @@ title: Flexbox
 
 ## Technical Vocabulary
 
-- parent
-- child
-- direct child
-- container
-- item
+- Parent
+- Child
+- Direct child
+- Container
+- Item
 
 ## What is Flexbox?
 
@@ -154,7 +154,7 @@ Just like we can control how our content sits _in relation to the main axis_ wit
 
 <div class="try-it">
   <h2>Try It: Flexbox Froggy</h2>
-  <p>Work your way through levels 5 - 7<a target="blank" href="https://flexboxfroggy.com/">Flexbox Froggy</a>.</p>
+  <p>Work your way through levels 5 - 7<a target="blank" href="https://flexboxfroggy.com/"> of Flexbox Froggy</a>.</p>
   <p>Make sure to check in with your partner every few levels to see if they need any help!</p>
 </div>
 
@@ -178,7 +178,7 @@ Here is a visual, created by the amazing [Samantha Ming](https://www.samanthamin
 <div class="try-it">
   <h2>Try It: Flex Direction</h2>
   <p>Fork <a href="https://codepen.io/turing-kwk/pen/oNgGLKY">this CodePen</a>.</p>
-  <p>On line 3 of the CSS file there is a "____" as the value for the `flex-direction` property. One by one, change that out for each of the four properties listed above. What happens to the 10 items?</p>
+  <p>On line 3 of the CSS file there is a "____" as the value for the <code class="try-it-code">flex-direction</code> property. One by one, change that out for each of the four properties listed above. What happens to the 10 items?</p>
   <br>
   <p>Back in Flexbox Froggy, work through levels 8 - 13.</p>
 </div>
