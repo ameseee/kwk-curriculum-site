@@ -9,9 +9,9 @@ title: CSS Animations
 
 ## Technical Vocabulary
 
-- animation
-- transformation
-- keyframes
+- Animation
+- Transformation
+- Keyframes
 
 ## Overview
 
@@ -21,7 +21,6 @@ CSS has some "behavior tricks" up its sleeve. Through CSS transitions, transform
 - [Code Pen: Page Flip](https://codepen.io/_fbrz/pen/whxbF?editors=1100#0)
 - [Movie Posters](http://demo.marcofolio.net/3d_animation_css3/)
 - [Coke Can](http://www.romancortes.com/ficheros/css-coke.html)
-- [Album Covers](http://www.bluedashed.com/covers/)...okay, so there is some JS happening in this one, but the covers were recreated using pure CSS.
 
 ## Transformations
 
@@ -35,7 +34,7 @@ Each of the examples above provides specific values (40px, 100px, 4, and 180deg)
 
 <div class="try-it">
   <h2>Try It: Transformations</h2>
-  <p>Open up the CodePen below, fork it, and play around with these examples. We already have <code class="try-it-code">transform: rotate(90deg);</code> in there right now; what is it doing?</p>
+  <p>Open up the CodePen below, fork it, and play around with these examples. We already have <code class="try-it-code">transform: rotate(90deg);</code> in there right now; what is that property doing?</p>
 </div>
 
 <p class="codepen" data-height="300" data-theme-id="36709" data-default-tab="css,result" data-user="turing-kwk" data-slug-hash="wbKbwo" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Try It: Transformations">
@@ -56,13 +55,14 @@ Each of the examples above provides specific values (40px, 100px, 4, and 180deg)
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+<br>
 
 ### Animation Values
 
 Let's break down what's happening with that 3-part value for the `animation` property:
 
 - `change` is the name of the keyframe, or set of directions, for the animation to follow. More on that in the next section
-- `3s` is the duration that this animation will occur over. You can change it to `1s` (1 second) and see it speed up, or to something like `15s` (15 seconds) and see it really slow down!
+- `5s` is the duration that this animation will occur over. You can change it to `1s` (1 second) and see it speed up, or to something like `15s` (15 seconds) and see it really slow down!
 - `infinite` refers to how long we want this animation to continue. Specifically `infinite` will continue, almost on a loop. You can substitute `ease` or `linear` and see what changes. (There are more, less popular options here as well!)
 
 ### Keyframes
