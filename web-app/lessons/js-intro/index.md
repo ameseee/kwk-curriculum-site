@@ -109,6 +109,50 @@ console.log(name);
   </ul>
 </div>
 
+### Re-assigning Variables
+
+Sometimes, things in life change! We might change our names, move cities, our ages will almost definitely change, etc. JavaScript gives us the ability to re-assign a variable so that its value can change. Here is the syntax:
+
+```js
+// The line below declares the variable city and assigns it to "Denver"
+var city = "Denver";
+console.log(city);
+//=> "Denver"
+
+
+// The line below re-assigns the variable city to "New York"
+city = "New York";
+console.log(city);
+//=> "New York"
+```
+
+Notice that when we **re-assign** a variable, we do not use the keyword `var`.
+
+Here's another example with numbers.
+
+```js
+var age = 15;
+console.log(age);
+//=> 15
+
+// The line below re-assigns age to its previous value (15) plus 1.
+age = age + 1;
+console.log(age);
+//=> 16
+
+// The line below re-assigns age to its previous value (15) plus 1.
+// It is a shortcut that does the exact thing as the example above!
+age += 1;
+console.log(age);
+//=> 17
+```
+
+<div class="try-it">
+  <h2>Turn & Talk: Incrementing Numbers</h2>
+  <p>Incrementing numbers like what we just looked at above is something developers do very frequently.</p>
+  <p>With your partner, brainstorm some examples of numbers incrementing in real apps that you use.</p>
+</div>
+
 ### Interpolation
 
 We can also include variable data in a sentence. This is called **interpolation**:
