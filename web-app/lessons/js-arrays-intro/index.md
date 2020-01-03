@@ -102,7 +102,7 @@ trending.length;
 <div class="try-it">
   <h2>Try It: Creating Arrays</h2>
   <p>In a new CodePen, create a variable that stores an array of at least 4 strings - you choose what the content is about. The variable name should describe the type of data those 4 strings hold.</p>
-  <p>Write a series of <code class="try-it-code">console.log()</code> statements: print out the first element, the last element, and then the second element.</p>
+  <p>Write a series of <code class="try-it-code">console.log()</code> or <code class="try-it-code">alert()</code> statements: print out the first element, the last element, and then the second element.</p>
 </div>
 
 ### Updating Elements
