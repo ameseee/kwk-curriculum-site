@@ -24,7 +24,7 @@ One thing we can do is tell the computer to read different code when the screen 
 
 <div class="try-it">
   <h2>Check It Out: Breakpoints</h2>
-  <p>Go to the Estée Lauder site. Open your dev tools, and make sure the dock is on the bottom of the screen. Slowly, drag the right side of the browser window in, making the browser skinnier. Does the layout change at any point? How many times? </p>
+  <p class="to-do">Go to the SPONSOR INTEGRATION???? site. Open your dev tools, and make sure the dock is on the bottom of the screen. Slowly, drag the right side of the browser window in, making the browser skinnier. Does the layout change at any point? How many times? </p>
   <p>When the layout changes, does the user still have access to the same information? What is different?</p>
   <p>If you have time, check out the responsiveness on another site or two. Where are the breakpoints, and what did the developers do with the layout at those breakpoints?</p>
 </div>
@@ -36,7 +36,7 @@ When we write additional code in our CSS to tell the browser to do something dif
 ```css
 h1 {
   background: lime;
-  color: magenta;
+  color: teal;
 }
 
 @media screen and (max-width: 900px) {
@@ -50,7 +50,7 @@ With the code above, when the screen it full sized, it will have a lime backgrou
 
 - You can write CSS rules in a media query that will override old code
 - You can also write rules in a media query for an element that never had that rule before
-- If you don't give a property a new value, the old one stays. In the code above, the background changes, but the color of the `h1` remains lime
+- If you don't give a property a new value, the old one stays. In the code above, the background changes, but the color of the `h1` remains teal
 - You get to choose the breakpoints (max-width). There are two things to keep in ming when you decide where to create breakpoints: 1) When you squish your app, when does it start looking bad? 2) What are the widths of commonly used devices?
 
 **NOTE:** Before we write any queries, you’ll want to add a viewport meta tag in the head of your main html file (which is often named index.html). This tag will make sure that our site works on devices. The viewport meta tag gives the browser instructions on how to control the pages dimensions and sets the width of the page based on the screen width of the device it is being viewed on. Magic! If you want to learn more, Mozilla has an <a href="https://developer.mozilla.org/en-US/docs/Mozilla/Mobile/Viewport_meta_tag">article</a> that’s full of good information.
@@ -60,6 +60,8 @@ Here is what the tag would look like:
 ```html
 <meta name="viewport" content="width=device-width, initial-scale=1">
 ```
+
+To add this in a CodePen, click the small gear icon the the left of the HTML pane label, then copy and paste the snippet above into the "Stuff for head" input. Click "Save & Close".
 
 <div class="try-it">
   <h2>Try It: Media Queries</h2>
@@ -90,7 +92,7 @@ Just like we've been building every piece we know about HTML and CSS, this will 
 
 <div class="practice">
   <h2>Practice: Layout</h2>
-  <p>In your "responsive-design" folder, create a new HTML and new CSS file. Copy and paste the code from this <a target="blank" href="https://codepen.io/turing-kwk/pen/ROJdaR">CodePen</a> into Atom.</p>
+  <p>Fork <a target="blank" href="https://codepen.io/turing-kwk/pen/ROJdaR">this CodePen</a>.</p>
   <p>Now, write media queries for 2 breakpoint at 900px. The three layouts you're working towards are pictured below:</p>
   <img src="./assets/full-screen.png" alt="Full screen view">
   <img src="./assets/ipad-screen.png" alt="iPad screen view">
