@@ -200,7 +200,7 @@ The rule above will look for every element — regardless of type — that has t
 Notice the syntax - when we were just targeting an `p` element, we would just type `p`. Since we are targeting a class, we have to be really specific in telling the computer how to do that - when it sees a `.` it will look for a class name that matches the words following the `.`.
 
 <div class="try-it">
-  <h2>Try It: Targeting with Classes & IDs</h2>
+  <h2>Try It: Targeting with Classes</h2>
   <p>Create a new pen on your CodePen account.</p>
   <ul>
     <li>In the HTML file, write a <code class="try-it-code">section</code> element with at 4 <code class="try-it-code">paragraphs</code> nested inside of it.</li>

@@ -25,6 +25,10 @@ In your notebook, jot down your answers. Then, we'll discuss as a class.
 
 Of all of the major technologies used on the web, on either the front- or the back- end, HTML is the oldest. In the beginning, the web was just a bunch of HTML documents that you wrote by hand. They had these cool things called hyperlinks that would allow a user to click on a word on one page and be taken to another page.
 
+**Every webpage you have visited was built with HTML!**
+
+## Syntax
+
 At the end of the day, HTML is made up two things: text, and **tags** that mark up that text. (HTML stands for hyper text markup language!)
 
 Let’s say that we had some text and we wanted to communicate that this text was a paragraph.
