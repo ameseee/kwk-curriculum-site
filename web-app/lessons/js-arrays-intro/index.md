@@ -224,10 +224,10 @@ Instead of calling `students[0]` or `students[7]`, we called `students[rounded]`
   <h2>Turn & Talk</h2>
   <p>Considering this section on selecting random elements from an array, answer the following questions with your partner:</p>
   <ul>
-    <li>What does <code class-"try-it-code">Math.random()</code> do?</li>
-    <li>Why did we choose to multiply <code class-"try-it-code">Math.random()</code> by 20 for this example?</li>
-    <li>What does <code class-"try-it-code">Math.floor()</code> do?</li>
-    <li>Why do we have to pass an argument, or put a number inside the parenthesis for <code class-"try-it-code">Math.floor()</code>?</li>
+    <li>What does <code class="try-it-code">Math.random()</code> do?</li>
+    <li>Why did we choose to multiply <code class="try-it-code">Math.random()</code> by 20 for this example?</li>
+    <li>What does <code class="try-it-code">Math.floor()</code> do?</li>
+    <li>Why do we have to pass an argument, or put a number inside the parenthesis for <code class="try-it-code">Math.floor()</code>?</li>
     <li>Is it possible for this function to ever return the same number? Why or why not?</li>
   </ul>
 </div>
