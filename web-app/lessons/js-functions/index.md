@@ -80,7 +80,6 @@ The last line of the code snippet is what **calls** the function. If we have thi
   <h2>Try It: Declaring & Calling a Function</h2>
   <p>Declare and call a function named <code class="try-it-code">sayHello</code>. Write 2-4 <code class="try-it-code">console.log</code> statements in it, saying whatever you'd like. Verify that it is running successfully by checking the console for the sentences.</p>
   <p>Declare and call a function named <code class="try-it-code">sayGoodbye</code>. Write 2-4 <code class="try-it-code">console.log</code> statements in it, saying whatever you'd like. Verify that it is running successfully by checking the console for the sentences.</p>
-
   <p><strong>Medium Challenge:</strong> Did your <code class="try-it-code">sayHello</code> sentences print before or after your <code class="try-it-code">sayGoodbye</code> sentences? Why?</p>
 </div>
 
@@ -155,8 +154,8 @@ function timeToWalk(numberOfDogs) {
   return totalMinutes;
 }
 
-var minutes = timeToWalk(3)
-console.log(`You should walk a total of ${minutes} minutes.`)
+var minutes = timeToWalk(3);
+console.log(`You should walk a total of ${minutes} minutes.`);
 //=> You should walk a total of 3 minutes.
 ```
 
@@ -164,6 +163,12 @@ console.log(`You should walk a total of ${minutes} minutes.`)
   <h2>Turn & Talk</h2>
   <p>With your partner, read through each line of the code above. With as much technical vocabulary as possible, explain what is happening at each line.</p>
 </div>
+
+Takeaways:
+- `function timeToWalk(numberOfDogs) {` declares the function
+- `var totalMinutes = numberOfDogs * 15;` declares a new variable that store the result of 15 multiplied by the number passed into the function
+- `return totalMinutes;` returns the value of the `totalMinutes` variable
+- `var minutes = timeToWalk(3);` calls the function `timeToWalk` and passes in 3 as the argument. The return value of that is stored in the new variable `minutes`
 
 ### Incorporating Conditionals
 
