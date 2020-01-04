@@ -19,6 +19,11 @@ You've already come so far with implementing JavaScript to manipulate the DOM! I
 
 <img src="./assets/to-do.gif">
 
+The scale we are working at is small right now, but this type of functionality is essentially all over the internet. Some examples:
+- On Twitter, when a user tweets, they then see a card with that information on it.
+- On Google Calendar, when a user adds an event, a color-coded box appears on their calendar at the given time
+- On TikTok, when a creator uploads a video, that video is added to the top of their list of videos
+
 ## `.append()`
 
 jQuery gives us a function called `.append()`. If you google append, you'll see a definition:
@@ -206,7 +211,6 @@ You've learned a **lot** and have already come so far. Put all your skills toget
 <div class="practice">
   <h2>Practice: Build a To-Do List</h2>
   <p>Brainstorm a small-app idea that would require the user to type in at least one input. The user should see their inputted information on the browser, and should be able to enter more information and see that also listed on the browser. The user should also be able to delete items previously added to the list.</p>
-  <p>Wireframe your app and choose a color palette. Once your plans are approved by your instructor, get started!</p>
   <p><strong>Spicy Challenge:</strong> In addition to a delete button, add another button that will do something else to the card. If it's a to-do list, it's nice to have a way to indicate the level of importance one task has over another. The details depend on what you initially built. (The real-life connection here is in basically everything you see on the internet - any social media post has at least two ways a user can interact - favorite, comment, view profile, etc. You are essentially building that type of functionality!)</p>
 </div>
 <br>
