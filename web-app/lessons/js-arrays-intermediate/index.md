@@ -17,11 +17,136 @@ title: Intermediate Arrays
 
 ## Warm Up
 
+Iteration (or looping for a specified number of times) is a process of repeating a task for each object in a collection. For each of the scenarios below, we’ll walk through using scenarios we are familiar with to demonstrate the concept.
 
+These are examples that would be programatically challenging because they would require several steps, but are things that we do everyday.
 
-## Iteration
+<table>
+  <thead>
+    <tr>
+      <th>Scenario</th>
+      <th>Collection</th>
+      <th>For each...</th>
+      <th>Do this:</th>
+      <th>Then:</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Grading papers</td>
+      <td>papers</td>
+      <td>paper</td>
+      <td>
+        <ol>
+          <li>read through it</li>
+          <li>mark the score on the top</li>
+          <li>record score in gradebook</li>
+        </ol>
+      </td>
+      <td>repeat with next paper</td>
+    </tr>
+    <tr>
+      <td>Feeding animals</td>
+      <td>animals</td>
+      <td>animal</td>
+      <td>
+        <ol>
+          <li>bring the animal to the food bucket</li>
+          <li>allow the animal to eat</li>
+          <li>bring animal back to barn</li>
+        </ol>
+      </td>
+      <td>repeat with next animal</td>
+    </tr>
+  </tbody>
+</table>
 
-There are times when we want to repeat the same operation multiple times over a set of data. For us, sets of data are **arrays**. Iteration allow us to do that by running through the elements in an array, one by one, and then executing code for each element.
+We can also iterate in programming. By “in programming”, we mean things that could be done, with relative ease, by a computer. Like crunching numbers.
+
+<table>
+  <thead>
+    <tr>
+      <th>Scenario</th>
+      <th>Collection</th>
+      <th>For each...</th>
+      <th>Do this:</th>
+      <th>Then:</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Calculating max heart rate</td>
+      <td>birth years</td>
+      <td>year</td>
+      <td>
+        <ol>
+          <li>subtract birth year from 2019 to get age</li>
+          <li>subtract age from 220</li>
+        </ol>
+      </td>
+      <td>repeat with next year</td>
+    </tr>
+    <tr>
+      <td>Formatting names</td>
+      <td>names</td>
+      <td>name</td>
+      <td>
+        <ol>
+          <li>capitalize the first letter</li>
+          <li>lowercase all remaining letters</li>
+        </ol>
+      </td>
+      <td>repeat with next name</td>
+    </tr>
+  </tbody>
+</table>
+<br>
+
+<div class="try-it">
+  <h3>Think About It: Iteration in Real Life and Programming</h3>
+  <p>Brainstorm a real life scenario that uses iteration. Fill out the table below and be ready to share.</p>
+  <table>
+    <thead>
+      <tr>
+        <th>Scenario</th>
+        <th>Collection</th>
+        <th>For each...</th>
+        <th>Do this:</th>
+        <th>Then:</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><textarea rows="4"></textarea></td>
+        <td><textarea rows="4"></textarea></td>
+        <td><textarea rows="4"></textarea></td>
+        <td><textarea rows="4"></textarea></td>
+        <td><textarea rows="4"></textarea></td>
+      </tr>
+    </tbody>
+  </table>
+  <p>Think of how arrays are used in apps that you use. Why might you a developer to iterate over that collection? Jot down your scenario below.</p>
+  <table>
+  <thead>
+      <tr>
+        <th>Scenario</th>
+        <th>Collection</th>
+        <th>For each...</th>
+        <th>Do this:</th>
+        <th>Then:</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><textarea rows="4"></textarea></td>
+        <td><textarea rows="4"></textarea></td>
+        <td><textarea rows="4"></textarea></td>
+        <td><textarea rows="4"></textarea></td>
+        <td><textarea rows="4"></textarea></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 ## Iterator Methods
 
@@ -29,7 +154,7 @@ In our Intro to Arrays lesson, you learned about the array methods `.push()` and
 
 ## `forEach`
 
-The benefit of loops is they save us time. When we want do to the same thing for lots of items, we only have to write that command once. If we didn’t use an array and use the `forEach` method, our code would look like this:
+The benefit of iterators is they save us time. When we want do to the same thing for lots of items, we only have to write that command once. For example, if we wanted to do something with each string in the `trending` array, our code would look like this:
 
 ```js
 var trending = ["@cosette", "@avani", "@lorengray", "@jamescharles"];
@@ -40,11 +165,11 @@ console.log(`Have you seen that TikTok from ${trending[2]} yet?!`);
 console.log(`Have you seen that TikTok from ${trending[3]} yet?!`);
 ```
 
-Right now, this doesn’t seem so bad. What if we had 100 creators on our list? 1000? That’s a lot of lines of code to write and a lot of places we would need to update it every time we added or removed a creator.
+Right now, this doesn’t seem so bad. What if we had 100 creators on our list? 1000? That’s a lot of lines of code to write and potentially a lot of places we would need to update it every time we added or removed a creator.
 
 ### Syntax
 
-```javascript
+```js
 var trending = ["@cosette", "@avani", "@lorengray", "@jamescharles"];
 
 trending.forEach(function(creator) {
