@@ -15,9 +15,20 @@ title: Forms
 - Label
 - Type
 
+## Warm Up
+
+Visit [the DisneyPlus login page](https://www.disneyplus.com/login). As a user, if you were to enter your email then click "Continue", what what you expect to happen next?
+
+Visit [the Discord login page](https://discordapp.com/login). As a user, if you were to enter your email and password then click "Login", what what you expect to happen next?
+
+<div class="try-it">
+  <h2>Turn & Talk</h2>
+  <p>We just looked at two login forms. What are some other examples you enter information and expect something to happen? Feel free to look through some of your favorite sites for examples.</p>
+</div>
+
 ## Forms
 
-So far, we’ve done an excellent job of displaying information to the user, but we haven’t really asked them for their input. HTML also includes a set of elements for building forms. Forms are an important part of a website. They allow users to send data to the web site. Most of the time that data is sent to the web server, but the web page can also intercept it to use it on its own.
+So far, we’ve done an excellent job of displaying information to the user, but we haven’t really asked them for their input. HTML also includes a set of elements for building forms. As we illustrated in the Warm Up, forms are an important part of a website. Without them, there would be little that apps could to do customize our experience as users.
 
 ## Form Basics: Inputs and Buttons
 
