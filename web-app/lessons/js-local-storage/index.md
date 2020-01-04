@@ -60,9 +60,15 @@ Local Storage has this behavior because it is a **client-side** database. It is 
   <p>Do the same thing on a different site and compare the outputs - are they the same or different?</p>
 </div>
 
-`localStorage` stores a JavaScript object with key/value pairs. The key is like a label and the value holds the actual data we want to be stored. `localStorage` is a database that holds information for a given **domain**, or web address.
+Takeaways:
+- When we call `localStorage` in the Dev Tools, we will get back something that looks like a JavaScript object. We know this because it starts and ends in curly braces, and we see property/value pairs separated by commas
+- All of the values in red are enclosed in double quotes
 
-Here's a screenshot of the `localStorage` object for Netflix on one computer. Keep in mind that if you check `localStorage` on Netflix on your computer, it may look different.
+`localStorage` stores a JavaScript object with key/value pairs. The key is like a label and the value holds the actual data we want to be stored.
+
+### Local Storage in Netflix
+
+Here's a screenshot of the `localStorage` object for [Netflix](https://www.netflix.com/browse) on one computer. Keep in mind that if you check `localStorage` on Netflix on your computer, it may look different.
 
 <img src="./assets/netflix-ls.png" alt="JavaScript object">
 
