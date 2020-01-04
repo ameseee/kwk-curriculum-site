@@ -28,7 +28,9 @@ Visit [the Discord login page](https://discordapp.com/login). As a user, if you 
 
 ## Forms
 
-So far, we’ve done an excellent job of displaying information to the user, but we haven’t really asked them for their input. HTML also includes a set of elements for building forms. As we illustrated in the Warm Up, forms are an important part of a website. Without them, there would be little that apps could to do customize our experience as users.
+As we illustrated in the Warm Up, forms are an important part of a website. Without them, there would be little that apps could to do customize our experience as users.
+
+So far, we’ve done an excellent job of displaying information to the user, but we haven’t really asked them for their input. HTML also includes a set of elements for building forms. In this lesson, we'll learn about how to build the skeleton of a form with HTML, then how to make it grab the information a user provides with JavaScript.
 
 ## Form Basics: Inputs and Buttons
 
