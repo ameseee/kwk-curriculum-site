@@ -232,6 +232,12 @@ Instead of calling `students[0]` or `students[7]`, we called `students[rounded]`
   </ul>
 </div>
 
+Takeaways:
+- `Math.random()` generates a random decimal between 0 and 1. It is built in to JavaScript
+- We multiplied the result of `Math.random()` by 20 for the example above because we wanted to generate a number between 1 and 20. We wanted a number between 1 and 20 because there are 20 elements in the array we are working with
+- We passed an argument to `Math.floor()` because it's job is to round a number down to the nearest whole number. It needs to know which number to round
+- It _is_ possible for the function to return the same number more than one time
+
 ## Putting It All Together
 
 Arrays are a type of collection that developers use on a daily basis. It's important to have an understanding of their job and the ability to create and identify them. However, keep in mind that even professional developers can't remember it all and have to use their resources!
