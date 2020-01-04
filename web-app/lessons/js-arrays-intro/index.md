@@ -9,8 +9,8 @@ title: Intro to Arrays
 
 ## Technical Vocabulary
 
-- Collection
 - Array
+- Collection
 - Element
 - Index
 

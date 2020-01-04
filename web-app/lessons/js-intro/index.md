@@ -9,11 +9,11 @@ title: Intro to JavaScript
 
 ## Technical Vocabulary
 
-- Variable
-- String
+- Console
 - Interpolation
 - Number
-- Console
+- String
+- Variable
 
 ## Warm Up
 

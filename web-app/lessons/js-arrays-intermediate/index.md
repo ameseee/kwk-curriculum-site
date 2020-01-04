@@ -9,8 +9,8 @@ title: Intermediate Arrays
 
 ## Technical Vocabulary
 
-- Collection
 - Array
+- Collection
 - Element
 - Index
 - Iterate

@@ -10,9 +10,9 @@ title: Objects
 ## Technical Vocabulary
 
 - Collection
-- Object
-- Key/value pair
 - Dot Notation
+- Key/value pair
+- Object
 
 ## Objects
 

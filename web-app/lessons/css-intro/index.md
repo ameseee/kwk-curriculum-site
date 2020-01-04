@@ -10,11 +10,11 @@ title: Intro to CSS
 
 ## Technical Vocabulary
 
-* HTML Element
 * CSS
-* Rule
 * Declaration
+* HTML Element
 * Property
+* Rule
 * Value
 
 ## Warm Up

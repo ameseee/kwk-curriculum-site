@@ -9,10 +9,10 @@ title: Responsive Design
 
 ## Technical Vocabulary
 
-- Media Query
 - Breakpoint
-- Static Layout
+- Media Query
 - Responsive Layout
+- Static Layout
 
 ## Website Traffic
 

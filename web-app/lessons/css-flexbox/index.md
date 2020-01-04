@@ -9,11 +9,11 @@ title: Flexbox
 
 ## Technical Vocabulary
 
-- Parent
 - Child
-- Direct child
 - Container
+- Direct child
 - Item
+- Parent
 
 ## What is Flexbox?
 

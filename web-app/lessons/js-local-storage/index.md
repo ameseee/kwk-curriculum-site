@@ -10,12 +10,12 @@ title: Local Storage
 
 ## Technical Vocabulary
 
-- Local Storage
-- Database
 - Client-side Storage
-- JSON
-- Persist
+- Database
 - Domain
+- JSON
+- Local Storage
+- Persist
 
 ## Storing User Data
 

@@ -10,14 +10,14 @@ title: Intro to DOM Manipulation
 
 ## Technical Vocabulary
 
-- HTML Element
 - CSS Selector
 - DOM (Document Object Model)
 - Event
-- Event Listener
 - Event Handler
-- library
+- Event Listener
+- HTML Element
 - jQuery
+- library
 
 ## Warm Up
 

@@ -9,8 +9,8 @@ title: Intermediate DOM Manipulation
 
 ## Technical Vocabulary
 
-- Event
 - Append
+- Event
 - Object
 
 ## DOM Manipulation

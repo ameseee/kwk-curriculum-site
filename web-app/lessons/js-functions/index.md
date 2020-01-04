@@ -9,12 +9,12 @@ title: Functions
 
 ## Technical Vocabulary
 
-- Function
 - Argument
+- Call/Run
+- Declare
+- Function
 - Parameter
 - Return Value
-- Declare
-- Call/Run
 
 ## Warm Up
 

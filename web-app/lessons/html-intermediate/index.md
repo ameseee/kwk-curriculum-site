@@ -9,13 +9,13 @@ title: Intermediate HTML
 
 ## Technical Vocabulary
 
-- HTML
-- HTML Element
-- Container Elements
-- Nest
-- Wrap
 - Attribute
 - Class
+- Container Elements
+- HTML
+- HTML Element
+- Nest
+- Wrap
 
 ## Warm Up
 

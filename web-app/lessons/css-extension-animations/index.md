@@ -10,8 +10,8 @@ title: CSS Animations
 ## Technical Vocabulary
 
 - Animation
-- Transformation
 - Keyframes
+- Transformation
 
 ## Overview
 

@@ -10,10 +10,10 @@ title: Intro to HTML
 
 ## Technical Vocabulary
 
+- Attribute
 - HTML
 - HTML Element
 - HTML Tag
-- Attribute
 
 ## Warm Up
 

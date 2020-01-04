@@ -10,10 +10,10 @@ title: Intermediate CSS
 
 ## Technical Vocabulary
 
-- CSS Property
-- Inline
 - Block
 - Box Model
+- CSS Property
+- Inline
 - Margin
 - Padding
 
