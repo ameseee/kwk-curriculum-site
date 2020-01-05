@@ -181,7 +181,7 @@ If we were only walking 1 dog, the sentences would read incorrectly, for example
 
 ```js
 function walkDog(numberOfDogs) {
-  if (numberOfDogs == 1) {
+  if (numberOfDogs === 1) {
     console.log(`Put on ${numberOfDogs} leash`);
     console.log(`Put ${numberOfDogs} treat in pocket`);
     console.log(`Put ${numberOfDogs} poop bag in pocket`);
