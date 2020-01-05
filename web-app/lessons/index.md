@@ -30,8 +30,8 @@ Find all lessons below. Note that the lessons are organized by topic below; to f
 - [Forms]({{ site.url }}/web-app/lessons/js-forms)
 - [Intermediate DOM Manipulation]({{ site.url }}/web-app/lessons/js-dom-manipulation-intermediate)
 - [Advanced DOM Manipulation]({{ site.url }}/web-app/lessons/js-extension-objects-dom)
-- [Refactoring]({{ site.url }}/web-app/lessons/js-extension-refactoring)
 - [Local Storage]({{ site.url }}/web-app/lessons/js-local-storage)
+- [Extension: Refactoring]({{ site.url }}/web-app/lessons/js-extension-refactoring)
 <!-- - [Fetch Requests]({{ site.url }}/web-app/lessons/fetch-requests) -->
 
 ## Setup
