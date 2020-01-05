@@ -66,7 +66,7 @@ In our next CSS lesson, we'll go a step further with layout. Understanding the d
 
 When you hover over elements in the browser when you are in inspect mode, you may have noticed that there are flashes of blue, green, orange, and sometimes yellow. Chrome didn't just put different colors in there for fun; each color has a meaning.
 
-Up until now, we haven't used CSS to create space or "breathing room" between elements. Let's look at Michelle Obama's <a target="blank" href="https://twitter.com/MichelleObama">twitter account</a> for some examples:
+Up until now, we haven't used CSS to create space or "breathing room" between elements. Let's look at Michelle Obama's <a target="blank" href="https://twitter.com/MichelleObama">Twitter account</a> for some examples:
 
 <img class="small" src="./assets/michelle-twitter.png" alt="Michelle Obama's Twitter Profile card">
 
