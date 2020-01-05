@@ -159,6 +159,11 @@ console.log(`You should walk a total of ${minutes} minutes.`);
 //=> You should walk a total of 3 minutes.
 ```
 
+A couple things to know about `return`:
+- Each function can only return **one** value
+- If we don't explicitly return a value with the return keyword, the default return value is `undefined`
+- Once the program reads the `return` keyword and the rest of the code on that line, it will exit that function. So, no code written below the `return` keyword will ever be read.
+
 <div class="try-it">
   <h2>Turn & Talk</h2>
   <p>With your partner, read through each line of the code above. With as much technical vocabulary as possible, explain what is happening at each line.</p>
