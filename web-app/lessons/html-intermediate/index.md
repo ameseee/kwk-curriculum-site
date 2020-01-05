@@ -65,7 +65,7 @@ It's also important to point out the use of indentation in the example above. Si
     <li>First, write an empty <code class="try-it-code">div</code> tag.</li>
     <li>Inside of the div tag, write 2-3 paragraphs.</li>
     <li>Outside of the div tag, write one more paragraph.</li>
-    <li>In CSS, add a border to the div element. (If you forgot the syntax, <a href="https://css-tricks.com/almanac/properties/b/border/">check this out</a>.</li>
+    <li>In CSS, add a border to the div element. (If you forgot the syntax, <a href="https://css-tricks.com/almanac/properties/b/border/">check this out</a>.)</li>
     <li>Check your indentation - the div and last paragraph should not be indented at all, but the paragraphs nested inside the div should be indented once.</li>
   </ul>
 
