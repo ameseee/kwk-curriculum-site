@@ -13,6 +13,7 @@ title: Intermediate JavaScript
 - Condition
 - Conditionals
 - Evaluate
+- Expression
 - Operators
 - Statement
 
@@ -24,7 +25,7 @@ Conditionals let us instruct our program to do something **if** a certain condit
 
 ## Comparison Operators
 
-JavaScript gives u a way to compare values. Each statement below will be **evaluated** to a **boolean**, true or false.
+JavaScript gives us a way to compare values. Each **expression** below will be **evaluated** to a **boolean**, true or false.
 
 ```js
 3 < 5
@@ -47,7 +48,7 @@ Notice the `===`. This checks if two pieces of data are equal to each other. The
 
 <div class="try-it">
   <h2>Explore: Operators</h2>
-  <p>Look at each statement below and the value it evaluates to. Based on that information, try to determine what that operator does.</p>
+  <p>Look at each expression below and the value it evaluates to. Based on that information, try to determine what that operator does.</p>
 </div>
 
 ```js
@@ -169,7 +170,7 @@ if (queen === "Beyoncé") {       // program checks for this condition
 ```
 We call this entire piece of code an `if statement`.
 
-Inside the parenthesis after the keyword `if`, we have to give JavaScript a statement that can be evaluated to `true` or `false`. That statement is called a **condition**.
+Inside the parenthesis after the keyword `if`, we have to give JavaScript an expression that can be evaluated to `true` or `false`. That expression is called a **condition**.
 - If the condition evaluates to `true`, the code in the block below it will execute, or run. It will then ignore the rest of the options.
 - If it evaluates to `false`, it will check the condition in the next block.
 

@@ -89,7 +89,7 @@ But with Flexbox, we can start, having some control over them:
 <div class="try-it">
   <h2>Turn & Talk</h2>
   <p>Looking at the CSS in both examples above, what is the difference between the two files?</p>
-  <p>What element(s) is the declaration <code class="try-it-code">display: flex;</code> applied to? Is that a parent or child?</p>
+  <p>What element(s) is the declarationlo <code class="try-it-code">display: flex;</code> applied to? Is that a parent or child?</p>
 </div>
 
 Takeaways:
