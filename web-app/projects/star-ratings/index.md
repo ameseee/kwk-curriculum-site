@@ -8,11 +8,11 @@ Applying what you've learned about HTML, CSS, and JavaScript, then pushing yours
 
 - A set of empty stars, by default (or other shape!)
 - When the user hovers over a star, that star and all stars to the left of it are filled in
-- When the user clicks a star, that star and all starts to the left of it are filled in, even when the mouse leaves the star
+- When the user clicks a star, that star and all stars to the left of it are filled in, even when the mouse leaves the star
 
 ### Tips
 
-- You will need to have 2 files in your assets directory - an icon of an empty and filled in star (<a target="blank" href="https://www.flaticon.com/">FlatIcon</a> is a great resource.)
+- You will need to have link to 2 different images - an icon of an empty and filled in star (<a target="blank" href="https://www.flaticon.com/">FlatIcon</a> is a great resource.)
 - Instead of using `<img` elements, you will probably want to use `<div>`s and insert the star icons as a background image in CSS.
 
 Here is the star rating feature on Amazon:
