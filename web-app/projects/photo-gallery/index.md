@@ -35,7 +35,7 @@ Using what you’ve learned about HTML and CSS, you are going to build a photo g
 - Write the HTML that makes up the skeleton of your page
 <br>
 
-## Iteration 3 - CSS for Desktop
+## Iteration 3 - CSS
 
 - Write CSS to get your Photo Gallery to appear they way you desire
 - Consider: white space, color contrasts, and content being centered (or not, if it's clearly on purpose!)
