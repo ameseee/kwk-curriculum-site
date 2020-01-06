@@ -27,15 +27,24 @@ When you grab the value from an input field, it comes through as a string (yes, 
 
 Example: `var newNumber = parseInt("1723");` `newNumber` stores the number of `1723` instead of the string `"1723"`.
 
-## Iteration 0
+## Iteration 1 - Planning
 
-Write the HTML and CSS to create your desired layout!
+- Draw out your vision for the way your Instrument will look - on a desktop, iPad size, and phone size
+- Like we did with the Twitter card, label each section with the HTML element that will be used
+- Find your inspiration! Find any images, color, fonts, etc. that you want to use. Jot this information down in your notebook, a GoogleDoc or in comments in a CodePen
 
-## Iteration 1
+**Notice:** you haven't written any code in CodePen yet. The planning process is extremely important and professional developers spend a lot of time in this phase.
+<br>
 
-Generate a random 4-digit number and store it in a variable at the top of your file. Display that 4-digit number in the browser.
+## Iteration 2 - HTML & CSS
 
-## Iteration 2
+- Write the HTML and CSS to create your desired layout!
+
+## Iteration 3 - Random Number Functionality
+
+- With JavaScript, generate a random 4-digit number and store it in a variable at the top of your file. Display that 4-digit number in the browser.
+
+## Iteration 4 - Matching Input to Random Number
 
 Listen to the click of the button. In the event handler, compare the number that the user entered to the number displayed on above (the random number you generated).
 - If they match, clear out the 4-digit number and replace it with a message letting your user know they were successful. You might want to use [`.html()`](https://api.jquery.com/html/)!

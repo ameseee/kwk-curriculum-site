@@ -28,7 +28,7 @@ Here's <a target="blank" href="https://turingschool-projects.github.io/countdown
 **Notice:** you haven't written any code in CodePen yet. The planning process is extremely important and professional developers spend a lot of time in this phase.
 <br>
 
-## Iteration 2 - Implement WireFrames
+## Iteration 2 - HTML & CSS
 
 - Write the code necessary to get your instrument looking the way you want it to
 
