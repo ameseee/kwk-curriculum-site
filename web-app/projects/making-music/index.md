@@ -42,4 +42,4 @@ Here's <a target="blank" href="https://turingschool-projects.github.io/countdown
 
 ## Iteration 4 - Sound!
 
-Bring your instrument to life - get the audio working when each button is clicked on or hovered over!
+- Bring your instrument to life - get the audio working when each button is clicked on or hovered over!
