@@ -10,7 +10,7 @@ Your HTML and CSS skills will come in handy to make this look great, but the foc
 - Upon the user click of the button, their content should appear
 - The user can enter more information, click the button, and see the new information appear, in addition to the previous piece of information
 - When the page is refreshed, the users information should persist
-- A visually appealing, responsive site
+- A visually appealing site
 
 ### Tips
 
@@ -39,15 +39,9 @@ Your HTML and CSS skills will come in handy to make this look great, but the foc
 
 - Write an event listener and handler for your button.
 - Inside the event handler, write the code necessary to generate a list.
-- At the end of this iteration, your app should be completely functional, but does not use local storage.
+- At the end of this iteration, your app should be completely functional, but _does not_ use local storage.
 
 ## Iteration 4 - Local Storage
 
 - Store each "ToDo" in local storage when the user creates it
 - Make sure that when the page loads, all "ToDo"s are rendered.
-
-## Iteration 5 - Deploy
-
-- Create a GitHub repository
-- Commit and push your work
-- Deploy to GitHub pages in the Settings tab
