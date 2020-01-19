@@ -19,7 +19,7 @@ title: Intermediate JavaScript
 
 ## Conditionals
 
-Every programming language has conditionals. If you've working in Python or Java you've probably seen something similar to what we'll be working on today!
+Every programming language has conditionals. If you've worked in Python or Java you've probably seen something similar to what we'll be working on today!
 
 Conditionals let us instruct our program to do something **if** a certain condition is met. In one web application, there are hundreds if not thousands of conditionals written into the code. Without conditions, web applications would not be able to do much customization for each user.
 
@@ -71,6 +71,9 @@ Notice the `===`. This checks if two pieces of data are equal to each other. The
 
 16 % 3
 //=> 1
+
+15 % 3
+//=> 0
 ```
 
 The `not equal` operator - `!==` - checks that two values are not equal. It is the opposite of our `===` operator - the first `=` is replaced with an `!`.
