@@ -6,7 +6,7 @@ Find all lessons below. Note that the lessons are organized by topic below; to f
 
 ## Swift
 
-- [Data Types]({{ site.url }}/swift-ios/lessons/data-types)
+- [Intro to Swift]({{ site.url }}/swift-ios/lessons/intro-to-swift)
 - [Conditionals]({{ site.url }}/swift-ios/lessons/conditionals)
 - [Functions]({{ site.url }}/swift-ios/lessons/functions)
 - [Collections]({{ site.url }}/swift-ios/lessons/collections)
