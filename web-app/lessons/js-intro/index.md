@@ -240,7 +240,7 @@ We can do math with numbers in JavaScript! The same math operators you are used 
 //=> 6
 
 18 - 8
-//-> 10
+//=> 10
 ```
 
 We can also use parenthesis and the Order of Operation holds true here as well.
