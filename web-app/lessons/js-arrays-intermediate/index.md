@@ -19,7 +19,7 @@ title: Intermediate Arrays
 
 Iteration (or looping for a specified number of times) is a process of repeating a task for each object in a collection. For each of the scenarios below, we’ll walk through using scenarios we are familiar with to demonstrate the concept.
 
-These are examples that would be programatically challenging because they would require several steps, but are things that we do everyday.
+These are examples that would be programmatically challenging because they would require several steps, but are things that we do everyday.
 
 <table>
   <thead>
@@ -272,7 +272,6 @@ console.log(largeNumbers); // [23, 14, 11, 92]
   <p>Use <code class="try-it-code">forEach</code> to create a new array of the words from your original array than have less than 6 characters. Use <code class="try-it-code">console.log()</code> to verify your new array holds what you think it does.</p>
   <p><strong>Spicy Challenge:</strong> Declare a function called <code class="try-it-code">findLongestWord</code>. It should iterate over an array of strings. Your function should return one string, the string from the original array that had the greatest number of characters. If there is a tie for the greatest number of characters, return the last one that is in the array.</p>
 </div>
-
 
 ## More Practice
 
