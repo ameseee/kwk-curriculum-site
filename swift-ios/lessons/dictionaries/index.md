@@ -154,7 +154,7 @@ There are still 4 elements in this array, but each element is now a dictionary s
 Dictionaries have a little more going on than strings or numbers, but you now have the information you need about them!
 
 <div class="practice">
-  <h2>Practice: Objects</h2>
+  <h2>Practice: Dictionaries</h2>
   <p>Create an dictionary with keys that are family or friend titles (i.e. "sister", "bestFriend"), and values that are the name of that family member or friend. Pets are family, too!</p>
   <ul>
     <li>Aim to have at least 6 family members of friends in your 'tree'</li>
