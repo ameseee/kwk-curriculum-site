@@ -4,7 +4,7 @@ title: Objects
 
 ## Learning Goals
 
-* Create an objects and access data from them
+* Create an object and access data from them
 * Understand why we sometimes choose to use objects over arrays (and vice versa)
 
 ## Technical Vocabulary
@@ -69,18 +69,18 @@ To access a value in a specific object, we have to first tell the program which 
 
 ```js
 console.log(perfectTen.almondFlour);
-//-> 3 and 1/2 cups
+//=> 3 and 1/2 cups
 
 console.log(perfectTen.miniChocolateChips);
-//-> 1 cup
+//=> 1 cup
 ```
 
 The syntax used above to access a value is called **dot notation**.
 
 <div class="try-it">
   <h2>Try It: Creating and Accessing Objects</h2>
-  <p>Declare a variable called <code>myInfo</code> that stores an object. This object should have key/value pairs for your name, birthday, and two other facts about you!</p>
-  <p><code>console.log()</code> the object to verify your syntax is correct and that the object can print out. Then, use a <code>console.log()</code> to practice accessing specific pieces of data. Try to print your birthday with dot notation.</p>
+  <p>Declare a variable called <code class="try-it-code">myInfo</code> that stores an object. This object should have key/value pairs for your name, birthday, and two other facts about you!</p>
+  <p><code class="try-it-code">console.log()</code> the object to verify your syntax is correct and that the object can print out. Then, use a <code class="try-it-code">console.log()</code> to practice accessing specific pieces of data. Try to print your birthday with dot notation.</p>
 </div>
 
 ### Updating, Adding & Removing Data
