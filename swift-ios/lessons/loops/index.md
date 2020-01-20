@@ -262,11 +262,9 @@ In the code snippet above, we still get both the key and value, but this time th
 
 <div class="try-it">
   <h2>Try It: Looping over Dictionaries</h2>
-  <ul>
-    <li>Create a dictionary of 3+ key/value pairs, where the keys are names of cities, and the values hold the distance between that city and your location (you'll need to do some research! You choose the cities!)</li>
-    <li>Write a <code class="try-it-code">for-in</code> loop that uses each city and distance and prints <code class="try-it-code">You are currently ___ miles away from _____.</code>.</li>
-    <li><strong>Spicy Challenge:</strong> Building on your code from the bullet points above, print out custom sentences based on the distance. If you are within 100 miles, print <code class="try-it-code">You are currently only ___ miles away from _____.</code>. If you are more than 100 miles, print <code class="try-it-code">WOW! You are ___ miles away from _____.</code></li>
-  </ul>
+  <p>Create a dictionary of 3+ key/value pairs, where the keys are names of cities, and the values hold the distance between that city and your location (you'll need to do some research! You choose the cities!)</p>
+  <p>Write a <code class="try-it-code">for-in</code> loop that uses each city and distance and prints <code class="try-it-code">You are currently ___ miles away from _____.</code>.</p>
+  <p><strong>Spicy Challenge:</strong> Building on your code from the bullet points above, print out custom sentences based on the distance. If you are within 100 miles, print <code class="try-it-code">You are currently only ___ miles away from _____.</code>. If you are more than 100 miles, print <code class="try-it-code">WOW! You are ___ miles away from _____.</code></p>
 </div>
 
 ## Placeholders & Counters
