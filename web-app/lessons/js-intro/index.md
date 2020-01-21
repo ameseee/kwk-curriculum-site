@@ -195,7 +195,7 @@ We can also reassign variables that store numbers. In Flag Fest, this is how the
 ```js
 var points = 0;
 console.log(points);
-//=> 15
+//=> 0
 
 // The line below re-assigns points to its previous value (0) plus 1.
 points = points + 1;
