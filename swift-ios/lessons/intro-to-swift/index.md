@@ -22,13 +22,29 @@ title: Intro to Swift
 
 ## Warm Up
 
-- come up with some app they can go onto on their iPads
+Create a list of items you need to complete on the Reminders App on your iPad. This can be a list for today, the week, or the whole summer! Explore the `Today`, `Scheduled`, and `Flagged` features as well.
+
+<img class="small" src="./assets/reminders-app.jpeg" alt="Screen shot of Reminders app being used on an iPad">
 
 ## What is Swift?
 
-explain
-- refer back to app in warm up.
-- explain which parts swift did.
+Swift is a programming language developed by Apple, specifically for writing applications to be used on iOS devices. It is responsible for allowing an app to respond to user interaction.
+
+<div class="try-it">
+  <h2>Turn & Talk</h2>
+  <p>Think back to Reminders App that you explored in the Warm Up, and feel free to reference it while answering these questions.</p>
+  <ul>
+    <li><strong>When</strong> do things change on the screen?</li>
+    <li>As a user, are the changes that happen predictable? Why or why not?</li>
+    <li>Does more than one thing ever happen at a time?</li>
+  </ul>
+</div>
+
+Takeaways:
+- Some of the behaviors of the app: creates a list and as many items in the list as we want, flags specific list items as important or with a specific due date
+- Behaviors all happen _after_ the user has interacted - tapping the empty area to open up keyboard, swiping a list item left to get the option to flag or delete, etc.
+- Some actions result in more than one outcome - when a list item is deleted, it is removed and the number next to `All` decreases by one
+- All of the behaviors on this app were built by someone who wrote code in the Swift language!
 
 ## Strings
 
@@ -42,7 +58,7 @@ In Swift, we **must** use double quotes around any characters that we want inclu
 
 In order to experiment with things, we'll open a Swift Playground. A playground is a term that developers use for a place where we can write code just to learn or experiment. The code we write today won't directly contribute towards building an app, but it will help us build an understanding of the foundations.
 
-<img src="" alt="Screenshot of Swift Playground being used">
+<img src="./assets/playground.png" alt="Screenshot of Swift Playground being used">
 
 <div class="try-it">
   <h2>Try It: Strings</h2>
@@ -72,20 +88,26 @@ We would write that line of code in the text editor (top) portion of Xcode Playg
 
 ## Variables
 
-In most programming languages, including JavaScript, values can be saved to variables. Unlike in math class, where we would use x or y and a number, variables in programming are much more flexible. Below are three variables that were used for the INSERT APP NAME HERE:
+In most programming languages, including Swift, values can be saved to variables. Unlike in math class, where we would use x or y and a number, variables in programming are much more flexible. Below are three variables that were used for the Reminders App:
 
 ```swift
-
+var listName = "Reminders"
+var totalReminders = "five"
+var reminder = "Take the dogs for a walk"
 ```
 
-To define a variable, we use the var keyword followed by an arbitrary name we choose for the variable. Notice that all of the variables start with a lowercase letter. If you are choosing a variable name that has two words, uppercase the first letter of the second word. This is called camelCase.
+To define a variable, we use the `var` keyword followed by a name we choose for the variable. Notice that all of the variables start with a lowercase letter. If you are choosing a variable name that has two words, uppercase the first letter of the second word. This is called `camelCase`.
 
-After naming the variable, we use the = sign to show what value the variable will hold.
+After naming the variable, we use the `=` sign to show what value the variable will hold.
 
 We can now print any of these variables we have defined out to the console. The example below defines three variables, but only one will be logged to the console.
 
 ```swift
+var listName = "Reminders"
+var totalReminders = "five"
+var reminder = "Take the dogs for a walk"
 
+print(listName)
 ```
 
 <div class="try-it">
@@ -105,12 +127,16 @@ We can now print any of these variables we have defined out to the console. The 
 
 ### Re-assigning Variables
 
-Sometimes, things in life change! We might change our names, move cities, our ages will almost definitely change, etc. In Flag Fest, the user can change the region that they will play the game with. When they do that, the program may need to re-assign the `region` variable to a different string.
+Sometimes, things in life change! We might change our names, move cities, our ages will almost definitely change, etc. In the Reminders App, users have the option to change the name of a list.
 
 Swift gives us the ability to re-assign a variable so that its value can change. Here is the syntax:
 
 ```swift
+var listName = "Reminders"
 
+listName = "Monday To-Dos"
+print(listName)
+//=> Monday To-Dos
 ```
 
 Notice that when we **re-assign** a variable, we do not use the keyword `var`.
@@ -128,6 +154,7 @@ We can still access the string "Karlie" anytime, we just **cannot re-assign it**
 <div class="try-it">
   <h2>Tun & Talk: Uses for Constants</h2>
   <p>With your partner, come up with 3-4 real life uses for a constant, a piece of data that will never change.</p>
+  <p>Are there any places where a constant would be appropriate for the Reminders App?</p>
 </div>
 
 ## Declaring Variables with No Value
@@ -155,16 +182,15 @@ lastNumber = 78
 
 We can also include variable data in a sentence. This is called interpolation:
 
-// CHANGE CONTENT ONCE I FIND AN APP
 ```swift
-var region = "Africa";
-var flag = "Senegal";
+var listName = "Reminders"
+var totalReminders = "five"
 
-print("The first flag from \(region) is \(flag).);
-//=> The first flag from Africa is Senegal.
+print("There are \(totalReminders) items on the \(listName) list.")
+//=> There are five items on the Reminders list.
 ```
 
-The computer reads anything inside of the `\()` as Swift code - it will look for a variable titled `INSERT LATER`.
+The computer reads anything inside of the `\( )` as Swift code. In the code snippet above, the string `"There are "` was printed, then the program saw `\( ` and read `totalReminders` as a variable. Instead of printing out the word `totalReminders`, it substituted the value that is stored in it, in it's place. Once the program read the closing `)`, it printed out `" items on the "`, then continued with the same process for the second variable.
 
 <div class="try-it">
   <h2>Try It: Strings</h2>
@@ -189,22 +215,32 @@ We will use two kinds of numbers - Integers and Doubles. The math operations we 
 
 Like we saw with strings above, we can also store Integers in variables.
 
-// FILL IN ONCE I HAVE AN APP
 ```swift
-
+var totalReminders = 5
+var today = 2
+var scheduled = 3
+var flagged = 1
 ```
 
-We can also reassign variables that store numbers. In APP NAME HERE, this is how the program keeps track of BLANK AND NEEDS TO REASSIGN.
+We can also reassign variables that store numbers. In the Reminders App, this is how the program keeps track of the total number of reminders on a given list.
 
 ```swift
+var totalReminders = 0
 
+// The line below re-assigns points to its previous value (0) plus 1.
+totalReminders = totalReminders + 1
+// => 1
 
+// The line below re-assigns points to its previous value (1) plus 1.
+// It is a shortcut that does the exact thing as the example above!
+totalReminders += 1
+// => 2
 ```
 
 <div class="try-it">
   <h2>Turn & Talk: Incrementing Numbers</h2>
   <p>Incrementing numbers like what we just looked at above is something developers do very frequently.</p>
-  <p>With your partner, brainstorm some examples of numbers incrementing in real apps that you use.</p>
+  <p>With your partner, brainstorm some examples of numbers incrementing or decrementing in real apps that you use.</p>
 </div>
 
 Takeaways:
@@ -217,11 +253,13 @@ Takeaways:
 Like we did with strings, we can **interpolate** with variables that hold numbers.
 
 ```swift
-var region = "Africa";
-var points = 7;
+var listName = "Reminders"
+var totalReminders = 5
 
-console.log(`Your score for ${region} is ${points}/10.`);
-//=> "Your score for Africa is 7/10."
+totalReminders += 1
+
+print("There are \(totalReminders) items on the \(listName) list.")
+//=> There are 6 items on the Reminders list.
 ```
 
 We can do math with numbers in Swift! The same math operators you are used to from math class work here.
