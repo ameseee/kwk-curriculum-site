@@ -17,6 +17,10 @@ title: Intermediate JavaScript
 - Operators
 - Statement
 
+## Warm Up
+
+On each sticky note at your table, write one thing you've already learned about JavaScript. If it helps, you can think about this in two categories: data types and concepts.
+
 ## Conditionals
 
 Every programming language has conditionals. If you've worked in Python or Java you've probably seen something similar to what we'll be working on today!
