@@ -4,20 +4,6 @@ title: WebDev Lessons
 
 Find all lessons below. Note that the lessons are organized by topic below; to find the ordering of lessons, visit the [WebDev calendar]({{ site.url }}/web-app/calendar).
 
-## HTML
-
-- [Intro to HTML]({{ site.url }}/web-app/lessons/html-intro)
-- [Intermediate HTML]({{ site.url }}/web-app/lessons/html-intermediate)
-- [HTML & Atom]({{ site.url }}/web-app/lessons/html-atom)
-
-## CSS
-
-- [Intro to CSS]({{ site.url }}/web-app/lessons/css-intro)
-- [Intermediate CSS]({{ site.url }}/web-app/lessons/css-intermediate)
-- [Flex Box]({{ site.url }}/web-app/lessons/css-flexbox)
-- [Extension: Responsive Design]({{ site.url }}/web-app/lessons/css-extension-responsive-design)
-- [Extension: Animations]({{ site.url }}/web-app/lessons/css-extension-animations)
-
 ## JavaScript
 
 - [Intro to JavaScript]({{ site.url }}/web-app/lessons/js-intro)
@@ -29,16 +15,24 @@ Find all lessons below. Note that the lessons are organized by topic below; to f
 - [Intro to DOM Manipulation]({{ site.url }}/web-app/lessons/js-dom-manipulation-intro)
 - [Forms]({{ site.url }}/web-app/lessons/js-forms)
 - [Intermediate DOM Manipulation]({{ site.url }}/web-app/lessons/js-dom-manipulation-intermediate)
-- [Advanced DOM Manipulation]({{ site.url }}/web-app/lessons/js-extension-objects-dom)
 - [Local Storage]({{ site.url }}/web-app/lessons/js-local-storage)
-- [Extension: Refactoring]({{ site.url }}/web-app/lessons/js-extension-refactoring)
 <!-- - [Fetch Requests]({{ site.url }}/web-app/lessons/fetch-requests) -->
+
+## HTML
+
+- [Intro to HTML]({{ site.url }}/web-app/lessons/html-intro)
+- [Intermediate HTML]({{ site.url }}/web-app/lessons/html-intermediate)
+- [HTML & Atom]({{ site.url }}/web-app/lessons/html-atom)
+
+## CSS
+
+- [Intro to CSS]({{ site.url }}/web-app/lessons/css-intro)
+- [Intermediate CSS]({{ site.url }}/web-app/lessons/css-intermediate)
+- [Flex Box]({{ site.url }}/web-app/lessons/css-flexbox)
 
 ## Setup
 
 - [Intro to CodePen]({{ site.url }}/web-app/lessons/intro-codepen)
-- [Set Up a Project in Atom]({{ site.url }}/web-app/lessons/setup-project-atom)
-- [Git and GitHub]({{ site.url }}/web-app/lessons/git-github)
 
 ## Culture of Tech
 
@@ -52,4 +46,12 @@ Find all lessons below. Note that the lessons are organized by topic below; to f
 - [Design]({{ site.url }}/web-app/lessons/design)
 - [How to Demo]({{ site.url }}/web-app/lessons/how-to-demo)
 - [Videos]({{ site.url }}/web-app/lessons/videos)
+
+## Optional Extensions
+- [Set Up a Project in Atom]({{ site.url }}/web-app/lessons/setup-project-atom)
+- [Git and GitHub]({{ site.url }}/web-app/lessons/git-github)
 - [Code Challenges]({{ site.url }}/web-app/lessons/code-challenges)
+- [Advanced DOM Manipulation]({{ site.url }}/web-app/lessons/js-extension-objects-dom)
+- [Extension: JS Refactoring]({{ site.url }}/web-app/lessons/js-extension-refactoring)
+- [Extension: Responsive Design]({{ site.url }}/web-app/lessons/css-extension-responsive-design)
+- [Extension: Animations]({{ site.url }}/web-app/lessons/css-extension-animations)
