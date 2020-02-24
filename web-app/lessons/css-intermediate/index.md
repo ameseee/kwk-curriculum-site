@@ -80,8 +80,8 @@ Each element is a rectangular box. CSS leverages the **box model** to control la
 
 <div class="try-it">
   <h2>Check It Out: Box Model</h2>
-  <p class="to-do">Opportunity for sponsor integration. If not, Codecademy is a good one for this.</p>
-  <p>Go to the _______ site and open your dev tools. Click the inspect arrow, and hover over elements on the page. Where do you see margin and padding being used?</p>
+  <p>Go to your favorite site and open your dev tools. Click the inspect arrow, and hover over elements on the page. Where do you see margin and padding being used?</p>
+  <p class="to-do">Opportunity for sponsor integration. If not, Codecademy or favorite site both work for this.</p>
 </div>
 
 ## Padding
