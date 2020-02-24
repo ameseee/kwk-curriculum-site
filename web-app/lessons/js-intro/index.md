@@ -14,6 +14,8 @@ title: Intro to JavaScript
 - Number
 - String
 - Variable
+- Assignment Operator
+- Data Type
 
 ## Warm Up
 
@@ -39,9 +41,13 @@ Takeaways:
 - Some of the behaviors of the site: starts a game, plays a game, gives score and feedback on which flag the user correctly selected
 - Behaviors all happen after the user has interacted - clicking button to start the game, make guesses, play again, etc.
 
+## Data Types
+
+Over the course of camp, you will learn about several different **data types** in JavaScript. A data type is a specific kind of information or data. Based on the type of data we write in our code, the program will interpret it differently. In this lesson, we will learn about Strings and Numbers.
+
 ## Strings
 
-You can think of strings as a series of characters (alpha, numeric, spaces, and special characters) between two quote marks, like so:
+A string is a primitive JavaScript data type. You can think of a string as a series of characters (alpha, numeric, spaces, and special characters) between two quote marks, like so:
 
 ```js
 'hello, world!'
@@ -101,7 +107,7 @@ var flag = "Senegal";
 
 To define a variable, we use the `var` keyword followed by an arbitrary name we choose for the variable. Notice that all of the variables start with a lowercase letter. If you are choosing a variable name that has two words, uppercase the first letter of the second word. This is called camelCase.
 
-After naming the variable, we use the `=` sign to show what value the variable will hold.
+After naming the variable, we use the `=` sign to show what value the variable will hold. In programming, we refer to the `=` as the **assignment operator** rather than the _equals sign_. Because it is so frequently called the _equals sign_ though, you'll hear it and people will know what you are referring to if you use that terminology.
 
 We can now print any of these variables we have defined out to the console. The example below defines three variables, but only one will be logged to the console.
 
@@ -183,7 +189,7 @@ Make sure to use the back-ticks when you are using string interpolation (image b
 
 ## Numbers
 
-Like we saw with strings above, we can also store numbers in variables.
+Numbers are another primitive JavaScript data type. Like we saw with strings above, we can also store numbers in variables.
 
 ```js
 var points = 0;
@@ -219,6 +225,13 @@ Takeaways:
 - On a users birthday, an app should increment their age
 - Social media apps uses incrementing to keep track of the number of likes, replies, followers, etc.
 - Apps that involve scheduling - calendar events, flights, live video classes, etc. usually have a countdown timer to keep the user informed on the amount of time until something will happen
+
+<div class="practice">
+  <h2>Pro Tip</h2>
+  <p>Have you noticed that sometimes lines of code in example are greyed out and start with two forward slashes <code class="try-it-code">//</code>?</p>
+  <p><strong>Comments</strong> are a way we can take notes in plain english, or use snippets of code that aren't complete. They appear in a shade less obvious that most lines of code and will not be read by the interpreter!</p>
+  <p>To write a comment in your JavaScript code, start the line with two forward slashes <code class="try-it-code">//</code>. Or, you can use the keyboard shortcut <code class="try-it-code">cmd + /</code> on your Mac!</p>
+</div>
 
 Again, like we did with strings, we can **interpolate** with variables that hold numbers.
 
