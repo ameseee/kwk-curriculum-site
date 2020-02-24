@@ -16,7 +16,6 @@ Find all lessons below. Note that the lessons are organized by topic below; to f
 - [Forms]({{ site.url }}/web-app/lessons/js-forms)
 - [Intermediate DOM Manipulation]({{ site.url }}/web-app/lessons/js-dom-manipulation-intermediate)
 - [Local Storage]({{ site.url }}/web-app/lessons/js-local-storage)
-<!-- - [Fetch Requests]({{ site.url }}/web-app/lessons/fetch-requests) -->
 
 ## HTML
 
@@ -48,10 +47,10 @@ Find all lessons below. Note that the lessons are organized by topic below; to f
 - [Videos]({{ site.url }}/web-app/lessons/videos)
 
 ## Optional Extensions
-- [Set Up a Project in Atom]({{ site.url }}/web-app/lessons/setup-project-atom)
-- [Git and GitHub]({{ site.url }}/web-app/lessons/git-github)
-- [Code Challenges]({{ site.url }}/web-app/lessons/code-challenges)
-- [Advanced DOM Manipulation]({{ site.url }}/web-app/lessons/js-extension-objects-dom)
-- [Extension: JS Refactoring]({{ site.url }}/web-app/lessons/js-extension-refactoring)
-- [Extension: Responsive Design]({{ site.url }}/web-app/lessons/css-extension-responsive-design)
-- [Extension: Animations]({{ site.url }}/web-app/lessons/css-extension-animations)
+- [JS: Code Challenges]({{ site.url }}/web-app/lessons/code-challenges)
+- [JS: Advanced DOM Manipulation]({{ site.url }}/web-app/lessons/js-extension-objects-dom)
+- [JS: Refactoring]({{ site.url }}/web-app/lessons/js-extension-refactoring)
+- [CSS: Responsive Design]({{ site.url }}/web-app/lessons/css-extension-responsive-design)
+- [CSS: Animations]({{ site.url }}/web-app/lessons/css-extension-animations)
+- [Workflow: Set Up a Project in Atom]({{ site.url }}/web-app/lessons/setup-project-atom)
+- [Workflow: Git and GitHub]({{ site.url }}/web-app/lessons/git-github)
