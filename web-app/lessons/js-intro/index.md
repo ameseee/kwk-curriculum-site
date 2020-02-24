@@ -87,7 +87,7 @@ Another tool is `alert()`. There will be times this will feel quicker than `cons
 alert('hello, world!');
 ```
 
-You should see "hello, world!" appear in a box that pops up over your browser. You can't continue working into your browser until you click
+You should see "hello, world!" appear in a box that pops up over your browser. You can't continue working into your browser until you click the "ok" on the alert box.
 
 ## Variables
 
