@@ -22,7 +22,7 @@ In a Playground, declare a variable for every scholar in the room. The variable 
 
 **Collections** are data types that hold _multiple things_ - think about your grandma’s cat statue collection - there is probably more than one, right?
 
-In Swift, there are two types of collections: arrays and objects. In this lesson and during our time at camp, we will mainly focus on arrays.
+In Swift, there are two types of collections: arrays and dictionaries. In this lesson and during our time at camp, we will mainly focus on arrays.
 
 ## Arrays
 
