@@ -16,7 +16,7 @@ title: Objects
 
 ## Objects
 
-**Objects** are another way to hold multiple pieces of data (collection). There is one big difference between them and arrays: Objects are not ordered by index (0, 1, 2, etc.), instead, each piece of data has a ‘label’ instead of a number. We call the labels `keys` and the data `values`. `key/value pairs` is a term you will hear a lot.
+An **Object** is another complex data type available in JavaScript. Objects, like Arrays, can be classified as _collections_. There is one big difference between them and arrays: Objects are not ordered by index (0, 1, 2, etc.), instead, each piece of data has a ‘label’ instead of a number. We call the labels `keys` and the data `values`. `key/value pairs` is a term you will hear a lot.
 
 ## When to use Objects
 
