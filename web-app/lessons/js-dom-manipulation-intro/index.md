@@ -38,8 +38,8 @@ I clicked the button and in response, JavaScript made that message appear. In th
 
 <div class="try-it">
   <h2>Turn & Talk</h2>
+  <p>Visit your favorite site. Write a list of at least 3 places you think the developers used DOM manipulation.</p>
   <p class="to-do">opportunity for sponsor integration</p>
-  <p>Visit the ____ site. Where do you think the developers used DOM manipulation?</p>
 </div>
 
 ## Access Elements from the DOM
