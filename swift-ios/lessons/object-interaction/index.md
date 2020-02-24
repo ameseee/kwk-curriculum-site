@@ -110,7 +110,7 @@ class Food {
 
 ## Object Interaction
 
-Now that we have Food objects with a little more information than a string, we can start making our Pantry and Food objects interact. In the `addFood` action on our Pantry class, we will actually create a food object with that string that is passed in. This means we also need to pass in an Int to `addFood` for the calories. Let's update that method:
+Now that we have Food objects with a little more information than a string, we can start making our Pantry and Food objects interact. In the `addFood` action on our Pantry class, we will actually create a food object with that string that is passed in. This means we also need to pass in an Int to `addFood` for the calories. Let's update that action:
 
 ```swift
 func addFood(food : String, calories : Int) {
@@ -153,7 +153,7 @@ There are many ways objects can interact; we will mainly work with code that loo
 To recap:
 - We wrote two classes that had a relationship (a pantry has a collection of foods)
 - We wrote an action on the pantry that adds foods
-- The method takes in any arguments that are required to create a food, then creates a food object, then appends that food object to the pantry's `contents` property.
+- The action takes in any arguments that are required to create a food, then creates a food object, then appends that food object to the pantry's `contents` property.
 
 <div class="practice">
   <h2>Practice: Object Interaction</h2>
