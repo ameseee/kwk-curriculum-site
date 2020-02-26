@@ -9,6 +9,7 @@ title: WebDev Calendar
         <h3>Monday</h3>
         <ul>
           <li>Welcome & Intro</li>
+          <li>What is WebDev?</li>
           <li>Intro to HTML</li>
           <li>Intro to CSS</li>
         </ul>

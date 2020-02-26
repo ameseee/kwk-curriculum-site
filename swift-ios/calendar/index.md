@@ -9,6 +9,7 @@ title: Mobile Calendar
         <h3>Monday</h3>
         <ul>
           <li>Welcome & Intro</li>
+          <li>Mobile Dev, Swift</li>
           <li>Data Types</li>
           <li>Conditionals</li>
           <li>Functions</li>
