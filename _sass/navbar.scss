@@ -16,11 +16,10 @@
   .main-h1 {
     font-size: 1.2em;
   }
-
 }
 
 .navbar-navigation {
-  background-color: #322E2E;
+  background-color: #323232;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -38,9 +37,9 @@
 
   a {
     display: block;
-    margin: 0.5em 2.8em;
+    margin: 0.5em 1.25em;
     padding-bottom: 0.25em;
-    border-bottom: 3px solid #322E2E;
+    border-bottom: 3px solid #323232;
     color: #fff;
     text-align: center;
 
@@ -51,7 +50,6 @@
     &:active {
       color: $green;
     }
-
   }
 
   .active-link {
@@ -102,4 +100,8 @@
   .mobile-app-options {
     top: 131px;
   }
+}
+
+.login-icon {
+  height: 20px;
 }
