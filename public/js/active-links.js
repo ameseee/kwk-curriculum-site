@@ -10,6 +10,6 @@ $('.curriculum-links').each(function(idx, link) {
   }
 
   if(currentPath === "/kwk-curriculum-site/") {
-    $('.sidebar-navigation--links a').removeClass('active-link');
+    $('.navbar-navigation--links a').removeClass('active-link');
   }
 });
