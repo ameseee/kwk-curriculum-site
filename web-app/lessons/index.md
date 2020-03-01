@@ -2,7 +2,7 @@
 title: WebDev Lessons
 ---
 
-Find all lessons below. Note that the lessons are organized by topic below; to find the ordering of lessons, visit the [WebDev calendar]({{ site.url }}/web-app/calendar).
+Find all lessons below. Note that the lessons are organized by topic below.
 
 ## JavaScript
 

@@ -1,11 +1,8 @@
-//rename file to navbar
-$sidebar-color: rgb(245, 245, 245);
-
 .kwk-logo {
   height: 55px;
 }
 
-.sidebar {
+.navbar {
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.15);
 
   h2 {
@@ -19,15 +16,14 @@ $sidebar-color: rgb(245, 245, 245);
   .main-h1 {
     font-size: 1.2em;
   }
-
 }
 
-.sidebar-navigation {
+.navbar-navigation {
+  background-color: #323232;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  background-color: #fff;
   padding: 0 3%;
 
   @media (max-width: 900px) {
@@ -35,16 +31,16 @@ $sidebar-color: rgb(245, 245, 245);
   }
 }
 
-.sidebar-navigation--links {
+.navbar-navigation--links {
   display: flex;
   flex-direction: row;
 
   a {
     display: block;
-    margin: 0.5em 2.8em;
+    margin: 0.5em 1.25em;
     padding-bottom: 0.25em;
-    border-bottom: 3px solid #fff;
-    color: $dark-gray;
+    border-bottom: 3px solid #323232;
+    color: #fff;
     text-align: center;
 
     &:hover {
@@ -54,7 +50,6 @@ $sidebar-color: rgb(245, 245, 245);
     &:active {
       color: $green;
     }
-
   }
 
   .active-link {
@@ -106,13 +101,7 @@ $sidebar-color: rgb(245, 245, 245);
     top: 131px;
   }
 }
-// .turing-logo {
-//   margin: 0;
-//   max-width: 97%;
-//   display: block;
-//
-//   @media (max-width: $tablet-width) {
-//     max-width: 200px;
-//     margin: 0 auto;
-//   }
-// }
+
+.login-icon {
+  height: 20px;
+}
