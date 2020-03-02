@@ -35,6 +35,10 @@
   display: flex;
   flex-direction: row;
 
+  .curriculum-links {
+    display: none;
+  }
+  
   a {
     display: block;
     margin: 0.5em 1.25em;
