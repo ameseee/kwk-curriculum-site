@@ -5,14 +5,14 @@ const logInForm = document.querySelector('.login-form');
 function checkLocation() {
   const check = localStorage.getItem('loggedIn') || 'false';
 
-  if (relativeURL === '/kwk-curriculum-site/login/' && check === 'true') {
+  if (relativeURL === '{{ site.url }}/login/' && check === 'true') {
     showLinks();
     displayLogout();
-  } else if (relativeURL === '/kwk-curriculum-site/login/' && check === 'false') {
+  } else if (relativeURL === '{{ site.url }}/login/' && check === 'false') {
     displayLogin();
     var loginBtn = document.querySelector("#login-submit");
     loginBtn.addEventListener('click', logIn);
-  } else if (relativeURL !== '/kwk-curriculum-site/login/' && check === 'true') {
+  } else if (relativeURL !== '{{ site.url }}/login/' && check === 'true') {
     showLinks();
   }
 }
@@ -38,7 +38,7 @@ function logIn(event) {
 
   if (checkLogin(login) && checkPassword(password)) {
     localStorage.setItem('loggedIn', 'true');
-    window.location.replace("/kwk-curriculum-site/");
+    window.location.replace("{{ site.url }}/");
     showLinks();
   } else {
     alert("Sorry! Try again.")
@@ -70,6 +70,6 @@ function checkPassword(password) {
 function logOut(event) {
   event.preventDefault();
   localStorage.setItem('loggedIn', 'false');
-  window.location.replace("/kwk-curriculum-site/login/");
+  window.location.replace("{{ site.url }}/login/");
   hideLinks();
 }
