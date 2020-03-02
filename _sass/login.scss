@@ -1,0 +1,24 @@
+.login-form {
+
+}
+
+input {
+  padding: 0.4em;
+}
+
+input[type='text'], input[type='password'] {
+  color: #323232;
+}
+
+#login-submit, #logout-submit {
+  background-color: $green;
+  color: #fff;
+  cursor: pointer;
+  border: 2px solid $green;
+  font-weight: 600;
+  padding: 0.5em 1em;
+}
+
+.logout-form {
+
+}
