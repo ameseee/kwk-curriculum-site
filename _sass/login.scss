@@ -1,24 +1,36 @@
 .login-form {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 300px;
+
+  label {
+    display: block;
+    margin-bottom: 0.25em;
+  }
 
 }
 
 input {
   padding: 0.4em;
+  margin-bottom: 1em;
 }
 
 input[type='text'], input[type='password'] {
   color: #323232;
+  width: 300px;
 }
 
 #login-submit, #logout-submit {
   background-color: $green;
   color: #fff;
   cursor: pointer;
-  border: 2px solid $green;
+  border: none;
   font-weight: 600;
-  padding: 0.5em 1em;
+  width: 300px;
 }
 
 .logout-form {
-
+  margin: 0 auto;
+  width: 300px;
 }

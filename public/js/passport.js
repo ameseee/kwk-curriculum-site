@@ -22,12 +22,14 @@ checkLocation();
 function displayLogin() {
   logOutForm.style.display = 'none';
   logInForm.style.display = 'block';
+  //change to login h1
 }
 
 function displayLogout() {
   logOutForm.style.display = 'block';
   logInForm.style.display = 'none';
   logOutForm.addEventListener('submit', logOut);
+  //change to logout h1
 }
 
 function logIn(event) {
