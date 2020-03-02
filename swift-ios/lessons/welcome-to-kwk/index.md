@@ -10,7 +10,7 @@ As a class, you'll spend some time getting to know your Instructors and IAs.
 
 ## What we will build this summer
 
-As a participant in the 2019 Mobile camp, you will learn the fundamentals of iOS development. iOS developers work on the part of the app that users see and interact with. They build out the elements we see on the screen, style them so they look clean and professional, and write code to make the page _do_ something. iOS developers do _not_ deal with data like logging users in and storing information (that work is for back-end developers). There are several ways that iOS apps can be built, we will use Swift (Apple's programming language just for iOS apps), and Xcode (a tool where we write Swift code and build out the User Interface).
+As a participant in the 2020 Mobile camp, you will learn the fundamentals of iOS development. iOS developers work on the part of the app that users see and interact with. They build out the elements we see on the screen, style them so they look clean and professional, and write code to make the page _do_ something. iOS developers do _not_ deal with data like logging users in and storing information (that work is for back-end developers). There are several ways that iOS apps can be built, we will use Swift (Apple's programming language just for iOS apps), and Xcode (a tool where we write Swift code and build out the User Interface).
 
 Using the Swift language and Xcode as a tool to build User Interfaces, we will be able to build beautiful iOS app that can respond to user interaction!
 

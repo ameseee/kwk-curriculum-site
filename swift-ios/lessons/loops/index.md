@@ -82,7 +82,7 @@ We can also iterate in programming. By “in programming”, we mean things that
       <td>year</td>
       <td>
         <ol>
-          <li>subtract birth year from 2019 to get age</li>
+          <li>subtract birth year from 2020 to get age</li>
           <li>subtract age from 220</li>
         </ol>
       </td>

@@ -10,7 +10,7 @@ As a class, you'll spend some time getting to know your Instructors and TAs.
 
 ## What we will build this summer
 
-As a participant in the 2019 WebDev camp, you will learn the fundamentals of front-end development. Front-end developers work on the part of the sites and applications that users see and interact with. They build out the elements we see on the page, style them so they look clean and professional, and write code to make the page _do_ something. Front-end developers do _not_ deal with data like logging users in and storing information (that work is for back-end developers).
+As a participant in the 2020 WebDev camp, you will learn the fundamentals of front-end development. Front-end developers work on the part of the sites and applications that users see and interact with. They build out the elements we see on the page, style them so they look clean and professional, and write code to make the page _do_ something. Front-end developers do _not_ deal with data like logging users in and storing information (that work is for back-end developers).
 
 Front-end development consists of three main technologies:
 
