@@ -14,7 +14,10 @@ function checkLocation() {
     loginBtn.addEventListener('click', logIn);
   } else if (relativeURL !== '/kwk-curriculum-site/login/' && check === 'true') {
     showLinks();
+  } else if (relativeURL !== '/kwk-curriculum-site/login/' && check === 'false') {
+    window.location.replace('/kwk-curriculum-site/login/');
   }
+
 }
 
 checkLocation();
